@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "09.11.2025",
+				"version": "V11.2",
 				"url": "",
 				"targetSchema": "1.2.0"
 			}
@@ -178,7 +178,7 @@
 			]
 		},
 		{
-			"name": "Morvael",
+			"name": "Morva",
 			"title": "Goddess of Technology & Invention",
 			"altNames": [
 				"The Grand Design"
@@ -187,7 +187,7 @@
 				"N",
 				"G"
 			],
-			"province": "Crafting, Dreams, Engineering, Invention, Knowledge and Technology",
+			"province": "Crafting, Dreams, Engineering, Invention, Knowledge, Progress and Technology",
 			"pantheon": "Caradhen",
 			"category": [
 				"Gods of The Firmament"
@@ -199,7 +199,7 @@
 				"Time",
 				"Trickery"
 			],
-			"symbol": "A single brass cog",
+			"symbol": "A train in profile",
 			"symbolImg": {
 				"type": "image",
 				"href": {
@@ -212,7 +212,7 @@
 				{
 					"type": "section",
 					"entries": [
-						"Morvael is said to be the Spark Between Thoughts, the goddess who will never truly awaken. She is the quiet ember in the dark, shaping wonders from the raw ore of imagination. Her followers claim that every invention begins as one of her many whispers, every blueprint as her vision half-remembered upon waking.",
+						"Morva is said to be the Spark Between Thoughts, the goddess who will never truly awaken. She is the quiet ember in the dark, shaping wonders from the raw ore of imagination. Her followers claim that every invention begins as one of her many whispers, every blueprint as her vision half-remembered upon waking.",
 						"As such, she is not worshipped through sacrifice, but rather through the act of creation. To follow her is to build, to dream big, and to invent until even the gears of time grind to a halt. And then to invent more. Her most pious priests keep journals filled with sketches drawn in that strange drowsy light between wakefulness and sleep, convinced that inspiration itself is divine correspondence.",
 						{
 							"type": "entries",
@@ -222,7 +222,7 @@
 									"type": "entries",
 									"name": "They came from below",
 									"entries": [
-										"Legends tell that her only quarrels came from below. A well-documented fact is that she loathes the spiderkin and drow who envied the crafting of Dwarves and Gnomes and sought to unmake what they built. Yet Morvael did not answer their malice with wrath, she merely answered with silence. This, naturally, has caused many tense alliances and relations between the folk of the stone beneath."
+										"Legends tell that her only quarrels came from below. A well-documented fact is that she loathes the spiderkin and drow who envied the crafting of Dwarves and Gnomes and sought to unmake what they built. Yet Morva did not answer their malice with wrath, she merely answered with silence. This, naturally, has caused many tense alliances and relations between the folk of the stone beneath."
 									]
 								}
 							]

@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "15.03.2023",
+				"version": "V11.2",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -3603,10 +3603,15 @@
 			],
 			"ability": [
 				{
-					"con": 1,
-					"cha": 1,
-					"int": 1,
-					"wis": 1
+					"choose": {
+						"from": [
+							"con",
+							"cha",
+							"int",
+							"wis"
+						],
+						"amount": 1
+					}
 				}
 			]
 		},

@@ -8,7 +8,7 @@
 			"authors": [
 				"Arcane"
 			],
-			"version": "17.11.2025",
+			"version": "V11.2",
 			"url": "-",
 			"targetSchema": "1.2.0"
 		}],
@@ -143,7 +143,8 @@
 			"entries": [
 				"{@i 20th-level ranger {@variantrule optional class features|tce|optional feature}, which replaces the original Foe Slayer feature}",
 				"Your connection with the natural world has exalted you to greater heights. Your Dexterity and Wisdom scores increase by 4, to a maximum of 25.",
-				"In addition, the damage die of your Hunter's Mark is now a {@dice d20} rather than a {@dice d12}."
+				"Additionally, once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make. You can choose to use this feature before or after the roll.",
+				"Finally, the damage die of your Hunter's Mark is now a {@dice d20} rather than a {@dice d12}."
 			]
 		}
 	]
