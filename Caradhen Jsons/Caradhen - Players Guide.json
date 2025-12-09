@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V11.2",
+				"version": "V11.2.1",
 				"url": "",
 				"targetSchema": "1.2.0"
 			}
@@ -149,7 +149,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": ""
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Palashirr%20-%20God%20of%20Fire%20%26%20Magic.png"
 				}
 			},
 			"source": "LandsOfExile",
@@ -204,7 +204,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "-"
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Morva%20-%20Goddess%20of%20Technology%20%26%20Invention.png"
 				}
 			},
 			"source": "LandsOfExile",
@@ -302,7 +302,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": ""
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Dur%20Maeth%20-%20Goddess%20of%20Enlightenment%20%26%20Honor.png"
 				}
 			},
 			"entries": [

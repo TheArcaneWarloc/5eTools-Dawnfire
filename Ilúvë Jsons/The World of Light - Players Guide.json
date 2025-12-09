@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V11.2",
+				"version": "V11.2.1",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -19,7 +19,7 @@
 	"deity": [
 		{
 			"name": "Erestem",
-			"title": "God of Light, Life, Compassion and Order",
+			"title": "God of Light, Order and Time",
 			"altNames": [
 				"The Lightbringer",
 				"Arem"
@@ -27,14 +27,15 @@
 			"alignment": [
 				"N"
 			],
-			"pantheon": "Ilúvë",
+			"domains": [
+				"All"
+			],
 			"category": [
 				"The Lightbringer",
 				"Deities of Radiance"
 			],
-			"domains": [
-				"All"
-			],
+			"pantheon": "Ilúvë",
+			"province": "Light, Life, Knowledge, Order and Time",
 			"symbol": "Three Pointed Celestial Star",
 			"symbolImg": {
 				"type": "image",
@@ -43,6 +44,7 @@
 					"url": "https://i.imgur.com/kS2EqHt.png"
 				}
 			},
+			"worshipers": "Archivists, Sages, Scholars and Philosophers",
 			"piety": true,
 			"entries": [
 				{
@@ -166,8 +168,6 @@
 				"L",
 				"G"
 			],
-			"province": "Creation, Crafting, Designing, Earth, Protection, Pride and Smithing",
-			"pantheon": "Ilúvë",
 			"category": [
 				"Deities of Radiance",
 				"The First Four",
@@ -179,6 +179,8 @@
 				"Knowledge",
 				"Order"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Creation, Crafting, Designing, Earth, Protection, Pride and Smithing",
 			"symbol": "Hammer and anvil",
 			"symbolImg": {
 				"type": "image",
@@ -187,6 +189,7 @@
 					"url": "https://i.imgur.com/WxL2kmQ.png"
 				}
 			},
+			"worshipers": "Artisans, Blacksmiths, Craftsmen, Dwarves and Inventors",
 			"piety": true,
 			"entries": [
 				{
@@ -305,8 +308,6 @@
 				"N",
 				"G"
 			],
-			"province": "The Skies, The Sun, Fire, Summer and Agriculture",
-			"pantheon": "Ilúvë",
 			"category": [
 				"Deities of Radiance",
 				"The Five Divines",
@@ -319,6 +320,8 @@
 				"Order",
 				"Time"
 			],
+			"pantheon": "Ilúvë",
+			"province": "The Skies, The Sun, Fire, Summer and Agriculture",
 			"symbol": "Golden Phoenix",
 			"symbolImg": {
 				"type": "image",
@@ -327,6 +330,7 @@
 					"url": "https://i.imgur.com/jnEsjuv.png"
 				}
 			},
+			"worshipers": "Aeronauts, Common Folk, Farmers and Pyromancers",
 			"entries": [
 				{
 					"type": "section",
@@ -445,8 +449,6 @@
 				"L",
 				"N"
 			],
-			"provice": "Civilization, Invention, Law and Rule",
-			"pantheon": "Ilúvë",
 			"category": [
 				"Deities of Radiance",
 				"The First Four",
@@ -458,6 +460,8 @@
 				"Order",
 				"Peace"
 			],
+			"pantheon": "Ilúvë",
+			"provice": "Civilization, Invention, Law and Rule",
 			"symbol": "Upper half of a clockwork gear",
 			"symbolImg": {
 				"type": "image",
@@ -466,6 +470,7 @@
 					"url": "https://i.imgur.com/QZvKn7E.png"
 				}
 			},
+			"worshipers": "Inventors, Judges, Lawyers, Lawmakers, Rulers and Scribes",
 			"entries": [
 				{
 					"type": "section",
@@ -582,8 +587,6 @@
 			"alignment": [
 				"N"
 			],
-			"province": "Beasts, Critters, Nature, Wilderness and The Sea",
-			"pantheon": "Ilúvë",
 			"category": [
 				"Deities of Radiance",
 				"The First Four",
@@ -597,8 +600,9 @@
 				"Tempest",
 				"Twilight"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Beasts, Critters, Nature, Wilderness and The Sea",
 			"symbol": "Wavelike Swirl",
-			"source": "WorldOfLight",
 			"symbolImg": {
 				"type": "image",
 				"href": {
@@ -606,6 +610,7 @@
 					"url": "https://i.imgur.com/67c4Bhc.png"
 				}
 			},
+			"worshipers": "Druids, Hunters, Lycanthropes, Rangers and Sailors",
 			"entries": [
 				{
 					"type": "section",
@@ -711,7 +716,8 @@
 						}
 					]
 				}
-			]
+			],
+			"source": "WorldOfLight"
 		},
 		{
 			"name": "Ioun",
@@ -722,8 +728,6 @@
 			"alignment": [
 				"N"
 			],
-			"province": "Knowledge, Learning, Prophecy, Psionics and Magic",
-			"pantheon": "Ilúvë",
 			"category": [
 				"Deities of Radiance",
 				"The Guardians Three",
@@ -735,6 +739,8 @@
 				"Order",
 				"Time"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Knowledge, Learning, Prophecy, Psionics and Magic",
 			"symbol": "Crook shaped like a stylized eye",
 			"symbolImg": {
 				"type": "image",
@@ -743,6 +749,7 @@
 					"url": "https://i.imgur.com/cP81vG4.png"
 				}
 			},
+			"worshipers": "Arcanists, Librarians, Psions, Teachers and Sages",
 			"entries": [
 				{
 					"type": "section",
@@ -851,8 +858,6 @@
 				"C",
 				"N"
 			],
-			"province": "Athletics, Bravery, Competition, Courage, Storms and Strength",
-			"pantheon": "Ilúvë",
 			"category": [
 				"Deities of Radiance",
 				"The Five Divines",
@@ -862,6 +867,8 @@
 				"Tempest",
 				"War"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Athletics, Bravery, Competition, Courage, Storms and Strength",
 			"symbol": "A wooden Buckler shield cracked with blue lightning",
 			"symbolImg": {
 				"type": "image",
@@ -870,6 +877,7 @@
 					"url": "https://i.imgur.com/WsVKN6c.png"
 				}
 			},
+			"worshipers": "Athletes, Barbarians, Brawlers, Gladiators and Stormcallers",
 			"entries": [
 				{
 					"type": "section",
@@ -982,8 +990,6 @@
 				"C",
 				"G"
 			],
-			"province": "Autumn, Dreams, Illusion, Love, Moonlight, Night and The Moons",
-			"pantheon": "Ilúvë",
 			"category": [
 				"Deities of Radiance",
 				"The Natural Three"
@@ -997,6 +1003,9 @@
 				"Trickery",
 				"Twilight"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Autumn, Dreams, Illusion, Love, Moonlight, Night and The Moons",
+			"source": "WorldOfLight",
 			"symbol": "Crescent moon",
 			"symbolImg": {
 				"type": "image",
@@ -1005,6 +1014,7 @@
 					"url": "https://i.imgur.com/AwLHsLB.png"
 				}
 			},
+			"worshipers": "Bards, Druids, Illusionists, Lovers, Lycanthropes, Nightworkers and Vampires",
 			"entries": [
 				{
 					"type": "section",
@@ -1118,8 +1128,7 @@
 						}
 					]
 				}
-			],
-			"source": "WorldOfLight"
+			]
 		},
 		{
 			"name": "Bahamut",
@@ -1132,8 +1141,6 @@
 				"L",
 				"G"
 			],
-			"province": "Honor, Justice, Nobility and Protection",
-			"pantheon": "Ilúvë",
 			"category": [
 				"Deities of Radiance",
 				"The Guardians Three",
@@ -1148,6 +1155,8 @@
 				"Peace",
 				"War"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Honor, Justice, Nobility and Protection",
 			"symbol": "Dragon's head in profile",
 			"symbolImg": {
 				"type": "image",
@@ -1156,6 +1165,7 @@
 					"url": "https://i.imgur.com/Yoi3wwX.png"
 				}
 			},
+			"worshipers": "Judges, Knights, Metallic Dragons, Monarchs, Paladins and Soldiers",
 			"entries": [
 				{
 					"type": "section",
@@ -1274,8 +1284,6 @@
 				"C",
 				"G"
 			],
-			"province": "Art, Beauty, Music, Poetry, Spring, Wisdom and Warfare",
-			"pantheon": "Ilúvë",
 			"category": [
 				"Deities of Radiance",
 				"The Protectors",
@@ -1289,6 +1297,8 @@
 				"Nature",
 				"War"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Art, Beauty, Music, Poetry, Spring, Wisdom and Warfare",
 			"symbol": "Eclipsed Starburst",
 			"symbolImg": {
 				"type": "image",
@@ -1297,7 +1307,7 @@
 					"url": "https://i.imgur.com/I3Bl28z.png"
 				}
 			},
-			"source": "WorldOfLight",
+			"worshipers": "Artists, Dancers, Elves, Musicians, Poets, Sages and Wizards",
 			"entries": [
 				{
 					"type": "section",
@@ -1412,21 +1422,21 @@
 						}
 					]
 				}
-			]
+			],
+			"source": "WorldOfLight"
 		},
 		{
 			"name": "Takhisis",
 			"title": "Goddess of Greed and Revenge",
 			"altNames": [
 				"The Scaled Tyrant",
-				"The Queen of Nightmares"
+				"The Queen of Nightmares",
+				"The Corrupted Mother"
 			],
 			"alignment": [
 				"L",
 				"E"
 			],
-			"province": "Chromatic Dragons, Greed, Hatred, Nightmares and Revenge",
-			"pantheon": "Ilúvë",
 			"category": [
 				"The Protectors",
 				"The Interlopers"
@@ -1435,6 +1445,8 @@
 				"Death",
 				"Trickery"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Chromatic Dragons, Greed, Hatred, Nightmares and Revenge",
 			"symbol": "Dragon's Head in Profile",
 			"symbolImg": {
 				"type": "image",
@@ -1443,7 +1455,7 @@
 					"url": "https://i.imgur.com/Giu6JKL.png"
 				}
 			},
-			"source": "WorldOfLight",
+			"worshipers": "Chromatic Dragons, Greedy Merchants, Hoarders, Rogues, Sorcerers, Tyrants and Warlocks",
 			"entries": [
 				{
 					"type": "section",
@@ -1548,7 +1560,8 @@
 						}
 					]
 				}
-			]
+			],
+			"source": "WorldOfLight"
 		},
 		{
 			"name": "Tharizdun",
@@ -1562,8 +1575,6 @@
 				"C",
 				"E"
 			],
-			"province": "Annihalation, Entropy, Eternal Darkness, Decay, Insanity and Ruination",
-			"pantheon": "Ilúvë",
 			"category": [
 				"The Hunger",
 				"The Interlopers"
@@ -1573,6 +1584,8 @@
 				"Madness",
 				"Trickery"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Annihalation, Entropy, Eternal Darkness, Decay, Insanity and Ruination",
 			"symbol": "Jagged counter-clockwise spiral",
 			"symbolImg": {
 				"type": "image",
@@ -1581,7 +1594,7 @@
 					"url": "https://i.imgur.com/eOIn4kl.png"
 				}
 			},
-			"source": "WorldOfLight",
+			"worshipers": "Anarchists, Cultists, Madmen, Necromancers, Occultists and Warlocks",
 			"entries": [
 				{
 					"type": "section",
@@ -1688,7 +1701,8 @@
 						}
 					]
 				}
-			]
+			],
+			"source": "WorldOfLight"
 		},
 		{
 			"name": "Hextor",
@@ -1701,8 +1715,6 @@
 				"L",
 				"E"
 			],
-			"province": "Conflict, Conquest, Discord, Massacres and War",
-			"pantheon": "Ilúvë",
 			"category": [
 				"The Interlopers",
 				"The Northern Winds"
@@ -1711,6 +1723,8 @@
 				"Death",
 				"War"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Conflict, Conquest, Discord, Massacres and War",
 			"symbol": "Two Red-feathered arrows intertwined",
 			"symbolImg": {
 				"type": "image",
@@ -1719,6 +1733,7 @@
 					"url": "https://i.imgur.com/inlgSDQ.png"
 				}
 			},
+			"worshipers": "Arms Dealers, Mercenaries, Warlords and Warmongers",
 			"entries": [
 				{
 					"type": "section",
@@ -1836,8 +1851,6 @@
 				"N",
 				"E"
 			],
-			"province": "Evil, Coveting, Dark Magic, Hoarding, Secrets and Undeath",
-			"pantheon": "Ilúvë",
 			"category": [
 				"The Interlopers"
 			],
@@ -1848,6 +1861,8 @@
 				"Madness",
 				"Trickery"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Evil, Coveting, Dark Magic, Hoarding, Secrets and Undeath",
 			"symbol": "Partially shattered one-eyed skull",
 			"symbolImg": {
 				"type": "image",
@@ -1856,6 +1871,7 @@
 					"url": "https://i.imgur.com/s03J5R7.png"
 				}
 			},
+			"worshipers": "Cultists, Liches, Necromancers, Spies and Warlocks",
 			"entries": [
 				{
 					"type": "section",
@@ -1971,8 +1987,6 @@
 				"C",
 				"E"
 			],
-			"province": "Assassins, Darkness, Thievery, Poison and Snakes",
-			"pantheon": "Ilúvë",
 			"category": [
 				"The Interlopers"
 			],
@@ -1981,6 +1995,8 @@
 				"Trickery",
 				"Twilight"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Assassins, Darkness, Thievery, Poison and Snakes",
 			"symbol": "Snake in the shape of a dagger",
 			"symbolImg": {
 				"type": "image",
@@ -1989,7 +2005,7 @@
 					"url": "https://i.imgur.com/r3GDBmp.png"
 				}
 			},
-			"source": "WorldOfLight",
+			"worshipers": "Alchemists, Assassins, Cultists, Cutthroats, Drow, Rogues, Serpentfolk and Thieves",
 			"entries": [
 				{
 					"type": "section",
@@ -2092,7 +2108,8 @@
 						}
 					]
 				}
-			]
+			],
+			"source": "WorldOfLight"
 		},
 		{
 			"name": "Gruumsh",
@@ -2104,8 +2121,6 @@
 				"C",
 				"E"
 			],
-			"province": "Carnage, Destruction, Hunting, Pillaging, Savageness, Slaughter, Warmongering",
-			"pantheon": "Ilúvë",
 			"category": [
 				"The Interlopers",
 				"The Northern Winds"
@@ -2115,6 +2130,8 @@
 				"Tempest",
 				"War"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Carnage, Destruction, Hunting, Pillaging, Savageness, Slaughter, Warmongering",
 			"symbol": "Grey triangular eye with bony protrusions",
 			"symbolImg": {
 				"type": "image",
@@ -2123,6 +2140,7 @@
 					"url": "https://i.imgur.com/D0cdq2a.png"
 				}
 			},
+			"worshipers": "Barbarians, Goblinoids, Marauders, Orcs, Savages and Warbands",
 			"entries": [
 				{
 					"type": "section",
@@ -2241,8 +2259,6 @@
 				"C",
 				"E"
 			],
-			"province": "Deceit, Drow, Lies, Lust, Shadows, Spiders and Women",
-			"pantheon": "Ilúvë",
 			"category": [
 				"The Interlopers"
 			],
@@ -2251,6 +2267,8 @@
 				"Trickery",
 				"War"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Deceit, Drow, Lies, Lust, Shadows, Spiders and Women",
 			"symbol": "Spider",
 			"symbolImg": {
 				"type": "image",
@@ -2259,6 +2277,7 @@
 					"url": "https://i.imgur.com/1cricGm.png"
 				}
 			},
+			"worshipers": "Assassins, Courtesans, Drow, Demonologists, Enchanters, Spies and Tricksters",
 			"entries": [
 				{
 					"type": "section",
@@ -2367,8 +2386,6 @@
 			"alignment": [
 				"N"
 			],
-			"province": "Death, Fate, Winter and Mortality",
-			"pantheon": "Ilúvë",
 			"category": [
 				"The Interlopers",
 				"The Five Divines"
@@ -2381,6 +2398,8 @@
 				"Tempest",
 				"Time"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Death, Fate, Winter and Mortality",
 			"symbol": "Raven, in profile, facing right",
 			"symbolImg": {
 				"type": "image",
@@ -2389,6 +2408,7 @@
 					"url": "https://i.imgur.com/WECySuM.png"
 				}
 			},
+			"worshipers": "Clerics, Funeral Directors, Morticians, Necromancers, Oracles, Psychopomps and Seers",
 			"entries": [
 				{
 					"type": "section",
@@ -2506,8 +2526,6 @@
 				"N",
 				"E"
 			],
-			"province": "The Underdark, Enslavement, Imprisonment, Pain and Torture",
-			"pantheon": "Ilúvë",
 			"category": [
 				"The Interlopers"
 			],
@@ -2517,6 +2535,8 @@
 				"Trickery",
 				"War"
 			],
+			"pantheon": "Ilúvë",
+			"province": "The Underdark, Enslavement, Imprisonment, Pain and Torture",
 			"symbol": "Letter \"T\" attached to a circular shackle",
 			"symbolImg": {
 				"type": "image",
@@ -2525,6 +2545,7 @@
 					"url": "https://i.imgur.com/bnNLfrM.png"
 				}
 			},
+			"worshipers": "Jailers, Masochists, Slavers, Torturers and Underdark Dwellers",
 			"entries": [
 				{
 					"type": "section",
@@ -2641,7 +2662,6 @@
 				"C",
 				"N"
 			],
-			"pantheon": "Ilúvë",
 			"category": [
 				"Deities of Radiance",
 				"The Sorrowsworn"
@@ -2652,6 +2672,8 @@
 				"Madness",
 				"Trickery"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Balance, Chaos, Chance, Change, Laughter, Mischief and Trickery",
 			"symbol": "Coin with a two-faced mask",
 			"symbolImg": {
 				"type": "image",
@@ -2660,6 +2682,7 @@
 					"url": "https://i.imgur.com/UTYGgkT.png"
 				}
 			},
+			"worshipers": "Charlatans, Clerics, Bards, Gamblers, Rogues, Tricksters and Wanderers",
 			"entries": [
 				{
 					"type": "section",
@@ -2770,8 +2793,6 @@
 				"C",
 				"N"
 			],
-			"province": "Economy, Wealth, Laws, Greed and Jewelry",
-			"pantheon": "Ilúvë",
 			"category": [
 				"The Evanur"
 			],
@@ -2779,6 +2800,8 @@
 				"Knowledge",
 				"Order"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Economy, Wealth, Laws, Greed and Jewelry",
 			"symbol": "Gold Necklace with large Ashy-Grey Gem",
 			"symbolImg": {
 				"type": "image",
@@ -2787,7 +2810,7 @@
 					"url": "-"
 				}
 			},
-			"source": "WorldOfLight",
+			"worshipers": "Bankers, Brokers, Merchants, Nobles, Traders and Wealthy Elves",
 			"entries": [
 				{
 					"type": "section",
@@ -2809,7 +2832,8 @@
 						}
 					]
 				}
-			]
+			],
+			"source": "WorldOfLight"
 		},
 		{
 			"name": "Elanarë",
@@ -2822,8 +2846,6 @@
 				"C",
 				"N"
 			],
-			"province": "War, Fire, Rebirth and The Sun",
-			"pantheon": "Ilúvë",
 			"category": [
 				"The Evanur"
 			],
@@ -2836,6 +2858,8 @@
 				"Time",
 				"War"
 			],
+			"pantheon": "Ilúvë",
+			"province": "War, Fire, Rebirth and The Sun",
 			"symbol": "Phoenix in profile",
 			"symbolImg": {
 				"type": "image",
@@ -2844,7 +2868,7 @@
 					"url": "https://i.imgur.com/wln9xAV.png"
 				}
 			},
-			"source": "WorldOfLight",
+			"worshipers": "Blacksmiths, Fire Dancers, Healers, Knights, Paladins, Soldiers, Warriors and Warmages",
 			"entries": [
 				{
 					"type": "section",
@@ -2866,7 +2890,8 @@
 						}
 					]
 				}
-			]
+			],
+			"source": "WorldOfLight"
 		},
 		{
 			"name": "Alkenstar",
@@ -2878,8 +2903,6 @@
 				"C",
 				"E"
 			],
-			"province": "Torture, Death, Darkness, Disease and Void",
-			"pantheon": "Ilúvë",
 			"category": [
 				"The Evanur"
 			],
@@ -2890,6 +2913,8 @@
 				"Madness",
 				"Trickery"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Torture, Death, Darkness, Disease and Void",
 			"symbol": "Burning black skull",
 			"symbolImg": {
 				"type": "image",
@@ -2898,7 +2923,7 @@
 					"url": "https://i.imgur.com/X6k3aor.png"
 				}
 			},
-			"source": "WorldOfLight",
+			"worshipers": "Afflicted, Necromancers, Plague Doctors, Torturers and Warlocks",
 			"entries": [
 				{
 					"type": "section",
@@ -2921,7 +2946,8 @@
 						}
 					]
 				}
-			]
+			],
+			"source": "WorldOfLight"
 		},
 		{
 			"name": "Null Rancaria",
@@ -2933,8 +2959,6 @@
 				"N",
 				"E"
 			],
-			"province": "Fear, Fate, Mindlessness, Eternal Damnation, Secrets and Dark Magic",
-			"pantheon": "Ilúvë",
 			"category": [
 				"The Evanur"
 			],
@@ -2945,6 +2969,8 @@
 				"Madness",
 				"Trickery"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Fear, Fate, Mindlessness, Eternal Damnation, Secrets and Dark Magic",
 			"symbol": "Blood-red Sigil in the vauge shape of an N",
 			"symbolImg": {
 				"type": "image",
@@ -2953,7 +2979,7 @@
 					"url": "-"
 				}
 			},
-			"source": "WorldOfLight",
+			"worshipers": "Anarchists, Cultists, Necromancers, Sorcerers and Warlocks",
 			"entries": [
 				{
 					"type": "section",
@@ -2976,7 +3002,8 @@
 						}
 					]
 				}
-			]
+			],
+			"source": "WorldOfLight"
 		},
 		{
 			"name": "Morvael",
@@ -2989,8 +3016,6 @@
 				"N",
 				"G"
 			],
-			"province": "Invention, Science, Evolution, and Ingenuity",
-			"pantheon": "Ilúvë",
 			"category": [
 				"The Evanur"
 			],
@@ -3002,6 +3027,8 @@
 				"Order",
 				"Time"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Invention, Science, Evolution, and Ingenuity",
 			"symbol": "An Arcane Orb made of Brass",
 			"symbolImg": {
 				"type": "image",
@@ -3010,7 +3037,7 @@
 					"url": "-"
 				}
 			},
-			"source": "WorldOfLight",
+			"worshipers": "Alchemists, Artificers, Engineers, Inventors, Sages, Scholars and Wizards",
 			"entries": [
 				{
 					"type": "section",
@@ -3033,7 +3060,8 @@
 						}
 					]
 				}
-			]
+			],
+			"source": "WorldOfLight"
 		},
 		{
 			"name": "Teluniél",
@@ -3045,8 +3073,6 @@
 				"C",
 				"G"
 			],
-			"province": "Beasts, Nature, Storms, and Vengeance",
-			"pantheon": "Ilúvë",
 			"category": [
 				"The Evanur"
 			],
@@ -3059,6 +3085,8 @@
 				"Twilight",
 				"War"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Beasts, Nature, Storms, and Vengeance",
 			"symbol": "A hunting bow with four arrows",
 			"symbolImg": {
 				"type": "image",
@@ -3067,7 +3095,7 @@
 					"url": "https://i.imgur.com/NxVHj4D.png"
 				}
 			},
-			"source": "WorldOfLight",
+			"worshipers": "Druids, Bowmen, Rangers, Shamans and Scouts",
 			"entries": [
 				{
 					"type": "section",
@@ -3088,7 +3116,8 @@
 						}
 					]
 				}
-			]
+			],
+			"source": "WorldOfLight"
 		},
 		{
 			"name": "Syberis",
@@ -3101,8 +3130,6 @@
 				"C",
 				"G"
 			],
-			"province": "Night, Wisdom, Gems and Gem Dragons",
-			"pantheon": "Ilúvë",
 			"category": [
 				"The Evanur"
 			],
@@ -3113,8 +3140,10 @@
 				"Light",
 				"Nature"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Night, Wisdom, Gems and Gem Dragons",
 			"symbol": "A ruby-red dragon's head, in profile",
-			"source": "WorldOfLight",
+			"worshipers": "Gem Dragons, Jewelers, Sages, Scholars and Wizards",
 			"entries": [
 				{
 					"type": "section",
@@ -3122,7 +3151,8 @@
 						"Legend speaks of a third dragon god, responsible for creating the ever-elusive Gem dragons. According to the ancient draconic myth {@i Elegy for the First World}, when the gods were creating the Given World, before the High God {@deity Erestem|Ilúvë|WorldOfLight} plucked stars from the sky, like marbles from a bag, Syberis, the first of the three dragon gods according to this myth, plucked one of his own, and showed it to {@deity Erestem|Ilúvë|WorldOfLight}. The other gods were, unfortunately, unsatisfied, and Syberis's marble was dropped in favor of a brighter one. Syberis, unbeknownst to the other gods, then hid this marble back among the stars, and named it Drahkaris."
 					]
 				}
-			]
+			],
+			"source": "WorldOfLight"
 		},
 		{
 			"name": "Xymor",
@@ -3137,8 +3167,6 @@
 				"C",
 				"G"
 			],
-			"province": "Self-Sacrifice, Duty, Spellcasting, Enlightenment, Justice and Foresight",
-			"pantheon": "Ilúvë",
 			"category": [
 				"The Evanur"
 			],
@@ -3151,8 +3179,10 @@
 				"Order",
 				"War"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Self-Sacrifice, Duty, Spellcasting, Enlightenment, Justice and Foresight",
 			"symbol": "Right Gauntlet",
-			"source": "WorldOfLight",
+			"worshipers": "Clerics, Paladins, Sages, Scholars and Wizards",
 			"entries": [
 				{
 					"type": "section",
@@ -3160,7 +3190,8 @@
 						"The Ancient Elves, those existing during and prior to the heyday of ancient Arcanix, worshipped gods less like individual entities, and more for their individual aspects. Some gods then directly responded to this under the guises of aspects. In any case, Bahamut conjured up the guise of Marduk, or Xymor in the Draconic tongue."
 					]
 				}
-			]
+			],
+			"source": "WorldOfLight"
 		},
 		{
 			"name": "Nihilat",
@@ -3174,8 +3205,6 @@
 				"C",
 				"E"
 			],
-			"province": "Hatred, Control, Intrigue, Chaos",
-			"pantheon": "Ilúvë",
 			"category": [
 				"The Evanur"
 			],
@@ -3187,8 +3216,10 @@
 				"Twilight",
 				"War"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Hatred, Control, Intrigue, Chaos",
 			"symbol": "Black Crescent",
-			"source": "WorldOfLight",
+			"worshipers": "Chromatic Dragons, Cultists, Madmen, Spies and Tyrants",
 			"entries": [
 				{
 					"type": "section",
@@ -3196,7 +3227,8 @@
 						"Worshipped less as a god and more as a boogeyman, Nihilat is the ancient, primeval aspect of Takhisis, and is sometimes seen as the precursor to Null Rancaria. While the ancient Elves valued control over many other things, they had a particular disdain for chaos sowed within their walls, and as such used Nihilat as a cautionary tale."
 					]
 				}
-			]
+			],
+			"source": "WorldOfLight"
 		},
 		{
 			"name": "Selûne",
@@ -3210,8 +3242,6 @@
 				"C",
 				"G"
 			],
-			"province": "Autumn, Dreams, Illusion, Love, Moonlight, Night and The Moons",
-			"pantheon": "Ilúvë",
 			"category": [
 				"Deities of Radiance",
 				"The Natural Three",
@@ -3226,6 +3256,8 @@
 				"Trickery",
 				"Twilight"
 			],
+			"pantheon": "Ilúvë",
+			"province": "Autumn, Dreams, Illusion, Love, Moonlight, Night and The Moons",
 			"symbol": "Crescent moon",
 			"symbolImg": {
 				"type": "image",
@@ -3234,13 +3266,14 @@
 					"url": "https://i.imgur.com/AwLHsLB.png"
 				}
 			},
+			"worshipers": "Bards, Druids, Dreamweavers, Illusionists, Lovers, Lycanthropes and Wizards",
 			"entries": [
 				{
 					"type": "section",
 					"entries": [
 						"Sehanine has gone by many names, being herself as mercurial as the lofty race of Elves. When the Elves were but nascent children, the Elves instead worshipped the primal essence of the Moons. Believed to be a wielder of the \"moonbow\", Selûne depicts a much more primal and stern goddess. These parts of her are still widely worshipped, and this is directly related to Sehanine's afterlife: an infinite sea with a single tower, called the Tower of Selûne.",
 						"Back in the 3nd Era, Selûne played a pivotal role in the lives of many surfacing Drow, looking to be absolved of what their Lolth-worshipping ancestors did in ages past. Her then-worshipped aspect included the portfolios of Mystery and Shadows."
-							]
+					]
 				}
 			],
 			"source": "WorldOfLight"
