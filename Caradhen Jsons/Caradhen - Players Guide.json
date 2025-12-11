@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V11.2.1",
+				"version": "V11.2.2",
 				"url": "",
 				"targetSchema": "1.2.0"
 			}
@@ -97,7 +97,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": ""
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Palashirr%20-%20God%20of%20Fire%20%26%20Magic.png"
 				}
 			},
 			"source": "LandsOfExile",
@@ -149,7 +149,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Palashirr%20-%20God%20of%20Fire%20%26%20Magic.png"
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Nydra%20-%20Goddess%20of%20Death%20%26%20The Moon.png"
 				}
 			},
 			"source": "LandsOfExile",
@@ -199,7 +199,7 @@
 				"Time",
 				"Trickery"
 			],
-			"symbol": "A train in profile",
+			"symbol": "A single brass gear",
 			"symbolImg": {
 				"type": "image",
 				"href": {
@@ -253,7 +253,14 @@
 				"Tempest",
 				"War"
 			],
-			"symbol": "A ",
+			"symbol": "A monstrous Ouroboros biting its own tail",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Ilbrant%20-%20Deity%20of%20Madness%20,%20Enslavement%26%20Ruin.png"
+				}
+			},
 			"source": "LandsOfExile",
 			"entries": [
 				{
