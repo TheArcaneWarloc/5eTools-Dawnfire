@@ -2,7 +2,7 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "WorldOfLight",
+				"json": "WOL",
 				"abbreviation": "WOL",
 				"full": "The World of Light: Player's Guide",
 				"color": "709963",
@@ -50,7 +50,7 @@
 				{
 					"type": "section",
 					"entries": [
-						"At first, there was nothing. Then, a conscience. Thoughts. Essence. In the endless blackness of the void, after an infinite amount of finite time, these thoughts coalesced into being. One being. This being, these illimitable emotions, wandered through the inky oblivion for perpetuity and timelessness, until it realized it was boundlessly and everlastingly alone. And so, from these thoughts, from this being, using all of its emotion, its soul; the purest form of magic, the universe exploded into existence, and with it, three fledgling gods were created from this incalculable eruption of sudden fervour, magic and soul: {@deity Angaradd|Ilúvë|WorldOfLight}, {@deity Auroril|Ilúvë|WorldOfLight} and {@deity Melora|Ilúvë|WorldOfLight}. In the ever-expansive cosmic nebula, these four deities sailed the roiling cosmos, as The Lightbringer thought up a form for each of them to inhabit.",
+						"At first, there was nothing. Then, a conscience. Thoughts. Essence. In the endless blackness of the void, after an infinite amount of finite time, these thoughts coalesced into being. One being. This being, these illimitable emotions, wandered through the inky oblivion for perpetuity and timelessness, until it realized it was boundlessly and everlastingly alone. And so, from these thoughts, from this being, using all of its emotion, its soul; the purest form of magic, the universe exploded into existence, and with it, three fledgling gods were created from this incalculable eruption of sudden fervour, magic and soul: {@deity Angaradd|Ilúvë|WOL}, {@deity Auroril|Ilúvë|WOL} and {@deity Melora|Ilúvë|WOL}. In the ever-expansive cosmic nebula, these four deities sailed the roiling cosmos, as The Lightbringer thought up a form for each of them to inhabit.",
 						{
 							"type": "entries",
 							"name": "Erestem's Influence",
@@ -139,10 +139,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Erestem's Devotee|WorldOfLight}",
-												"{@reward Erestem's Votary|WorldOfLight}",
-												"{@reward Erestem's Disciple|WorldOfLight}",
-												"{@reward Champion of Time|WorldOfLight}"
+												"{@reward Erestem's Devotee|WOL}",
+												"{@reward Erestem's Votary|WOL}",
+												"{@reward Erestem's Disciple|WOL}",
+												"{@reward Champion of Time|WOL}"
 											]
 										}
 									]
@@ -152,7 +152,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Angaradd",
@@ -283,10 +283,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Angaradd's Devotee|WorldOfLight}",
-												"{@reward Angaradd's Votary|WorldOfLight}",
-												"{@reward Angaradd's Disciple|WorldOfLight}",
-												"{@reward Champion of The Forge|WorldOfLight}"
+												"{@reward Angaradd's Devotee|WOL}",
+												"{@reward Angaradd's Votary|WOL}",
+												"{@reward Angaradd's Disciple|WOL}",
+												"{@reward Champion of The Forge|WOL}"
 											]
 										}
 									]
@@ -296,7 +296,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Auroril",
@@ -424,10 +424,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Auroril's Devotee|WorldOfLight}",
-												"{@reward Auroril's Votary|WorldOfLight}",
-												"{@reward Auroril's Disciple|WorldOfLight}",
-												"{@reward Champion of The Radiant Melody|WorldOfLight}"
+												"{@reward Auroril's Devotee|WOL}",
+												"{@reward Auroril's Votary|WOL}",
+												"{@reward Auroril's Disciple|WOL}",
+												"{@reward Champion of The Radiant Melody|WOL}"
 											]
 										}
 									]
@@ -437,7 +437,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Erathis",
@@ -475,7 +475,7 @@
 				{
 					"type": "section",
 					"entries": [
-						"The inspiration behind many great inventions, the creation of vast cities, and law and order within society, Erathis claims dominion over civilization. Judges and rulers pay respect at her temples, which are central structures in many cities across Ilúvë. Peace and order through structure and law guides the will of her devout followers. The Law Bearer has a tempestuous romance with {@deity Melora|Ilúvë|WorldOfLight} the Wild Mother, a furious love that is tempered only when civilization and nature are in balance.",
+						"The inspiration behind many great inventions, the creation of vast cities, and law and order within society, Erathis claims dominion over civilization. Judges and rulers pay respect at her temples, which are central structures in many cities across Ilúvë. Peace and order through structure and law guides the will of her devout followers. The Law Bearer has a tempestuous romance with {@deity Melora|Ilúvë|WOL} the Wild Mother, a furious love that is tempered only when civilization and nature are in balance.",
 						{
 							"type": "entries",
 							"name": "Erathis' Influence",
@@ -563,10 +563,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Erathis's Devotee|WorldOfLight}",
-												"{@reward Erathis's Votary|WorldOfLight}",
-												"{@reward Erathis's Disciple|WorldOfLight}",
-												"{@reward Champion of Hestavar|WorldOfLight}"
+												"{@reward Erathis's Devotee|WOL}",
+												"{@reward Erathis's Votary|WOL}",
+												"{@reward Erathis's Disciple|WOL}",
+												"{@reward Champion of Hestavar|WOL}"
 											]
 										}
 									]
@@ -576,7 +576,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Melora",
@@ -616,7 +616,7 @@
 					"type": "section",
 					"entries": [
 						"The realm of Melora extends to wherever the seas shift and the land grows wild. As the keeper of the wilderness, Melora represents the wild creatures of nature, the rush of the angry rapids, and the heat-heavy stillness of the desert. Elves worship her, as do hunters, accepting her guidance to exist harmoniously within savage lands. Those seeking safe passage across dangerous waters pray to her to guide them.",
-						"Followers of the Raven Queen also show respect to the Wild Mother as the caretaker of what remains when the Matron of Death's work is done. Druids of Melora the Wild Mother and clerics of her lover, {@deity Erathis|Ilúvë|WorldOfLight} the Law Bearer, work together to preserve the balance of nature and civilization. However, worship of Melora was outlawed in the Empire, causing disagreement between clerics of Erathis within The Bramble Downs, where many blame poor weather and natural disasters on the ire of their deity's partner.",
+						"Followers of the Raven Queen also show respect to the Wild Mother as the caretaker of what remains when the Matron of Death's work is done. Druids of Melora the Wild Mother and clerics of her lover, {@deity Erathis|Ilúvë|WOL} the Law Bearer, work together to preserve the balance of nature and civilization. However, worship of Melora was outlawed in the Empire, causing disagreement between clerics of Erathis within The Bramble Downs, where many blame poor weather and natural disasters on the ire of their deity's partner.",
 						{
 							"type": "entries",
 							"name": "Melora's Influence",
@@ -704,10 +704,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Melora's Devotee|WorldOfLight}",
-												"{@reward Melora's Votary|WorldOfLight}",
-												"{@reward Melora's Disciple|WorldOfLight}",
-												"{@reward Champion of The Wild|WorldOfLight}"
+												"{@reward Melora's Devotee|WOL}",
+												"{@reward Melora's Votary|WOL}",
+												"{@reward Melora's Disciple|WOL}",
+												"{@reward Champion of The Wild|WOL}"
 											]
 										}
 									]
@@ -717,7 +717,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Ioun",
@@ -833,10 +833,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Ioun's Devotee|WorldOfLight}",
-												"{@reward Ioun's Votary|WorldOfLight}",
-												"{@reward Ioun's Disciple|WorldOfLight}",
-												"{@reward Champion of the Infinite Library|WorldOfLight}"
+												"{@reward Ioun's Devotee|WOL}",
+												"{@reward Ioun's Votary|WOL}",
+												"{@reward Ioun's Disciple|WOL}",
+												"{@reward Champion of the Infinite Library|WOL}"
 											]
 										}
 									]
@@ -846,7 +846,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Kord",
@@ -963,10 +963,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Kord's Devotee|WorldOfLight}",
-												"{@reward Kord's Votary|WorldOfLight}",
-												"{@reward Kord's Disciple|WorldOfLight}",
-												"{@reward Champion of The Gilded Storm|WorldOfLight}"
+												"{@reward Kord's Devotee|WOL}",
+												"{@reward Kord's Votary|WOL}",
+												"{@reward Kord's Disciple|WOL}",
+												"{@reward Champion of The Gilded Storm|WOL}"
 											]
 										}
 									]
@@ -976,7 +976,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Sehanine",
@@ -1005,7 +1005,7 @@
 			],
 			"pantheon": "Ilúvë",
 			"province": "Autumn, Dreams, Illusion, Love, Moonlight, Night and The Moons",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"symbol": "Crescent moon",
 			"symbolImg": {
 				"type": "image",
@@ -1024,7 +1024,7 @@
 							"type": "entries",
 							"name": "Sehanine's Influence",
 							"entries": [
-								"Sehanine is said to loom over the skies of Ilúvë as the largest of the two moons, everwatchful that the moons and {@deity Auroril|Ilúvë|WorldOfLight}'s Sun don't collide.",
+								"Sehanine is said to loom over the skies of Ilúvë as the largest of the two moons, everwatchful that the moons and {@deity Auroril|Ilúvë|WOL}'s Sun don't collide.",
 								{
 									"type": "entries",
 									"entries": [
@@ -1116,10 +1116,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Sehanine's Devotee|WorldOfLight}",
-												"{@reward Sehanine's Votary|WorldOfLight}",
-												"{@reward Sehanine's Disciple|WorldOfLight}",
-												"{@reward Champion of The Vernal Bow|WorldOfLight}"
+												"{@reward Sehanine's Devotee|WOL}",
+												"{@reward Sehanine's Votary|WOL}",
+												"{@reward Sehanine's Disciple|WOL}",
+												"{@reward Champion of The Vernal Bow|WOL}"
 											]
 										}
 									]
@@ -1135,7 +1135,7 @@
 			"title": "God of Honor, Justice and Nobility",
 			"altNames": [
 				"The Platinum Justiciar",
-				"{@deity Xymor|Ilúvë|WorldOfLight}"
+				"{@deity Xymor|Ilúvë|WOL}"
 			],
 			"alignment": [
 				"L",
@@ -1259,10 +1259,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Bahamut's Devotee|WorldOfLight}",
-												"{@reward Bahamut's Votary|WorldOfLight}",
-												"{@reward Bahamut's Disciple|WorldOfLight}",
-												"{@reward Champion of The Vast Plateau|WorldOfLight}"
+												"{@reward Bahamut's Devotee|WOL}",
+												"{@reward Bahamut's Votary|WOL}",
+												"{@reward Bahamut's Disciple|WOL}",
+												"{@reward Champion of The Vast Plateau|WOL}"
 											]
 										}
 									]
@@ -1272,7 +1272,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Corellon",
@@ -1402,10 +1402,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Corellon's Devotee|WorldOfLight}",
-												"{@reward Corellon's Votary|WorldOfLight}",
-												"{@reward Corellon's Disciple|WorldOfLight}",
-												"{@reward Champion of High Magic|WorldOfLight}"
+												"{@reward Corellon's Devotee|WOL}",
+												"{@reward Corellon's Votary|WOL}",
+												"{@reward Corellon's Disciple|WOL}",
+												"{@reward Champion of High Magic|WOL}"
 											]
 										}
 									]
@@ -1423,7 +1423,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Takhisis",
@@ -1484,7 +1484,7 @@
 											"type": "entries",
 											"name": "Enemies",
 											"entries": [
-												"The Scaled Tyrant's hatred for {@deity Bahamut|Ilúvë|WorldOfLight} is as old as the Creation, and her cults are ever hunted by his justice. For centuries, the zealous paladins of Bahamut have limited her worship to the chromatic dragons, but a rise in cult activity in the underbelly of Arcaborian society has priests of the Platinum Justiciar on edge."
+												"The Scaled Tyrant's hatred for {@deity Bahamut|Ilúvë|WOL} is as old as the Creation, and her cults are ever hunted by his justice. For centuries, the zealous paladins of Bahamut have limited her worship to the chromatic dragons, but a rise in cult activity in the underbelly of Arcaborian society has priests of the Platinum Justiciar on edge."
 											]
 										}
 									]
@@ -1548,10 +1548,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Takhisis's Devotee|WorldOfLight}",
-												"{@reward Takhisis's Votary|WorldOfLight}",
-												"{@reward Takhisis's Disciple|WorldOfLight}",
-												"{@reward Champion of Azharul|WorldOfLight}"
+												"{@reward Takhisis's Devotee|WOL}",
+												"{@reward Takhisis's Votary|WOL}",
+												"{@reward Takhisis's Disciple|WOL}",
+												"{@reward Champion of Azharul|WOL}"
 											]
 										}
 									]
@@ -1561,7 +1561,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Tharizdun",
@@ -1689,10 +1689,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Tharizdun's Devotee|WorldOfLight}",
-												"{@reward Tharizdun's Votary|WorldOfLight}",
-												"{@reward Tharizdun's Disciple|WorldOfLight}",
-												"{@reward Champion of Oblivion|WorldOfLight}"
+												"{@reward Tharizdun's Devotee|WOL}",
+												"{@reward Tharizdun's Votary|WOL}",
+												"{@reward Tharizdun's Disciple|WOL}",
+												"{@reward Champion of Oblivion|WOL}"
 											]
 										}
 									]
@@ -1702,7 +1702,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Hextor",
@@ -1826,10 +1826,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Hextor's Devotee|WorldOfLight}",
-												"{@reward Hextor's Votary|WorldOfLight}",
-												"{@reward Hextor's Disciple|WorldOfLight}",
-												"{@reward Champion of The Iron Fortress|WorldOfLight}"
+												"{@reward Hextor's Devotee|WOL}",
+												"{@reward Hextor's Votary|WOL}",
+												"{@reward Hextor's Disciple|WOL}",
+												"{@reward Champion of The Iron Fortress|WOL}"
 											]
 										}
 									]
@@ -1839,7 +1839,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Vecna",
@@ -1900,7 +1900,7 @@
 											"type": "entries",
 											"name": "Enemies",
 											"entries": [
-												"While Vecna loathes all other gods and wishes to destroy them and become the sole divine power in the planes, he has a particular hatred for {@deity Ioun|Ilúvë|WorldOfLight}. Ioun seeks to share with the world the same secrets Vecna guards for himself, and his followers have worked diligently to undermine and destroy the Library of the Chroniclers and any others who follow her path. The Raven Queen also despises Vecna, and sees his presence as a mighty affront to her purpose."
+												"While Vecna loathes all other gods and wishes to destroy them and become the sole divine power in the planes, he has a particular hatred for {@deity Ioun|Ilúvë|WOL}. Ioun seeks to share with the world the same secrets Vecna guards for himself, and his followers have worked diligently to undermine and destroy the Library of the Chroniclers and any others who follow her path. The Raven Queen also despises Vecna, and sees his presence as a mighty affront to her purpose."
 											]
 										}
 									]
@@ -1962,10 +1962,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Vecna's Devotee|WorldOfLight}",
-												"{@reward Vecna's Votary|WorldOfLight}",
-												"{@reward Vecna's Disciple|WorldOfLight}",
-												"{@reward Champion of The Maimed|WorldOfLight}"
+												"{@reward Vecna's Devotee|WOL}",
+												"{@reward Vecna's Votary|WOL}",
+												"{@reward Vecna's Disciple|WOL}",
+												"{@reward Champion of The Maimed|WOL}"
 											]
 										}
 									]
@@ -1975,7 +1975,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Zehir",
@@ -2034,7 +2034,7 @@
 											"type": "entries",
 											"name": "Enemies",
 											"entries": [
-												"Zehir loathes {@deity Erathis|Ilúvë|WorldOfLight} and {@deity Melora|Ilúvë|WorldOfLight}, for he despises life, order, and love above all things. His surviving worshipers use poison and fire to undermine civilization and consume nature, hoping to infuriate both gods and cast Ilúvë into chaos."
+												"Zehir loathes {@deity Erathis|Ilúvë|WOL} and {@deity Melora|Ilúvë|WOL}, for he despises life, order, and love above all things. His surviving worshipers use poison and fire to undermine civilization and consume nature, hoping to infuriate both gods and cast Ilúvë into chaos."
 											]
 										}
 									]
@@ -2096,10 +2096,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Zehir's Devotee|WorldOfLight}",
-												"{@reward Zehir's Votary|WorldOfLight}",
-												"{@reward Zehir's Disciple|WorldOfLight}",
-												"{@reward Champion of Samaragd|WorldOfLight}"
+												"{@reward Zehir's Devotee|WOL}",
+												"{@reward Zehir's Votary|WOL}",
+												"{@reward Zehir's Disciple|WOL}",
+												"{@reward Champion of Samaragd|WOL}"
 											]
 										}
 									]
@@ -2109,7 +2109,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Gruumsh",
@@ -2234,10 +2234,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Gruumsh's Devotee|WorldOfLight}",
-												"{@reward Gruumsh's Votary|WorldOfLight}",
-												"{@reward Gruumsh's Disciple|WorldOfLight}",
-												"{@reward Champion of Shargaas|WorldOfLight}"
+												"{@reward Gruumsh's Devotee|WOL}",
+												"{@reward Gruumsh's Votary|WOL}",
+												"{@reward Gruumsh's Disciple|WOL}",
+												"{@reward Champion of Shargaas|WOL}"
 											]
 										}
 									]
@@ -2247,7 +2247,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Lolth",
@@ -2360,10 +2360,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Lolth's Devotee|WorldOfLight}",
-												"{@reward Lolth's Votary|WorldOfLight}",
-												"{@reward Lolth's Disciple|WorldOfLight}",
-												"{@reward Champion of The Demonweb|WorldOfLight}"
+												"{@reward Lolth's Devotee|WOL}",
+												"{@reward Lolth's Votary|WOL}",
+												"{@reward Lolth's Disciple|WOL}",
+												"{@reward Champion of The Demonweb|WOL}"
 											]
 										}
 									]
@@ -2373,7 +2373,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Nera",
@@ -2500,10 +2500,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Raven Queen's Devotee|WorldOfLight}",
-												"{@reward Raven Queen's Votary|WorldOfLight}",
-												"{@reward Raven Queen's Disciple|WorldOfLight}",
-												"{@reward Champion of Letherna|WorldOfLight}"
+												"{@reward Raven Queen's Devotee|WOL}",
+												"{@reward Raven Queen's Votary|WOL}",
+												"{@reward Raven Queen's Disciple|WOL}",
+												"{@reward Champion of Letherna|WOL}"
 											]
 										}
 									]
@@ -2513,7 +2513,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Torog",
@@ -2574,7 +2574,7 @@
 											"type": "entries",
 											"name": "Enemies",
 											"entries": [
-												"{@deity Auroril|Ilúvë|WorldOfLight} and {@deity Corellon|Ilúvë|WorldOfLight} defeated Torog during the Age of Assault by luring their nemesis above ground. Auroril pierced Torog's tenebrous body with ten thousand lances of sunlight, and Corellon imprisoned him beyond the boundaries of Ilúvë. The tears of pain and anger the Crawling King shed burned through Ilúvë, and his faithful fled into these tunnels to escape their enemies' holy light."
+												"{@deity Auroril|Ilúvë|WOL} and {@deity Corellon|Ilúvë|WOL} defeated Torog during the Age of Assault by luring their nemesis above ground. Auroril pierced Torog's tenebrous body with ten thousand lances of sunlight, and Corellon imprisoned him beyond the boundaries of Ilúvë. The tears of pain and anger the Crawling King shed burned through Ilúvë, and his faithful fled into these tunnels to escape their enemies' holy light."
 											]
 										}
 									]
@@ -2637,10 +2637,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Torog's Devotee|WorldOfLight}",
-												"{@reward Torog's Votary|WorldOfLight}",
-												"{@reward Torog's Disciple|WorldOfLight}",
-												"{@reward Champion of The Darklands|WorldOfLight}"
+												"{@reward Torog's Devotee|WOL}",
+												"{@reward Torog's Votary|WOL}",
+												"{@reward Torog's Disciple|WOL}",
+												"{@reward Champion of The Darklands|WOL}"
 											]
 										}
 									]
@@ -2650,7 +2650,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "The Strangers",
@@ -2766,10 +2766,10 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Strangers's Devotee|WorldOfLight}",
-												"{@reward Strangers's Votary|WorldOfLight}",
-												"{@reward Strangers's Disciple|WorldOfLight}",
-												"{@reward Champion of Change and Chaos|WorldOfLight}"
+												"{@reward Strangers's Devotee|WOL}",
+												"{@reward Strangers's Votary|WOL}",
+												"{@reward Strangers's Disciple|WOL}",
+												"{@reward Champion of Change and Chaos|WOL}"
 											]
 										}
 									]
@@ -2779,7 +2779,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 
 		{
@@ -2833,7 +2833,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Elanarë",
@@ -2891,7 +2891,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Alkenstar",
@@ -2947,7 +2947,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Null Rancaria",
@@ -3003,7 +3003,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Morvael",
@@ -3061,7 +3061,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Teluniél",
@@ -3117,14 +3117,14 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Syberis",
 			"title": "Draconic God of Night, Wisdom and Gems",
 			"altNames": [
 				"Lord of Drakharis",
-				"{@deity Corellon|Ilúvë|WorldOfLight}"
+				"{@deity Corellon|Ilúvë|WOL}"
 			],
 			"alignment": [
 				"C",
@@ -3148,11 +3148,11 @@
 				{
 					"type": "section",
 					"entries": [
-						"Legend speaks of a third dragon god, responsible for creating the ever-elusive Gem dragons. According to the ancient draconic myth {@i Elegy for the First World}, when the gods were creating the Given World, before the High God {@deity Erestem|Ilúvë|WorldOfLight} plucked stars from the sky, like marbles from a bag, Syberis, the first of the three dragon gods according to this myth, plucked one of his own, and showed it to {@deity Erestem|Ilúvë|WorldOfLight}. The other gods were, unfortunately, unsatisfied, and Syberis's marble was dropped in favor of a brighter one. Syberis, unbeknownst to the other gods, then hid this marble back among the stars, and named it Drahkaris."
+						"Legend speaks of a third dragon god, responsible for creating the ever-elusive Gem dragons. According to the ancient draconic myth {@i Elegy for the First World}, when the gods were creating the Given World, before the High God {@deity Erestem|Ilúvë|WOL} plucked stars from the sky, like marbles from a bag, Syberis, the first of the three dragon gods according to this myth, plucked one of his own, and showed it to {@deity Erestem|Ilúvë|WOL}. The other gods were, unfortunately, unsatisfied, and Syberis's marble was dropped in favor of a brighter one. Syberis, unbeknownst to the other gods, then hid this marble back among the stars, and named it Drahkaris."
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Xymor",
@@ -3161,7 +3161,7 @@
 				"Lord of Pure Incantations",
 				"The Valiant",
 				"Marduk",
-				"{@deity Bahamut|Ilúvë|WorldOfLight}"
+				"{@deity Bahamut|Ilúvë|WOL}"
 			],
 			"alignment": [
 				"C",
@@ -3191,7 +3191,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Nihilat",
@@ -3199,7 +3199,7 @@
 			"altNames": [
 				"The Darklady",
 				"The False Metal",
-				"{@deity Takhisis|Ilúvë|WorldOfLight}"
+				"{@deity Takhisis|Ilúvë|WOL}"
 			],
 			"alignment": [
 				"C",
@@ -3228,7 +3228,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Selûne",
@@ -3276,7 +3276,7 @@
 					]
 				}
 			],
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 
 
@@ -3297,7 +3297,7 @@
 				"Tempest"
 			],
 			"symbol": "Cloud",
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Errevon",
@@ -3317,7 +3317,7 @@
 				"Tempest"
 			],
 			"symbol": "Six-pointed snowflake",
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Grumbar",
@@ -3336,7 +3336,7 @@
 				"Knowledge"
 			],
 			"symbol": "Mountain",
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Istishia",
@@ -3355,7 +3355,7 @@
 				"Tempest"
 			],
 			"symbol": "Wave",
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Kossuth",
@@ -3376,7 +3376,7 @@
 				"Light"
 			],
 			"symbol": "Flame",
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Vaasa",
@@ -3396,7 +3396,7 @@
 				"Light"
 			],
 			"symbol": "Ashpile",
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Bwimb",
@@ -3415,7 +3415,7 @@
 				"Tempest"
 			],
 			"symbol": "Mud",
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Rorn",
@@ -3435,7 +3435,7 @@
 				"War"
 			],
 			"symbol": "Volcano",
-			"source": "WorldOfLight"
+			"source": "WOL"
 		},
 		{
 			"name": "Asgorath",
@@ -3453,13 +3453,13 @@
 				"All"
 			],
 			"symbol": "A multicolored metallic disc",
-			"source": "WorldOfLight"
+			"source": "WOL"
 		}
 	],
 	"feat": [
 		{
 			"name": "Thaumaturgic Expert",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"category": "G",
 			"prerequisite": [
 				{
@@ -3498,7 +3498,7 @@
 		},
 		{
 			"name": "Arcanixian Celerity",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"prerequisite": [
 				{
 					"level": 8,
@@ -3537,7 +3537,7 @@
 		},
 		{
 			"name": "Nocturnal",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"prerequisite": [
 				{
 					"ability": [
@@ -3586,7 +3586,7 @@
 		},
 		{
 			"name": "Mending Affinity",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"prerequisite": [
 				{
 					"level": 4
@@ -3598,7 +3598,7 @@
 					"type": "entries",
 					"name": "Revitalization",
 					"entries": [
-						"When a creature uses a {@item healer's kit|WorldOfLight} to stabilize you when you are dying, you also regain hit points equal to your proficiency modifier."
+						"When a creature uses a {@item healer's kit|WOL} to stabilize you when you are dying, you also regain hit points equal to your proficiency modifier."
 					]
 				},
 				{
@@ -3617,7 +3617,7 @@
 		},
 		{
 			"name": "Mystic Channeling",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"prerequisite": [
 				{
 					"level": 4,
@@ -3650,7 +3650,7 @@
 		},
 		{
 			"name": "Thrown Arms Master",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"prerequisite": [
 				{
 					"level": 4
@@ -3694,7 +3694,7 @@
 		},
 		{
 			"name": "Spell Pugilist",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"prerequisite": [
 				{
 					"level": 4,
@@ -3728,7 +3728,7 @@
 		},
 		{
 			"name": "Martial Prestige",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"prerequisite": [
 				{
 					"level": 8,
@@ -3764,7 +3764,7 @@
 	"item": [
 		{
 			"name": "Brigandine Armor",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "MA",
 			"rarity": "none",
 			"weight": 16,
@@ -3778,7 +3778,7 @@
 		},
 		{
 			"name": "Pistol",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "R",
 			"rarity": "none",
 			"weight": 3,
@@ -3794,12 +3794,12 @@
 			"range": "100/400",
 			"firearm": true,
 			"weapon": true,
-			"ammoType": "flintlock bullet|WorldOfLight",
+			"ammoType": "flintlock bullet|WOL",
 			"entries": []
 		},
 		{
 			"name": "Musket",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "R",
 			"rarity": "none",
 			"weight": 10,
@@ -3816,12 +3816,12 @@
 			"range": "200/800",
 			"firearm": true,
 			"weapon": true,
-			"ammoType": "flintlock bullet|WorldOfLight",
+			"ammoType": "flintlock bullet|WOL",
 			"entries": []
 		},
 		{
 			"name": "Blunderbuss",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "R",
 			"rarity": "none",
 			"weight": 5,
@@ -3837,12 +3837,12 @@
 			"range": "20/60",
 			"firearm": true,
 			"weapon": true,
-			"ammoType": "flintlock bullet|WorldOfLight",
+			"ammoType": "flintlock bullet|WOL",
 			"entries": []
 		},
 		{
 			"name": "Pepperbox",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "R",
 			"rarity": "none",
 			"weight": 4,
@@ -3858,12 +3858,12 @@
 			"range": "20/50",
 			"firearm": true,
 			"weapon": true,
-			"ammoType": "flintlock bullet|WorldOfLight",
+			"ammoType": "flintlock bullet|WOL",
 			"entries": []
 		},
 		{
 			"name": "Hand Mortar",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "R",
 			"rarity": "none",
 			"weight": 10,
@@ -3880,12 +3880,12 @@
 			"range": "30/60",
 			"firearm": true,
 			"weapon": true,
-			"ammoType": "mortar bomb|WorldOfLight",
+			"ammoType": "mortar bomb|WOL",
 			"entries": []
 		},
 		{
 			"name": "Scattergun",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "R",
 			"rarity": "none",
 			"weight": 10,
@@ -3902,12 +3902,12 @@
 			"range": "15/30",
 			"firearm": true,
 			"weapon": true,
-			"ammoType": "flintlock bullet|WorldOfLight",
+			"ammoType": "flintlock bullet|WOL",
 			"entries": []
 		},
 		{
 			"name": "Flintlock Bullet",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "AF",
 			"rarity": "none",
 			"weight": 0.2,
@@ -3917,7 +3917,7 @@
 		},
 		{
 			"name": "Flintlock Bullets (10)",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "AF",
 			"rarity": "none",
 			"weight": 2,
@@ -3933,7 +3933,7 @@
 		},
 		{
 			"name": "Mortar Bomb",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "AF",
 			"rarity": "none",
 			"weight": 0.1,
@@ -3943,7 +3943,7 @@
 		},
 		{
 			"name": "Mortar Bombs (10)",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "AF",
 			"rarity": "none",
 			"weight": 1,
@@ -3953,7 +3953,7 @@
 		},
 		{
 			"name": "Aegis of Radiance",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"baseItem": "shield|PHB",
 			"type": "S",
 			"rarity": "rare",
@@ -3968,7 +3968,7 @@
 		},
 		{
 			"name": "Band of Loyalty",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "RG",
 			"rarity": "common",
 			"reqAttune": true,
@@ -3978,7 +3978,7 @@
 		},
 		{
 			"name": "Dawnsteel",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"baseItem": "rapier|PHB",
 			"type": "M",
 			"rarity": "legendary",
@@ -3994,14 +3994,14 @@
 			"weapon": true,
 			"bonusWeapon": "+3",
 			"entries": [
-				"This enchanted weapon has taken multiple forms across the ages, the most prominent of which a longsword. This blade was created by a disciple of {@deity Auroril|Ilúvë|WorldOfLight} and breathed into existence by a most mighty mount; an ancient Phoenix by the name of {@i Lucernia}.",
+				"This enchanted weapon has taken multiple forms across the ages, the most prominent of which a longsword. This blade was created by a disciple of {@deity Auroril|Ilúvë|WOL} and breathed into existence by a most mighty mount; an ancient Phoenix by the name of {@i Lucernia}.",
 				"You gain a +3 bonus to attack and damage rolls you make with this magic weapon. This weapon deals an additional 1d8 radiant damage to undead.",
 				"When you kill an undead with this magic weapon, roll {@dice 1d10}. If you roll a 1 or 2, the undead's body bursts into blue flame that deals 2d8 fire damage to all undead within 10 feet of it. The flame does no damage and produces no noticeable heat to other types of creatures. If you are proficient with either Longswords, Greatswords, Rapiers and Shortswords, you are proficient with Dawnfang."
 			]
 		},
 		{
 			"name": "Gilded Bell of Arcanix",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "artifact",
 			"wondrous": true,
 			"entries": [
@@ -4012,7 +4012,7 @@
 		},
 		{
 			"name": "The Brilliant Blade",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"baseItem": "shortsword|PHB",
 			"type": "M",
 			"rarity": "very rare",
@@ -4035,7 +4035,7 @@
 		},
 		{
 			"name": "Cenotaph",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"baseItem": "greatsword|PHB",
 			"type": "M",
 			"rarity": "rare",
@@ -4074,7 +4074,7 @@
 		},
 		{
 			"name": "Rhoderihck's Bag of Holding",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"tier": "major",
 			"rarity": "uncommon",
 			"wondrous": true,
@@ -4099,11 +4099,11 @@
 			"name": "Runestone, Necrotic",
 			"rarity": "uncommon",
 			"tier": "minor",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"wondrous": true,
 			"genericVariant": {
 				"name": "Runestone",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"This small runestone is suffused with dark magic.",
@@ -4114,11 +4114,11 @@
 			"name": "Runestone, Brimstone",
 			"rarity": "rare",
 			"tier": "major",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"wondrous": true,
 			"genericVariant": {
 				"name": "Runestone",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"This small runestone is suffused with malicious energy, radiating the fiery magic of Brimstone.",
@@ -4130,11 +4130,11 @@
 			"name": "Runestone, Ithildin",
 			"rarity": "rare",
 			"tier": "major",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"wondrous": true,
 			"genericVariant": {
 				"name": "Runestone",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"This small runestone is suffused with hallowed energy, radiating the burning radiance of Gleamsilver (otherwise known as Silver Fire, or Ithildin).",
@@ -4146,11 +4146,11 @@
 			"name": "Runestone, Fire",
 			"rarity": "uncommon",
 			"tier": "minor",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"wondrous": true,
 			"genericVariant": {
 				"name": "Runestone",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"This small runestone is suffused with fire magic.",
@@ -4161,11 +4161,11 @@
 			"name": "Runestone, Acid",
 			"rarity": "uncommon",
 			"tier": "minor",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"wondrous": true,
 			"genericVariant": {
 				"name": "Runestone",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"This small runestone is suffused with acidic magic.",
@@ -4176,11 +4176,11 @@
 			"name": "Runestone, Cold",
 			"rarity": "uncommon",
 			"tier": "minor",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"wondrous": true,
 			"genericVariant": {
 				"name": "Runestone",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"This small runestone is suffused with frost magic.",
@@ -4191,11 +4191,11 @@
 			"name": "Runestone, Force",
 			"rarity": "uncommon",
 			"tier": "minor",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"wondrous": true,
 			"genericVariant": {
 				"name": "Runestone",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"This small runestone is suffused with unfiltered, raw magic.",
@@ -4206,11 +4206,11 @@
 			"name": "Runestone, Lightning",
 			"rarity": "uncommon",
 			"tier": "minor",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"wondrous": true,
 			"genericVariant": {
 				"name": "Runestone",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"This small runestone is suffused with lightning magic.",
@@ -4221,11 +4221,11 @@
 			"name": "Runestone, Thunder",
 			"rarity": "uncommon",
 			"tier": "minor",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"wondrous": true,
 			"genericVariant": {
 				"name": "Runestone",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"This small runestone is suffused with sonic magic.",
@@ -4234,23 +4234,23 @@
 		},
 		{
 			"name": "Lumenstone",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "OTH",
 			"rarity": "none",
 			"value": 5000,
 			"entries": [
-				"Lumenstone, otherwise known as Faronaar or rarely Lightstone, is a mineral which forms in clusters where magic runs rampant. It is used in enchanting, wherein it is processed to become a {@item Focal Stone|WorldOfLight}. It is otherwise used as a material in armor, as its magic-infused properties grant a slight resistance to magic.",
+				"Lumenstone, otherwise known as Faronaar or rarely Lightstone, is a mineral which forms in clusters where magic runs rampant. It is used in enchanting, wherein it is processed to become a {@item Focal Stone|WOL}. It is otherwise used as a material in armor, as its magic-infused properties grant a slight resistance to magic.",
 				"Thus, any armor created with Lumenstone reduces damage taken by direct magic (such as {@spell fireball} and {@spell magic missile}) by 1."
 			]
 		},
 		{
 			"name": "Focal Stone",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "SCF",
 			"rarity": "none",
 			"value": 10000,
 			"entries": [
-				"The first step in creating a magical item is the initial plan for its function. During this step, a mage, while researching the spells, will also need to gather {@i Focal Stones}. These stones are gemstones, most of which are made from {@item Lumenstone|WorldOfLight}.",
+				"The first step in creating a magical item is the initial plan for its function. During this step, a mage, while researching the spells, will also need to gather {@i Focal Stones}. These stones are gemstones, most of which are made from {@item Lumenstone|WOL}.",
 				"A Focal Stone can store up to 9 levels worth of spell slots, which the wielder can imbue into the Focal Stone by holding the stone in one hand and casting a spell. The spell then has no effect, other than to be stored in the Focal Stone. Once the Focal Stone has at least one level worth of spell slots, it can be used as a material component in the {@spell Transfer Enchantment} spell. While a Focal Stone can practically be used indefinitely, the more it is used, the more unstable the casting.",
 				"Moreover, the levels inside a Focal Stone can be used to recharge magical items, with one spell level being equal to one charge.",
 				"Finally, a Focal Stone can also be used as a spellcasting focus."
@@ -4258,7 +4258,7 @@
 		},
 		{
 			"name": "Pyremaul, The Shaping Hammer",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"bonusWeaponAttack": "+3",
 			"recharge": "special",
 			"attachedSpells": [
@@ -4335,7 +4335,7 @@
 		},
 		{
 			"name": "Shield of The Resolute",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"bonusWeaponAttack": "+3",
 			"recharge": "special",
 			"attachedSpells": [
@@ -4410,7 +4410,7 @@
 		},
 		{
 			"name": "Wraps of Dyamak",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"bonusWeapon": "+3",
 			"attachedSpells": [
 				"misty step"
@@ -4479,7 +4479,7 @@
 		},
 		{
 			"name": "Plate of the Dawnmartyr",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"bonusAc": "+3",
 			"recharge": "restLong",
 			"resist": [
@@ -4553,7 +4553,7 @@
 		},
 		{
 			"name": "Razor Bands of The Arch-Mage",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"baseItem": "longsword|PHB",
 			"type": "M",
 			"weight": 1,
@@ -4614,7 +4614,7 @@
 		},
 		{
 			"name": "Brand of The Blood Rage",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"baseItem": "longsword|PHB",
 			"type": "M",
 			"rarity": "legendary",
@@ -4680,7 +4680,7 @@
 		},
 		{
 			"name": "Cabal's Ruin",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"charges": 10,
 			"recharge": "dawn",
 			"rarity": "legendary",
@@ -4740,14 +4740,14 @@
 		},
 		{
 			"name": "Gemstone Tattoo, Ruby Dust",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "very rare",
 			"wondrous": true,
 			"tattoo": true,
 			"value": 220000,
 			"genericVariant": {
 				"name": "Gemstone Tattoo",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
@@ -4756,14 +4756,14 @@
 		},
 		{
 			"name": "Gemstone Tattoo, Emerald Dust",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "very rare",
 			"wondrous": true,
 			"tattoo": true,
 			"value": 220000,
 			"genericVariant": {
 				"name": "Gemstone Tattoo",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
@@ -4772,14 +4772,14 @@
 		},
 		{
 			"name": "Gemstone Tattoo, Diamond Dust",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "very rare",
 			"wondrous": true,
 			"tattoo": true,
 			"value": 250000,
 			"genericVariant": {
 				"name": "Gemstone Tattoo",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
@@ -4788,14 +4788,14 @@
 		},
 		{
 			"name": "Gemstone Tattoo, Jade Dust",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "very rare",
 			"wondrous": true,
 			"tattoo": true,
 			"value": 220000,
 			"genericVariant": {
 				"name": "Gemstone Tattoo",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
@@ -4804,14 +4804,14 @@
 		},
 		{
 			"name": "Gemstone Tattoo, Sapphire Dust",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "very rare",
 			"wondrous": true,
 			"tattoo": true,
 			"value": 220000,
 			"genericVariant": {
 				"name": "Gemstone Tattoo",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
@@ -4820,14 +4820,14 @@
 		},
 		{
 			"name": "Gemstone Tattoo, Aquamarine Dust",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "very rare",
 			"wondrous": true,
 			"tattoo": true,
 			"value": 220000,
 			"genericVariant": {
 				"name": "Gemstone Tattoo",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
@@ -4836,14 +4836,14 @@
 		},
 		{
 			"name": "Gemstone Tattoo, Fire Opal Dust",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "rare",
 			"wondrous": true,
 			"tattoo": true,
 			"value": 500000,
 			"genericVariant": {
 				"name": "Gemstone Tattoo",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
@@ -4852,14 +4852,14 @@
 		},
 		{
 			"name": "Gemstone Tattoo, Black Sapphire Dust",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "rare",
 			"wondrous": true,
 			"tattoo": true,
 			"value": 500000,
 			"genericVariant": {
 				"name": "Gemstone Tattoo",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
@@ -4868,14 +4868,14 @@
 		},
 		{
 			"name": "Gemstone Tattoo, Topaz Dust",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "rare",
 			"wondrous": true,
 			"tattoo": true,
 			"value": 500000,
 			"genericVariant": {
 				"name": "Gemstone Tattoo",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
@@ -4884,14 +4884,14 @@
 		},
 		{
 			"name": "Gemstone Tattoo, Amethyst Dust",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "rare",
 			"wondrous": true,
 			"tattoo": true,
 			"value": 500000,
 			"genericVariant": {
 				"name": "Gemstone Tattoo",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
@@ -4900,14 +4900,14 @@
 		},
 		{
 			"name": "Gemstone Tattoo, Garnet Dust",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "rare",
 			"wondrous": true,
 			"tattoo": true,
 			"value": 500000,
 			"genericVariant": {
 				"name": "Gemstone Tattoo",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
@@ -4916,14 +4916,14 @@
 		},
 		{
 			"name": "Gemstone Tattoo, Onyx Dust",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "rare",
 			"wondrous": true,
 			"tattoo": true,
 			"value": 500000,
 			"genericVariant": {
 				"name": "Gemstone Tattoo",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
@@ -4932,14 +4932,14 @@
 		},
 		{
 			"name": "Gemstone Tattoo, Moonstone Dust",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "rare",
 			"wondrous": true,
 			"tattoo": true,
 			"value": 500000,
 			"genericVariant": {
 				"name": "Gemstone Tattoo",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
@@ -4948,14 +4948,14 @@
 		},
 		{
 			"name": "Gemstone Tattoo, Citrine Dust",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "rare",
 			"wondrous": true,
 			"tattoo": true,
 			"value": 500000,
 			"genericVariant": {
 				"name": "Gemstone Tattoo",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
@@ -4964,14 +4964,14 @@
 		},
 		{
 			"name": "Gemstone Tattoo, Obsidian Dust",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "very rare",
 			"wondrous": true,
 			"tattoo": true,
 			"value": 550000,
 			"genericVariant": {
 				"name": "Gemstone Tattoo",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
@@ -4980,14 +4980,14 @@
 		},
 		{
 			"name": "Gemstone Tattoo, Peridot Dust",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "rare",
 			"wondrous": true,
 			"tattoo": true,
 			"value": 400000,
 			"genericVariant": {
 				"name": "Gemstone Tattoo",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
@@ -4996,14 +4996,14 @@
 		},
 		{
 			"name": "Gemstone Tattoo, Alexandrite Dust",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "very rare",
 			"wondrous": true,
 			"tattoo": true,
 			"value": 850000,
 			"genericVariant": {
 				"name": "Gemstone Tattoo",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
@@ -5012,14 +5012,14 @@
 		},
 		{
 			"name": "Gemstone Tattoo, Star Alexandrite Dust",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "legendary",
 			"wondrous": true,
 			"tattoo": true,
 			"value": 1400000,
 			"genericVariant": {
 				"name": "Gemstone Tattoo",
-				"source": "WorldOfLight"
+				"source": "WOL"
 			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
@@ -5028,7 +5028,7 @@
 		},
 		{
 			"name": "Gardener's Tools",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "AT",
 			"rarity": "none",
 			"weight": 5,
@@ -5118,7 +5118,7 @@
 		},
 		{
 			"name": "Ring of Greater Spell Storing",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "RG|XDMG",
 			"rarity": "very rare",
 			"reqAttune": true,
@@ -5136,52 +5136,52 @@
 	"itemGroup": [
 		{
 			"name": "Runestone",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "varies",
 			"wondrous": true,
 			"items": [
-				"Runestone, Acid|WorldOfLight",
-				"Runestone, Cold|WorldOfLight",
-				"Runestone, Fire|WorldOfLight",
-				"Runestone, Force|WorldOfLight",
-				"Runestone, Lightning|WorldOfLight",
-				"Runestone, Necrotic|WorldOfLight",
-				"Runestone, Thunder|WorldOfLight",
-				"Runestone, Brisingr|WorldOfLight",
-				"Runestone, Ithildin|WorldOfLight"
+				"Runestone, Acid|WOL",
+				"Runestone, Cold|WOL",
+				"Runestone, Fire|WOL",
+				"Runestone, Force|WOL",
+				"Runestone, Lightning|WOL",
+				"Runestone, Necrotic|WOL",
+				"Runestone, Thunder|WOL",
+				"Runestone, Brisingr|WOL",
+				"Runestone, Ithildin|WOL"
 			]
 		},
 		{
 			"name": "Gemstone Tattoo",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"rarity": "varies",
 			"wondrous": true,
 			"items": [
-				"Gemstone Tattoo, Ruby Dust|WorldOfLight",
-				"Gemstone Tattoo, Emerald Dust|WorldOfLight",
-				"Gemstone Tattoo, Diamond Dust|WorldOfLight",
-				"Gemstone Tattoo, Jade Dust|WorldOfLight",
-				"Gemstone Tattoo, Sapphire Dust|WorldOfLight",
-				"Gemstone Tattoo, Aquamarine Dust|WorldOfLight",
-				"Gemstone Tattoo, Fire Opal Dust|WorldOfLight",
-				"Gemstone Tattoo, Black Sapphire Dust|WorldOfLight",
-				"Gemstone Tattoo, Topaz Dust|WorldOfLight",
-				"Gemstone Tattoo, Amethyst Dust|WorldOfLight",
-				"Gemstone Tattoo, Garnet Dust|WorldOfLight",
-				"Gemstone Tattoo, Onyx Dust|WorldOfLight",
-				"Gemstone Tattoo, Citrine Dust|WorldOfLight",
-				"Gemstone Tattoo, Moonstone Dust|WorldOfLight",
-				"Gemstone Tattoo, Obsidian Dust|WorldOfLight",
-				"Gemstone Tattoo, Peridot Dust|WorldOfLight",
-				"Gemstone Tattoo, Alexandrite Dust|WorldOfLight",
-				"Gemstone Tattoo, Star Alexandrite Dust|WorldOfLight"
+				"Gemstone Tattoo, Ruby Dust|WOL",
+				"Gemstone Tattoo, Emerald Dust|WOL",
+				"Gemstone Tattoo, Diamond Dust|WOL",
+				"Gemstone Tattoo, Jade Dust|WOL",
+				"Gemstone Tattoo, Sapphire Dust|WOL",
+				"Gemstone Tattoo, Aquamarine Dust|WOL",
+				"Gemstone Tattoo, Fire Opal Dust|WOL",
+				"Gemstone Tattoo, Black Sapphire Dust|WOL",
+				"Gemstone Tattoo, Topaz Dust|WOL",
+				"Gemstone Tattoo, Amethyst Dust|WOL",
+				"Gemstone Tattoo, Garnet Dust|WOL",
+				"Gemstone Tattoo, Onyx Dust|WOL",
+				"Gemstone Tattoo, Citrine Dust|WOL",
+				"Gemstone Tattoo, Moonstone Dust|WOL",
+				"Gemstone Tattoo, Obsidian Dust|WOL",
+				"Gemstone Tattoo, Peridot Dust|WOL",
+				"Gemstone Tattoo, Alexandrite Dust|WOL",
+				"Gemstone Tattoo, Star Alexandrite Dust|WOL"
 			]
 		}
 	],
 	"itemProperty": [
 		{
 			"abbreviation": "SC",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				{
 					"type": "entries",
@@ -5194,7 +5194,7 @@
 		},
 		{
 			"abbreviation": "EX",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				{
 					"type": "entries",
@@ -5207,7 +5207,7 @@
 		},
 		{
 			"abbreviation": "RL1",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				{
 					"type": "entries",
@@ -5220,7 +5220,7 @@
 		},
 		{
 			"abbreviation": "RL2",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				{
 					"type": "entries",
@@ -5233,7 +5233,7 @@
 		},
 		{
 			"abbreviation": "RL4",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				{
 					"type": "entries",
@@ -5246,7 +5246,7 @@
 		},
 		{
 			"abbreviation": "RL6",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				{
 					"type": "entries",
@@ -5259,7 +5259,7 @@
 		},
 		{
 			"abbreviation": "GodWeapon",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				{
 					"type": "entries",
@@ -5274,7 +5274,7 @@
 	"variantrule": [
 		{
 			"name": "Playable Races of The World of Light",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "entries",
 			"entries": [
 				"The races of Ilúvë vary widely from continent to continent. Being a harsh world, many races have adapted to those hard environments, some even going as far as to completely embody that particular harsness in the form of slavery and warmongering. Whatever the case, below is given a list of all of the allowed playable races, sorted first by continent and secondly by rarity.",
@@ -5298,7 +5298,7 @@
 												{
 													"type": "list",
 													"items": [
-														"Clan Coppercoin - Mostly Hill Dwarves, especially adept at selling and procuring goods; expert merchants, most travel the globe and Greywood alike in search of {@deity Angaradd|Ilúvë|WorldOfLight|Angaradd's} blessing.",
+														"Clan Coppercoin - Mostly Hill Dwarves, especially adept at selling and procuring goods; expert merchants, most travel the globe and Greywood alike in search of {@deity Angaradd|Ilúvë|WOL|Angaradd's} blessing.",
 														"Clan Greyhand - Strictly Mountain Dwarves. The least-known Dwarvish Clan, said to have unearthed an ancient, esoteric secret deep beneath the earth. This clan is mostly shrouded in secrecy, as they are also said to keep the other Clans in check, without direct intervention.",
 														"Clan Cindersmith - A Clan of mostly Duergar and a small amount of Mountain Dwarves. This Clan is known to create many weapons for Clan Coppercoin to sell, and is also known as the Clan responsible for most \"Good\"-aligned Duegar. This Clan is also the only known clan to take in Gnomish Alchemists, Crafters and Artificers.",
 														"Clan Steelborn - A Clan of every type of Dwarf, most notably Mountain Dwarves. This Clan is most widespread near and in the Ironpeak Mountains, and one city can even be seen gleaming betwixt two mountains, Mynydd Laurë and Eredinior; the City of Dor-Durgarn."
@@ -5314,7 +5314,7 @@
 												"Since the 3rd Era, relations between The Betrayers—the derogatory name for Dark Elves—and the other Elven subraces have slowly begun to improve, even so far that now, during the 4th Era, many Dark Elves no longer live underground, mingling with the other surface-dwellers. These Elves are known as Light or Ash Elves, and they have since branched off into two separate groups: Those whose ancestors followed Sehanine back to the light of the surface, and those who roam the ashen wastes of Nórdabad, prefering three of the Interloper Gods' grace, venerating them like the three-above-all."
 											]
 										},
-										"{@race Goblin (Ash)|WorldOfLight|Ash Goblins}, {@race Goblin (Deep)|WorldOfLight|Deep Goblins} and {@race Goblin (Forest)|WorldOfLight|Forest Goblins}.",
+										"{@race Goblin (Ash)|WOL|Ash Goblins}, {@race Goblin (Deep)|WOL|Deep Goblins} and {@race Goblin (Forest)|WOL|Forest Goblins}.",
 										{
 											"type": "list",
 											"items": [
@@ -5322,18 +5322,18 @@
 												{
 													"type": "list",
 													"items": [
-														"{@race Goblin (Ash)|WorldOfLight|Ash Goblins}. Ash Goblins scurry about on the Ashen Plains, defiling Orcish shrines between the peaks of the Obsidian Ridge, and hauling along slaves and produce along the treacherous crags and desolate plains of the Wastes of Nordabȧd.",
-														"{@race Goblin (Deep)|WorldOfLight|Deep Goblins}. Deep Goblins chose to venture into the deepest pits of the Underdark, choosing to venerate Torog, purely out of fear. The many many years below ground has turned most of them blind, and this is directly seen in their armor; eyeless armor created from the chitin of the Rust Monsters they ride into battle with.",
-														"{@race Goblin (Forest)|WorldOfLight|Forest Goblins}. Forest Goblins are among the most varied, and even within the clans most Forest Goblins aren't without many differences. Forest Goblins are also seen as the most trustworthy, though this is very dependant on the clan-alliance of the goblin and even the forest one would find it in."
+														"{@race Goblin (Ash)|WOL|Ash Goblins}. Ash Goblins scurry about on the Ashen Plains, defiling Orcish shrines between the peaks of the Obsidian Ridge, and hauling along slaves and produce along the treacherous crags and desolate plains of the Wastes of Nordabȧd.",
+														"{@race Goblin (Deep)|WOL|Deep Goblins}. Deep Goblins chose to venture into the deepest pits of the Underdark, choosing to venerate Torog, purely out of fear. The many many years below ground has turned most of them blind, and this is directly seen in their armor; eyeless armor created from the chitin of the Rust Monsters they ride into battle with.",
+														"{@race Goblin (Forest)|WOL|Forest Goblins}. Forest Goblins are among the most varied, and even within the clans most Forest Goblins aren't without many differences. Forest Goblins are also seen as the most trustworthy, though this is very dependant on the clan-alliance of the goblin and even the forest one would find it in."
 													]
 												},
 												"There are possibly thousands of goblin clans, situated along the Ironpeak Mountains, the Obsian Ridge, the Forest of Amoor-dânn and even the Fens and Bogs of the Ghostmere. The most prominent of which include the following:",
 												{
 													"type": "list",
 													"items": [
-														"{@b The Drar-Okaan}. Having been rendered blind to the caverns of the Underdark, the {@race Goblin (Deep)|WorldOfLight|Deep Goblins} of the Drar-Okaan tribe attempt to live by their wits\u2014though seldom with much success. When a Drar-Okaan Goblin has the bright idea of trying to tame Rust Monster Larvae, at least a few others will be willing to follow that goblin into a nest\u2014usually to predictably horrible results. But though the Drar-Okaan seem to have a never-ending supply of bad ideas, and a horrible ratio of bad ideas to good, the Drar-Okaan likewise seem to have a never-ending supply of Drar-Okaan. As such, by trial and error (and more error), these Goblins have stumbled across a great deal of knowledge useful for surviving the deep places of Ilúvë, and for dealing with the creatures that live there.",
-														"{@b The Ol'Rith'Narr Kinship}. Possibly the largest uneasy alliance between hordes of Goblins, the Ol'Rith'Narr Kinship is a large tribe consisting of both Warmongering, Bloodthirsty {@race Goblin (Ash)|WorldOfLight|Ash Goblins}, {@race Orc|PHB|Orcs} and a strange mix of Chromatic (usually black-scaled) {@race Dragonborn|WorldOfLight|Dragonborn} occupying most of the Wastes of Nordabȧd. Throughout the ranks of the Ol'Rith'Narr, action and strength are valued above diplomacy, and its leaders earn respect by the blade, wasting no time with politics. The brutality of the Ol'Rith'Narr's champions is focused, giving a voice to those who fight for survival. It is also widely known that the Ol'Rith'Narr are a major chess piece in the Arcaborian Empire's slipping grip of their dominion over the Wastes, going so far as that the Empire now no longer considers Nordabád to be under their rule.",
-														"{@b The Redclaw Clan}. The most lighthearted of the three prominent clans, the Redclaw Clan is home to many {@race Goblin (Forest)|WorldOfLight|Forest Goblins}, and have a special, magical facepaint that shows other members of the Redclaw Clan their allegiance. Members of the Redclaw clan guard places of Civilization against the lesser evils, and see themselves as neutral (though chaotic at times) forces to stop the lesser evils from encroaching into the safe walls of cities like The Old City and Myth Ancalen. In addition, the Redclaw Clan is most well-known for Smunsen's Soup Emporium; a place hidden\u2014albeit not very well\u2014within the Forests that surround the Old City."
+														"{@b The Drar-Okaan}. Having been rendered blind to the caverns of the Underdark, the {@race Goblin (Deep)|WOL|Deep Goblins} of the Drar-Okaan tribe attempt to live by their wits\u2014though seldom with much success. When a Drar-Okaan Goblin has the bright idea of trying to tame Rust Monster Larvae, at least a few others will be willing to follow that goblin into a nest\u2014usually to predictably horrible results. But though the Drar-Okaan seem to have a never-ending supply of bad ideas, and a horrible ratio of bad ideas to good, the Drar-Okaan likewise seem to have a never-ending supply of Drar-Okaan. As such, by trial and error (and more error), these Goblins have stumbled across a great deal of knowledge useful for surviving the deep places of Ilúvë, and for dealing with the creatures that live there.",
+														"{@b The Ol'Rith'Narr Kinship}. Possibly the largest uneasy alliance between hordes of Goblins, the Ol'Rith'Narr Kinship is a large tribe consisting of both Warmongering, Bloodthirsty {@race Goblin (Ash)|WOL|Ash Goblins}, {@race Orc|PHB|Orcs} and a strange mix of Chromatic (usually black-scaled) {@race Dragonborn|WOL|Dragonborn} occupying most of the Wastes of Nordabȧd. Throughout the ranks of the Ol'Rith'Narr, action and strength are valued above diplomacy, and its leaders earn respect by the blade, wasting no time with politics. The brutality of the Ol'Rith'Narr's champions is focused, giving a voice to those who fight for survival. It is also widely known that the Ol'Rith'Narr are a major chess piece in the Arcaborian Empire's slipping grip of their dominion over the Wastes, going so far as that the Empire now no longer considers Nordabád to be under their rule.",
+														"{@b The Redclaw Clan}. The most lighthearted of the three prominent clans, the Redclaw Clan is home to many {@race Goblin (Forest)|WOL|Forest Goblins}, and have a special, magical facepaint that shows other members of the Redclaw Clan their allegiance. Members of the Redclaw clan guard places of Civilization against the lesser evils, and see themselves as neutral (though chaotic at times) forces to stop the lesser evils from encroaching into the safe walls of cities like The Old City and Myth Ancalen. In addition, the Redclaw Clan is most well-known for Smunsen's Soup Emporium; a place hidden\u2014albeit not very well\u2014within the Forests that surround the Old City."
 													]
 												}
 											]
@@ -5361,13 +5361,13 @@
 									"type": "list",
 									"items": [
 										"{@race Centaur|MOT|Centaurs}. PLACE WHERE THEY COME FROM.",
-										"{@race Dragonborn|WorldOfLight|Dragonborn}. PLACE WHERE THEY COME FROM.",
-										"{@race Firbolg|WorldOfLight|Firbolgs}. PLACE WHERE THEY COME FROM.",
+										"{@race Dragonborn|WOL|Dragonborn}. PLACE WHERE THEY COME FROM.",
+										"{@race Firbolg|WOL|Firbolgs}. PLACE WHERE THEY COME FROM.",
 										"{@race Genasi (Air)|eepc|Air Genasi}, {@race Genasi (Earth)|eepc|Earth Genasi}, {@race Genasi (Fire)|eepc|Fire Genasi} and {@race Genasi (Water)|eepc|Water Genasi}. PLACE WHERE THEY COME FROM.",
-										"{@race Gnome (Forest)|WorldOfLight|Forest Gnomes} and {@race Gnome (Rock)|WorldOfLight|Rock Gnomes}. PLACE WHERE THEY COME FROM.",
+										"{@race Gnome (Forest)|WOL|Forest Gnomes} and {@race Gnome (Rock)|WOL|Rock Gnomes}. PLACE WHERE THEY COME FROM.",
 										"{@race Kenku|vgm|Kenkus}. PLACE WHERE THEY COME FROM.",
-										"{@race Kobold|WorldOfLight|Kobolds}. PLACE WHERE THEY COME FROM.",
-										"{@race Tiefling|WorldOfLight|Tieflings} and {@race Tiefling (Feytouched)|WorldOfLight|Fey'ri (Fey Tieflings)}. PLACE WHERE THEY COME FROM."
+										"{@race Kobold|WOL|Kobolds}. PLACE WHERE THEY COME FROM.",
+										"{@race Tiefling|WOL|Tieflings} and {@race Tiefling (Feytouched)|WOL|Fey'ri (Fey Tieflings)}. PLACE WHERE THEY COME FROM."
 									]
 								}
 							]
@@ -5389,7 +5389,7 @@
 										"{@race Grung|oga|Grungs}. PLACE WHERE THEY COME FROM.",
 										"{@race Tortle|ttp|Tortles}. PLACE WHERE THEY COME FROM.",
 										"{@race Halfling (Ghostwise)|scag|Ghostwise Halflings}. PLACE WHERE THEY COME FROM.",
-										"{@race Elf (Wood)|WorldOfLight|Wood-Elves}. PLACE WHERE THEY COME FROM.",
+										"{@race Elf (Wood)|WOL|Wood-Elves}. PLACE WHERE THEY COME FROM.",
 										"{@race Tabaxi|vgm|Tabaxi}. PLACE WHERE THEY COME FROM."
 									]
 								}
@@ -5410,9 +5410,9 @@
 									"type": "list",
 									"items": [
 										"{@race Leonin|mot|Leonin}. PLACE WHERE THEY COME FROM.",
-										"{@race Loxodon|WorldOfLight|Loxodons}. PLACE WHERE THEY COME FROM.",
+										"{@race Loxodon|WOL|Loxodons}. PLACE WHERE THEY COME FROM.",
 										"{@race Minotaur|mot|Minotaurs}. PLACE WHERE THEY COME FROM.",
-										"{@race Human|WorldOfLight|Humans} (where {@race Human (Variant)|WorldOfLight|Variant Humans} are preferred). PLACE WHERE THEY COME FROM."
+										"{@race Human|WOL|Humans} (where {@race Human (Variant)|WOL|Variant Humans} are preferred). PLACE WHERE THEY COME FROM."
 									]
 								}
 							]
@@ -5432,7 +5432,7 @@
 									"type": "list",
 									"items": [
 										"{@race Goliath|VGM|Goliaths}. PLACE WHERE THEY COME FROM.",
-										"{@race Dragonborn|WorldOfLight|Dragonborn}. PLACE WHERE THEY COME FROM.",
+										"{@race Dragonborn|WOL|Dragonborn}. PLACE WHERE THEY COME FROM.",
 										"{@race Half-Orc|PHB|Half-Orcs}. PLACE WHERE THEY COME FROM.",
 										"{@race Human|PHB|Humans}. Humans of the Vilt are far and between, and are just as ruthless as their Orc and Half-Orc brethren. Originally tribes hailing from Greywood, most humans that migrated to The Vilt sought to worship the gods of pride and conquest, believing in the more barbaric way of life. When playing a human from the Vilt, players can choose between both the {@race Human|PHB} and {@race Human (Variant)|PHB|Variant Human} subraces as well as the {@race Human (Mark of Handling)|ERLW} and {@race Human (Keldon)|PSD} subraces.",
 										"{@race Orc|PHB|Orcs}. PLACE WHERE THEY COME FROM."
@@ -5446,7 +5446,7 @@
 		},
 		{
 			"name": "Flanking+",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"ruleType": "O",
 			"entries": [
 				{
@@ -5461,7 +5461,7 @@
 		},
 		{
 			"name": "Exploding Crits",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"ruleType": "O",
 			"entries": [
 				{
@@ -5479,7 +5479,7 @@
 	"race": [
 		{
 			"name": "Goblin",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"speed": 30,
 			"ability": [
 				{
@@ -5702,7 +5702,7 @@
 		},
 		{
 			"name": "Kobold",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"size": [
 				"S"
 			],
@@ -5785,7 +5785,7 @@
 		},
 		{
 			"name": "Loxodon",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"size": [
 				"L"
 			],
@@ -5887,7 +5887,7 @@
 		},
 		{
 			"name": "Shardmind",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"size": [
 				"S",
 				"M",
@@ -5963,7 +5963,7 @@
 		},
 		{
 			"name": "Wilden",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"size": [
 				"M"
 			],
@@ -6098,7 +6098,7 @@
 	"subrace": [
 		{
 			"name": "Ash",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"raceName": "Genasi",
 			"raceSource": "EEPC",
 			"overwrite": {
@@ -6141,7 +6141,7 @@
 		},
 		{
 			"name": "Feytouched",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"raceName": "Tiefling",
 			"raceSource": "PHB",
 			"overwrite": {
@@ -6197,7 +6197,7 @@
 		},
 		{
 			"name": "Clay",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"raceName": "Genasi",
 			"raceSource": "MPMM",
 			"heightAndWeight": {
@@ -6235,7 +6235,7 @@
 		},
 		{
 			"name": "Frost",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"raceName": "Genasi",
 			"raceSource": "MPMM",
 			"heightAndWeight": {
@@ -6280,7 +6280,7 @@
 		},
 		{
 			"name": "Lava",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"raceName": "Genasi",
 			"raceSource": "MPMM",
 			"heightAndWeight": {
@@ -6374,7 +6374,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"This spell is used by apprentice chronurgists to hone their time-manipulating powers. You can create one of the following magical effects within range:",
 				{
@@ -6441,7 +6441,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"You attempt to transform a you or a creature that you can see within range into a new form. The transformation lasts for the duration, or until the target drops to 0 hit points or dies. The new form can be any {@filter Beast|bestiary|type=beast|miscellaneous=!swarm}, {@filter Dragon|bestiary|type=dragon|miscellaneous=!swarm}, {@filter Elemental|bestiary|type=elemental|miscellaneous=!swarm}, {@filter Giant|bestiary|type=giant|miscellaneous=!swarm}, {@filter Monstrosity|bestiary|type=monstrosity|miscellaneous=!swarm}, {@filter Ooze|bestiary|type=ooze|miscellaneous=!swarm}, or {@filter Plant|bestiary|type=plant|miscellaneous=!swarm} you choose that has a {@variantrule Challenge Rating|XPHB} equal to or less than the target's (or the target's level if it doesn't have a {@variantrule Challenge Rating|XPHB}). The target's game statistics, including mental ability scores, are replaced by the stat block of the chosen creature. The target retains its alignment, personality, creature type, {@variantrule Hit Points|XPHB}, and {@variantrule Hit Point Dice|XPHB}.",
 				"The target gains a number of {@variantrule Temporary Hit Points|XPHB} equal to the {@variantrule Hit Points|XPHB} of the Beast form. The spell ends early on the target if it has no {@variantrule Temporary Hit Points|XPHB} left.",
@@ -6520,7 +6520,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"Healing power radiates from you in an aura with a 5-foot radius, soothing pain in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, all allies in the aura (including you) heal {@dice 1d8} + your spellcasting modifier whenever they start their turn in the aura or move through it's space on their turn."
 			],
@@ -6534,7 +6534,7 @@
 		},
 		{
 			"name": "Blood Sacrifice",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"level": 2,
 			"school": "N",
 			"time": [
@@ -6653,7 +6653,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"You temporarily expose the weak points of an enemy. The targeted creature becomes vulnerable to Bludgeoning, Piercing or Slashing damage (your choice). If the target is already vulnerable to the chosen damage, this spell has no effect. This effect lasts for 3 turns, or until the target takes damage."
 			],
@@ -6734,7 +6734,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"Perhaps a misnomer, this spell was created by the cleric Duncan Ginning in an attempt to tame his newfound dire boar, Bartholomew.",
 				"You summon a translucent blue saddle, sized for a Small, Medium, or Large mount of your choice, within range. The saddle appears in an unoccupied space adjacent to the mount, and can be donned by you as a bonus action.",
@@ -6774,7 +6774,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a gem, crystal or piece of {@item Lumenstone|WorldOfLight} worth at least 200gp",
+					"text": "a gem, crystal or piece of {@item Lumenstone|WOL} worth at least 200gp",
 					"cost": 200
 				}
 			},
@@ -6805,7 +6805,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"You take a small gem, crystal or piece of Lumenstone, and trace transmutative sigils along it's surface, pointing it at one loose object within range. The object is then pulled into the receptacle, and is stored there indefinitely, in stasis. Alternatively, you can store multiple items into the receptacle by encircling the items using magic chalk worth at least 5 gp. The contents do not age, weather, or rot. The receptacle can hold up to 500lbs of material.",
 				"To release the contents, you can use an action to speak a single, chosen word and release the gem's contents onto the ground. A dispel magic used on the receptacle will shatter it, spilling the contents on the ground in the nearest unoccupied space within 5 feet of you."
@@ -6813,7 +6813,7 @@
 		},
 		{
 			"name": "Fortune's Favor",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -6941,7 +6941,7 @@
 					"source": "UA2022HeroesOfKrynn"
 				}
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"You call forth a nature spirit to soothe the wounded. The intangible spirit appears in a space that is a 5-foot cube you can see within range. The spirit looks like a transparent beast or fey (your choice).",
 				"Until the spell ends, whenever you or a creature you can see moves into the spirit's space for the first time on a turn or starts its turn there, you can cause the spirit to restore {@dice 1d6} hit points to that creature (no action required). The spirit can't heal constructs or undead.",
@@ -6999,7 +6999,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"You conjure a two-story tower made of stone, wood, or similar suitably sturdy materials. The tower can be round or square in shape. Each level of the tower is 10 feet tall and has an area of up to 100 square feet. Access between levels consists of a simple ladder and hatch. Each level takes one of the following forms, chosen by you when you cast the spell:",
 				{
@@ -7032,7 +7032,7 @@
 		},
 		{
 			"name": "Life Transference",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"level": 3,
 			"school": "N",
 			"time": [
@@ -7215,7 +7215,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"You instantly cause a small harmless colored flame to appear in an unoccupied space you can see within range. The effect looks like a regular flame, but it creates no heat and doesn't use oxygen. Magefire can be covered or hidden but not smothered or quenched. The flames' color and light can be colored as you like, and the flame gives off dim light in a 5-foot radius.",
 				"The duration of this spell is one day or until dispelled. In addition, you can have multiple flames active at the same time, up to a maximum of 3.",
@@ -7268,7 +7268,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"You create a magical 60-foot-radius dome of force energy around you that moves with you. No creature, object, spell, gaze, or breath weapon can enter the dome unless you allow it.",
 				"Any creature hostile to you inside the dome when you cast this spell must succeed on a Constitution saving throw, taking {@dice 12d8} force damage on a failed save or half as much on a successful one. The creature must also succeed on a Strength saving throw, or, unless it is willing, be jettisoned outside the dome to the nearest unnocupied space next to the dome. If a creature succeeds on the strength saving throw, it takes {@dice 5d6} force damage each round while in still in the dome.",
@@ -7306,7 +7306,7 @@
 					}
 				}
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"As part of casting this spell, you must expend a hit die or the spell automatically fails. If you do, a writhing lash of coagulated blood springs from your hand.",
 				"This magic weapon lasts until the spell ends. It counts as a simple weapon with which you are proficient, and it has the light, finesse, and reach properties. You can choose to add your spellcasting modifier, instead of your Strength or Dexterity modifier, to attack and damage rolls with this weapon. Its damage die is equivalent to the hit die expended casting this spell, and the damage dealt is necrotic. Each time a creature takes damage from this magic weapon, its maximum hit points are reduced by an amount equal to the damage it took."
@@ -7370,7 +7370,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"You let out a magically amplified dragon-like roar. Each creature in a 10-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes {@dice 3d12} thunder damage and is pushed 15 feet away from you and knocked {@condition prone}. On a successful save, the creature takes half as much damage and isn't pushed or knocked {@condition prone}.",
 				"In addition, unsecured objects that are completely within the area of effect are automatically pushed 15 feet away from you by the spell's effect, and the spell emits a draconic boom audible out to 500 feet."
@@ -7459,7 +7459,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"A burst of glowing dust emanates from you in all directions in a 15-foot-radius. Any magical effect or spell of 4th level or lower within that radius end. For each spell within this radius that is of 5th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. For each successful check, the individual spells also end."
 			],
@@ -7475,7 +7475,7 @@
 		},
 		{
 			"name": "Raggrat's Bewitchment",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"level": 0,
 			"school": "E",
 			"time": [
@@ -7583,7 +7583,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"You summon a Small fire elemental to a spot within range. The fire elemental is formless, nearly transparent, immune to all damage, and cannot interact with other creatures or objects. It carries an open, empty chest whose interior dimensions are 3 feet on each side. While the spell lasts, you can deposit as many items inside the chest as will fit. You can then name a living creature you have met and seen at least once before, or any creature for which you possess a body part, lock of hair, clipping from a nail, or similar portion of the creature's body.",
 				"As soon as the lid of the chest is closed, the elemental and the chest disappear, then reappear adjacent to the target creature. If the target creature is on another plane, or if it is proofed against magical detection or location, the contents of the chest reappear on the ground at your feet.",
@@ -7645,7 +7645,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"Striking both palms down upon the ground, a web of flame crackles out around you and five streaks of fire rapidly snake along the ground toward up to five enemies that you can see within range, leaping towards their target and exploding into a column of flame upon reaching them. Each target must make a Dexterity saving throw, taking {@dice 8d6} fire damage on a failed save, or half as much damage on a successful one.",
 				"Alternatively, all five streaks of fire can instead converge toward a single target, dealing {@dice 12d6} fire damage on a failed save, or half as much damage on a successful one.",
@@ -7716,7 +7716,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"You tap into unused branching timelines to create an echo copy of yourself that has the ability to cast one spell that you have prepared before vanishing. The spell level of the spell cast by the echo must be lower than the level of the spell slot used to cast the echo. If the echo casts a spell that requires concentration, you maintain concentration on that spell when the echo disappears. If you were already concentrating on a spell, choose which spell you will maintain concentration on, and which spell will dissapate.",
 				"The echo has hit points equal to half your hit point maximum (rounded up), and you can use a bonus action on each of your turns to move the echo up to 30 feet in any direction. The echo cannot go through enemies nor can it pass through walls."
@@ -7787,7 +7787,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"Whenever you cast this spell, you instantly teleport up to 60 feet to the triggering target. Once the attack or save is resolved, if the creature is willing, you can choose to teleport again, up to 60 feet to any unoccupied space you can see, taking them with you.",
 				"When you teleport for the final time, the target reappears in an unoccupied space within 5 feet of you, or in the nearest unoccupied space if that space is occupied."
@@ -7848,7 +7848,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"This spell unleashes magic that rips the souls from living creatures you can see within range.",
 				"Each creature in a 30-foot radius sphere centered on a point you choose within range must succeed on a Charisma saving throw, taking {@dice 15d12 + 30} necrotic damage, or half as much on a successful one.",
@@ -7909,7 +7909,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"You trace a warding sigil in the air, creating a barrier of magical force that can absorb some damage before dissapating. This magical ward gives you total cover to incoming attacks, and has 30 hit points. While holding this ward, you cannot cast another spell, and must use your movement on every subsequent round to keep it up."
 			],
@@ -8036,7 +8036,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"You create a small, invisible illusory pocket space, which muffles all sound from the outside going in, as well as the inside going out. For the duration, no sound can pass through a 20-foot square centered on a point you choose within range. Any creature or object entirely inside the sphere is {@condition deafened} to everything outside of the sphere while entirely inside it. Any creature outside of the spell's range cannot hear what is going on inside of the area. Casting inside the sphere is still possible, but only audible to those inside of the sphere as well.",
 				"This spell does not block other spells going in or out."
@@ -8090,7 +8090,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and must succeed a Constitution saving throw or become {@condition restrained} for 1 minute and take {@damage 1d4} lightning damage, as white-blue electricity crackles through it's body, leaving it in a state of minor paralysis as its muscles spasm uncontrollably. Each round on its turn, a {@condition restrained} creature can use an action to attempt to repeat the Constitution saving throw to stop being {@condition restrained}.",
 				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra {@damage 1d8} lightning damage to the target on a hit instead. This damage increases by {@damage 1d8} at 11th level ({@damage 2d8}) and again at 17th level ({@damage 3d8})."
@@ -8120,7 +8120,7 @@
 		},
 		{
 			"name": "Galerum's Thunder Spell",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -8304,7 +8304,7 @@
 		},
 		{
 			"name": "Galerum's Gavel",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -8480,7 +8480,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"You weave a spectral tether to an extradimensional space tied to an item you own, such as a {@item portable hole}, {@item bag of holding}, or similar object. The item must be within 1 mile of you, and you must be attuned to it (if attunement is required) or otherwise be its recognized owner.",
 				"When you cast this spell, you reach your hand into an invisible fold in space. While reaching into this space, you can access the linked extradimensional space, retrieving or stowing objects as though you were holding the item itself. You can retrieve or stow any one item that would be reasonable for you to grab with one or both hands inside the extradimensional space, or up to 50 coins. The fold then vanishes."
@@ -8531,7 +8531,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"You twist and fracture the threads of reality, forming cracks in the very fabric of time and space around you. Each creature of your choice within a 30-foot radius must make a Dexterity saving throw. Any creature within this emanation takes {@damage 4d12} force damage on a failed save, or half as much on a successful one, as the temporal storm tears through them, ripping at their essence with fragmented time.",
 				"Any creature that fails the save must also roll a d4 at the start of its next turn. The result determines the creature’s interaction with time:",
@@ -8615,7 +8615,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"You transfer the magical qualities (properties, powers, and attack and/or bonus) of an enchanted item into another object. The receiving item must occupy the same magic item slot and be the same type as the original item. The enchantment to be moved must be valid for the receiving item, so that you cannot transfer ranged weapon properties to melee weapons, cloth-only armor properties to chainmail, and so on. ",
 				"You can transfer an enchantment to an item that already contains an enchantment, but the receiving item must be of a rarity lower than the transferring item, and the receiving item’s previous magic is lost. Additionally, if you cast this spell in an attempt to transfer an Artifact or Vestiges' power, it simply fails."
@@ -8668,7 +8668,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"Heavy immovable translucent chains of force-like energy, firmly tied to the body, hold the target in place. The target must succeed on a Strength saving throw or take {@dice 4d6} force damage and become {@condition restrained} and knocked {@condition prone} until the spell ends, and it can't move or be moved by any means until then. If an airborne creature is affected by this spell, it is held aloft in the air, and not affected by the {@condition prone} condition. If it succeeds, it takes half damage and isn't {@condition restrained} and knocked {@condition prone}."
 			],
@@ -8739,7 +8739,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"You flick your wrist with a flourish, causing a single object in your hand to vanish.",
 				"The object, which only you can be holding and weighs no more than 5 pounds, is actually transported and stored within a small extradimensional space. The object remains there indefinitely until this cantrip is cast again, until you fall unconscious or die, upon which it is immediately transported back into your grasp, or in your space at your feet if you fall unconscious or die. You cannot store an object while one already occupies the extradimensional pocket."
@@ -8789,7 +8789,7 @@
 					}
 				]
 			},
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"In need for a quicker rest, you ritualistically allow yourself and others to bear a student's dream; sleep longer, faster.",
 				"You and up to 4 willing creatures within range experience time dilation. Whenever you cast this spell, while taking a long or short rest, time passes twice as long in your minds, letting you take a rest by spending only half of the required time resting. This spell can be used to take both a short or long rest quicker.",
@@ -8812,13 +8812,13 @@
 			"classSource": "XPHB",
 			"name": "Madness Domain",
 			"subclassFeatures": [
-				"Madness Domain|Cleric|XPHB|Madness|WorldOfLight|3",
-				"Channel Divinity: Madness Overtaking|Cleric|XPHB|Madness|WorldOfLight|3",
-				"Spreading Insanity|Cleric|XPHB|Madness|WorldOfLight|6",
-				"Potent Spellcasting|Cleric|XPHB|Madness|WorldOfLight|8",
-				"Creeping Mania|Cleric|XPHB|Madness|WorldOfLight|17"
+				"Madness Domain|Cleric|XPHB|Madness|WOL|3",
+				"Channel Divinity: Madness Overtaking|Cleric|XPHB|Madness|WOL|3",
+				"Spreading Insanity|Cleric|XPHB|Madness|WOL|6",
+				"Potent Spellcasting|Cleric|XPHB|Madness|WOL|8",
+				"Creeping Mania|Cleric|XPHB|Madness|WOL|17"
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"shortName": "Madness"
 		},
 		{
@@ -8826,13 +8826,13 @@
 			"classSource": "XPHB",
 			"name": "Time Domain",
 			"subclassFeatures": [
-				"Time Domain|Cleric|XPHB|Time|WorldOfLight|3",
-				"Channel Divinity: Temporal Continuum|Cleric|XPHB|Time|WorldOfLight|3",
-				"Visions of the Fourth Dimension|Cleric|XPHB|Time|WorldOfLight|6",
-				"Meridian Combatant|Cleric|XPHB|Time|WorldOfLight|8",
-				"Temporal Mastery|Cleric|XPHB|Time|WorldOfLight|17"
+				"Time Domain|Cleric|XPHB|Time|WOL|3",
+				"Channel Divinity: Temporal Continuum|Cleric|XPHB|Time|WOL|3",
+				"Visions of the Fourth Dimension|Cleric|XPHB|Time|WOL|6",
+				"Meridian Combatant|Cleric|XPHB|Time|WOL|8",
+				"Temporal Mastery|Cleric|XPHB|Time|WOL|17"
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"shortName": "Time"
 		},
 		{
@@ -8840,14 +8840,14 @@
 			"classSource": "XPHB",
 			"name": "Trickery Domain (Revised)",
 			"subclassFeatures": [
-				"Trickery Domain (Revised)|Cleric|XPHB|Trickery (Revised)|WorldOfLight|3",
-				"Channel Divinity: Invoke Duplicity|Cleric|XPHB|Trickery (Revised)|WorldOfLight|3",
-				"Channel Divinity: Cloak of Shadows|Cleric|XPHB|Trickery (Revised)|WorldOfLight|6",
-				"Potent Spellcasting|Cleric|XPHB|Trickery (Revised)|WorldOfLight|8",
-				"Blessed Strike|Cleric|XPHB|Trickery (Revised)|WorldOfLight|8",
-				"Improved Duplicity|Cleric|XPHB|Trickery (Revised)|WorldOfLight|17"
+				"Trickery Domain (Revised)|Cleric|XPHB|Trickery (Revised)|WOL|3",
+				"Channel Divinity: Invoke Duplicity|Cleric|XPHB|Trickery (Revised)|WOL|3",
+				"Channel Divinity: Cloak of Shadows|Cleric|XPHB|Trickery (Revised)|WOL|6",
+				"Potent Spellcasting|Cleric|XPHB|Trickery (Revised)|WOL|8",
+				"Blessed Strike|Cleric|XPHB|Trickery (Revised)|WOL|8",
+				"Improved Duplicity|Cleric|XPHB|Trickery (Revised)|WOL|17"
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"shortName": "Trickery (Revised)"
 		},
 
@@ -8856,12 +8856,12 @@
 			"classSource": "XPHB",
 			"name": "Circle of The Mushroom",
 			"subclassFeatures": [
-				"Circle of The Mushroom|Druid|XPHB|Mushroom|WorldOfLight|3",
-				"Parasitic Fungus|Druid|XPHB|Mushroom|WorldOfLight|6",
-				"Spreading Spores|Druid|XPHB|Mushroom|WorldOfLight|10",
-				"Fungal Body|Druid|XPHB|Mushroom|WorldOfLight|14"
+				"Circle of The Mushroom|Druid|XPHB|Mushroom|WOL|3",
+				"Parasitic Fungus|Druid|XPHB|Mushroom|WOL|6",
+				"Spreading Spores|Druid|XPHB|Mushroom|WOL|10",
+				"Fungal Body|Druid|XPHB|Mushroom|WOL|14"
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"shortName": "Mushroom"
 		},
 
@@ -8870,13 +8870,13 @@
 			"classSource": "XPHB",
 			"name": "Vanguard",
 			"subclassFeatures": [
-				"Blessed Protector|Fighter|XPHB|Vanguard|WorldOfLight|3",
-				"Perseverance|Fighter|XPHB|Vanguard|WorldOfLight|7",
-				"Additional Fighting Style|Fighter|XPHB|Vanguard|WorldOfLight|10",
-				"Improved Aegis|Fighter|XPHB|Vanguard|WorldOfLight|15",
-				"Last Stand|Fighter|XPHB|Vanguard|WorldOfLight|18"
+				"Blessed Protector|Fighter|XPHB|Vanguard|WOL|3",
+				"Perseverance|Fighter|XPHB|Vanguard|WOL|7",
+				"Additional Fighting Style|Fighter|XPHB|Vanguard|WOL|10",
+				"Improved Aegis|Fighter|XPHB|Vanguard|WOL|15",
+				"Last Stand|Fighter|XPHB|Vanguard|WOL|18"
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"shortName": "Vanguard"
 		},
 		{
@@ -8884,13 +8884,13 @@
 			"classSource": "XPHB",
 			"name": "Marauder",
 			"subclassFeatures": [
-				"The Marauder|Fighter|XPHB|Marauder|WorldOfLight|3",
-				"Brawny|Fighter|XPHB|Marauder|WorldOfLight|7",
-				"Stay Down|Fighter|XPHB|Marauder|WorldOfLight|10",
-				"Tenacity|Fighter|XPHB|Marauder|WorldOfLight|15",
-				"Finishing Blow|Fighter|XPHB|Marauder|WorldOfLight|18"
+				"The Marauder|Fighter|XPHB|Marauder|WOL|3",
+				"Brawny|Fighter|XPHB|Marauder|WOL|7",
+				"Stay Down|Fighter|XPHB|Marauder|WOL|10",
+				"Tenacity|Fighter|XPHB|Marauder|WOL|15",
+				"Finishing Blow|Fighter|XPHB|Marauder|WOL|18"
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"shortName": "Marauder"
 		},
 
@@ -8899,12 +8899,12 @@
 			"classSource": "XPHB",
 			"name": "Way of Time",
 			"subclassFeatures": [
-				"Way of Time|Monk|XPHB|Time|WorldOfLight|3",
-				"Speech of Importance|Monk|XPHB|Time|WorldOfLight|6",
-				"Deliberated Clairvoyance|Monk|XPHB|Time|WorldOfLight|11",
-				"Channeled Dilation|Monk|XPHB|Time|WorldOfLight|17"
+				"Way of Time|Monk|XPHB|Time|WOL|3",
+				"Speech of Importance|Monk|XPHB|Time|WOL|6",
+				"Deliberated Clairvoyance|Monk|XPHB|Time|WOL|11",
+				"Channeled Dilation|Monk|XPHB|Time|WOL|17"
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"shortName": "Time"
 		},
 		{
@@ -8912,17 +8912,17 @@
 			"classSource": "XPHB",
 			"name": "Way of the Moon Soul",
 			"subclassFeatures": [
-				"Way of The Moon Soul|Monk|XPHB|Moon Soul|WorldOfLight|3",
-				"Channeling The Night|Monk|XPHB|Moon Soul|WorldOfLight|6",
-				"Starforger|Monk|XPHB|Moon Soul|WorldOfLight|11",
-				"Lunar Eclipse|Monk|XPHB|Moon Soul|WorldOfLight|17"
+				"Way of The Moon Soul|Monk|XPHB|Moon Soul|WOL|3",
+				"Channeling The Night|Monk|XPHB|Moon Soul|WOL|6",
+				"Starforger|Monk|XPHB|Moon Soul|WOL|11",
+				"Lunar Eclipse|Monk|XPHB|Moon Soul|WOL|17"
 			],
 			"subclassSpells": [
 				"Faerie Fire",
 				"Light",
 				"Moonbeam"
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"shortName": "Moon Soul"
 		},
 		{
@@ -8930,12 +8930,12 @@
 			"classSource": "XPHB",
 			"name": "Way of the Wild",
 			"subclassFeatures": [
-				"Way of the Wild|Monk|XPHB|Wild|WorldOfLight|3",
-				"Touch of Thorns|Monk|XPHB|Wild|WorldOfLight|6",
-				"Ancient Oak's Acumen|Monk|XPHB|Wild|WorldOfLight|11",
-				"Wild Spirits|Monk|XPHB|Wild|WorldOfLight|17"
+				"Way of the Wild|Monk|XPHB|Wild|WOL|3",
+				"Touch of Thorns|Monk|XPHB|Wild|WOL|6",
+				"Ancient Oak's Acumen|Monk|XPHB|Wild|WOL|11",
+				"Wild Spirits|Monk|XPHB|Wild|WOL|17"
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"shortName": "Wild"
 		},
 
@@ -8970,12 +8970,12 @@
 				}
 			],
 			"subclassFeatures": [
-				"Oath of the Open Sea|Paladin|XPHB|Open Sea|WorldOfLight|3",
-				"Aura of Liberation|Paladin|XPHB|Open Sea|WorldOfLight|7",
-				"Stormy Waters|Paladin|XPHB|Open Sea|WorldOfLight|15",
-				"Mythic Swashbuckler|Paladin|XPHB|Open Sea|WorldOfLight|20"
+				"Oath of the Open Sea|Paladin|XPHB|Open Sea|WOL|3",
+				"Aura of Liberation|Paladin|XPHB|Open Sea|WOL|7",
+				"Stormy Waters|Paladin|XPHB|Open Sea|WOL|15",
+				"Mythic Swashbuckler|Paladin|XPHB|Open Sea|WOL|20"
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"shortName": "Open Sea"
 		},
 
@@ -8984,12 +8984,12 @@
 			"classSource": "XPHB",
 			"name": "Scarlet Sorcery",
 			"subclassFeatures": [
-				"Scarlet Sorcery|Sorcerer|XPHB|Scarlet|WorldOfLight|3",
-				"Bloodbound Ascension|Sorcerer|XPHB|Scarlet|WorldOfLight|6",
-				"Crimson Colossus|Sorcerer|XPHB|Scarlet|WorldOfLight|14",
-				"Lifeblood|Sorcerer|XPHB|Scarlet|WorldOfLight|18"
+				"Scarlet Sorcery|Sorcerer|XPHB|Scarlet|WOL|3",
+				"Bloodbound Ascension|Sorcerer|XPHB|Scarlet|WOL|6",
+				"Crimson Colossus|Sorcerer|XPHB|Scarlet|WOL|14",
+				"Lifeblood|Sorcerer|XPHB|Scarlet|WOL|18"
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"shortName": "Scarlet",
 			"edition": "one",
 			"additionalSpells": [
@@ -8998,11 +8998,11 @@
 						"3": [
 							"cure wounds|xphb",
 							"armor of agathys|xphb",
-							"blood sacrifice|WorldOfLight",
+							"blood sacrifice|WOL",
 							"enhance ability|xphb"
 						],
 						"5": [
-							"life transference|WorldOfLight",
+							"life transference|WOL",
 							"vampiric touch|xphb"
 						],
 						"7": [
@@ -9023,12 +9023,12 @@
 			"classSource": "XPHB",
 			"name": "Hexblade (Variant)",
 			"subclassFeatures": [
-				"The Hexblade|Warlock|XPHB|Hexblade (Variant)|WorldOfLight|3",
-				"Spellsword|Warlock|XPHB|Hexblade (Variant)|WorldOfLight|6",
-				"Armor of Hexes|Warlock|XPHB|Hexblade (Variant)|WorldOfLight|10",
-				"Master of Hexes|Warlock|XPHB|Hexblade (Variant)|WorldOfLight|14"
+				"The Hexblade|Warlock|XPHB|Hexblade (Variant)|WOL|3",
+				"Spellsword|Warlock|XPHB|Hexblade (Variant)|WOL|6",
+				"Armor of Hexes|Warlock|XPHB|Hexblade (Variant)|WOL|10",
+				"Master of Hexes|Warlock|XPHB|Hexblade (Variant)|WOL|14"
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"shortName": "Hexblade (Variant)"
 		},
 		{
@@ -9036,12 +9036,12 @@
 			"classSource": "XPHB",
 			"name": "Deviant",
 			"subclassFeatures": [
-				"The Deviant|Warlock|XPHB|Deviant|WorldOfLight|3",
-				"Duplicitous Double Speak|Warlock|XPHB|Deviant|WorldOfLight|6",
-				"Illusory Facsimile|Warlock|XPHB|Deviant|WorldOfLight|10",
-				"Malefic Illusions|Warlock|XPHB|Deviant|WorldOfLight|14"
+				"The Deviant|Warlock|XPHB|Deviant|WOL|3",
+				"Duplicitous Double Speak|Warlock|XPHB|Deviant|WOL|6",
+				"Illusory Facsimile|Warlock|XPHB|Deviant|WOL|10",
+				"Malefic Illusions|Warlock|XPHB|Deviant|WOL|14"
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"shortName": "Deviant"
 		},
 
@@ -9050,23 +9050,23 @@
 			"classSource": "XPHB",
 			"name": "Chronurgy Magic (Variant)",
 			"subclassFeatures": [
-				"Chronurgy Magic|Wizard|XPHB|Chronurgy (Variant)|WorldOfLight|3",
-				"Momentary Stasis|Wizard|XPHB|Chronurgy (Variant)|WorldOfLight|6",
-				"Arcane Abeyance|Wizard|XPHB|Chronurgy (Variant)|WorldOfLight|10",
-				"Transcendent Juncture|Wizard|XPHB|Chronurgy (Variant)|WorldOfLight|14"
+				"Chronurgy Magic|Wizard|XPHB|Chronurgy (Variant)|WOL|3",
+				"Momentary Stasis|Wizard|XPHB|Chronurgy (Variant)|WOL|6",
+				"Arcane Abeyance|Wizard|XPHB|Chronurgy (Variant)|WOL|10",
+				"Transcendent Juncture|Wizard|XPHB|Chronurgy (Variant)|WOL|14"
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"shortName": "Chronurgy (Variant)"
 		}
 	],
 	"subclassFeature": [
 		{
 			"name": "Madness Domain",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Madness",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"entries": [
 				{
@@ -9115,11 +9115,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Cantrips|Cleric|XPHB|Madness|WorldOfLight|3"
+					"subclassFeature": "Bonus Cantrips|Cleric|XPHB|Madness|WOL|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Inscrutable Mind|Cleric|XPHB|Madness|WorldOfLight|3"
+					"subclassFeature": "Inscrutable Mind|Cleric|XPHB|Madness|WOL|3"
 				}
 			]
 		},
@@ -9129,11 +9129,11 @@
 			"entries": [
 				"When you choose this domain at 3rd level, you gain the {@spell vicious mockery} cantrip. It is a cleric cantrip for you, and does not count against your maximum number of cleric cantrips."
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Madness",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1
 		},
@@ -9143,21 +9143,21 @@
 			"entries": [
 				"Also at 3rd level, your mind becomes a place where reality is a vague concept at best, giving you a very colorful imagination. You become proficient in the {@skill Deception} skill."
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Madness",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1
 		},
 		{
 			"name": "Channel Divinity: Madness Overtaking",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Madness",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -9167,11 +9167,11 @@
 		},
 		{
 			"name": "Spreading Insanity",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Madness",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -9181,11 +9181,11 @@
 		},
 		{
 			"name": "Potent Spellcasting",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Madness",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -9194,11 +9194,11 @@
 		},
 		{
 			"name": "Creeping Mania",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Madness",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -9209,11 +9209,11 @@
 
 		{
 			"name": "Time Domain",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Time",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"entries": [
 				"Gods of time\u2014including Labelas Enoreth, Savras, Istus, Chronos, the Moirai and specifically Erestem in Ilúvë\u2014govern the passing of years and the turning of seasons. These deities oversee cause and effect, providing a background against which the course of history unfolds. They are also gods of fate and of the inevitable, responsible for the fulfillment of prophecies and the destinies of mortals. Clerics of gods of time are granted knowledge of events in the distant past and the far future, and are tasked with protecting prophecies and ensuring pivotal moments in history.",
@@ -9254,21 +9254,21 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Knight of the Old Ways|Cleric|XPHB|Time|WorldOfLight|3"
+					"subclassFeature": "Knight of the Old Ways|Cleric|XPHB|Time|WOL|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oracle of Chronology|Cleric|XPHB|Time|WorldOfLight|3"
+					"subclassFeature": "Oracle of Chronology|Cleric|XPHB|Time|WOL|3"
 				}
 			]
 		},
 		{
 			"name": "Knight of the Old Ways",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Time",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -9278,11 +9278,11 @@
 		},
 		{
 			"name": "Oracle of Chronology",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Time",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -9292,11 +9292,11 @@
 		},
 		{
 			"name": "Channel Divinity: Temporal Continuum",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Time",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -9308,11 +9308,11 @@
 		},
 		{
 			"name": "Visions of the Fourth Dimension",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Time",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -9324,11 +9324,11 @@
 		},
 		{
 			"name": "Meridian Combatant",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Time",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -9338,11 +9338,11 @@
 		},
 		{
 			"name": "Temporal Mastery",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Time",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -9354,14 +9354,14 @@
 
 		{
 			"name": "Trickery Domain (Revised)",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Trickery (Revised)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"entries": [
-				"The Gods of trickery\u2014whether they are goodwilled such as {@deity Avandra|Ilúvë|WorldOfLight} and {@deity Sehanine|Ilúvë|WorldOfLight} or ill-meaning such as {@deity Tharizdun|Ilúvë|WorldOfLight}, {@deity Takhisis|Ilúvë|WorldOfLight} and {@deity Zehir|Ilúvë|WorldOfLight}\u2014are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They're patrons of thieves, scoundrels, gamblers, rebels and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.",
+				"The Gods of trickery\u2014whether they are goodwilled such as {@deity Avandra|Ilúvë|WOL} and {@deity Sehanine|Ilúvë|WOL} or ill-meaning such as {@deity Tharizdun|Ilúvë|WOL}, {@deity Takhisis|Ilúvë|WOL} and {@deity Zehir|Ilúvë|WOL}\u2014are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They're patrons of thieves, scoundrels, gamblers, rebels and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.",
 				"At each indicated cleric level, you add the listed spells to your spells prepared.",
 				{
 					"type": "table",
@@ -9399,21 +9399,21 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Blessing of the Trickster|Cleric|XPHB|Trickery (Revised)|WorldOfLight|3"
+					"subclassFeature": "Blessing of the Trickster|Cleric|XPHB|Trickery (Revised)|WOL|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Cleric|XPHB|Trickery (Revised)|WorldOfLight|3"
+					"subclassFeature": "Bonus Proficiency|Cleric|XPHB|Trickery (Revised)|WOL|3"
 				}
 			]
 		},
 		{
 			"name": "Blessing of the Trickster",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Trickery (Revised)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -9423,11 +9423,11 @@
 		},
 		{
 			"name": "Bonus Proficiency",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Trickery (Revised)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -9437,11 +9437,11 @@
 		},
 		{
 			"name": "Channel Divinity: Invoke Duplicity",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Trickery (Revised)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -9453,11 +9453,11 @@
 		},
 		{
 			"name": "Channel Divinity: Cloak of Shadows",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Trickery (Revised)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -9468,11 +9468,11 @@
 		},
 		{
 			"name": "Potent Spellcasting",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Trickery (Revised)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -9482,11 +9482,11 @@
 		},
 		{
 			"name": "Blessed Strike",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Trickery (Revised)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -9497,11 +9497,11 @@
 		},
 		{
 			"name": "Improved Duplicity",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Trickery (Revised)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -9513,11 +9513,11 @@
 
 		{
 			"name": "Circle of The Mushroom",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Druid",
 			"classSource": "XPHB",
 			"subclassShortName": "Mushroom",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"entries": [
 				{
@@ -9531,11 +9531,11 @@
 				"Your link to fungus and your ability to tap into hazy visions and strange toxins grants you access to certain spells. At 2nd level, you learn the infestation cantrip.  At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of the Mushroom Spells table.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Spells|Druid|XPHB|Mushroom|WorldOfLight|3"
+					"subclassFeature": "Circle Spells|Druid|XPHB|Mushroom|WOL|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fungal Tap|Druid|XPHB|Mushroom|WorldOfLight|3"
+					"subclassFeature": "Fungal Tap|Druid|XPHB|Mushroom|WOL|3"
 				}
 			]
 		},
@@ -9575,11 +9575,11 @@
 					]
 				}
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Druid",
 			"classSource": "XPHB",
 			"subclassShortName": "Mushroom",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1
 		},
@@ -9606,21 +9606,21 @@
 				},
 				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 			],
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Druid",
 			"classSource": "XPHB",
 			"subclassShortName": "Mushroom",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1
 		},
 		{
 			"name": "Parasitic Fungus",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Druid",
 			"classSource": "XPHB",
 			"subclassShortName": "Mushroom",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -9631,11 +9631,11 @@
 		},
 		{
 			"name": "Spreading Spores",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Druid",
 			"classSource": "XPHB",
 			"subclassShortName": "Mushroom",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -9644,11 +9644,11 @@
 		},
 		{
 			"name": "Fungal Body",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Druid",
 			"classSource": "XPHB",
 			"subclassShortName": "Mushroom",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -9659,32 +9659,32 @@
 
 		{
 			"name": "Blessed Protector",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Fighter",
 			"classSource": "XPHB",
 			"subclassShortName": "Vanguard",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"entries": [
 				"A vanguard is a blessed fighter who protects their allies through self-sacrifice, one blessed by deities of War or Protection",
 				"Those who take up this archetype stand their ground against any adversary, willing to lay down their lives for the greater good.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Aegis|Fighter|XPHB|Vanguard|WorldOfLight|3"
+					"subclassFeature": "Aegis|Fighter|XPHB|Vanguard|WOL|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fortitude|Fighter|XPHB|Vanguard|WorldOfLight|3"
+					"subclassFeature": "Fortitude|Fighter|XPHB|Vanguard|WOL|3"
 				}
 			]
 		},
 		{
 			"name": "Aegis",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Fighter",
 			"classSource": "XPHB",
 			"subclassShortName": "Vanguard",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -9696,11 +9696,11 @@
 		},
 		{
 			"name": "Fortitude",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Fighter",
 			"classSource": "XPHB",
 			"subclassShortName": "Vanguard",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -9718,11 +9718,11 @@
 		},
 		{
 			"name": "Perseverance",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Fighter",
 			"classSource": "XPHB",
 			"subclassShortName": "Vanguard",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -9732,11 +9732,11 @@
 		},
 		{
 			"name": "Additional Fighting Style",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Fighter",
 			"classSource": "XPHB",
 			"subclassShortName": "Vanguard",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -9746,11 +9746,11 @@
 		},
 		{
 			"name": "Improved Aegis",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Fighter",
 			"classSource": "XPHB",
 			"subclassShortName": "Vanguard",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -9760,11 +9760,11 @@
 		},
 		{
 			"name": "Last Stand",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Fighter",
 			"classSource": "XPHB",
 			"subclassShortName": "Vanguard",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -9775,11 +9775,11 @@
 
 		{
 			"name": "The Marauder",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Fighter",
 			"classSource": "XPHB",
 			"subclassShortName": "Marauder",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"entries": [
 				"{@i 3rd-level Marauder feature}",
@@ -9787,17 +9787,17 @@
 				"Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Concussive Blows|Fighter|XPHB|Marauder|WorldOfLight|3"
+					"subclassFeature": "Concussive Blows|Fighter|XPHB|Marauder|WOL|3"
 				}
 			]
 		},
 		{
 			"name": "Concussive Blows",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Fighter",
 			"classSource": "XPHB",
 			"subclassShortName": "Marauder",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -9808,11 +9808,11 @@
 		},
 		{
 			"name": "Brawny",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Fighter",
 			"classSource": "XPHB",
 			"subclassShortName": "Marauder",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -9823,11 +9823,11 @@
 		},
 		{
 			"name": "Stay Down",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Fighter",
 			"classSource": "XPHB",
 			"subclassShortName": "Marauder",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -9838,11 +9838,11 @@
 		},
 		{
 			"name": "Tenacity",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Fighter",
 			"classSource": "XPHB",
 			"subclassShortName": "Marauder",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -9852,11 +9852,11 @@
 		},
 		{
 			"name": "Finishing Blow",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Fighter",
 			"classSource": "XPHB",
 			"subclassShortName": "Marauder",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -9870,11 +9870,11 @@
 
 		{
 			"name": "Way of Time",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Monk",
 			"classSource": "XPHB",
 			"subclassShortName": "Time",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -9884,17 +9884,17 @@
 				"The Chroniclers, to most unknown, also created a small off-shoot of their order, the \"Hand of Eon's Minute\". This order has, since the Chroniclers have gone into hiding, reinstated itself in Thalor Ancalen, near the Cloakwood Forest. The monks of this monastic order teach a modified \"Elder Way\", wherein they believe and teach that Ki energy is the vital way to unlocking the secrets of time.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Mystic Timestopper|Monk|XPHB|Time|WorldOfLight|3"
+					"subclassFeature": "Mystic Timestopper|Monk|XPHB|Time|WOL|3"
 				}
 			]
 		},
 		{
 			"name": "Mystic Timestopper",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Monk",
 			"classSource": "XPHB",
 			"subclassShortName": "Time",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -9905,11 +9905,11 @@
 		},
 		{
 			"name": "Speech of Importance",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Monk",
 			"classSource": "XPHB",
 			"subclassShortName": "Time",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -9923,11 +9923,11 @@
 		},
 		{
 			"name": "Deliberated Clairvoyance",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Monk",
 			"classSource": "XPHB",
 			"subclassShortName": "Time",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -9939,11 +9939,11 @@
 		},
 		{
 			"name": "Channeled Dilation",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Monk",
 			"classSource": "XPHB",
 			"subclassShortName": "Time",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -9956,32 +9956,32 @@
 
 		{
 			"name": "Way of The Moon Soul",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Monk",
 			"classSource": "XPHB",
 			"subclassShortName": "Moon Soul",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"entries": [
 				"Monks of the Way of The Moon Soul are strong, capable warriors, who use their style of fighting to unleash powerful attacks. Their stoic nature keeps them in a calm state of constant meditation, allowing them to be unflappable in the face of danger.",
 				"Unlike the Way of The Sun Soul, they are more defensive and fight in the front lines, focussing all their efforts to take down one enemy at a time. They will also attempt to avoid conflict if possible, but aren't afraid to get their hands dirty.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fist of The New Moon|Monk|XPHB|Moon Soul|WorldOfLight|3"
+					"subclassFeature": "Fist of The New Moon|Monk|XPHB|Moon Soul|WOL|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Path of Illumination|Monk|XPHB|Moon Soul|WorldOfLight|3"
+					"subclassFeature": "Path of Illumination|Monk|XPHB|Moon Soul|WOL|3"
 				}
 			]
 		},
 		{
 			"name": "Fist of The New Moon",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Monk",
 			"classSource": "XPHB",
 			"subclassShortName": "Moon Soul",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -9993,11 +9993,11 @@
 		},
 		{
 			"name": "Path of Illumination",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Monk",
 			"classSource": "XPHB",
 			"subclassShortName": "Moon Soul",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -10008,11 +10008,11 @@
 		},
 		{
 			"name": "Channeling The Night",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Monk",
 			"classSource": "XPHB",
 			"subclassShortName": "Moon Soul",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -10024,11 +10024,11 @@
 		},
 		{
 			"name": "Starforger",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Monk",
 			"classSource": "XPHB",
 			"subclassShortName": "Moon Soul",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -10040,11 +10040,11 @@
 		},
 		{
 			"name": "Lunar Eclipse",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Monk",
 			"classSource": "XPHB",
 			"subclassShortName": "Moon Soul",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -10065,32 +10065,32 @@
 
 		{
 			"name": "Way of the Wild",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Monk",
 			"classSource": "XPHB",
 			"subclassShortName": "Wild",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"entries": [
 				"Monks of the Way of the Wild are rare, and almost all of them have a different background and way of fighting.",
 				"Unlike most Monks, these monks have more in common with Druids or Rangers, and most Rangers might dip into this subclass for close-quarters combat.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tranquil as the Forest|Monk|XPHB|Wild|WorldOfLight|3"
+					"subclassFeature": "Tranquil as the Forest|Monk|XPHB|Wild|WOL|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Reclusive Mind|Monk|XPHB|Wild|WorldOfLight|3"
+					"subclassFeature": "Reclusive Mind|Monk|XPHB|Wild|WOL|3"
 				}
 			]
 		},
 		{
 			"name": "Tranquil as the Forest",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Monk",
 			"classSource": "XPHB",
 			"subclassShortName": "Wild",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -10104,11 +10104,11 @@
 		},
 		{
 			"name": "Reclusive Mind",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Monk",
 			"classSource": "XPHB",
 			"subclassShortName": "Wild",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -10118,11 +10118,11 @@
 		},
 		{
 			"name": "Touch of Thorns",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Monk",
 			"classSource": "XPHB",
 			"subclassShortName": "Wild",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -10134,11 +10134,11 @@
 		},
 		{
 			"name": "Ancient Oak's Acumen",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Monk",
 			"classSource": "XPHB",
 			"subclassShortName": "Wild",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -10148,11 +10148,11 @@
 		},
 		{
 			"name": "Wild Spirits",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Monk",
 			"classSource": "XPHB",
 			"subclassShortName": "Wild",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -10165,39 +10165,39 @@
 
 		{
 			"name": "Oath of the Open Sea",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Paladin",
 			"classSource": "XPHB",
 			"subclassShortName": "Open Sea",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"entries": [
 				"The Oath of the Open Sea calls to sea-faring warriors, swashbuckling sailors, and journeying guardians who seek the thrill of an endless horizon. Driven to seek the adventure and mystery across and beneath every endless oceanic expanse, paladins who swear this oath stand against those who would deny the liberties afforded to likeminded travelers, rooting out the tyrannical and corrupt that claim any shore. Such guardians believe in the natural beauty of the sea, often making offerings and prayers to entities or deities like the Wild Mother or Storm Lord that influence safe passage, while often feeling called to hunt those monstrosities that seek to terrorize and spoil the waters with wanton violence and ill intent.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of the Open Sea|Paladin|XPHB|Open Sea|WorldOfLight|3"
+					"subclassFeature": "Tenets of the Open Sea|Paladin|XPHB|Open Sea|WOL|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin|XPHB|Open Sea|WorldOfLight|3"
+					"subclassFeature": "Oath Spells|Paladin|XPHB|Open Sea|WOL|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Marine Layer|Paladin|XPHB|Open Sea|WorldOfLight|3"
+					"subclassFeature": "Channel Divinity: Marine Layer|Paladin|XPHB|Open Sea|WOL|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Fury of the Tides|Paladin|XPHB|Open Sea|WorldOfLight|3"
+					"subclassFeature": "Channel Divinity: Fury of the Tides|Paladin|XPHB|Open Sea|WOL|3"
 				}
 			]
 		},
 		{
 			"name": "Tenets of the Open Sea",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Paladin",
 			"classSource": "XPHB",
 			"subclassShortName": "Open Sea",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -10254,11 +10254,11 @@
 		},
 		{
 			"name": "Oath Spells",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Paladin",
 			"classSource": "XPHB",
 			"subclassShortName": "Open Sea",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -10301,11 +10301,11 @@
 		},
 		{
 			"name": "Channel Divinity: Marine Layer",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Paladin",
 			"classSource": "XPHB",
 			"subclassShortName": "Open Sea",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -10315,11 +10315,11 @@
 		},
 		{
 			"name": "Channel Divinity: Fury of the Tides",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Paladin",
 			"classSource": "XPHB",
 			"subclassShortName": "Open Sea",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -10329,11 +10329,11 @@
 		},
 		{
 			"name": "Aura of Liberation",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Paladin",
 			"classSource": "XPHB",
 			"subclassShortName": "Open Sea",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -10344,11 +10344,11 @@
 		},
 		{
 			"name": "Stormy Waters",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Paladin",
 			"classSource": "XPHB",
 			"subclassShortName": "Open Sea",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -10358,11 +10358,11 @@
 		},
 		{
 			"name": "Mythic Swashbuckler",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Paladin",
 			"classSource": "XPHB",
 			"subclassShortName": "Open Sea",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 20,
 			"header": 2,
 			"entries": [
@@ -10384,52 +10384,52 @@
 
 		{
 			"name": "Scarlet Sorcery",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
 			"subclassShortName": "Scarlet",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"entries": [
 				"{@i Channel Sanguine Magic}",
 				"All sorcerers have a magical bloodline, but for the Scarlet Sorcerers, this is terribly literal. Raw magic literally pulses through their veins, condensing into crimson crystal at their command. They are known for using their own vitality to fuel their magic.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Sanguine Sortilege|Sorcerer|XPHB|Scarlet|WorldOfLight|3|WorldOfLight"
+					"subclassFeature": "Sanguine Sortilege|Sorcerer|XPHB|Scarlet|WOL|3|WOL"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Scarlet Spells|Sorcerer|XPHB|Scarlet|WorldOfLight|3|WorldOfLight"
+					"subclassFeature": "Scarlet Spells|Sorcerer|XPHB|Scarlet|WOL|3|WOL"
 				}
 			]
 		},
 		{
 			"name": "Sanguine Sortilege",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
 			"subclassShortName": "Scarlet",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"entries": [
 				"Starting at 3rd level, you gain precise control over the magic that flows through your blood, granting you the following benefits:",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bloodbound Focus|Sorcerer|XPHB|Scarlet|WorldOfLight|3|WorldOfLight"
+					"subclassFeature": "Bloodbound Focus|Sorcerer|XPHB|Scarlet|WOL|3|WOL"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Crimson Creation|Sorcerer|XPHB|Scarlet|WorldOfLight|3|WorldOfLight"
+					"subclassFeature": "Crimson Creation|Sorcerer|XPHB|Scarlet|WOL|3|WOL"
 				}
 			]
 		},
 		{
 			"name": "Bloodbound Focus",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
 			"subclassShortName": "Scarlet",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"entries": [
 				"You can transform one spellcasting focus you are wearing or carrying into a Bloodbound Focus (no Action required). While it is transformed in this way, it resembles crystallized blood. You can summon and unsummon this focus at will, assimilating it into your bloodstream (no Action required)."
@@ -10437,11 +10437,11 @@
 		},
 		{
 			"name": "Crimson Creation",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
 			"subclassShortName": "Scarlet",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"entries": [
 				"As a Magic Action, you can shape your blood into a solid form of your choosing, creating a nonmagical object in your hands, or an unoccupied space on the ground within 5 feet of you. You take damage equal to the object’s value in gold pieces divided by 10 (minimum of 1). When creating objects that do not have a gold cost associated with them, you take damage depending on the size of the object:",
@@ -10482,11 +10482,11 @@
 		},
 		{
 			"name": "Scarlet Spells",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
 			"subclassShortName": "Scarlet",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"entries": [
 				"When you reach a Sorcerer level specified in the Scarlet Spells table, you thereafter always have the listed spells prepared.",
@@ -10503,11 +10503,11 @@
 					"rows": [
 						[
 							"3",
-							"{@spell Cure Wounds|XPHB}, {@spell Armor of Agathys|XPHB}, {@spell Blood Sacrifice|WorldOfLight}, {@spell Enhance Ability|XPHB}"
+							"{@spell Cure Wounds|XPHB}, {@spell Armor of Agathys|XPHB}, {@spell Blood Sacrifice|WOL}, {@spell Enhance Ability|XPHB}"
 						],
 						[
 							"5",
-							"{@spell Life Transference|WorldOfLight}, {@spell Vampiric Touch|XPHB}"
+							"{@spell Life Transference|WOL}, {@spell Vampiric Touch|XPHB}"
 						],
 						[
 							"7",
@@ -10523,11 +10523,11 @@
 		},
 		{
 			"name": "Bloodbound Ascension",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
 			"subclassShortName": "Scarlet",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -10535,33 +10535,33 @@
 				"Finally, your focus gains additional benefits depending on its size:",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tiny|Sorcerer|XPHB|Scarlet|WorldOfLight|6|WorldOfLight"
+					"subclassFeature": "Tiny|Sorcerer|XPHB|Scarlet|WOL|6|WOL"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Small|Sorcerer|XPHB|Scarlet|WorldOfLight|6|WorldOfLight"
+					"subclassFeature": "Small|Sorcerer|XPHB|Scarlet|WOL|6|WOL"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Medium|Sorcerer|XPHB|Scarlet|WorldOfLight|6|WorldOfLight"
+					"subclassFeature": "Medium|Sorcerer|XPHB|Scarlet|WOL|6|WOL"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Large|Sorcerer|XPHB|Scarlet|WorldOfLight|6|WorldOfLight"
+					"subclassFeature": "Large|Sorcerer|XPHB|Scarlet|WOL|6|WOL"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Huge|Sorcerer|XPHB|Scarlet|WorldOfLight|6|WorldOfLight"
+					"subclassFeature": "Huge|Sorcerer|XPHB|Scarlet|WOL|6|WOL"
 				}
 			]
 		},
 		{
 			"name": "Tiny",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
 			"subclassShortName": "Scarlet",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 6,
 			"entries": [
 				"Your damaging spells ignore {@quickref Cover||3||half cover} and {@quickref Cover||3||three-quarters cover}."
@@ -10569,11 +10569,11 @@
 		},
 		{
 			"name": "Small",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
 			"subclassShortName": "Scarlet",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 6,
 			"entries": [
 				"While you have the {@condition poisoned}, or {@condition paralyzed} condition, you can spend one sorcery point to end that condition on yourself (no action required)."
@@ -10581,11 +10581,11 @@
 		},
 		{
 			"name": "Medium",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
 			"subclassShortName": "Scarlet",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 6,
 			"entries": [
 				"Once per turn when casting a damaging spell, you are able to add your proficiency bonus to the damage."
@@ -10593,11 +10593,11 @@
 		},
 		{
 			"name": "Large",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
 			"subclassShortName": "Scarlet",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 6,
 			"entries": [
 				"You can cast spells from your focus as though you were casting it as long as you are within 100 feet of it. While within 10 feet of your focus, you and your allies have {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on Constitution and Dexterity saving throws."
@@ -10605,11 +10605,11 @@
 		},
 		{
 			"name": "Huge",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
 			"subclassShortName": "Scarlet",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 6,
 			"entries": [
 				"You can cast spells from your focus as though you were casting it as long as you are within 100 feet of it. When creating the focus you can also animate it. The animated focus shares your speed (Walking Speed as well as Flying, Climbing, etc.). In combat, it shares your initiative, and you can command it on your turn to move (no Action required). Additionally, you can use a {@variantrule Bonus Action|XPHB} to command it to use an {@variantrule Action|XPHB}. While within 5 feet of your focus, you and your allies gain a +1 to {@variantrule Armor Class|XPHB}. "
@@ -10617,15 +10617,15 @@
 		},
 		{
 			"name": "Crimson Colossus",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
 			"subclassShortName": "Scarlet",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"You gain resistance to self-inflicted damage from spells or abilities such as your {@subclassFeature Crimson Creation|Sorcerer|XPHB|Scarlet|WorldOfLight|3|WorldOfLight} feature or spells such as the {@spell Life Transference|WorldOfLight} spell. If the effect of the ability or spell is reliant on the damage you take (such as the healing of {@spell Life Transference|WorldOfLight}), the effect is activated before halving the damage you take.",
+				"You gain resistance to self-inflicted damage from spells or abilities such as your {@subclassFeature Crimson Creation|Sorcerer|XPHB|Scarlet|WOL|3|WOL} feature or spells such as the {@spell Life Transference|WOL} spell. If the effect of the ability or spell is reliant on the damage you take (such as the healing of {@spell Life Transference|WOL}), the effect is activated before halving the damage you take.",
 				"Additionally, once per day, you are able to create a gargantuan nonmagical object. As a {@action Magic|XPHB} action, you can take 40 damage, forming your blood into a shape that is no larger than 20 cubic feet. If you create an object that is larger, the casting time for this ability takes one additional minute for every 20 cubic feet. If you choose this object as your Bloodbound Focus, it gains the following Benefits:",
 				{
 					"type": "list",
@@ -10638,11 +10638,11 @@
 		},
 		{
 			"name": "Lifeblood",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
 			"subclassShortName": "Scarlet",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 18,
 			"header": 2,
 			"consumes": {
@@ -10650,7 +10650,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"Your control over your blood and the magic contained within transcends mortal limits. Even transcending your own. You can control all the blood that you see as though it was under the effect of the {@spell Control Water|XPHB} spell. You may use blood under your control to create an object with your {@subclassFeature Crimson Creation|Sorcerer|XPHB|Scarlet|WorldOfLight|3|WorldOfLight} feature (the mass of the blood needs to be equal to the mass of the object you create). When you do so, you do not take damage from using the feature.",
+				"Your control over your blood and the magic contained within transcends mortal limits. Even transcending your own. You can control all the blood that you see as though it was under the effect of the {@spell Control Water|XPHB} spell. You may use blood under your control to create an object with your {@subclassFeature Crimson Creation|Sorcerer|XPHB|Scarlet|WOL|3|WOL} feature (the mass of the blood needs to be equal to the mass of the object you create). When you do so, you do not take damage from using the feature.",
 				"As a {@variantrule Bonus Action|XPHB} while wielding your Bloodbound Focus, you may spend 1 sorcery point to magically teleport to an unoccupied space within 5 feet of one of the following you can see or whose location you know:",
 				{
 					"type": "list",
@@ -10668,11 +10668,11 @@
 
 		{
 			"name": "The Deviant",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Warlock",
 			"classSource": "XPHB",
 			"subclassShortName": "Deviant",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"entries": [
 				"The Deviant Warlock is a Warlock that specializes in the art of Trickery and Deception. They might have secret identities or other such spells to mask their identities, and are notorious for wreaking havoc wherever they may pass.",
@@ -10700,7 +10700,7 @@
 								],
 								[
 									"2nd",
-									"{@spell avandra's mischief|WorldOfLight}, {@spell pass without trace}"
+									"{@spell avandra's mischief|WOL}, {@spell pass without trace}"
 								],
 								[
 									"3rd",
@@ -10720,21 +10720,21 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Satirical Sorcery|Warlock|XPHB|Deviant|WorldOfLight|3"
+					"subclassFeature": "Satirical Sorcery|Warlock|XPHB|Deviant|WOL|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Crown of Lies|Warlock|XPHB|Deviant|WorldOfLight|3"
+					"subclassFeature": "Crown of Lies|Warlock|XPHB|Deviant|WOL|3"
 				}
 			]
 		},
 		{
 			"name": "Satirical Sorcery",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Warlock",
 			"classSource": "XPHB",
 			"subclassShortName": "Deviant",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -10744,11 +10744,11 @@
 		},
 		{
 			"name": "Crown of Lies",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Warlock",
 			"classSource": "XPHB",
 			"subclassShortName": "Deviant",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -10758,11 +10758,11 @@
 		},
 		{
 			"name": "Duplicitous Double Speak",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Warlock",
 			"classSource": "XPHB",
 			"subclassShortName": "Deviant",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -10773,11 +10773,11 @@
 		},
 		{
 			"name": "Illusory Facsimile",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Warlock",
 			"classSource": "XPHB",
 			"subclassShortName": "Deviant",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -10789,11 +10789,11 @@
 		},
 		{
 			"name": "Malefic Illusions",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Warlock",
 			"classSource": "XPHB",
 			"subclassShortName": "Deviant",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -10805,15 +10805,15 @@
 
 		{
 			"name": "The Hexblade",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Warlock",
 			"classSource": "XPHB",
 			"subclassShortName": "Hexblade (Variant)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"entries": [
 				"You have made a pact with a mysterious entity. This entity, whatever it may be, has granted you\u2014or sometimes even is\u2014a weapon carved from the boon that a Hexblade calls their pact. While unknown to many, Hexblades come in many a form. Some gain their power from the stuff of shadow, while others have made a pact with the blade itself.",
-				"The mighty sword {@i Dawnbringer} is the most notable Hexblade weapon, which has been spread across the world over the ages, carried by a Warlock said to have made a pact with the goddess {@deity Auroril|Ilúvë|WorldOfLight} herself. Sages believe that almost every being with sufficient power could create a pact blade and give it to their followers, yet this brings into question what (or perhaps whom) binds these pacts in the first place.",
+				"The mighty sword {@i Dawnbringer} is the most notable Hexblade weapon, which has been spread across the world over the ages, carried by a Warlock said to have made a pact with the goddess {@deity Auroril|Ilúvë|WOL} herself. Sages believe that almost every being with sufficient power could create a pact blade and give it to their followers, yet this brings into question what (or perhaps whom) binds these pacts in the first place.",
 				{
 					"type": "entries",
 					"name": "Expanded Spell List",
@@ -10857,21 +10857,21 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hexblade's Curse|Warlock|XPHB|Hexblade (Variant)|WorldOfLight|3"
+					"subclassFeature": "Hexblade's Curse|Warlock|XPHB|Hexblade (Variant)|WOL|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hex Warrior|Warlock|XPHB|Hexblade (Variant)|WorldOfLight|3"
+					"subclassFeature": "Hex Warrior|Warlock|XPHB|Hexblade (Variant)|WOL|3"
 				}
 			]
 		},
 		{
 			"name": "Hexblade's Curse",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Warlock",
 			"classSource": "XPHB",
 			"subclassShortName": "Hexblade (Variant)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -10890,11 +10890,11 @@
 		},
 		{
 			"name": "Hex Warrior",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Warlock",
 			"classSource": "XPHB",
 			"subclassShortName": "Hexblade (Variant)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -10905,11 +10905,11 @@
 		},
 		{
 			"name": "Spellsword",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Warlock",
 			"classSource": "XPHB",
 			"subclassShortName": "Hexblade (Variant)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -10919,11 +10919,11 @@
 		},
 		{
 			"name": "Armor of Hexes",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Warlock",
 			"classSource": "XPHB",
 			"subclassShortName": "Hexblade (Variant)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -10933,11 +10933,11 @@
 		},
 		{
 			"name": "Master of Hexes",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Warlock",
 			"classSource": "XPHB",
 			"subclassShortName": "Hexblade (Variant)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -10949,35 +10949,35 @@
 
 		{
 			"name": "Chronurgy Magic",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Wizard",
 			"classSource": "XPHB",
 			"subclassShortName": "Chronurgy (Variant)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"entries": [
 				"Focusing on the manipulation of time, those who follow the Chronurgy tradition learn to alter the pace of reality to their liking. Using the ramping of anticipatory divination magic, these mages can bend the flow of time as adroitly as a skilled musician plays an instrument, lending themselves and their allies an advantage in the blink of an eye.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Relativity Savant|Wizard|XPHB|Chronurgy (Variant)|WorldOfLight|3"
+					"subclassFeature": "Relativity Savant|Wizard|XPHB|Chronurgy (Variant)|WOL|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Chronal Shift|Wizard|XPHB|Chronurgy (Variant)|WorldOfLight|3"
+					"subclassFeature": "Chronal Shift|Wizard|XPHB|Chronurgy (Variant)|WOL|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Temporal Awareness|Wizard|XPHB|Chronurgy (Variant)|WorldOfLight|3"
+					"subclassFeature": "Temporal Awareness|Wizard|XPHB|Chronurgy (Variant)|WOL|3"
 				}
 			]
 		},
 		{
 			"name": "Relativity Savant",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Wizard",
 			"classSource": "XPHB",
 			"subclassShortName": "Chronurgy (Variant)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -10987,11 +10987,11 @@
 		},
 		{
 			"name": "Chronal Shift",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Wizard",
 			"classSource": "XPHB",
 			"subclassShortName": "Chronurgy (Variant)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -11002,11 +11002,11 @@
 		},
 		{
 			"name": "Temporal Awareness",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Wizard",
 			"classSource": "XPHB",
 			"subclassShortName": "Chronurgy (Variant)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -11016,11 +11016,11 @@
 		},
 		{
 			"name": "Momentary Stasis",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Wizard",
 			"classSource": "XPHB",
 			"subclassShortName": "Chronurgy (Variant)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -11031,11 +11031,11 @@
 		},
 		{
 			"name": "Arcane Abeyance",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Wizard",
 			"classSource": "XPHB",
 			"subclassShortName": "Chronurgy (Variant)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -11047,11 +11047,11 @@
 		},
 		{
 			"name": "Transcendent Juncture",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"className": "Wizard",
 			"classSource": "XPHB",
 			"subclassShortName": "Chronurgy (Variant)",
-			"subclassSource": "WorldOfLight",
+			"subclassSource": "WOL",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -11063,7 +11063,7 @@
 	"language": [
 		{
 			"name": "Arconic",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"Arconic (sometimes called Arcanixian), a language spoken by the ancient and long-forgotten mages of Arcanix, is a dead tongue. Very few creatures in the world today would recognize it, much less speak it. Arconic used the Draconic alphabet in its written form, while the spoken language had many similarities with Sylvan, due to the Arcanixian mages being almost wholly comprised of Eladrin and High-Elves. A character who speaks Sylvan can understand what a creature speaking Arconic is saying, and vice versa. A character who has the {@background Cloistered Scholar|PHB} or {@background Sage|PHB} background, or a {@class warlock} who knows the {@optfeature Eyes of the Rune Keeper} invocation, can translate written Arconic without an ability check."
 			],
@@ -11073,7 +11073,7 @@
 	"background": [
 		{
 			"name": "Gardener",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"edition": "one",
 			"ability": [
 				{
@@ -11134,7 +11134,7 @@
 							"item": "shovel|xphb"
 						},
 						{
-							"item": "gardener's tools|WorldOfLight"
+							"item": "gardener's tools|WOL"
 						},
 						{
 							"item": "book|xphb"
@@ -11180,12 +11180,12 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiency:",
-							"entry": "{@item Gardener's Tools|WorldOfLight}"
+							"entry": "{@item Gardener's Tools|WOL}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment:",
-							"entry": "Choose A or B: (A) {@item Dagger|XPHB}, {@item Shovel|XPHB}, {@item Gardener's Tools|WorldOfLight}, {@item Book|XPHB} (nature), 3 {@item Pouch|XPHB|Pouches} containing various seeds, {@item Traveler's Clothes|XPHB}, 7 GP; or (B) 50 GP"
+							"entry": "Choose A or B: (A) {@item Dagger|XPHB}, {@item Shovel|XPHB}, {@item Gardener's Tools|WOL}, {@item Book|XPHB} (nature), 3 {@item Pouch|XPHB|Pouches} containing various seeds, {@item Traveler's Clothes|XPHB}, 7 GP; or (B) 50 GP"
 						}
 					]
 				}
@@ -11193,7 +11193,7 @@
 		},
 		{
 			"name": "Underdark Adventurer",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"skillProficiencies": [
 				{
 					"investigation": true,
@@ -11291,16 +11291,16 @@
 	"reward": [
 		{
 			"name": "Erestem's Devotee",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "Piety Trait",
 			"entries": [
 				"{@i Piety 3+ Erestem trait}",
-				"As a devotee of Erestem, you have proven yourself a devotee of reality and order. You can now cast {@spell fortune's favor|WorldOfLight} once per short rest without using any material components."
+				"As a devotee of Erestem, you have proven yourself a devotee of reality and order. You can now cast {@spell fortune's favor|WOL} once per short rest without using any material components."
 			]
 		},
 		{
 			"name": "Erestem's Votary",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "Piety Trait",
 			"entries": [
 				"{@i Piety 10+ Erestem trait}",
@@ -11309,7 +11309,7 @@
 		},
 		{
 			"name": "Erestem's Disciple",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "Piety Trait",
 			"entries": [
 				"{@i Piety 25+ Erestem trait}",
@@ -11318,7 +11318,7 @@
 		},
 		{
 			"name": "Champion of Time",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "Piety Trait",
 			"entries": [
 				"{@i Piety 50+ Erestem trait}",
@@ -11328,7 +11328,7 @@
 
 		{
 			"name": "Strangers's Devotee",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "Piety Trait",
 			"entries": [
 				"{@i Piety 3+ The Strangers trait}",
@@ -11337,7 +11337,7 @@
 		},
 		{
 			"name": "Strangers's Votary",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "Piety Trait",
 			"entries": [
 				"{@i Piety 10+ The Strangers trait}",
@@ -11346,7 +11346,7 @@
 		},
 		{
 			"name": "Strangers's Disciple",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "Piety Trait",
 			"entries": [
 				"{@i Piety 25+ The Strangers trait}",
@@ -11355,7 +11355,7 @@
 		},
 		{
 			"name": "Champion of Change and Chaos",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"type": "Piety Trait",
 			"entries": [
 				"{@i Piety 50+ The Strangers trait}",
@@ -11366,7 +11366,7 @@
 	"optionalfeature": [
 		{
 			"name": "Misty Nightmare",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"featureType": [
 				"EI"
 			],
@@ -11387,7 +11387,7 @@
 		},
 		{
 			"name": "Devils tongue",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"featureType": [
 				"EI"
 			],
@@ -11397,7 +11397,7 @@
 		},
 		{
 			"name": "Seraphic Aegis",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"featureType": [
 				"EI"
 			],
@@ -11411,7 +11411,7 @@
 						"classSource": "XPHB"
 					},
 						"optionalfeature": [
-						"hex warrior|WorldOfLight"
+						"hex warrior|WOL"
 						]
 				}
 			],
@@ -11421,7 +11421,7 @@
 		},
 		{
 			"name": "Lightweight Combatant",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"featureType": [
 				"FS:F",
 				"FS:P",
@@ -11435,7 +11435,7 @@
 	"condition": [
 		{
 			"name": "Dying",
-			"source": "WorldOfLight",
+			"source": "WOL",
 			"entries": [
 				"Whenever you are reduced to 0 hit points, you fall {@condition prone} and gain this condition. At the start of your turn, you have to make a Death Saving Throw (this functions like normal). On your turn, you can only use your {@variantrule Action|XPHB}, {@variantrule Bonus Action|XPHB} or move action. Once you use one of these actions, your turn ends.",
 				"If you use your action on your turn, you take a cumulative -3 penalty to all your d20 rolls. If you use your bonus action on your turn, you take a cumulative -1 penalty to all your d20 rolls. If you use your reaction while you are {@condition dying}, you take a cumulative -1 penalty to all your d20 rolls. While you have this condition, you cannot use any of your actions to stand up from being {@condition prone}.",
