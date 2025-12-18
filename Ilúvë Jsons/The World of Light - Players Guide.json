@@ -9006,9 +9006,8 @@
 							"vampiric touch|xphb"
 						],
 						"7": [
-							"death ward|xphb",
-							"summon greater demon|XGE",
-							"polymorph|xphb"
+							"polymorph|xphb",
+							"summon greater demon|XGE"
 						],
 						"9": [
 							"mass cure wounds|xphb",
@@ -10164,7 +10163,6 @@
 		},
 
 
-
 		{
 			"name": "Oath of the Open Sea",
 			"source": "WorldOfLight",
@@ -10383,6 +10381,7 @@
 			]
 		},
 
+
 		{
 			"name": "Scarlet Sorcery",
 			"source": "WorldOfLight",
@@ -10512,7 +10511,7 @@
 						],
 						[
 							"7",
-							"{@spell Death Ward|XPHB}, {@spell  Polymorph|XPHB}, {@spell Summon Greater Demon|XGE}" 
+							"{@spell  Polymorph|XPHB}, {@spell Summon Greater Demon|XGE}" 
 						],
 						[
 							"9",
