@@ -6534,7 +6534,7 @@
 		},
 		{
 			"name": "Blood Sacrifice",
-			"source": "LandsOfExile",
+			"source": "WorldOfLight",
 			"level": 2,
 			"school": "N",
 			"time": [
@@ -8980,6 +8980,46 @@
 		},
 
 		{
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"name": "Scarlet Sorcery",
+			"subclassFeatures": [
+				"Scarlet Sorcery|Sorcerer|XPHB|Scarlet|WorldOfLight|3",
+				"Bloodbound Ascension|Sorcerer|XPHB|Scarlet|WorldOfLight|6",
+				"Crimson Colossus|Sorcerer|XPHB|Scarlet|WorldOfLight|14",
+				"Lifeblood|Sorcerer|XPHB|Scarlet|WorldOfLight|18"
+			],
+			"source": "WorldOfLight",
+			"shortName": "Scarlet",
+			"edition": "one",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"cure wounds|xphb",
+							"armor of agathys|xphb",
+							"blood sacrifice|WorldOfLight",
+							"enhance ability|xphb"
+						],
+						"5": [
+							"life transference|WorldOfLight",
+							"vampiric touch|xphb"
+						],
+						"7": [
+							"death ward|xphb",
+							"summon greater demon|XGE",
+							"polymorph|xphb"
+						],
+						"9": [
+							"mass cure wounds|xphb",
+							"hold monster|xphb"
+						]
+					}
+				}
+			]
+		},
+
+		{
 			"className": "Warlock",
 			"classSource": "XPHB",
 			"name": "Hexblade (Variant)",
@@ -10343,6 +10383,288 @@
 			]
 		},
 
+		{
+			"name": "Scarlet Sorcery",
+			"source": "WorldOfLight",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Scarlet",
+			"subclassSource": "WorldOfLight",
+			"level": 3,
+			"entries": [
+				"{@i Channel Sanguine Magic}",
+				"All sorcerers have a magical bloodline, but for the Scarlet Sorcerers, this is terribly literal. Raw magic literally pulses through their veins, condensing into crimson crystal at their command. They are known for using their own vitality to fuel their magic.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sanguine Sortilege|Sorcerer|XPHB|Scarlet|WorldOfLight|3|WorldOfLight"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Scarlet Spells|Sorcerer|XPHB|Scarlet|WorldOfLight|3|WorldOfLight"
+				}
+			]
+		},
+		{
+			"name": "Sanguine Sortilege",
+			"source": "WorldOfLight",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Scarlet",
+			"subclassSource": "WorldOfLight",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, you gain precise control over the magic that flows through your blood, granting you the following benefits:",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bloodbound Focus|Sorcerer|XPHB|Scarlet|WorldOfLight|3|WorldOfLight"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Crimson Creation|Sorcerer|XPHB|Scarlet|WorldOfLight|3|WorldOfLight"
+				}
+			]
+		},
+		{
+			"name": "Bloodbound Focus",
+			"source": "WorldOfLight",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Scarlet",
+			"subclassSource": "WorldOfLight",
+			"level": 3,
+			"entries": [
+				"You can transform one spellcasting focus you are wearing or carrying into a Bloodbound Focus (no Action required). While it is transformed in this way, it resembles crystallized blood. You can summon and unsummon this focus at will, assimilating it into your bloodstream (no Action required)."
+			]
+		},
+		{
+			"name": "Crimson Creation",
+			"source": "WorldOfLight",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Scarlet",
+			"subclassSource": "WorldOfLight",
+			"level": 3,
+			"entries": [
+				"As a Magic Action, you can shape your blood into a solid form of your choosing, creating a nonmagical object in your hands, or an unoccupied space on the ground within 5 feet of you. You take damage equal to the object’s value in gold pieces divided by 10 (minimum of 1). When creating objects that do not have a gold cost associated with them, you take damage depending on the size of the object:",
+				{
+					"type": "table",
+					"colLabels": [
+						"Object Size",
+						"Damage"
+					],
+					"colStyles": [
+						"col-2",
+						"col-2"
+					],
+					"rows": [
+						[
+							"Tiny",
+							"2"
+						],
+						[
+							"Small",
+							"5"
+						],
+						[
+							"Medium",
+							"10"
+						],
+						[
+							"Large",
+							"15"
+						],
+						[
+							"Huge",
+							"25"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Scarlet Spells",
+			"source": "WorldOfLight",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Scarlet",
+			"subclassSource": "WorldOfLight",
+			"level": 3,
+			"entries": [
+				"When you reach a Sorcerer level specified in the Scarlet Spells table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3",
+							"{@spell Cure Wounds|XPHB}, {@spell Armor of Agathys|XPHB}, {@spell Blood Sacrifice|WorldOfLight}, {@spell Enhance Ability|XPHB}"
+						],
+						[
+							"5",
+							"{@spell Life Transference|WorldOfLight}, {@spell Vampiric Touch|XPHB}"
+						],
+						[
+							"7",
+							"{@spell Death Ward|XPHB}, {@spell  Polymorph|XPHB}, {@spell Summon Greater Demon|XGE}" 
+						],
+						[
+							"9",
+							"{@spell Mass Cure Wounds|XPHB}, {@spell Hold Monster|XPHB}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Bloodbound Ascension",
+			"source": "WorldOfLight",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Scarlet",
+			"subclassSource": "WorldOfLight",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Your connection to your Bloodbound Focus grows significantly. If your spellcasting focus is in the shape of a weapon, armor, or tool, you count as proficient with it.",
+				"Finally, your focus gains additional benefits depending on its size:",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tiny|Sorcerer|XPHB|Scarlet|WorldOfLight|6|WorldOfLight"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Small|Sorcerer|XPHB|Scarlet|WorldOfLight|6|WorldOfLight"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Medium|Sorcerer|XPHB|Scarlet|WorldOfLight|6|WorldOfLight"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Large|Sorcerer|XPHB|Scarlet|WorldOfLight|6|WorldOfLight"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Huge|Sorcerer|XPHB|Scarlet|WorldOfLight|6|WorldOfLight"
+				}
+			]
+		},
+		{
+			"name": "Tiny",
+			"source": "WorldOfLight",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Scarlet",
+			"subclassSource": "WorldOfLight",
+			"level": 6,
+			"entries": [
+				"Your damaging spells ignore {@quickref Cover||3||half cover} and {@quickref Cover||3||three-quarters cover}."
+			]
+		},
+		{
+			"name": "Small",
+			"source": "WorldOfLight",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Scarlet",
+			"subclassSource": "WorldOfLight",
+			"level": 6,
+			"entries": [
+				"While you have the {@condition poisoned}, or {@condition paralyzed} condition, you can spend one sorcery point to end that condition on yourself (no action required)."
+			]
+		},
+		{
+			"name": "Medium",
+			"source": "WorldOfLight",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Scarlet",
+			"subclassSource": "WorldOfLight",
+			"level": 6,
+			"entries": [
+				"Once per turn when casting a damaging spell, you are able to add your proficiency bonus to the damage."
+			]
+		},
+		{
+			"name": "Large",
+			"source": "WorldOfLight",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Scarlet",
+			"subclassSource": "WorldOfLight",
+			"level": 6,
+			"entries": [
+				"You can cast spells from your focus as though you were casting it as long as you are within 100 feet of it. While within 10 feet of your focus, you and your allies have {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on Constitution and Dexterity saving throws."
+			]
+		},
+		{
+			"name": "Huge",
+			"source": "WorldOfLight",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Scarlet",
+			"subclassSource": "WorldOfLight",
+			"level": 6,
+			"entries": [
+				"You can cast spells from your focus as though you were casting it as long as you are within 100 feet of it. When creating the focus you can also animate it. The animated focus shares your speed (Walking Speed as well as Flying, Climbing, etc.). In combat, it shares your initiative, and you can command it on your turn to move (no Action required). Additionally, you can use a {@variantrule Bonus Action|XPHB} to command it to use an {@variantrule Action|XPHB}. While within 5 feet of your focus, you and your allies gain a +1 to {@variantrule Armor Class|XPHB}. "
+			]
+		},
+		{
+			"name": "Crimson Colossus",
+			"source": "WorldOfLight",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Scarlet",
+			"subclassSource": "WorldOfLight",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"You gain resistance to self-inflicted damage from spells or abilities such as your {@subclassFeature Crimson Creation|Sorcerer|XPHB|Scarlet|WorldOfLight|3|WorldOfLight} feature or spells such as the {@spell Life Transference|WorldOfLight} spell. If the effect of the ability or spell is reliant on the damage you take (such as the healing of {@spell Life Transference|WorldOfLight}), the effect is activated before halving the damage you take.",
+				"Additionally, once per day, you are able to create a gargantuan nonmagical object. As a {@action Magic|XPHB} action, you can take 40 damage, forming your blood into a shape that is no larger than 20 cubic feet. If you create an object that is larger, the casting time for this ability takes one additional minute for every 20 cubic feet. If you choose this object as your Bloodbound Focus, it gains the following Benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can cast spells from your focus as though you were casting it as long as you are within 100 feet of it.",
+						"You may choose to animate it. The animated Focus has a hovering speed of 30 feet, hovering 5 feet above the ground. While in combat, it shares your initiative. During your turn, while this object is animated, you can command it to move (no action required) and you can use a {@variantrule Bonus Action|XPHB} to command it to {@action Dash|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lifeblood",
+			"source": "WorldOfLight",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Scarlet",
+			"subclassSource": "WorldOfLight",
+			"level": 18,
+			"header": 2,
+			"consumes": {
+				"name": "Sorcery Point",
+				"amount": 1
+			},
+			"entries": [
+				"Your control over your blood and the magic contained within transcends mortal limits. Even transcending your own. You can control all the blood that you see as though it was under the effect of the {@spell Control Water|XPHB} spell. You may use blood under your control to create an object with your {@subclassFeature Crimson Creation|Sorcerer|XPHB|Scarlet|WorldOfLight|3|WorldOfLight} feature (the mass of the blood needs to be equal to the mass of the object you create). When you do so, you do not take damage from using the feature.",
+				"As a {@variantrule Bonus Action|XPHB} while wielding your Bloodbound Focus, you may spend 1 sorcery point to magically teleport to an unoccupied space within 5 feet of one of the following you can see or whose location you know:",
+				{
+					"type": "list",
+					"items": [
+						"A pool of blood large enough to cover at least a 1-foot radius.",
+						"A creature within 1 mile of you that has the {@condition bloodied} condition.",
+						"The space of a creature that died within the last 24 hours on the same plane of existence as you.",
+						"A medium or larger object created by your Crimson Creation feature on the same plane of existence as you."
+					]
+				},
+				"Whenever you use this feature, you dissolve into a pool blood, and emerge from the blood of the targeted location or creature."
+			]
+		},
 
 
 		{
