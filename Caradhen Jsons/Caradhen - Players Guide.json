@@ -92,7 +92,7 @@
 				"Time",
 				"War"
 			],
-			"symbol": "A burning sword",
+			"symbol": "A burning shield",
 			"symbolImg": {
 				"type": "image",
 				"href": {
@@ -144,7 +144,7 @@
 				"Nature",
 				"Twilight"
 			],
-			"symbol": "A crescent moon or a wolf's head, in profile",
+			"symbol": "A moon-cratered cloudy eye",
 			"symbolImg": {
 				"type": "image",
 				"href": {
@@ -178,8 +178,8 @@
 			]
 		},
 		{
-			"name": "Morva",
-			"title": "Goddess of Technology & Invention",
+			"name": "Morvael",
+			"title": "God of Technology & Invention",
 			"altNames": [
 				"The Grand Design"
 			],
@@ -204,7 +204,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Morva%20-%20Goddess%20of%20Technology%20%26%20Invention.png"
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Morvael%20-%20God%20of%20Technology%20%26%20Invention.png"
 				}
 			},
 			"source": "LandsOfExile",
@@ -212,8 +212,8 @@
 				{
 					"type": "section",
 					"entries": [
-						"Morva is said to be the Spark Between Thoughts, the goddess who will never truly awaken. She is the quiet ember in the dark, shaping wonders from the raw ore of imagination. Her followers claim that every invention begins as one of her many whispers, every blueprint as her vision half-remembered upon waking.",
-						"As such, she is not worshipped through sacrifice, but rather through the act of creation. To follow her is to build, to dream big, and to invent until even the gears of time grind to a halt. And then to invent more. Her most pious priests keep journals filled with sketches drawn in that strange drowsy light between wakefulness and sleep, convinced that inspiration itself is divine correspondence.",
+						"Morvael is said to be the Spark Between Thoughts, the god who will never truly awaken. He is the quiet ember in the dark, shaping wonders from the raw ore of imagination. His followers claim that every invention begins as one of his many whispers, every blueprint as his vision, half-remembered upon waking.",
+						"As such, he is not worshipped through sacrifice, but rather through the act of creation. To follow him is to build, to dream big, and to invent until even the gears of time grind to a halt. And then to invent more. His most pious priests keep journals filled with sketches drawn in that strange drowsy light between wakefulness and sleep, convinced that inspiration itself is divine correspondence.",
 						{
 							"type": "entries",
 							"name": "Silence Unending",
@@ -222,7 +222,7 @@
 									"type": "entries",
 									"name": "They came from below",
 									"entries": [
-										"Legends tell that her only quarrels came from below. A well-documented fact is that she loathes the spiderkin and drow who envied the crafting of Dwarves and Gnomes and sought to unmake what they built. Yet Morva did not answer their malice with wrath, she merely answered with silence. This, naturally, has caused many tense alliances and relations between the folk of the stone beneath."
+										"Legends tell that his only quarrels came from below. A well-documented fact is that he loathes the spiderkin and drow who envied the crafting of Dwarves and Gnomes and sought to unmake what they built. Yet Morvael did not answer their malice with wrath, he merely answered with silence. This, naturally, has caused many tense alliances and relations between the folk of the stone beneath."
 									]
 								}
 							]
@@ -319,6 +319,45 @@
 						"In the oldest stories, Dur Maeth walked among mortals not as a queen but as a teacher. She served as the thread binding city and soul together. It was she who taught that power without mercy is only noise, and that law, must be tempered by compassion and common sense.",
 						"Her temples are libraries first and sanctuaries second, their walls traced with runes that shift when read by different minds. No one hears her now, yet her silence feels deliberate, as if she listens instead. Dreams of her come bright and geometric: lattices of thought, vast cities of glass and memory. Her faithful believe these are glimpses of her mind, where every act of kindness adds another light to an endless skyline.",
 						"Among all the gods, she is the hardest to define. Neither distant nor near, neither stern nor gentle. Only present, like the thought that civilization itself might, for a fleeting instant, understand its own soul."
+					]
+				}
+			],
+			"source": "LandsOfExile"
+		},
+		{
+			"name": "Arash",
+			"title": "God of Darkness, Treachery and Murder",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"province": "Darkness, Deceit, Lies, Lust, Murder, Poison, Shadows, Snakes, Spiders, Thievery and Treachery",
+			"pantheon": "Caradhen",
+			"category": [
+				"Gods of The Echelon Court"
+			],
+			"domains": [
+				"Death",
+				"Madness",
+				"Trickery",
+				"Twilight",
+				"War"
+			],
+			"symbol": "A snake circling a spiderweb, or a tick",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Araush%20-%20God%20of%20Darkness%20,%20Treachery%20%26Murder.png"
+				}
+			},
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"In the oldest drow chants, Araush is not crowned, enthroned, or exalted. He is shown crouched low, spine bowed, limbs long and wrong, skin marked with ash and venom. His form shifts between serpent, spider and something hunched. Something almost mortal. As if the shape of divinity has not yet decided what it wishes to be. He does not rule from above. He waits below.",
+						"Araush teaches that the world is a hunt, and that truth is a luxury of the safe. Survival is the only honest virtue. Poison is not cruelty, but patience. Lies are not sins, but tools sharpened by necessity. Among his faithful, guilt is weakness, and responsibility belongs only to those strong enough to endure it.",
+						"To outsiders, Araush is blamed for assassins and venomers. To his followers, he is older than blame. A god not of evil, but of the truth that all life feeds on something else. That all life is but a parasite, and that pretending otherwise is the greatest lie of all."
 					]
 				}
 			],
