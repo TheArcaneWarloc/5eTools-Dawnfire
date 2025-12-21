@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V11.2.2",
+				"version": "V11.4.2",
 				"url": "",
 				"targetSchema": "1.2.0"
 			}
@@ -325,7 +325,7 @@
 			"source": "LandsOfExile"
 		},
 		{
-			"name": "Arash",
+			"name": "Araush",
 			"title": "God of Darkness, Treachery and Murder",
 			"alignment": [
 				"C",
