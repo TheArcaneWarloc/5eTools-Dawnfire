@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V11.4.2",
+				"version": "V11.4.3",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -10420,6 +10420,10 @@
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Crimson Creation|Sorcerer|XPHB|Scarlet|WOL|3|WOL"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Scarlet Siphon|Sorcerer|XPHB|Scarlet|WOL|3|WOL"
 				}
 			]
 		},
@@ -10444,7 +10448,7 @@
 			"subclassSource": "WOL",
 			"level": 3,
 			"entries": [
-				"As a Magic Action, you can shape your blood into a solid form of your choosing, creating a nonmagical object in your hands, or an unoccupied space on the ground within 5 feet of you. You take damage equal to the object’s value in gold pieces divided by 10 (minimum of 1). When creating objects that do not have a gold cost associated with them, you take damage depending on the size of the object:",
+				"As a {@action Magic|XPHB} Action, you can shape your blood into a solid form of your choosing, creating a nonmagical object in your hands, or an unoccupied space on the ground within 5 feet of you. You take damage equal to the object’s value in gold pieces divided by 10 (minimum of 1). When creating objects that do not have a gold cost associated with them, you take damage depending on the size of the object:",
 				{
 					"type": "table",
 					"colLabels": [
@@ -10478,6 +10482,18 @@
 						]
 					]
 				}
+			]
+		},
+		{
+			"name": "Scarlet Siphon",
+			"source": "WOL",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Scarlet",
+			"subclassSource": "WOL",
+			"level": 3,
+			"entries": [
+				"When you deal damage to a creature with a spell of 1st level or higher, you can use your reaction and spend 1 sorcery point to use your Crimson Creation feature, shaping the creature’s spilled blood instead of your own. When you do so, you take no damage from using the feature. The object’s normal cost cannot exceed the amount of damage you dealt to the creature with the triggering spell."
 			]
 		},
 		{
