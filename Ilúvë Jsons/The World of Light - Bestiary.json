@@ -3,13 +3,13 @@
 		"sources": [
 			{
 				"json": "WorldOfLightBeasts",
-				"abbreviation": "WOL:B",
+				"abbreviation": "WOLB",
 				"full": "The World of Light: Bestiary",
 				"color": "40B760",
 				"authors": [
 					"Arcane"
 				],
-				"version": "V11.2.2",
+				"version": "V11.5",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Bestiary.json",
 				"targetSchema": "1.2.0"
 			}

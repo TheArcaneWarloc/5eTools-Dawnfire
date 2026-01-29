@@ -3,13 +3,13 @@
 		"sources": [
 			{
 				"json": "WorldOfLightKhorvuz",
-				"abbreviation": "WOL:K",
+				"abbreviation": "WOLK",
 				"full": "The World of Light: Oops, all Khorvuz!",
 				"color": "2E8B57",
 				"authors": [
 					"Arcane"
 				],
-				"version": "V11.4.3",
+				"version": "V11.5",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Bestiary.json",
 				"targetSchema": "1.2.0"
 			}

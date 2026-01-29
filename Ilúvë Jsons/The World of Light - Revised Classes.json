@@ -2,13 +2,13 @@
 	"_meta": {
 		"sources": [{
 			"json": "WorldOfLightClasses",
-			"abbreviation": "WOL:R",
+			"abbreviation": "WOLC",
 			"color": "A8FFD8",
 			"full": "The World of Light: Revised Class Features",
 			"authors": [
 				"Arcane"
 			],
-			"version": "V11.4.3",
+			"version": "V11.5",
 			"url": "-",
 			"targetSchema": "1.2.0"
 		}],

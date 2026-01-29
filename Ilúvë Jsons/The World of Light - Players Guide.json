@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V11.4.3",
+				"version": "V11.5",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -7531,6 +7531,96 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Rhoderihck's Arcane Workout",
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hours"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a strip of sweat-drenched cloth"
+				}
+			},
+			"duration": [
+				{
+					"type": "special"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"source": "WOL",
+			"entries": [
+				"You channel arcane energy into your physique, sculpting their muscles into the peak of visible, intimidating aesthetics. Upon completion of the spell, the target’s body appears significantly more muscular, vascular, and defined. This transformation is permanent, though purely cosmetic. It can be dispelled, but only by a spell of 8th level or higher.",
+				"You gain the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Increased Muscle",
+							"entries": [
+								"Your muscle mass appears dramatically increased, as if you've spent years in intense physical training."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Flex",
+							"entries": [
+								"They gain advantage on Charisma (Intimidation) checks made to impress or awe based on appearance."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Intimidating Build",
+							"entries": [
+								"Creatures with Intelligence 6 or lower may mistake them for a physically dominant threat and act accordingly."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Merely Magic",
+							"entries": [
+								"This spell does not change your actual Strength or Constitution scores."
+							]
+						}
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When cast using a spell slot of 5th level or higher, the target also gains the physical traits of their imagined ideal body form (e.g., chiseled abs, heroic jawline, etc.), granting advantage on Charisma ({@skill Performance}) checks related to appearance."
+					]
+				}
+			],
+			"page": 57
 		},
 		{
 			"name": "Rhoderihck's Speedy Courier",
