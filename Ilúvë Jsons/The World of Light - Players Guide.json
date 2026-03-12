@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V12",
+				"version": "V12.0.0.1",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -12128,7 +12128,7 @@
 			"type": "Piety Trait",
 			"entries": [
 				"{@i Piety 25+ Zehir trait}",
-				"Zehir blesses you so that your very touch is poisonous. As an {@variantrule Action|XPHB}, you can touch a creature and choose one of the following:"
+				"Zehir blesses you so that your very touch is poisonous. As an {@variantrule Action|XPHB}, you can touch a creature and choose one of the following:",
 				{
 					"type": "list",
 					"items": [
