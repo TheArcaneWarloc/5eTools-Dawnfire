@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V11.5",
+				"version": "V12",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -17,143 +17,6 @@
 		"dateAdded": 1
 	},
 	"deity": [
-		{
-			"name": "Erestem",
-			"title": "God of Light, Order and Time",
-			"altNames": [
-				"The Lightbringer",
-				"Arem"
-			],
-			"alignment": [
-				"N"
-			],
-			"domains": [
-				"All"
-			],
-			"category": [
-				"The Lightbringer",
-				"Deities of Radiance"
-			],
-			"pantheon": "Ilúvë",
-			"province": "Light, Life, Knowledge, Order and Time",
-			"symbol": "Three Pointed Celestial Star",
-			"symbolImg": {
-				"type": "image",
-				"href": {
-					"type": "external",
-					"url": "https://i.imgur.com/kS2EqHt.png"
-				}
-			},
-			"worshipers": "Archivists, Sages, Scholars and Philosophers",
-			"piety": true,
-			"entries": [
-				{
-					"type": "section",
-					"entries": [
-						"At first, there was nothing. Then, a conscience. Thoughts. Essence. In the endless blackness of the void, after an infinite amount of finite time, these thoughts coalesced into being. One being. This being, these illimitable emotions, wandered through the inky oblivion for perpetuity and timelessness, until it realized it was boundlessly and everlastingly alone. And so, from these thoughts, from this being, using all of its emotion, its soul; the purest form of magic, the universe exploded into existence, and with it, three fledgling gods were created from this incalculable eruption of sudden fervour, magic and soul: {@deity Angaradd|Ilúvë|WOL}, {@deity Auroril|Ilúvë|WOL} and {@deity Melora|Ilúvë|WOL}. In the ever-expansive cosmic nebula, these four deities sailed the roiling cosmos, as The Lightbringer thought up a form for each of them to inhabit.",
-						{
-							"type": "entries",
-							"name": "Erestem's Influence",
-							"entries": [
-								"Very few throughout Ilúvë have heard of The Lightbringer, and fewer still believe they even exist. Most lore and books of history have not stood the test of time, and therefore knowledge of The Lightbringer usually comes in the form of belief. The belief that life and light itself must be worshipped.",
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Depiction",
-											"entries": [
-												"Those who believe in The Lightbringer believe his existance to be all-encompassing: a paradox of mind, body and soul; he is all, yet nothing. By all accounts, The Lightbringer's original form is believed to be a shapeless yet humanoid body of impossibly bright light, like a burning star. Followers of The Lightbringer carry small, featureless humanoid made of a white crystal (usually quartz), arms outstreched in an inviting manner."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Holy Day",
-											"entries": [
-												"The Lightbringer's holy day is referred to as {@i Starfall}. During Starfall, followers of The Lightbringer gather at night to witness comet rains and the shifting of constellations, especially one named \"Erestem's Belt\". The night of Starfall is also a night of gift-giving and joy. It is often celebrated with omnipresent music in public areas, lavish gift-giving to relatives and loved ones, and the cutting and decorating of trees placed indoors. Because it is the peak of the winter season, devout followers of the Matron of Ravens consider it to be one of {@i her} holy days as well, as she is the goddess of winter."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Commandments of The Lightbringer",
-									"entries": [
-										{
-											"type": "list",
-											"items": [
-												"Lead with mercy, patience, and compassion. Inspire others to unite in fellowship.",
-												"Aid those who are without guidance. Guide those without light. Heal those who are without hope.",
-												"Those who are beyond redemption, who revel in slaughter and remorseless evil, must be dispatched with swift justice."
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Piety",
-							"entries": [
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Earning and Losing Piety",
-											"entries": [
-												"You increase your piety score to Erestem when you expand the god's influence in the world in a concrete way through acts such as these:"
-											]
-										}
-									]
-								},
-								{
-									"type": "list",
-									"items": [
-										"Learning more about the world and the universe around you",
-										"Revealing a critical truth at an important moment",
-										"Keeping the order when no one else does",
-										"Aiding the weak or impeding the strong"
-									]
-								},
-								"Your piety score to Erestem decreases if you diminish Erestem's influence in the world, upset the balance of power, or make him look biased or petty through acts such as these:",
-								{
-									"type": "list",
-									"items": [
-										"Giving into chaos and destruction",
-										"Rupturing or otherwise harming space-time",
-										"Furthering the aims of another god in defiance of Erestem's will"
-									]
-								},
-								"Unlike other gods or lesser idols, Erestem is not a being that requires prayer or devotion, instead it simply is, a subject to be studied and to learn from.",
-								{
-									"type": "entries",
-									"name": "Benefits of Piety",
-									"entries": [
-										{
-											"type": "list",
-											"columns": 2,
-											"items": [
-												"{@reward Erestem's Devotee|WOL}",
-												"{@reward Erestem's Votary|WOL}",
-												"{@reward Erestem's Disciple|WOL}",
-												"{@reward Champion of Time|WOL}"
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"source": "WOL"
-		},
 		{
 			"name": "Angaradd",
 			"title": "God of Crafting, Creation and Smithing",
@@ -438,697 +301,6 @@
 				}
 			],
 			"source": "WOL"
-		},
-		{
-			"name": "Erathis",
-			"title": "Goddess of Civilization and Invention",
-			"altNames": [
-				"The Lawbearer"
-			],
-			"alignment": [
-				"L",
-				"N"
-			],
-			"category": [
-				"Deities of Radiance",
-				"The First Four",
-				"The Five Divines"
-			],
-			"domains": [
-				"Forge",
-				"Knowledge",
-				"Order",
-				"Peace"
-			],
-			"pantheon": "Ilúvë",
-			"provice": "Civilization, Invention, Law and Rule",
-			"symbol": "Upper half of a clockwork gear",
-			"symbolImg": {
-				"type": "image",
-				"href": {
-					"type": "external",
-					"url": "https://i.imgur.com/QZvKn7E.png"
-				}
-			},
-			"worshipers": "Inventors, Judges, Lawyers, Lawmakers, Rulers and Scribes",
-			"entries": [
-				{
-					"type": "section",
-					"entries": [
-						"The inspiration behind many great inventions, the creation of vast cities, and law and order within society, Erathis claims dominion over civilization. Judges and rulers pay respect at her temples, which are central structures in many cities across Ilúvë. Peace and order through structure and law guides the will of her devout followers. The Law Bearer has a tempestuous romance with {@deity Melora|Ilúvë|WOL} the Wild Mother, a furious love that is tempered only when civilization and nature are in balance.",
-						{
-							"type": "entries",
-							"name": "Erathis' Influence",
-							"entries": [
-								"Erathis is depicted within the glorious divine metropolis of Hestavar, the Bright City. This glowing oasis is said to be barely visible, almost like a distant reflection, in the astral sea, as the Law Bearer watches over the denizens bathed in the endless daytime that illuminates the busy streets.",
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Depiction",
-											"entries": [
-												"Erathis is shown in most texts and statues as a hooded, armored woman sitting atop a throne of pillars. Her face is generally obscured or depicted without expression, giving her presence an impartial yet imposing nature."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Holy Day",
-											"entries": [
-												"The Law Bearer's holy day is Civilization's Dawn, which is celebrated on the autumnal equinox, usually the twenty-second day of the ninth month. In the Empire, people celebrate by having feasts in honor of the laws set by the Inner Cabinet. One seat at every table is left open for the Emperor, who eats in spirit with the people he rules."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Commandments of Erathis",
-									"entries": [
-										{
-											"type": "list",
-											"items": [
-												"Work with others to achieve your goals. Community and order are always stronger than the disjointed efforts of lone individuals.",
-												"Tame the wilderness to make it fit for habitation, and defend the light of civilization against the encroaching darkness.",
-												"Seek out new ideas, new inventions, new lands to inhabit, new wilderness to conquer. Build machines, build cities, build empires."
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Piety",
-							"entries": [
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Earning and Losing Piety",
-											"entries": [
-												"You increase your piety score to Erathis when you expand the goddess's influence in the world in a concrete way through acts such as these:"
-											]
-										}
-									]
-								},
-								{
-									"type": "list",
-									"items": [
-										"Bringing a criminal to the attention of the law",
-										"Expand the reach of the civilization",
-										"Defending a city from a major threat",
-										"Creating a masterwork, such as a building or invention"
-									]
-								},
-								"Your piety score to Erathis decreases if you diminish her influence in the world, contradict her ideals, or undermine her civic influence through acts such as these:",
-								{
-									"type": "list",
-									"items": [
-										"Deliberately flouting the law or obstructing justice",
-										"Destroying a civic institution or sowing chaos within a city",
-										"Willfully breaking just laws or abusing authority for your own gain"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Benefits of Piety",
-									"entries": [
-										{
-											"type": "list",
-											"columns": 2,
-											"items": [
-												"{@reward Erathis's Devotee|WOL}",
-												"{@reward Erathis's Votary|WOL}",
-												"{@reward Erathis's Disciple|WOL}",
-												"{@reward Champion of Hestavar|WOL}"
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"source": "WOL"
-		},
-		{
-			"name": "Melora",
-			"title": "Goddess of Wilderness and The Sea",
-			"altNames": [
-				"The Wildmother"
-			],
-			"alignment": [
-				"N"
-			],
-			"category": [
-				"Deities of Radiance",
-				"The First Four",
-				"The Natural Three"
-			],
-			"domains": [
-				"Grave",
-				"Life",
-				"Nature",
-				"Peace",
-				"Tempest",
-				"Twilight"
-			],
-			"pantheon": "Ilúvë",
-			"province": "Beasts, Critters, Nature, Wilderness and The Sea",
-			"symbol": "Wavelike Swirl",
-			"symbolImg": {
-				"type": "image",
-				"href": {
-					"type": "external",
-					"url": "https://i.imgur.com/67c4Bhc.png"
-				}
-			},
-			"worshipers": "Druids, Hunters, Lycanthropes, Rangers and Sailors",
-			"entries": [
-				{
-					"type": "section",
-					"entries": [
-						"The realm of Melora extends to wherever the seas shift and the land grows wild. As the keeper of the wilderness, Melora represents the wild creatures of nature, the rush of the angry rapids, and the heat-heavy stillness of the desert. Elves worship her, as do hunters, accepting her guidance to exist harmoniously within savage lands. Those seeking safe passage across dangerous waters pray to her to guide them.",
-						"Followers of the Raven Queen also show respect to the Wild Mother as the caretaker of what remains when the Matron of Death's work is done. Druids of Melora the Wild Mother and clerics of her lover, {@deity Erathis|Ilúvë|WOL} the Law Bearer, work together to preserve the balance of nature and civilization. However, worship of Melora was outlawed in the Empire, causing disagreement between clerics of Erathis within The Bramble Downs, where many blame poor weather and natural disasters on the ire of their deity's partner.",
-						{
-							"type": "entries",
-							"name": "Melora's Influence",
-							"entries": [
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Depiction",
-											"entries": [
-												"Immortalized through wooden reliefs and carved idols in hidden, overgrown groves and rural shrines, the Wild Mother is shown as a beautiful woman with green skin nearly swallowed by a wild, tangled wreath of hair, leaves, and vines that dwarf her lithe form."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Holy Day",
-											"entries": [
-												"Melora's holy day is Wild's Grandeur, which is celebrated on the vernal equinox, usually the twentieth day of the third month. The people of the Stormkeep set aside this day to sail for no reason other than the pleasure of observing the natural beauty of their surroundings."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Commandments of Melora",
-									"entries": [
-										{
-											"type": "list",
-											"items": [
-												"Protect the untamed wilderness from exploitation and destruction.",
-												"Slay abominations and other mockeries of nature.",
-												"Embrace and respect the savage nature of the world. Exist in harmony with it."
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Piety",
-							"entries": [
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Earning and Losing Piety",
-											"entries": [
-												"You increase your piety score to Melora when you expand the goddess's influence in the world in a concrete way through acts such as these:"
-											]
-										}
-									]
-								},
-								{
-									"type": "list",
-									"items": [
-										"Healing a sick or injured wild animal",
-										"Pushing civilisation back from nature where it oversteps",
-										"Slaying abberations, fiends, undead and other dark monstrosities that would make a mockery of nature",
-										"Stopping those who hunt for sport or profit"
-									]
-								},
-								"Your piety score to Melora decreases if you diminish Melora's influence in the world, fail to defend nature, or offend her sensibilities through acts such as these:",
-								{
-									"type": "list",
-									"items": [
-										"Killing an animal for any reason other than necessity",
-										"Averting natural disasters or catastrophes rather than weathering them",
-										"Letting nature be twisted against the natural order",
-										"Allowing the destruction of wilderness to make way for artifice or civilisation"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Benefits of Piety",
-									"entries": [
-										{
-											"type": "list",
-											"columns": 2,
-											"items": [
-												"{@reward Melora's Devotee|WOL}",
-												"{@reward Melora's Votary|WOL}",
-												"{@reward Melora's Disciple|WOL}",
-												"{@reward Champion of The Wild|WOL}"
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"source": "WOL"
-		},
-		{
-			"name": "Ioun",
-			"title": "Goddess of Knowledge and Magic",
-			"altNames": [
-				"The Knowing Mistress"
-			],
-			"alignment": [
-				"N"
-			],
-			"category": [
-				"Deities of Radiance",
-				"The Guardians Three",
-				"The Red Tower"
-			],
-			"domains": [
-				"Arcana",
-				"Knowledge",
-				"Order",
-				"Time"
-			],
-			"pantheon": "Ilúvë",
-			"province": "Knowledge, Learning, Prophecy, Psionics and Magic",
-			"symbol": "Crook shaped like a stylized eye",
-			"symbolImg": {
-				"type": "image",
-				"href": {
-					"type": "external",
-					"url": "https://i.imgur.com/cP81vG4.png"
-				}
-			},
-			"worshipers": "Arcanists, Librarians, Psions, Teachers and Sages",
-			"entries": [
-				{
-					"type": "section",
-					"entries": [
-						"Revered by seers, sages, and teachers of all walks of life, Ioun guided the growth of civilization throughout the Age of Magicka like sunlight guides the branches of a tree. Grievously wounded by Ilbrant during the Dawn War, her followers are now hunted by agents of her ancient foes as she recovers. Her devout now worship in private, spreading knowledge, philosophy, and lore anonymously through traceless channels.",
-						{
-							"type": "entries",
-							"name": "Ioun's Influence",
-							"entries": [
-								"Ioun is depicted among the infinite library that fills the mythical, hidden realm of the Endless Athenaeum, her celestial servants cataloging all known things as she inspires those who pray for her insight and guidance.",
-								{
-									"type": "entries",
-									"name": "Depiction",
-									"entries": [
-										"Common representations show the Knowing Mentor as a graying, mature woman with a welcoming, matronly smile, swathed in billowing robes and scarves that fan into books and scrolls. Some colloquially refer to Ioun as the Knowing Mistress, revering her as a headmistress of knowledge among the gods."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Holy Day",
-									"entries": [
-										"Ioun has no public holy day, for her public worship was shattered after the disappearance of The Chroniclers, and she has since fallen into half-remembered myth. Only in the monasteries of the Hand of Eon's Minute and The Red Tower has the Knowing Mentor's faith been resurrected\u2014though her worship by the intellectuals of these places bears little resemblance to that of the knowledge-seekers of old."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Commandments of Ioun",
-									"entries": [
-										{
-											"type": "list",
-											"items": [
-												"Seek the perfection of your mind by bringing reason, perception, and emotion into balance with one another.",
-												"Accumulate, preserve, and distribute knowledge in all forms. Pursue education, build libraries, and seek out lost and ancient lore.",
-												"Be watchful at all times for the followers of Vecna, who seek to control knowledge and keep secrets. Oppose their schemes, unmask their secrets, and blind them with the light of truth and reason. "
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Piety",
-							"entries": [
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Earning and Losing Piety",
-											"entries": [
-												"You increase your piety score to Ioun when you expand the goddess's influence in the world in a concrete way through acts such as these:"
-											]
-										}
-									]
-								},
-								{
-									"type": "list",
-									"items": [
-										"Revealing a critical truth or dangerous secret",
-										"Discovering or documenting an unknown people or a poorly understood creature",
-										"Solving a challenging riddle or puzzle",
-										"Helping a community successfully plan for or adapt to a threat"
-									]
-								},
-								"Your piety score to Ioun decreases if you diminish her influence in the world through acts such as these:",
-								{
-									"type": "list",
-									"items": [
-										"Selfishly refusing to share information",
-										"Hiding or destroying research or other sources of knowledge",
-										"Willingly subverting or impeding a wise course of action",
-										"Failing to plan appropriately for a challenge"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Benefits of Piety",
-									"entries": [
-										{
-											"type": "list",
-											"columns": 2,
-											"items": [
-												"{@reward Ioun's Devotee|WOL}",
-												"{@reward Ioun's Votary|WOL}",
-												"{@reward Ioun's Disciple|WOL}",
-												"{@reward Champion of the Infinite Library|WOL}"
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"source": "WOL"
-		},
-		{
-			"name": "Kord",
-			"title": "God of Storms",
-			"altNames": [
-				"The Stormlord"
-			],
-			"alignment": [
-				"C",
-				"N"
-			],
-			"category": [
-				"Deities of Radiance",
-				"The Five Divines",
-				"The Guardians Three"
-			],
-			"domains": [
-				"Tempest",
-				"War"
-			],
-			"pantheon": "Ilúvë",
-			"province": "Athletics, Bravery, Competition, Courage, Storms and Strength",
-			"symbol": "A wooden Buckler shield cracked with blue lightning",
-			"symbolImg": {
-				"type": "image",
-				"href": {
-					"type": "external",
-					"url": "https://i.imgur.com/WsVKN6c.png"
-				}
-			},
-			"worshipers": "Athletes, Barbarians, Brawlers, Gladiators and Stormcallers",
-			"entries": [
-				{
-					"type": "section",
-					"entries": [
-						"Where thunder booms and conflict rises, prayers to the Storm Lord are shouted into the maelstrom. Reveling in all tests of strength, Kord blesses those who prove themselves on the battlefield. Worshiped by athletes and warriors all across Ilúvë, he exalts those whose force of spirit and desire for victory call his attention. He brings tumultuous storms over land and sea, and those who wish for clearer skies offer their praises and prayers to appease him.",
-						{
-							"type": "entries",
-							"name": "Kord's Influence",
-							"entries": [
-								{
-									"type": "entries",
-									"name": "Depiction",
-									"entries": [
-										"Within his temples, Kord is shown as a quintessential warrior, often nude with a beard and short, curled hair. As the epitome of muscle and strength, most art depicts the Storm Lord in a stance of dominance, and perhaps wrestling a terrible beast."
-									]
-								},
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Holy Day",
-											"entries": [
-												"Kord's holy day is the Day of Challenging, which is celebrated on the seventh day of the second month. The Day of Challenging is one of the most raucous holidays in Daggerford, and thousands of spectators attend the annual Godsbrawl held in the Temple of Kord to root for their favored deity's champion, particularly the chosen champions of the Storm Lord and the All-Hammer."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Commandments of Kord",
-									"entries": [
-										{
-											"type": "list",
-											"items": [
-												"Bravery above all. There is no glory in cowardice.",
-												"Strength is the path to greatness, but greatness is the responsible use of strength.",
-												"The glory of the Storm Lord lives through your own glory on the battlefield."
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Piety",
-							"entries": [
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Earning and Losing Piety",
-											"entries": [
-												"You increase your piety score to Kord when you expand the god's influence in the world in a concrete way through acts such as these:"
-											]
-										}
-									]
-								},
-								{
-									"type": "list",
-									"items": [
-										"Achieving a feat of great strength or physical prowess",
-										"Emerging victorious from battle having learned something new about yourself",
-										"Smiting the your foes in Kord's name"
-									]
-								},
-								"Your piety score to Kord decreases if you diminish Kord's influence in the world, contradict his ideals, or make him look weak and cowardly through acts such as these:",
-								{
-									"type": "list",
-									"items": [
-										"Showing cowardice in battle",
-										"Giving in to bloodlust and wanton destruction",
-										"Harming innocents or noncombatants"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Benefits of Piety",
-									"entries": [
-										{
-											"type": "list",
-											"columns": 2,
-											"items": [
-												"{@reward Kord's Devotee|WOL}",
-												"{@reward Kord's Votary|WOL}",
-												"{@reward Kord's Disciple|WOL}",
-												"{@reward Champion of The Gilded Storm|WOL}"
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"source": "WOL"
-		},
-		{
-			"name": "Sehanine",
-			"title": "Goddess of The Moons",
-			"altNames": [
-				"Selûne",
-				"Mistress of the Moonbow",
-				"The Moonweaver"
-			],
-			"alignment": [
-				"C",
-				"G"
-			],
-			"category": [
-				"Deities of Radiance",
-				"The Natural Three"
-			],
-			"domains": [
-				"Life",
-				"Light",
-				"Nature",
-				"Tempest",
-				"Time",
-				"Trickery",
-				"Twilight"
-			],
-			"pantheon": "Ilúvë",
-			"province": "Autumn, Dreams, Illusion, Love, Moonlight, Night and The Moons",
-			"source": "WOL",
-			"symbol": "Crescent moon",
-			"symbolImg": {
-				"type": "image",
-				"href": {
-					"type": "external",
-					"url": "https://i.imgur.com/AwLHsLB.png"
-				}
-			},
-			"worshipers": "Bards, Druids, Illusionists, Lovers, Lycanthropes, Nightworkers and Vampires",
-			"entries": [
-				{
-					"type": "section",
-					"entries": [
-						"Sehanine is the goddess of moonlight and the autumn season, as well as the patron of illusions and misdirection. Widely worshiped in halfling and elven cultures, she is considered to be the deity of love, protecting the trysts of lovers with shadows of her own making. Those who work in darkness and trickery often ask for her blessing.",
-						{
-							"type": "entries",
-							"name": "Sehanine's Influence",
-							"entries": [
-								"Sehanine is said to loom over the skies of Ilúvë as the largest of the two moons, everwatchful that the moons and {@deity Auroril|Ilúvë|WOL}'s Sun don't collide.",
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Depiction",
-											"entries": [
-												"The Moon Weaver's depictions are as numerous as the myths and stories of her meddling with the unions of mortals. She is most often painted as a young girl with light-blue skin and white hair, her body and limbs merely wavy silk strands of silver moonlight that caress and create the edges of the shadows around her.",
-												"In the Feywild, however, especially there where day is, she is sometimes depicted as a bright red-haired female Ranger, referred to as Ehlonna."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Holy Day",
-											"entries": [
-												"Sehanine has no holy day but is celebrated by the elves on the night of the decade's largest full moon. Elven astronomers track the both of the moons' phases and how they grow closer and farther to Ilúvë to predict these days with great accuracy. Many haughty elves use this festival as an excuse to be sly and mischievous, while younger elves use costumes and illusions to prank their peers. Some elves of Sylingur hold a secret festival near The Cloakwood during the full moon, since the Empire doesn't allow worship of the Moon Weaver."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Commandments of Sehanine",
-									"entries": [
-										{
-											"type": "list",
-											"items": [
-												"Follow your goals and seek your own destiny.",
-												"Keep to the shadows, avoiding the blazing light of zealous good and the utter darkness of evil.",
-												"Seek new horizons and new experiences, and let nothing tie you down."
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"type": "inset",
-							"name": "Selûne by any other name",
-							"entries": [
-								"Sehanine has gone by many names, being herself as mercurial as the lofty race of Elves. When the Elves were but nascent children, the Elves instead worshipped the primal essence of the Moons. Believed to be a wielder of the \"moonbow\", Selûne depicts a much more primal and stern goddess. These parts of her are still widely worshipped, and this is directly related to Sehanine's afterlife: an infinite sea with a single tower, called the Tower of Selûne.",
-								"Back in the 3nd Era, Selûne played a pivotal role in the lives of many surfacing Drow, looking to be absolved of what their Lolth-worshipping ancestors did in ages past. Her then-worshipped aspect included the portfolios of Mystery and Shadows."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Piety",
-							"entries": [
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Earning and Losing Piety",
-											"entries": [
-												"You increase your piety score to Sehanine when you expand the goddess's influence in the world in a concrete way through acts such as these:"
-											]
-										}
-									]
-								},
-								{
-									"type": "list",
-									"items": [
-										"Helping love flourish in the face of adversity",
-										"Tempering an extreme course of action with your wisdom",
-										"Employing trickery to combat tyranny",
-										"Aiding the weak or impeding the strong"
-									]
-								},
-								"Your piety score to Sehanine decreases if you diminish Sehanine's influence in the world through acts such as these:",
-								{
-									"type": "list",
-									"items": [
-										"Standing in the way of true love",
-										"Harming others or putting innocents at risk by falling into extremism",
-										"Following unjust laws or upholding an unjust institution"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Benefits of Piety",
-									"entries": [
-										{
-											"type": "list",
-											"columns": 2,
-											"items": [
-												"{@reward Sehanine's Devotee|WOL}",
-												"{@reward Sehanine's Votary|WOL}",
-												"{@reward Sehanine's Disciple|WOL}",
-												"{@reward Champion of The Vernal Bow|WOL}"
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
 		},
 		{
 			"name": "Bahamut",
@@ -1426,6 +598,1375 @@
 			"source": "WOL"
 		},
 		{
+			"name": "Erathis",
+			"title": "Goddess of Civilization and Invention",
+			"altNames": [
+				"The Lawbearer"
+			],
+			"alignment": [
+				"L",
+				"N"
+			],
+			"category": [
+				"Deities of Radiance",
+				"The First Four",
+				"The Five Divines"
+			],
+			"domains": [
+				"Forge",
+				"Knowledge",
+				"Order",
+				"Peace"
+			],
+			"pantheon": "Ilúvë",
+			"provice": "Civilization, Invention, Law and Rule",
+			"symbol": "Upper half of a clockwork gear",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/QZvKn7E.png"
+				}
+			},
+			"worshipers": "Inventors, Judges, Lawyers, Lawmakers, Rulers and Scribes",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"The inspiration behind many great inventions, the creation of vast cities, and law and order within society, Erathis claims dominion over civilization. Judges and rulers pay respect at her temples, which are central structures in many cities across Ilúvë. Peace and order through structure and law guides the will of her devout followers. The Law Bearer has a tempestuous romance with {@deity Melora|Ilúvë|WOL} the Wild Mother, a furious love that is tempered only when civilization and nature are in balance.",
+						{
+							"type": "entries",
+							"name": "Erathis' Influence",
+							"entries": [
+								"Erathis is depicted within the glorious divine metropolis of Hestavar, the Bright City. This glowing oasis is said to be barely visible, almost like a distant reflection, in the astral sea, as the Law Bearer watches over the denizens bathed in the endless daytime that illuminates the busy streets.",
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Depiction",
+											"entries": [
+												"Erathis is shown in most texts and statues as a hooded, armored woman sitting atop a throne of pillars. Her face is generally obscured or depicted without expression, giving her presence an impartial yet imposing nature."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Holy Day",
+											"entries": [
+												"The Law Bearer's holy day is Civilization's Dawn, which is celebrated on the autumnal equinox, usually the twenty-second day of the ninth month. In the Empire, people celebrate by having feasts in honor of the laws set by the Inner Cabinet. One seat at every table is left open for the Emperor, who eats in spirit with the people he rules."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Commandments of Erathis",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Work with others to achieve your goals. Community and order are always stronger than the disjointed efforts of lone individuals.",
+												"Tame the wilderness to make it fit for habitation, and defend the light of civilization against the encroaching darkness.",
+												"Seek out new ideas, new inventions, new lands to inhabit, new wilderness to conquer. Build machines, build cities, build empires."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Erathis when you expand the goddess's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Bringing a criminal to the attention of the law",
+										"Expand the reach of the civilization",
+										"Defending a city from a major threat",
+										"Creating a masterwork, such as a building or invention"
+									]
+								},
+								"Your piety score to Erathis decreases if you diminish her influence in the world, contradict her ideals, or undermine her civic influence through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Deliberately flouting the law or obstructing justice",
+										"Destroying a civic institution or sowing chaos within a city",
+										"Willfully breaking just laws or abusing authority for your own gain"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Erathis's Devotee|WOL}",
+												"{@reward Erathis's Votary|WOL}",
+												"{@reward Erathis's Disciple|WOL}",
+												"{@reward Champion of Hestavar|WOL}"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"source": "WOL"
+		},
+		{
+			"name": "Erestem",
+			"title": "God of Light, Order and Time",
+			"altNames": [
+				"The Lightbringer",
+				"Arem"
+			],
+			"alignment": [
+				"N"
+			],
+			"domains": [
+				"All"
+			],
+			"category": [
+				"The Lightbringer",
+				"Deities of Radiance"
+			],
+			"pantheon": "Ilúvë",
+			"province": "Light, Life, Knowledge, Order and Time",
+			"symbol": "Three Pointed Celestial Star",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/kS2EqHt.png"
+				}
+			},
+			"worshipers": "Archivists, Sages, Scholars and Philosophers",
+			"piety": true,
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"At first, there was nothing. Then, a conscience. Thoughts. Essence. In the endless blackness of the void, after an infinite amount of finite time, these thoughts coalesced into being. One being. This being, these illimitable emotions, wandered through the inky oblivion for perpetuity and timelessness, until it realized it was boundlessly and everlastingly alone. And so, from these thoughts, from this being, using all of its emotion, its soul; the purest form of magic, the universe exploded into existence, and with it, three fledgling gods were created from this incalculable eruption of sudden fervour, magic and soul: {@deity Angaradd|Ilúvë|WOL}, {@deity Auroril|Ilúvë|WOL} and {@deity Melora|Ilúvë|WOL}. In the ever-expansive cosmic nebula, these four deities sailed the roiling cosmos, as The Lightbringer thought up a form for each of them to inhabit.",
+						{
+							"type": "entries",
+							"name": "Erestem's Influence",
+							"entries": [
+								"Very few throughout Ilúvë have heard of The Lightbringer, and fewer still believe they even exist. Most lore and books of history have not stood the test of time, and therefore knowledge of The Lightbringer usually comes in the form of belief. The belief that life and light itself must be worshipped.",
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Depiction",
+											"entries": [
+												"Those who believe in The Lightbringer believe his existance to be all-encompassing: a paradox of mind, body and soul; he is all, yet nothing. By all accounts, The Lightbringer's original form is believed to be a shapeless yet humanoid body of impossibly bright light, like a burning star. Followers of The Lightbringer carry small, featureless humanoid made of a white crystal (usually quartz), arms outstreched in an inviting manner."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Holy Day",
+											"entries": [
+												"The Lightbringer's holy day is referred to as {@i Starfall}. During Starfall, followers of The Lightbringer gather at night to witness comet rains and the shifting of constellations, especially one named \"Erestem's Belt\". The night of Starfall is also a night of gift-giving and joy. It is often celebrated with omnipresent music in public areas, lavish gift-giving to relatives and loved ones, and the cutting and decorating of trees placed indoors. Because it is the peak of the winter season, devout followers of the Matron of Ravens consider it to be one of {@i her} holy days as well, as she is the goddess of winter."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Commandments of The Lightbringer",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Lead with mercy, patience, and compassion. Inspire others to unite in fellowship.",
+												"Aid those who are without guidance. Guide those without light. Heal those who are without hope.",
+												"Those who are beyond redemption, who revel in slaughter and remorseless evil, must be dispatched with swift justice."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Erestem when you expand the god's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Learning more about the world and the universe around you",
+										"Revealing a critical truth at an important moment",
+										"Keeping the order when no one else does",
+										"Aiding the weak or impeding the strong"
+									]
+								},
+								"Your piety score to Erestem decreases if you diminish Erestem's influence in the world, upset the balance of power, or make him look biased or petty through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Giving into chaos and destruction",
+										"Rupturing or otherwise harming space-time",
+										"Furthering the aims of another god in defiance of Erestem's will"
+									]
+								},
+								"Unlike other gods or lesser idols, Erestem is not a being that requires prayer or devotion, instead it simply is, a subject to be studied and to learn from.",
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Erestem's Devotee|WOL}",
+												"{@reward Erestem's Votary|WOL}",
+												"{@reward Erestem's Disciple|WOL}",
+												"{@reward Champion of Time|WOL}"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"source": "WOL"
+		},
+		{
+			"name": "Gruumsh",
+			"title": "God of Destruction and Murder",
+			"altNames": [
+				"The Ruiner"
+			],
+			"alignment": [
+				"C",
+				"E"
+			],
+			"category": [
+				"The Interlopers",
+				"The Northern Winds"
+			],
+			"domains": [
+				"Death",
+				"Tempest",
+				"War"
+			],
+			"pantheon": "Ilúvë",
+			"province": "Carnage, Destruction, Hunting, Pillaging, Savageness, Slaughter, Warmongering",
+			"symbol": "Grey triangular eye with bony protrusions",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/D0cdq2a.png"
+				}
+			},
+			"worshipers": "Barbarians, Goblinoids, Marauders, Orcs, Savages and Warbands",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"Gruumsh commands hordes of barbaric marauders to destroy, pillage, and slaughter for the sheer joy of it. Orderless and without honor, the creeds of the evil hordemaster urge savage creatures to devour the world around them, giving in to the chaotic and selfish nature of the predator. A number of violent clans of humanoids and beasts across Nordurvilt pay homage to Gruumsh, asking him to bless their hunts and gift them with spoils worth ruining.",
+						{
+							"type": "entries",
+							"name": "Gruumsh's Influence",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Depiction",
+											"entries": [
+												"Primitive clay representations in barbaric communities of his followers show the Ruiner as a hulking, bulbous behemoth of an orc. His missing eye has shifted, and the prominent eye is now centered in his face, like a nightmarish cyclops."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Enemies",
+											"entries": [
+												"Corellon shot out Gruumsh's right eye during the Age of Assault, and the god of slaughter longs for the day he can return the favor twofold. Those who serve the Ruiner are sometimes hypnotized by his hateful rage from across the Divine Gate and fall into a strange bloodlust, longing to slaughter elves and those who worship magic at the altar of the Archheart."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Commandments of Gruumsh",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Ruin. Conquer. Kill.",
+												"The weak exist to be crushed by the strong. Be the strong.",
+												"There are no emotions but fury and joy. The rest are weakness."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Gruumsh when you expand the god's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Killing elves",
+										"Taking vengeance against a powerful foe",
+										"Burning a city or other settlement to the ground",
+										"Desecrating a temple to Hextor, Corellon, or Lolth as an offering to Gruumsh"
+									]
+								},
+								"Your piety score to Gruumsh decreases if you diminish Gruumsh's influence in the world, contradict his ideals, or make him look weak or ineffectual through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Failing to carry out a sworn vendetta",
+										"Allowing another person to give you orders",
+										"Fleeing from combat",
+										"Aiding a goblinoid or followers of Corellon",
+										"Offering mercy to your foes"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Gruumsh's Devotee|WOL}",
+												"{@reward Gruumsh's Votary|WOL}",
+												"{@reward Gruumsh's Disciple|WOL}",
+												"{@reward Champion of Shargaas|WOL}"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"source": "WOL"
+		},
+		{
+			"name": "Hextor",
+			"title": "God of War and Conquest",
+			"altNames": [
+				"The Scourger",
+				"The Strife Emperor"
+			],
+			"alignment": [
+				"L",
+				"E"
+			],
+			"category": [
+				"The Interlopers",
+				"The Northern Winds"
+			],
+			"domains": [
+				"Death",
+				"War"
+			],
+			"pantheon": "Ilúvë",
+			"province": "Conflict, Conquest, Discord, Massacres and War",
+			"symbol": "Two Red-feathered arrows intertwined",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/inlgSDQ.png"
+				}
+			},
+			"worshipers": "Arms Dealers, Mercenaries, Warlords and Warmongers",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"Blood-drenched armies of brutal warriors oft crush their foes in the name of Hextor, the evil patron of war and conquest. To serve his will is to accept the call to conflict, seeking lesser people to break and subjugate. Warmongering nations and goblinoid tribes worship the Scourger as they strike out at the world to bend it beneath them. Hextor twists all living things to his iron will, forcing even nature itself to bow to his whims.",
+						{
+							"type": "entries",
+							"name": "Hextor's Influence",
+							"entries": [
+								"Hextor plots his conquest from within the bastion of Banehold.",
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Depiction",
+											"entries": [
+												"Hextor is often depicted as a hideous, gray skinned, six-armed humanoid bearing two large tusks jutting from its lower jaw wearing armor clad with skulls. He wields a weapon in each hand: a spiked flail, a battle axe, a battle pick, a longsword, a mace, and a falchion."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Enemies",
+											"entries": [
+												"The Scourger's greatest enemy is Melora, who defeated him at Icegale Ridge during the Dawn War. The Scourger grew his armies by corrupting noble creatures into monsters and destroying the wilds to fuel his terrible engines of conflict, and the two deities clashed many times during the war before his defeat at Helm's Hand."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Commandments of Hextor",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Never allow your fear to gain mastery over you, but drive it into the hearts of your foes.",
+												"Punish insubordination and disorder.",
+												"Hone your combat skills to perfection, whether you are a mighty general or a lone mercenary."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Hextor when you expand the god's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Crushing those who would resist your rule",
+										"Demonstrating dominance on the field of battle",
+										"Punishing insubordination and disorder"
+									]
+								},
+								"Your piety score to Tharizdun decreases if you diminish Tharizdun's influence in the world through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Letting fear overcome you",
+										"Allowing those beneath your station to show you disrespect",
+										"Allowing your subordinates to question you",
+										"Publicly displaying weakness, mercy, or compassion"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Hextor's Devotee|WOL}",
+												"{@reward Hextor's Votary|WOL}",
+												"{@reward Hextor's Disciple|WOL}",
+												"{@reward Champion of The Iron Fortress|WOL}"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"source": "WOL"
+		},
+		{
+			"name": "Ioun",
+			"title": "Goddess of Knowledge and Magic",
+			"altNames": [
+				"The Knowing Mistress"
+			],
+			"alignment": [
+				"N"
+			],
+			"category": [
+				"Deities of Radiance",
+				"The Guardians Three",
+				"The Red Tower"
+			],
+			"domains": [
+				"Arcana",
+				"Knowledge",
+				"Order",
+				"Time"
+			],
+			"pantheon": "Ilúvë",
+			"province": "Knowledge, Learning, Prophecy, Psionics and Magic",
+			"symbol": "Crook shaped like a stylized eye",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/cP81vG4.png"
+				}
+			},
+			"worshipers": "Arcanists, Librarians, Psions, Teachers and Sages",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"Revered by seers, sages, and teachers of all walks of life, Ioun guided the growth of civilization throughout the Age of Magicka like sunlight guides the branches of a tree. Grievously wounded by Ilbrant during the Dawn War, her followers are now hunted by agents of her ancient foes as she recovers. Her devout now worship in private, spreading knowledge, philosophy, and lore anonymously through traceless channels.",
+						{
+							"type": "entries",
+							"name": "Ioun's Influence",
+							"entries": [
+								"Ioun is depicted among the infinite library that fills the mythical, hidden realm of the Endless Athenaeum, her celestial servants cataloging all known things as she inspires those who pray for her insight and guidance.",
+								{
+									"type": "entries",
+									"name": "Depiction",
+									"entries": [
+										"Common representations show the Knowing Mentor as a graying, mature woman with a welcoming, matronly smile, swathed in billowing robes and scarves that fan into books and scrolls. Some colloquially refer to Ioun as the Knowing Mistress, revering her as a headmistress of knowledge among the gods."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Holy Day",
+									"entries": [
+										"Ioun has no public holy day, for her public worship was shattered after the disappearance of The Chroniclers, and she has since fallen into half-remembered myth. Only in the monasteries of the Hand of Eon's Minute and The Red Tower has the Knowing Mentor's faith been resurrected\u2014though her worship by the intellectuals of these places bears little resemblance to that of the knowledge-seekers of old."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Commandments of Ioun",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Seek the perfection of your mind by bringing reason, perception, and emotion into balance with one another.",
+												"Accumulate, preserve, and distribute knowledge in all forms. Pursue education, build libraries, and seek out lost and ancient lore.",
+												"Be watchful at all times for the followers of Vecna, who seek to control knowledge and keep secrets. Oppose their schemes, unmask their secrets, and blind them with the light of truth and reason. "
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Ioun when you expand the goddess's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Revealing a critical truth or dangerous secret",
+										"Discovering or documenting an unknown people or a poorly understood creature",
+										"Solving a challenging riddle or puzzle",
+										"Helping a community successfully plan for or adapt to a threat"
+									]
+								},
+								"Your piety score to Ioun decreases if you diminish her influence in the world through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Selfishly refusing to share information",
+										"Hiding or destroying research or other sources of knowledge",
+										"Willingly subverting or impeding a wise course of action",
+										"Failing to plan appropriately for a challenge"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Ioun's Devotee|WOL}",
+												"{@reward Ioun's Votary|WOL}",
+												"{@reward Ioun's Disciple|WOL}",
+												"{@reward Champion of the Infinite Library|WOL}"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"source": "WOL"
+		},
+		{
+			"name": "Kord",
+			"title": "God of Storms",
+			"altNames": [
+				"The Stormlord"
+			],
+			"alignment": [
+				"C",
+				"N"
+			],
+			"category": [
+				"Deities of Radiance",
+				"The Five Divines",
+				"The Guardians Three"
+			],
+			"domains": [
+				"Tempest",
+				"War"
+			],
+			"pantheon": "Ilúvë",
+			"province": "Athletics, Bravery, Competition, Courage, Storms and Strength",
+			"symbol": "A wooden Buckler shield cracked with blue lightning",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/WsVKN6c.png"
+				}
+			},
+			"worshipers": "Athletes, Barbarians, Brawlers, Gladiators and Stormcallers",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"Where thunder booms and conflict rises, prayers to the Storm Lord are shouted into the maelstrom. Reveling in all tests of strength, Kord blesses those who prove themselves on the battlefield. Worshiped by athletes and warriors all across Ilúvë, he exalts those whose force of spirit and desire for victory call his attention. He brings tumultuous storms over land and sea, and those who wish for clearer skies offer their praises and prayers to appease him.",
+						{
+							"type": "entries",
+							"name": "Kord's Influence",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Depiction",
+									"entries": [
+										"Within his temples, Kord is shown as a quintessential warrior, often nude with a beard and short, curled hair. As the epitome of muscle and strength, most art depicts the Storm Lord in a stance of dominance, and perhaps wrestling a terrible beast."
+									]
+								},
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Holy Day",
+											"entries": [
+												"Kord's holy day is the Day of Challenging, which is celebrated on the seventh day of the second month. The Day of Challenging is one of the most raucous holidays in Daggerford, and thousands of spectators attend the annual Godsbrawl held in the Temple of Kord to root for their favored deity's champion, particularly the chosen champions of the Storm Lord and the All-Hammer."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Commandments of Kord",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Bravery above all. There is no glory in cowardice.",
+												"Strength is the path to greatness, but greatness is the responsible use of strength.",
+												"The glory of the Storm Lord lives through your own glory on the battlefield."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Kord when you expand the god's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Achieving a feat of great strength or physical prowess",
+										"Emerging victorious from battle having learned something new about yourself",
+										"Smiting the your foes in Kord's name"
+									]
+								},
+								"Your piety score to Kord decreases if you diminish Kord's influence in the world, contradict his ideals, or make him look weak and cowardly through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Showing cowardice in battle",
+										"Giving in to bloodlust and wanton destruction",
+										"Harming innocents or noncombatants"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Kord's Devotee|WOL}",
+												"{@reward Kord's Votary|WOL}",
+												"{@reward Kord's Disciple|WOL}",
+												"{@reward Champion of The Gilded Storm|WOL}"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"source": "WOL"
+		},
+		{
+			"name": "Lolth",
+			"title": "Goddess of Spiders and Lies",
+			"altNames": [
+				"Queen of The Demonweb"
+			],
+			"alignment": [
+				"C",
+				"E"
+			],
+			"category": [
+				"The Interlopers"
+			],
+			"domains": [
+				"Madness",
+				"Trickery",
+				"War"
+			],
+			"pantheon": "Ilúvë",
+			"province": "Deceit, Drow, Lies, Lust, Shadows, Spiders and Women",
+			"symbol": "Spider",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/1cricGm.png"
+				}
+			},
+			"worshipers": "Assassins, Courtesans, Drow, Demonologists, Enchanters, Spies and Tricksters",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"The evil goddess of deceit, shadows, and spiders, the Spider Queen weaves a complicated web of schemes and treachery through her worshipers, deceiving allies and enemies alike to gain power. The Spider Queen's worship is entwined with the society of dark elves, even as the drow fall ever deeper into the thrall of the The Unending Darkness's aberrant minions. It is said that the Spider Queen can see through the eyes of all spiders, and that she is truly all-knowing.",
+						{
+							"type": "entries",
+							"name": "Lolth's Influence",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Depiction",
+									"entries": [
+										"Many Lolthite icons and idols show an alluring woman with dark purple skin and silver hair, her abdomen swelling into the terrifying body of a monstrous spider."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Enemies",
+									"entries": [
+										"Lolth holds a searing grudge against Kord, the Storm Lord, for with one throw of his mighty thunderspear he impaled her against a cliffside, leaving her drow armies leaderless during the Dawn War. Lolth and Gruumsh also share a burning hatred for Corellon, whom she claims drove her children below the earth, and Lolth often manipulates Gruumsh's followers into attacking her enemies so that the drow may remain safe."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Commandments of Lolth",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Misdirection, slander, and shadowed steps have more function than direct conflict.",
+												"It is better to be loved than feared, but you may certainly try to be both.",
+												"Death to the elves who live under the sun, and death to all their allies!"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Lolth when you expand the goddess's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Subjugating lesser creatures, such as men and surface elves, or sacrificing them to Lolth",
+										"Pulling off a daring robbery or perpetuating a bold lie",
+										"Obstructing champions of other gods",
+										"Desecrating temples to Corellon or Sehanine"
+									]
+								},
+								"Your piety score to Lolth decreases if you diminish Lolth's influence in the world, contradict her ideals, or make her look ridiculous or ineffectual through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Forthrightly assisting lawgivers in their duties",
+										"Swearing and then honoring an oath",
+										"Bringing order in times of chaos, except through domination and subjugation",
+										"Allowing men to hold positions of power"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Lolth's Devotee|WOL}",
+												"{@reward Lolth's Votary|WOL}",
+												"{@reward Lolth's Disciple|WOL}",
+												"{@reward Champion of The Demonweb|WOL}"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"source": "WOL"
+		},
+		{
+			"name": "Melora",
+			"title": "Goddess of Wilderness and The Sea",
+			"altNames": [
+				"The Wildmother"
+			],
+			"alignment": [
+				"N"
+			],
+			"category": [
+				"Deities of Radiance",
+				"The First Four",
+				"The Natural Three"
+			],
+			"domains": [
+				"Grave",
+				"Life",
+				"Nature",
+				"Peace",
+				"Tempest",
+				"Twilight"
+			],
+			"pantheon": "Ilúvë",
+			"province": "Beasts, Critters, Nature, Wilderness and The Sea",
+			"symbol": "Wavelike Swirl",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/67c4Bhc.png"
+				}
+			},
+			"worshipers": "Druids, Hunters, Lycanthropes, Rangers and Sailors",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"The realm of Melora extends to wherever the seas shift and the land grows wild. As the keeper of the wilderness, Melora represents the wild creatures of nature, the rush of the angry rapids, and the heat-heavy stillness of the desert. Elves worship her, as do hunters, accepting her guidance to exist harmoniously within savage lands. Those seeking safe passage across dangerous waters pray to her to guide them.",
+						"Followers of the Raven Queen also show respect to the Wild Mother as the caretaker of what remains when the Matron of Death's work is done. Druids of Melora the Wild Mother and clerics of her lover, {@deity Erathis|Ilúvë|WOL} the Law Bearer, work together to preserve the balance of nature and civilization. However, worship of Melora was outlawed in the Empire, causing disagreement between clerics of Erathis within The Bramble Downs, where many blame poor weather and natural disasters on the ire of their deity's partner.",
+						{
+							"type": "entries",
+							"name": "Melora's Influence",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Depiction",
+											"entries": [
+												"Immortalized through wooden reliefs and carved idols in hidden, overgrown groves and rural shrines, the Wild Mother is shown as a beautiful woman with green skin nearly swallowed by a wild, tangled wreath of hair, leaves, and vines that dwarf her lithe form."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Holy Day",
+											"entries": [
+												"Melora's holy day is Wild's Grandeur, which is celebrated on the vernal equinox, usually the twentieth day of the third month. The people of the Stormkeep set aside this day to sail for no reason other than the pleasure of observing the natural beauty of their surroundings."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Commandments of Melora",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Protect the untamed wilderness from exploitation and destruction.",
+												"Slay abominations and other mockeries of nature.",
+												"Embrace and respect the savage nature of the world. Exist in harmony with it."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Melora when you expand the goddess's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Healing a sick or injured wild animal",
+										"Pushing civilisation back from nature where it oversteps",
+										"Slaying abberations, fiends, undead and other dark monstrosities that would make a mockery of nature",
+										"Stopping those who hunt for sport or profit"
+									]
+								},
+								"Your piety score to Melora decreases if you diminish Melora's influence in the world, fail to defend nature, or offend her sensibilities through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Killing an animal for any reason other than necessity",
+										"Averting natural disasters or catastrophes rather than weathering them",
+										"Letting nature be twisted against the natural order",
+										"Allowing the destruction of wilderness to make way for artifice or civilisation"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Melora's Devotee|WOL}",
+												"{@reward Melora's Votary|WOL}",
+												"{@reward Melora's Disciple|WOL}",
+												"{@reward Champion of The Wild|WOL}"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"source": "WOL"
+		},
+		{
+			"name": "Nera",
+			"title": "Goddess of Death, Fate and Winter",
+			"altNames": [
+				"The Raven Queen",
+				"The Matron of Ravens",
+				"The Fatespinner"
+			],
+			"alignment": [
+				"N"
+			],
+			"category": [
+				"The Interlopers",
+				"The Five Divines"
+			],
+			"domains": [
+				"Death",
+				"Grave",
+				"Knowledge",
+				"Life",
+				"Tempest",
+				"Time"
+			],
+			"pantheon": "Ilúvë",
+			"province": "Death, Fate, Winter and Mortality",
+			"symbol": "Raven, in profile, facing right",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/WECySuM.png"
+				}
+			},
+			"worshipers": "Clerics, Funeral Directors, Morticians, Necromancers, Oracles, Psychopomps and Seers",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"She is the spinner of fate and the patron of winter. She marks the end of each mortal life, and mourners call upon her during funeral rites, in the hope that she will guard the departed from the curse of undeath.",
+						{
+							"type": "entries",
+							"name": "The Raven Queen's Influence",
+							"entries": [
+								"The Raven Queen tugs at the threads of fate from her stronghold of black ice within the frozen realm of Letherna.",
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Depiction",
+											"entries": [
+												"Few existing visual depictions of the Raven Queen exist; many temples merely use the raven as a symbol of her blessing. The few illustrations of her portray a tall, pale, gaunt woman wrapped in dangling black linens, with her face obscured by a white porcelain mask and her onyx-black hair straight and neverending."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Holy Day",
+											"entries": [
+												"The Raven Queen's holy day is called the Night of Ascension, celebrated on the thirteenth day of the tenth month."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Commandments of The Raven Queen",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Death is the natural end of life. There is no pity for those who have fallen.",
+												"The path of Fate is sacrosanct. Those who pridefully attempt to cast off their destiny must be punished.",
+												"Undeath is an atrocity. Those who would pervert the transition of the soul must be brought down."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to The Raven Queen when you expand the goddess's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Overseeing burial rites for those slain during a tragedy",
+										"Ensuring that the deeds and knowledge of someone who has died are preserved",
+										"Slaying undead"
+									]
+								},
+								"Your piety score to The Raven Queen decreases if you diminish The Raven Queen's influence in the world, contradict her ideals, or make her look ridiculous or ineffectual through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Denying a dying person their final rites",
+										"Removing wealth from a corpse or defiling a tomb",
+										"Aiding those who seek to deny fate or escape from the afterlife, or who already have"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Raven Queen's Devotee|WOL}",
+												"{@reward Raven Queen's Votary|WOL}",
+												"{@reward Raven Queen's Disciple|WOL}",
+												"{@reward Champion of Letherna|WOL}"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"source": "WOL"
+		},
+		{
+			"name": "Sehanine",
+			"title": "Goddess of The Moons",
+			"altNames": [
+				"Selûne",
+				"Mistress of the Moonbow",
+				"The Moonweaver"
+			],
+			"alignment": [
+				"C",
+				"G"
+			],
+			"category": [
+				"Deities of Radiance",
+				"The Natural Three"
+			],
+			"domains": [
+				"Life",
+				"Light",
+				"Nature",
+				"Tempest",
+				"Time",
+				"Trickery",
+				"Twilight"
+			],
+			"pantheon": "Ilúvë",
+			"province": "Autumn, Dreams, Illusion, Love, Moonlight, Night and The Moons",
+			"source": "WOL",
+			"symbol": "Crescent moon",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/AwLHsLB.png"
+				}
+			},
+			"worshipers": "Bards, Druids, Illusionists, Lovers, Lycanthropes, Nightworkers and Vampires",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"Sehanine is the goddess of moonlight and the autumn season, as well as the patron of illusions and misdirection. Widely worshiped in halfling and elven cultures, she is considered to be the deity of love, protecting the trysts of lovers with shadows of her own making. Those who work in darkness and trickery often ask for her blessing.",
+						{
+							"type": "entries",
+							"name": "Sehanine's Influence",
+							"entries": [
+								"Sehanine is said to loom over the skies of Ilúvë as the largest of the two moons, everwatchful that the moons and {@deity Auroril|Ilúvë|WOL}'s Sun don't collide.",
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Depiction",
+											"entries": [
+												"The Moon Weaver's depictions are as numerous as the myths and stories of her meddling with the unions of mortals. She is most often painted as a young girl with light-blue skin and white hair, her body and limbs merely wavy silk strands of silver moonlight that caress and create the edges of the shadows around her.",
+												"In the Feywild, however, especially there where day is, she is sometimes depicted as a bright red-haired female Ranger, referred to as Ehlonna."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Holy Day",
+											"entries": [
+												"Sehanine has no holy day but is celebrated by the elves on the night of the decade's largest full moon. Elven astronomers track the both of the moons' phases and how they grow closer and farther to Ilúvë to predict these days with great accuracy. Many haughty elves use this festival as an excuse to be sly and mischievous, while younger elves use costumes and illusions to prank their peers. Some elves of Sylingur hold a secret festival near The Cloakwood during the full moon, since the Empire doesn't allow worship of the Moon Weaver."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Commandments of Sehanine",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Follow your goals and seek your own destiny.",
+												"Keep to the shadows, avoiding the blazing light of zealous good and the utter darkness of evil.",
+												"Seek new horizons and new experiences, and let nothing tie you down."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Selûne by any other name",
+							"entries": [
+								"Sehanine has gone by many names, being herself as mercurial as the lofty race of Elves. When the Elves were but nascent children, the Elves instead worshipped the primal essence of the Moons. Believed to be a wielder of the \"moonbow\", Selûne depicts a much more primal and stern goddess. These parts of her are still widely worshipped, and this is directly related to Sehanine's afterlife: an infinite sea with a single tower, called the Tower of Selûne.",
+								"Back in the 3nd Era, Selûne played a pivotal role in the lives of many surfacing Drow, looking to be absolved of what their Lolth-worshipping ancestors did in ages past. Her then-worshipped aspect included the portfolios of Mystery and Shadows."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Sehanine when you expand the goddess's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Helping love flourish in the face of adversity",
+										"Tempering an extreme course of action with your wisdom",
+										"Employing trickery to combat tyranny",
+										"Aiding the weak or impeding the strong"
+									]
+								},
+								"Your piety score to Sehanine decreases if you diminish Sehanine's influence in the world through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Standing in the way of true love",
+										"Harming others or putting innocents at risk by falling into extremism",
+										"Following unjust laws or upholding an unjust institution"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Sehanine's Devotee|WOL}",
+												"{@reward Sehanine's Votary|WOL}",
+												"{@reward Sehanine's Disciple|WOL}",
+												"{@reward Champion of The Vernal Bow|WOL}"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Takhisis",
 			"title": "Goddess of Greed and Revenge",
 			"altNames": [
@@ -1705,79 +2246,71 @@
 			"source": "WOL"
 		},
 		{
-			"name": "Hextor",
-			"title": "God of War and Conquest",
+			"name": "The Strangers",
+			"title": "Deity of Balance, Chaos and Chance",
 			"altNames": [
-				"The Scourger",
-				"The Strife Emperor"
+				"Dubghall and Finngaill"
 			],
 			"alignment": [
-				"L",
-				"E"
+				"C",
+				"N"
 			],
 			"category": [
-				"The Interlopers",
-				"The Northern Winds"
+				"Deities of Radiance",
+				"The Sorrowsworn"
 			],
 			"domains": [
-				"Death",
-				"War"
+				"Life",
+				"Light",
+				"Madness",
+				"Trickery"
 			],
 			"pantheon": "Ilúvë",
-			"province": "Conflict, Conquest, Discord, Massacres and War",
-			"symbol": "Two Red-feathered arrows intertwined",
+			"province": "Balance, Chaos, Chance, Change, Laughter, Mischief and Trickery",
+			"symbol": "Coin with a two-faced mask",
 			"symbolImg": {
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://i.imgur.com/inlgSDQ.png"
+					"url": "https://i.imgur.com/UTYGgkT.png"
 				}
 			},
-			"worshipers": "Arms Dealers, Mercenaries, Warlords and Warmongers",
+			"worshipers": "Charlatans, Clerics, Bards, Gamblers, Rogues, Tricksters and Wanderers",
 			"entries": [
 				{
 					"type": "section",
 					"entries": [
-						"Blood-drenched armies of brutal warriors oft crush their foes in the name of Hextor, the evil patron of war and conquest. To serve his will is to accept the call to conflict, seeking lesser people to break and subjugate. Warmongering nations and goblinoid tribes worship the Scourger as they strike out at the world to bend it beneath them. Hextor twists all living things to his iron will, forcing even nature itself to bow to his whims.",
+						"After the Age of Assault, The Lightbringer, in his endless sorrow, unknowingly seeded the world with malice and despair. In an act of desperation, in order to preserve the world of light, Erestem's children pulled a spirit from the given world. What they could not have forseen, was the spirit's twin following after. Together, these two became newly born trickster gods, by the name of Dubhgall and Finngaill, and became one. Using their learned tricks to misdirect and fool, they lightened Erestem's sorrow.",
+						"Bound together as brothers, The Strangers find pleasure in mischief and compete for dominance\u2014something their followers describe as feeling like a tug of war within their own heads. To them, mortals are neither good nor evil, and so everyone is fair game. Though seen as naïve by the other gods\u2014gaining notoriety with Nera and Vecna, whom both describe them as \"immature fools\", especially Nera who see their acts of unpredictability to be an insult to her existence\u2014The Strangers are clever and cunning.",
+						"Followers of The Strangers include tricksy Clerics, Rogues and Bards with a penchant for chaos. Followers typically carry a blank coin that they flip to help decide their actions, not knowing which side is good or bad. The Strangers will push their followers to lights and extremes, further solidifying the mental tug of war the trickster deity poses upon them.",
 						{
 							"type": "entries",
-							"name": "Hextor's Influence",
+							"name": "The Strangers' Influence",
 							"entries": [
-								"Hextor plots his conquest from within the bastion of Banehold.",
 								{
 									"type": "entries",
+									"name": "Depiction",
 									"entries": [
-										{
-											"type": "entries",
-											"name": "Depiction",
-											"entries": [
-												"Hextor is often depicted as a hideous, gray skinned, six-armed humanoid bearing two large tusks jutting from its lower jaw wearing armor clad with skulls. He wields a weapon in each hand: a spiked flail, a battle axe, a battle pick, a longsword, a mace, and a falchion."
-											]
-										}
+										"The Strangers are usually depicted as two hooded figures, one smiling, the other frowning. Statues depicting The Strangers are far and few between, though particularly pious temples depict statues of The Strangers as a single entity; one usually veiled behind a deck of cards."
 									]
 								},
 								{
 									"type": "entries",
+									"name": "Holy Day",
 									"entries": [
-										{
-											"type": "entries",
-											"name": "Enemies",
-											"entries": [
-												"The Scourger's greatest enemy is Melora, who defeated him at Icegale Ridge during the Dawn War. The Scourger grew his armies by corrupting noble creatures into monsters and destroying the wilds to fuel his terrible engines of conflict, and the two deities clashed many times during the war before his defeat at Helm's Hand."
-											]
-										}
+										"The Strangers' holy day, called New Dawn, takes place on the first day of the first month, when the old year gives way to the new. In the Bramble Downs, people celebrate by having a feast on the shore near Port Delthuntle at dusk to watch the sunset. They feast and discuss their hopes for the new year until the sun rises."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Commandments of Hextor",
+									"name": "Commandments of The Strangers",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
-												"Never allow your fear to gain mastery over you, but drive it into the hearts of your foes.",
-												"Punish insubordination and disorder.",
-												"Hone your combat skills to perfection, whether you are a mighty general or a lone mercenary."
+												"Luck favors the bold. Your fate is your own to grasp, and to do so is to have The Strangers behind you.",
+												"Change is inevitable. The righteous can ensure that such change is for the better.",
+												"Rise against tyranny. Fight for the freedom of yourself and others when you can, and inspire others to fight when you cannot."
 											]
 										}
 									]
@@ -1795,7 +2328,7 @@
 											"type": "entries",
 											"name": "Earning and Losing Piety",
 											"entries": [
-												"You increase your piety score to Hextor when you expand the god's influence in the world in a concrete way through acts such as these:"
+												"You increase your piety score to The Strangers when you expand the gods's influence in the world in a concrete way through acts such as these:"
 											]
 										}
 									]
@@ -1803,19 +2336,19 @@
 								{
 									"type": "list",
 									"items": [
-										"Crushing those who would resist your rule",
-										"Demonstrating dominance on the field of battle",
-										"Punishing insubordination and disorder"
+										"Supporting those who would reform or overturn institutions",
+										"Overthrowing a tyrant who threatens freedom",
+										"Taking bold action when others are indecisive",
+										"Creating or maintaining a roadside shrine to The Strangers"
 									]
 								},
-								"Your piety score to Tharizdun decreases if you diminish Tharizdun's influence in the world through acts such as these:",
+								"Your piety score to The Strangers decreases if you diminish The Strangers's influence in the world, contradict their ideals of gradual change, or attempt to impose artificial order through acts such as these:",
 								{
 									"type": "list",
 									"items": [
-										"Letting fear overcome you",
-										"Allowing those beneath your station to show you disrespect",
-										"Allowing your subordinates to question you",
-										"Publicly displaying weakness, mercy, or compassion"
+										"Upholding an unjust or tyrannical institution",
+										"Abusing the goodwill of another",
+										"Hesitating in a moment of crisis"
 									]
 								},
 								{
@@ -1826,10 +2359,147 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Hextor's Devotee|WOL}",
-												"{@reward Hextor's Votary|WOL}",
-												"{@reward Hextor's Disciple|WOL}",
-												"{@reward Champion of The Iron Fortress|WOL}"
+												"{@reward Strangers's Devotee|WOL}",
+												"{@reward Strangers's Votary|WOL}",
+												"{@reward Strangers's Disciple|WOL}",
+												"{@reward Champion of Change and Chaos|WOL}"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"source": "WOL"
+		},
+		{
+			"name": "Torog",
+			"title": "God of Enslavement and Pain",
+			"altNames": [
+				"The Mad Worm-God",
+				"The King That Crawls"
+			],
+			"alignment": [
+				"N",
+				"E"
+			],
+			"category": [
+				"The Interlopers"
+			],
+			"domains": [
+				"Death",
+				"Madness",
+				"Trickery",
+				"War"
+			],
+			"pantheon": "Ilúvë",
+			"province": "The Underdark, Enslavement, Imprisonment, Pain and Torture",
+			"symbol": "Letter \"T\" attached to a circular shackle",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/bnNLfrM.png"
+				}
+			},
+			"worshipers": "Jailers, Masochists, Slavers, Torturers and Underdark Dwellers",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"The dark god of the endless tunnels and caverns beneath Ilúvë, Torog is the patron of torturers, slavers, and jailers across the realms. His violent tears carved the pathways under the world, and his realm of imprisonment is a network of deadly caves and manacles from which few return. Creatures that wander the desolation of Carceri often construct prisons in his image. Those who rob others of their freedom offer prayers to him in cellars and other subterranean domains, and many creatures who live in the darkness below worship him and seek his guidance.",
+						{
+							"type": "entries",
+							"name": "Torog's Influence",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Depiction",
+											"entries": [
+												"The Crawling King is rendered as a swollen, malformed worm that slithers through the dark below, with a screaming, hairless human head at the helm and three arms carving through the lightless rock."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Enemies",
+											"entries": [
+												"{@deity Auroril|Ilúvë|WOL} and {@deity Corellon|Ilúvë|WOL} defeated Torog during the Age of Assault by luring their nemesis above ground. Auroril pierced Torog's tenebrous body with ten thousand lances of sunlight, and Corellon imprisoned him beyond the boundaries of Ilúvë. The tears of pain and anger the Crawling King shed burned through Ilúvë, and his faithful fled into these tunnels to escape their enemies' holy light."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Commandments of Torog",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Seek and exalt places where no light touches.",
+												"Revel in the pain you inflict on others, and relish the pain you suffer yourself as an offering to Torog.",
+												"Imprison those who cannot resist you, and drag all life into the darkness."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Torog when you expand the god's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Imprisoning a powerful foe",
+										"Learning useful information through torture",
+										"Building or maintaining an underground temple to the King Who Crawls",
+										"Excavating for the purpose of expanding Torog's domain"
+									]
+								},
+								"Your piety score to Torog decreases if you diminish Torog's influence in the world, contradict his ideals, or make him look ridiculous or ineffectual through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Allowing a prisoner to go free",
+										"Soothing the pain of a creature in agony",
+										"Failing to pay homage to the King Who Crawls when traveling underground"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Torog's Devotee|WOL}",
+												"{@reward Torog's Votary|WOL}",
+												"{@reward Torog's Disciple|WOL}",
+												"{@reward Champion of The Darklands|WOL}"
 											]
 										}
 									]
@@ -2100,676 +2770,6 @@
 												"{@reward Zehir's Votary|WOL}",
 												"{@reward Zehir's Disciple|WOL}",
 												"{@reward Champion of Samaragd|WOL}"
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"source": "WOL"
-		},
-		{
-			"name": "Gruumsh",
-			"title": "God of Destruction and Murder",
-			"altNames": [
-				"The Ruiner"
-			],
-			"alignment": [
-				"C",
-				"E"
-			],
-			"category": [
-				"The Interlopers",
-				"The Northern Winds"
-			],
-			"domains": [
-				"Death",
-				"Tempest",
-				"War"
-			],
-			"pantheon": "Ilúvë",
-			"province": "Carnage, Destruction, Hunting, Pillaging, Savageness, Slaughter, Warmongering",
-			"symbol": "Grey triangular eye with bony protrusions",
-			"symbolImg": {
-				"type": "image",
-				"href": {
-					"type": "external",
-					"url": "https://i.imgur.com/D0cdq2a.png"
-				}
-			},
-			"worshipers": "Barbarians, Goblinoids, Marauders, Orcs, Savages and Warbands",
-			"entries": [
-				{
-					"type": "section",
-					"entries": [
-						"Gruumsh commands hordes of barbaric marauders to destroy, pillage, and slaughter for the sheer joy of it. Orderless and without honor, the creeds of the evil hordemaster urge savage creatures to devour the world around them, giving in to the chaotic and selfish nature of the predator. A number of violent clans of humanoids and beasts across Nordurvilt pay homage to Gruumsh, asking him to bless their hunts and gift them with spoils worth ruining.",
-						{
-							"type": "entries",
-							"name": "Gruumsh's Influence",
-							"entries": [
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Depiction",
-											"entries": [
-												"Primitive clay representations in barbaric communities of his followers show the Ruiner as a hulking, bulbous behemoth of an orc. His missing eye has shifted, and the prominent eye is now centered in his face, like a nightmarish cyclops."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Enemies",
-											"entries": [
-												"Corellon shot out Gruumsh's right eye during the Age of Assault, and the god of slaughter longs for the day he can return the favor twofold. Those who serve the Ruiner are sometimes hypnotized by his hateful rage from across the Divine Gate and fall into a strange bloodlust, longing to slaughter elves and those who worship magic at the altar of the Archheart."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Commandments of Gruumsh",
-									"entries": [
-										{
-											"type": "list",
-											"items": [
-												"Ruin. Conquer. Kill.",
-												"The weak exist to be crushed by the strong. Be the strong.",
-												"There are no emotions but fury and joy. The rest are weakness."
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Piety",
-							"entries": [
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Earning and Losing Piety",
-											"entries": [
-												"You increase your piety score to Gruumsh when you expand the god's influence in the world in a concrete way through acts such as these:"
-											]
-										}
-									]
-								},
-								{
-									"type": "list",
-									"items": [
-										"Killing elves",
-										"Taking vengeance against a powerful foe",
-										"Burning a city or other settlement to the ground",
-										"Desecrating a temple to Hextor, Corellon, or Lolth as an offering to Gruumsh"
-									]
-								},
-								"Your piety score to Gruumsh decreases if you diminish Gruumsh's influence in the world, contradict his ideals, or make him look weak or ineffectual through acts such as these:",
-								{
-									"type": "list",
-									"items": [
-										"Failing to carry out a sworn vendetta",
-										"Allowing another person to give you orders",
-										"Fleeing from combat",
-										"Aiding a goblinoid or followers of Corellon",
-										"Offering mercy to your foes"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Benefits of Piety",
-									"entries": [
-										{
-											"type": "list",
-											"columns": 2,
-											"items": [
-												"{@reward Gruumsh's Devotee|WOL}",
-												"{@reward Gruumsh's Votary|WOL}",
-												"{@reward Gruumsh's Disciple|WOL}",
-												"{@reward Champion of Shargaas|WOL}"
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"source": "WOL"
-		},
-		{
-			"name": "Lolth",
-			"title": "Goddess of Spiders and Lies",
-			"altNames": [
-				"Queen of The Demonweb"
-			],
-			"alignment": [
-				"C",
-				"E"
-			],
-			"category": [
-				"The Interlopers"
-			],
-			"domains": [
-				"Madness",
-				"Trickery",
-				"War"
-			],
-			"pantheon": "Ilúvë",
-			"province": "Deceit, Drow, Lies, Lust, Shadows, Spiders and Women",
-			"symbol": "Spider",
-			"symbolImg": {
-				"type": "image",
-				"href": {
-					"type": "external",
-					"url": "https://i.imgur.com/1cricGm.png"
-				}
-			},
-			"worshipers": "Assassins, Courtesans, Drow, Demonologists, Enchanters, Spies and Tricksters",
-			"entries": [
-				{
-					"type": "section",
-					"entries": [
-						"The evil goddess of deceit, shadows, and spiders, the Spider Queen weaves a complicated web of schemes and treachery through her worshipers, deceiving allies and enemies alike to gain power. The Spider Queen's worship is entwined with the society of dark elves, even as the drow fall ever deeper into the thrall of the The Unending Darkness's aberrant minions. It is said that the Spider Queen can see through the eyes of all spiders, and that she is truly all-knowing.",
-						{
-							"type": "entries",
-							"name": "Lolth's Influence",
-							"entries": [
-								{
-									"type": "entries",
-									"name": "Depiction",
-									"entries": [
-										"Many Lolthite icons and idols show an alluring woman with dark purple skin and silver hair, her abdomen swelling into the terrifying body of a monstrous spider."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Enemies",
-									"entries": [
-										"Lolth holds a searing grudge against Kord, the Storm Lord, for with one throw of his mighty thunderspear he impaled her against a cliffside, leaving her drow armies leaderless during the Dawn War. Lolth and Gruumsh also share a burning hatred for Corellon, whom she claims drove her children below the earth, and Lolth often manipulates Gruumsh's followers into attacking her enemies so that the drow may remain safe."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Commandments of Lolth",
-									"entries": [
-										{
-											"type": "list",
-											"items": [
-												"Misdirection, slander, and shadowed steps have more function than direct conflict.",
-												"It is better to be loved than feared, but you may certainly try to be both.",
-												"Death to the elves who live under the sun, and death to all their allies!"
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Piety",
-							"entries": [
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Earning and Losing Piety",
-											"entries": [
-												"You increase your piety score to Lolth when you expand the goddess's influence in the world in a concrete way through acts such as these:"
-											]
-										}
-									]
-								},
-								{
-									"type": "list",
-									"items": [
-										"Subjugating lesser creatures, such as men and surface elves, or sacrificing them to Lolth",
-										"Pulling off a daring robbery or perpetuating a bold lie",
-										"Obstructing champions of other gods",
-										"Desecrating temples to Corellon or Sehanine"
-									]
-								},
-								"Your piety score to Lolth decreases if you diminish Lolth's influence in the world, contradict her ideals, or make her look ridiculous or ineffectual through acts such as these:",
-								{
-									"type": "list",
-									"items": [
-										"Forthrightly assisting lawgivers in their duties",
-										"Swearing and then honoring an oath",
-										"Bringing order in times of chaos, except through domination and subjugation",
-										"Allowing men to hold positions of power"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Benefits of Piety",
-									"entries": [
-										{
-											"type": "list",
-											"columns": 2,
-											"items": [
-												"{@reward Lolth's Devotee|WOL}",
-												"{@reward Lolth's Votary|WOL}",
-												"{@reward Lolth's Disciple|WOL}",
-												"{@reward Champion of The Demonweb|WOL}"
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"source": "WOL"
-		},
-		{
-			"name": "Nera",
-			"title": "Goddess of Death, Fate and Winter",
-			"altNames": [
-				"The Raven Queen",
-				"The Matron of Ravens",
-				"The Fatespinner"
-			],
-			"alignment": [
-				"N"
-			],
-			"category": [
-				"The Interlopers",
-				"The Five Divines"
-			],
-			"domains": [
-				"Death",
-				"Grave",
-				"Knowledge",
-				"Life",
-				"Tempest",
-				"Time"
-			],
-			"pantheon": "Ilúvë",
-			"province": "Death, Fate, Winter and Mortality",
-			"symbol": "Raven, in profile, facing right",
-			"symbolImg": {
-				"type": "image",
-				"href": {
-					"type": "external",
-					"url": "https://i.imgur.com/WECySuM.png"
-				}
-			},
-			"worshipers": "Clerics, Funeral Directors, Morticians, Necromancers, Oracles, Psychopomps and Seers",
-			"entries": [
-				{
-					"type": "section",
-					"entries": [
-						"She is the spinner of fate and the patron of winter. She marks the end of each mortal life, and mourners call upon her during funeral rites, in the hope that she will guard the departed from the curse of undeath.",
-						{
-							"type": "entries",
-							"name": "The Raven Queen's Influence",
-							"entries": [
-								"The Raven Queen tugs at the threads of fate from her stronghold of black ice within the frozen realm of Letherna.",
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Depiction",
-											"entries": [
-												"Few existing visual depictions of the Raven Queen exist; many temples merely use the raven as a symbol of her blessing. The few illustrations of her portray a tall, pale, gaunt woman wrapped in dangling black linens, with her face obscured by a white porcelain mask and her onyx-black hair straight and neverending."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Holy Day",
-											"entries": [
-												"The Raven Queen's holy day is called the Night of Ascension, celebrated on the thirteenth day of the tenth month."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Commandments of The Raven Queen",
-									"entries": [
-										{
-											"type": "list",
-											"items": [
-												"Death is the natural end of life. There is no pity for those who have fallen.",
-												"The path of Fate is sacrosanct. Those who pridefully attempt to cast off their destiny must be punished.",
-												"Undeath is an atrocity. Those who would pervert the transition of the soul must be brought down."
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Piety",
-							"entries": [
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Earning and Losing Piety",
-											"entries": [
-												"You increase your piety score to The Raven Queen when you expand the goddess's influence in the world in a concrete way through acts such as these:"
-											]
-										}
-									]
-								},
-								{
-									"type": "list",
-									"items": [
-										"Overseeing burial rites for those slain during a tragedy",
-										"Ensuring that the deeds and knowledge of someone who has died are preserved",
-										"Slaying undead"
-									]
-								},
-								"Your piety score to The Raven Queen decreases if you diminish The Raven Queen's influence in the world, contradict her ideals, or make her look ridiculous or ineffectual through acts such as these:",
-								{
-									"type": "list",
-									"items": [
-										"Denying a dying person their final rites",
-										"Removing wealth from a corpse or defiling a tomb",
-										"Aiding those who seek to deny fate or escape from the afterlife, or who already have"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Benefits of Piety",
-									"entries": [
-										{
-											"type": "list",
-											"columns": 2,
-											"items": [
-												"{@reward Raven Queen's Devotee|WOL}",
-												"{@reward Raven Queen's Votary|WOL}",
-												"{@reward Raven Queen's Disciple|WOL}",
-												"{@reward Champion of Letherna|WOL}"
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"source": "WOL"
-		},
-		{
-			"name": "Torog",
-			"title": "God of Enslavement and Pain",
-			"altNames": [
-				"The Mad Worm-God",
-				"The King That Crawls"
-			],
-			"alignment": [
-				"N",
-				"E"
-			],
-			"category": [
-				"The Interlopers"
-			],
-			"domains": [
-				"Death",
-				"Madness",
-				"Trickery",
-				"War"
-			],
-			"pantheon": "Ilúvë",
-			"province": "The Underdark, Enslavement, Imprisonment, Pain and Torture",
-			"symbol": "Letter \"T\" attached to a circular shackle",
-			"symbolImg": {
-				"type": "image",
-				"href": {
-					"type": "external",
-					"url": "https://i.imgur.com/bnNLfrM.png"
-				}
-			},
-			"worshipers": "Jailers, Masochists, Slavers, Torturers and Underdark Dwellers",
-			"entries": [
-				{
-					"type": "section",
-					"entries": [
-						"The dark god of the endless tunnels and caverns beneath Ilúvë, Torog is the patron of torturers, slavers, and jailers across the realms. His violent tears carved the pathways under the world, and his realm of imprisonment is a network of deadly caves and manacles from which few return. Creatures that wander the desolation of Carceri often construct prisons in his image. Those who rob others of their freedom offer prayers to him in cellars and other subterranean domains, and many creatures who live in the darkness below worship him and seek his guidance.",
-						{
-							"type": "entries",
-							"name": "Torog's Influence",
-							"entries": [
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Depiction",
-											"entries": [
-												"The Crawling King is rendered as a swollen, malformed worm that slithers through the dark below, with a screaming, hairless human head at the helm and three arms carving through the lightless rock."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Enemies",
-											"entries": [
-												"{@deity Auroril|Ilúvë|WOL} and {@deity Corellon|Ilúvë|WOL} defeated Torog during the Age of Assault by luring their nemesis above ground. Auroril pierced Torog's tenebrous body with ten thousand lances of sunlight, and Corellon imprisoned him beyond the boundaries of Ilúvë. The tears of pain and anger the Crawling King shed burned through Ilúvë, and his faithful fled into these tunnels to escape their enemies' holy light."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Commandments of Torog",
-									"entries": [
-										{
-											"type": "list",
-											"items": [
-												"Seek and exalt places where no light touches.",
-												"Revel in the pain you inflict on others, and relish the pain you suffer yourself as an offering to Torog.",
-												"Imprison those who cannot resist you, and drag all life into the darkness."
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Piety",
-							"entries": [
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Earning and Losing Piety",
-											"entries": [
-												"You increase your piety score to Torog when you expand the god's influence in the world in a concrete way through acts such as these:"
-											]
-										}
-									]
-								},
-								{
-									"type": "list",
-									"items": [
-										"Imprisoning a powerful foe",
-										"Learning useful information through torture",
-										"Building or maintaining an underground temple to the King Who Crawls",
-										"Excavating for the purpose of expanding Torog's domain"
-									]
-								},
-								"Your piety score to Torog decreases if you diminish Torog's influence in the world, contradict his ideals, or make him look ridiculous or ineffectual through acts such as these:",
-								{
-									"type": "list",
-									"items": [
-										"Allowing a prisoner to go free",
-										"Soothing the pain of a creature in agony",
-										"Failing to pay homage to the King Who Crawls when traveling underground"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Benefits of Piety",
-									"entries": [
-										{
-											"type": "list",
-											"columns": 2,
-											"items": [
-												"{@reward Torog's Devotee|WOL}",
-												"{@reward Torog's Votary|WOL}",
-												"{@reward Torog's Disciple|WOL}",
-												"{@reward Champion of The Darklands|WOL}"
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"source": "WOL"
-		},
-		{
-			"name": "The Strangers",
-			"title": "Deity of Balance, Chaos and Chance",
-			"altNames": [
-				"Dubghall and Finngaill"
-			],
-			"alignment": [
-				"C",
-				"N"
-			],
-			"category": [
-				"Deities of Radiance",
-				"The Sorrowsworn"
-			],
-			"domains": [
-				"Life",
-				"Light",
-				"Madness",
-				"Trickery"
-			],
-			"pantheon": "Ilúvë",
-			"province": "Balance, Chaos, Chance, Change, Laughter, Mischief and Trickery",
-			"symbol": "Coin with a two-faced mask",
-			"symbolImg": {
-				"type": "image",
-				"href": {
-					"type": "external",
-					"url": "https://i.imgur.com/UTYGgkT.png"
-				}
-			},
-			"worshipers": "Charlatans, Clerics, Bards, Gamblers, Rogues, Tricksters and Wanderers",
-			"entries": [
-				{
-					"type": "section",
-					"entries": [
-						"After the Age of Assault, The Lightbringer, in his endless sorrow, unknowingly seeded the world with malice and despair. In an act of desperation, in order to preserve the world of light, Erestem's children pulled a spirit from the given world. What they could not have forseen, was the spirit's twin following after. Together, these two became newly born trickster gods, by the name of Dubhgall and Finngaill, and became one. Using their learned tricks to misdirect and fool, they lightened Erestem's sorrow.",
-						"Bound together as brothers, The Strangers find pleasure in mischief and compete for dominance\u2014something their followers describe as feeling like a tug of war within their own heads. To them, mortals are neither good nor evil, and so everyone is fair game. Though seen as naïve by the other gods\u2014gaining notoriety with Nera and Vecna, whom both describe them as \"immature fools\", especially Nera who see their acts of unpredictability to be an insult to her existence\u2014The Strangers are clever and cunning.",
-						"Followers of The Strangers include tricksy Clerics, Rogues and Bards with a penchant for chaos. Followers typically carry a blank coin that they flip to help decide their actions, not knowing which side is good or bad. The Strangers will push their followers to lights and extremes, further solidifying the mental tug of war the trickster deity poses upon them.",
-						{
-							"type": "entries",
-							"name": "The Strangers' Influence",
-							"entries": [
-								{
-									"type": "entries",
-									"name": "Depiction",
-									"entries": [
-										"The Strangers are usually depicted as two hooded figures, one smiling, the other frowning. Statues depicting The Strangers are far and few between, though particularly pious temples depict statues of The Strangers as a single entity; one usually veiled behind a deck of cards."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Holy Day",
-									"entries": [
-										"The Strangers' holy day, called New Dawn, takes place on the first day of the first month, when the old year gives way to the new. In the Bramble Downs, people celebrate by having a feast on the shore near Port Delthuntle at dusk to watch the sunset. They feast and discuss their hopes for the new year until the sun rises."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Commandments of The Strangers",
-									"entries": [
-										{
-											"type": "list",
-											"items": [
-												"Luck favors the bold. Your fate is your own to grasp, and to do so is to have The Strangers behind you.",
-												"Change is inevitable. The righteous can ensure that such change is for the better.",
-												"Rise against tyranny. Fight for the freedom of yourself and others when you can, and inspire others to fight when you cannot."
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Piety",
-							"entries": [
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Earning and Losing Piety",
-											"entries": [
-												"You increase your piety score to The Strangers when you expand the gods's influence in the world in a concrete way through acts such as these:"
-											]
-										}
-									]
-								},
-								{
-									"type": "list",
-									"items": [
-										"Supporting those who would reform or overturn institutions",
-										"Overthrowing a tyrant who threatens freedom",
-										"Taking bold action when others are indecisive",
-										"Creating or maintaining a roadside shrine to The Strangers"
-									]
-								},
-								"Your piety score to The Strangers decreases if you diminish The Strangers's influence in the world, contradict their ideals of gradual change, or attempt to impose artificial order through acts such as these:",
-								{
-									"type": "list",
-									"items": [
-										"Upholding an unjust or tyrannical institution",
-										"Abusing the goodwill of another",
-										"Hesitating in a moment of crisis"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Benefits of Piety",
-									"entries": [
-										{
-											"type": "list",
-											"columns": 2,
-											"items": [
-												"{@reward Strangers's Devotee|WOL}",
-												"{@reward Strangers's Votary|WOL}",
-												"{@reward Strangers's Disciple|WOL}",
-												"{@reward Champion of Change and Chaos|WOL}"
 											]
 										}
 									]
@@ -11396,12 +11396,200 @@
 	],
 	"reward": [
 		{
+			"name": "Angaradd's Devotee",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Angaradd trait}",
+				"As a devotee of Angaradd, you have drawn the notice of the forge god with your skill. You can cast the {@spell shield of faith} spell with this trait, requiring no material components, a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+				"In addition, you know the {@spell mending} cantrip. Wisdom is your spellcasting ability for these spells."
+			]
+		},
+		{
+			"name": "Angaradd's Votary",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Angaradd trait}",
+				"You can cast the {@spell heat metal} spell with this trait, requiring no material components. Once you cast the spell in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. Wisdom is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Angaradd's Disciple",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Angaradd trait}",
+				"While you are standing and an effect would push you 1 foot or more, you can use your {@variantrule Reaction|XPHB} to not be pushed."
+			]
+		},
+		{
+			"name": "Champion of Erackinor",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Angaradd trait}",
+				"You can increase your Strength or Wisdom score by 2 and also increase your maximum for that score by 2."
+			]
+		},
+
+		{
+			"name": "Auroril's Devotee",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Auroril trait}",
+				"As a devotee of Auroril, you have proven yourself a worthy champion of the sun goddess. You can call on Auroril's favor and cast the {@spell bless} spell with this trait, requiring no material components. Auroril's blessing manifests as a nimbus around the affected creatures, causing them to shed dim light in a 5-foot radius until the spell ends. You can cast the spell in this way a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. Wisdom is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Auroril's Votary",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Auroril trait}",
+				"You can cast the {@spell daylight} spell with this trait. Once you cast the spell in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. Wisdom is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Auroril's Disciple",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Auroril trait}",
+				"You grow accustomed to the blazing radiance of the sun; you have {@variantrule Advantage|XPHB} on saving throws against being {@condition blinded}, and you have {@variantrule Resistance|XPHB} to fire damage."
+			]
+		},
+		{
+			"name": "Champion of The Radiant Melody",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Auroril trait}",
+				"You can increase your Constitution or Wisdom score by 2 and also increase your maximum for that score by 2."
+			]
+		},
+
+		{
+			"name": "Bahamut's Devotee",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Bahamut trait}",
+				"As a devotee of Bahamut, you have earned his favor through victories won in his name. You can cast the {@spell compelled duel} spell with this trait a number of times equal to your Charisma modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. Charisma is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Bahamut's Votary",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Bahamut trait}",
+				"You can cast the {@spell crusader's mantle} spell with this trait. Once you cast the spell in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. Charisma is your spellcasting ability for this spell.",
+				"In addition, you have {@variantrule Advantage|XPHB} on saving throws against being {@condition frightened}."
+			]
+		},
+		{
+			"name": "Bahamut's Disciple",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Bahamut trait}",
+				"As a {@variantrule Bonus Action|XPHB}, you can call on Bahamut's blessing, gaining the following benefit for 1 minute or until you are {@condition incapacitated}: creatures within 30 feet of you can't gain advantage on attack rolls against you. Once you use this trait, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Champion of The Vast Plateau",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Bahamut trait}",
+				"You can increase your Strength or Charisma score by 2 and also increase your maximum for that score by 2."
+			]
+		},
+
+		{
+			"name": "Corellon's Devotee",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Corellon trait}",
+				"As a devotee of Corellon, you have a connection to High Magic. You can cast the {@spell detect magic} spell with this trait a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Corellon's Votary",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Corellon trait}",
+				"You can cast the {@spell blink} spell with this trait. Once you cast the spell in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. Intelligence is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Corellon's Disciple",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Corellon trait}",
+				"As a true champion of Corellon, you can use your {@spell mage hand} cantrip to protect yourself. While your spectral hand is within 5 feet of you, you gain a +2 bonus to your AC against ranged attacks."
+			]
+		},
+		{
+			"name": "Champion of High Magic",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Corellon trait}",
+				"You can increase your Dexterity or Intelligence score by 2 and also increase your maximum for that score by 2."
+			]
+		},
+
+		{
+			"name": "Erathis's Devotee",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Erathis trait}",
+				"Erathis grants you insight into how people communicate. You can cast the {@spell comprehend languages} spell with this trait, requiring no material component, a number of times equal to your Charisma modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. Charisma is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Erathis's Votary",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Erathis trait}",
+				"You gain advantage on Charisma ({@skill Persuasion}) checks while you are within a city.",
+				"In addition, when you fail an Intelligence {@variantrule D20 Test|XPHB}, you can reroll the die, and you must use the new roll. Once you use this reroll, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Erathis's Disciple",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Erathis trait}",
+				"You have {@variantrule Advantage|XPHB} on saving throws against being {@condition charmed} or {@condition paralyzed}."
+			]
+		},
+		{
+			"name": "Champion of Hestavar",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Erathis trait}",
+				"You can increase your Intelligence or Charisma score by 2 and also increase your maximum for that score by 2."
+			]
+		},
+
+		{
 			"name": "Erestem's Devotee",
 			"source": "WOL",
 			"type": "Piety Trait",
 			"entries": [
 				"{@i Piety 3+ Erestem trait}",
-				"As a devotee of Erestem, you have proven yourself a devotee of reality and order. You can now cast {@spell fortune's favor|WOL} once per short rest without using any material components."
+				"As a devotee of Erestem, you have proven yourself a devotee of reality and order. You can now cast {@spell fortune's favor|WOL} once per {@variantrule Short Rest|XPHB} without using any material components."
 			]
 		},
 		{
@@ -11410,7 +11598,7 @@
 			"type": "Piety Trait",
 			"entries": [
 				"{@i Piety 10+ Erestem trait}",
-				"You've thrown yourself into books and you've come back with the knowledge to bend reality without breaking order. You can now cast {@spell gravity sinkhole|EGW} once per long rest. Your intelligence is your spellcasting ability when using this feature."
+				"You've thrown yourself into books and you've come back with the knowledge to bend reality without breaking order. You can now cast {@spell gravity sinkhole|EGW} once per {@variantrule Long Rest|XPHB}. Your intelligence is your spellcasting ability when using this feature."
 			]
 		},
 		{
@@ -11419,7 +11607,7 @@
 			"type": "Piety Trait",
 			"entries": [
 				"{@i Piety 25+ Erestem trait}",
-				"You've learned more about the weave of time and now can better manipulate reality, without breaking the time-space continuum. You can now use your Erestem's Devotee feature a number of times equal to your intelligence modifier (minimum of once) per short rest. Also, when you're under the effects of advantage, it can not be canceled out by any disadvantage."
+				"You've learned more about the weave of time and now can better manipulate reality, without breaking the time-space continuum. You can now use your Erestem's Devotee feature a number of times equal to your intelligence modifier (minimum of once) per {@variantrule Short Rest|XPHB}. Also, when you're under the effects of {@variantrule Advantage|XPHB}, it can not be canceled out by any {@variantrule Disadvantage|XPHB}."
 			]
 		},
 		{
@@ -11433,12 +11621,384 @@
 		},
 
 		{
+			"name": "Gruumsh's Devotee",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Gruumsh trait}",
+				"As a devotee of Gruumsh, you have shown yourself to be a savage killer. You can cast the {@spell hunter's mark} spell with this trait a number of times equal to your Constitution modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. Constitution is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Gruumsh's Votary",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Gruumsh trait}",
+				"You can cast the {@spell blinding smite} spell with this trait. Once you cast the spell in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. Constitution is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Gruumsh's Disciple",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Gruumsh trait}",
+				"The scent of fresh blood gives you the vigor needed to keep fighting—and keep killing. When a creature dies within 10 feet of you, you can use your {@variantrule Reaction|XPHB} to gain a number of temporary {@variantrule Hit Points|XPHB} equal to your level."
+			]
+		},
+		{
+			"name": "Champion of Shargaas",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Gruumsh trait}",
+				"You can increase your Strength or Dexterity score by 2 and also increase your maximum for that score by 2."
+			]
+		},
+
+		{
+			"name": "Hextor's Devotee",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Hextor trait}",
+				"As a devotee of Hextor, you have shown yourself to be a ruthless soldier. You can call on Hextor's favor and cast the {@spell wrathful smite} spell with this trait. Hextor's blessing manifest as a blood-red glow around your weapon, causing it to shed dim light in a 5-foot radius until the spell ends. You can cast the spell in this way a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. Intelligence is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Hextor's Votary",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Hextor trait}",
+				"You can cast the {@spell fear} spell with this trait. Once you cast the spell in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. Intelligence is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Hextor's Disciple",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Hextor trait}",
+				"Countless battles and and rigorous training have given you focus. You have {@variantrule Advantage|XPHB} on saving throws against being {@condition charmed} or {@condition frightened}."
+			]
+		},
+		{
+			"name": "Champion of The Iron Fortress",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Hextor trait}",
+				"You can increase your Strength or Intelligence score by 2 and also increase your maximum for that score by 2."
+			]
+		},
+
+		{
+			"name": "Ioun's Devotee",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Ioun trait}",
+				"As a devotee of Ioun, you are a font of knowledge on all things. You can cast the {@spell identify} spell without needing to provide material components with this trait a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. Intelligence is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Ioun's Votary",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Ioun trait}",
+				"You can cast the {@spell divination} spell with this trait, requiring no material components. Once you cast the spell in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. Intelligence is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Ioun's Disciple",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Ioun trait}",
+				"You develop a sixth sense, allowing you to intuit the future. You can't be {@condition surprised}, provided you aren't {@condition incapacitated}."
+			]
+		},
+		{
+			"name": "Champion of The Infinite Library",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Ioun trait}",
+				"You can increase your Intelligence or Wisdom score by 2 and also increase your maximum for that score by 2."
+			]
+		},
+
+		{
+			"name": "Kord's Devotee",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Kord trait}",
+				"As a devotee of Kord, you have proven your wisdom and your allegiance to the Stormlord. Once on each of your turns when you hit a creature with a weapon attack, you can deal an extra 1d6 lightning damage to the target. You can use this trait a number of times equal to your Strength or Dexterity modifier, your choice (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Kord's Votary",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Kord trait}",
+				"When you fail a Strength or a Dexterity saving throw, you can reroll the die, and you must use the new roll. Once you use this trait, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Kord's Disciple",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Kord trait}",
+				"The energy of the storm fills your being, granting you {@variantrule Advantage|XPHB} on {@variantrule Initiative|XPHB} rolls."
+			]
+		},
+		{
+			"name": "Champion of The Gilded Storm",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Kord trait}",
+				"You can increase your Strength or Dexterity score by 2 and also increase your maximum for that score by 2."
+			]
+		},
+
+		{
+			"name": "Lolth's Devotee",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Lolth trait}",
+				"As a devotee of Lolth, you have proven yourself accomplished at deception. You can call on Lolth's blessing and cast the {@spell disguise self} spell with this trait. While the spell is active, your shadow still resembles your original form if seen in moonlight. You can cast the spell in this way a number of times equal to your Charisma modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. Charisma is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Lolth's Votary",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Lolth trait}",
+				"Your words are inspired by the Queen of Lies. You have {@variantrule Advantage|XPHB} on Charisma ({@skill Deception}) checks."
+			]
+		},
+		{
+			"name": "Lolth's Disciple",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Lolth trait}",
+				"When you are hidden from a creature and miss it with an attack, making the attack doesn't reveal your position."
+			]
+		},
+		{
+			"name": "Champion of The Demonweb",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Lolth trait}",
+				"You can increase your Dexterity or Charisma score by 2 and also increase your maximum for that score by 2."
+			]
+		},
+
+		{
+			"name": "Melora's Devotee",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Melora trait}",
+				"As a devotee of Melora, you have proven yourself a worthy representative of the goddess of the sea. You can cast the {@spell fog cloud} spell with this trait. Fog created in this way smells strongly of the sea. You can cast the spell in this way a number of times equal to your Wisdom (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. Wisdom is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Melora's Votary",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Melora trait}",
+				"You can cast the {@spell speak with animals} spell with this trait a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. Wisdom is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Melora's Disciple",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Melora trait}",
+				"When a beast is about to attack you, it must make a DC 15 Wisdom saving throw. On a failed save, the creature must choose a different target, or the attack automatically misses you. On a successful save, the creature is immune to this trait for 24 hours."
+			]
+		},
+		{
+			"name": "Champion of The Wild",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Melora trait}",
+				"You can increase your Dexterity or Wisdom score by 2 and also increase your maximum for that score by 2."
+			]
+		},
+
+		{
+			"name": "Raven Queen's Devotee",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Raven Queen trait}",
+				"Your life is intertwined with the fate of the dead. You can the {@spell cast gentle repose} spell with this trait, requiring no material components, a number of times equal to your Charisma modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. Charisma is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Raven Queen's Votary",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Raven Queen trait}",
+				"You can cast the {@spell speak with dead} spell with this trait, requiring no material components. Once you cast the spell in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. Charisma is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Raven Queen's Disciple",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Raven Queen trait}",
+				"You can cast the {@spell false life} spell with this trait, requiring no material components. When you do so, you gain an additional 25 temporary {@variantrule Hit Points|XPHB}. Once you cast the spell in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. Charisma is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Champion of Letherna",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Raven Queen trait}",
+				"You can increase your Constitution or Charisma score by 2 and also increase your maximum for that score by 2."
+			]
+		},
+
+		{
+			"name": "Sehanine's Devotee",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Sehanine trait}",
+				"As a devotee of Sehanine, you have proven yourself a worthy potential champion of the goddess of love. As a {@variantrule Bonus Action|XPHB}, you can invoke her protection; twilit shadows cover you, providing you with a +1 bonus to AC for 1 minute. Once you use this trait, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Sehanine's Votary",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Sehanine trait}",
+				"You can cast the {@spell moonbeam} spell with this trait. Once you cast the spell in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. Wisdom is your spellcasting ability for this spell.",
+				"In addition, you have {@variantrule Advantage|XPHB} on saving throws against being {@condition charmed}."
+			]
+		},
+		{
+			"name": "Sehanine's Disciple",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Sehanine trait}",
+				"By performing an hour-long ritual, you can conjure enough grapes to fill three vials (4 ounces each) of {@item Fine Wine (bottle)|wine|XPHB}. Each vial serves as a {@item potion of healing} or a {@item philter of love} (your choice) for 24 hours, after which time it loses this property. Once you use this trait, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Champion of The Vernal Bow",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Sehanine trait}",
+				"You can increase your Wisdom, Charisma or Dexterity score by 2 and also increase your maximum for that score by 2."
+			]
+		},
+
+		{
+			"name": "Takhisis's Devotee",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Takhisis trait}",
+				"As a devotee of Takhisis, you wield the power of dragons. You can call on Takhisis's favor to cast the {@spell cause fear} spell with this trait, requiring no material components, a number of times equal to your Charisma modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. Charisma is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Takhisis's Votary",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Takhisis trait}",
+				"You can cast the {@spell dragon's breath} spell at third level with this trait. Once you cast the spell in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. Charisma is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Takhisis's Disciple",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Takhisis trait}",
+				"Takhisis's favor grants you {@variantrule Resistance|XPHB} to your choice of acid, cold, fire, lightning, or poison damage. Whenever you finish a short rest, you can change the type of damage you are {@variantrule Resistance|XPHB} to to a different type from the same list.",
+				"Additionally, you have {@variantrule Advantage|XPHB} on saving throws against being {@condition frightened}."
+			]
+		},
+		{
+			"name": "Champion of Azharul",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Takhisis trait}",
+				"You can increase your Strength or Charisma score by 2 and also increase your maximum for that score by 2."
+			]
+		},
+
+		{
+			"name": "Tharizdun's Devotee",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Tharizdun trait}",
+				"As a devotee of Tharizdun, you sow chaos wherever you go. You can cast the {@spell chaos bolt} spell with this trait a number of times equal to your Charisma modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. Charisma is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Tharizdun's Votary",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Tharizdun trait}",
+				"You are adept and summoning minions of chaos. You can cast the {@spell summon lesser demons} spell with this trait, requiring no material components. Once you cast the spell in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. Charisma is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Tharizdun's Disciple",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Tharizdun trait}",
+				"As a disciple of the Chained God, you find bondage blasphemous in all its forms. You have {@variantrule Advantage|XPHB} on saving throws against being {@condition paralyzed} or {@condition restrained}."
+			]
+		},
+		{
+			"name": "Champion of Oblivion",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Tharizdun trait}",
+				"You can increase your Constitution or Charisma score by 2 and also increase your maximum for that score by 2."
+			]
+		},
+
+		{
 			"name": "Strangers's Devotee",
 			"source": "WOL",
 			"type": "Piety Trait",
 			"entries": [
 				"{@i Piety 3+ The Strangers trait}",
-				"As a devotee of The Strangers, you have proven yourself an agent of chaos and change. You can call on their blessing and cast the {@spell disguise self} spell with this trait. While the spell is active, your shadow still resembles your original form. You can cast the spell in this way a number of times equal to your Charisma, Intelligence or Wisdom modifier (your choice, minimum of once). You regain all expended uses when you finish a long rest. You can choose from Charisma, Intelligence and Wisdom for your spellcasting ability for this spell."
+				"As a devotee of The Strangers, you have proven yourself an agent of chaos and change. You can call on their blessing and cast the {@spell disguise self} spell with this trait. While the spell is active, your shadow still resembles your original form. You can cast the spell in this way a number of times equal to your Charisma, Intelligence or Wisdom modifier (your choice, minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. You can choose from Charisma, Intelligence and Wisdom for your spellcasting ability for this spell."
 			]
 		},
 		{
@@ -11447,7 +12007,7 @@
 			"type": "Piety Trait",
 			"entries": [
 				"{@i Piety 10+ The Strangers trait}",
-				"Your mind is as mutable as the flip of a coin. You can cast the {@spell bless} and {@spell bane} spells with this trait, requiring no components. Once you cast either spell in this way, you can’t do so again until you finish a long rest."
+				"Your mind is as mutable as the flip of a coin. You can cast the {@spell bless} and {@spell bane} spells with this trait, requiring no components. Once you cast either spell in this way, you can’t do so again until you finish a {@variantrule Long Rest|XPHB}."
 			]
 		},
 		{
@@ -11466,6 +12026,127 @@
 			"entries": [
 				"{@i Piety 50+ The Strangers trait}",
 				"You can increase your Strength, Dexterity, Constitution, Intelligence, Wisdom or Charisma score by 2 and also increase your maximum for that score by 2."
+			]
+		},
+
+		{
+			"name": "Torog's Devotee",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Torog trait}",
+				"As a devotee of Torog, you can call upon the power of his greatest creation: the prison plane Carcerus. You can cast the {@spell Armor of Agathys} spell with this trait a number of times equal to your Constitution modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. Constitution is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Torog's Votary",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Torog trait}",
+				"You can cast the {@spell Maximilian's earthen grasp} spell with this trait, requiring no material components. Once you cast the spell in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. Constitution is your spellcasting ability for this spell.",
+				"In addition, you have {@variantrule Advantage|XPHB} on saving throws against being {@condition poisoned}."
+			]
+		},
+		{
+			"name": "Torog's Disciple",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Torog trait}",
+				"You gain a {@variantrule Burrow Speed|XPHB} equal to your walking {@variantrule Speed|XPHB}. You can use your {@variantrule Burrow Speed|XPHB} to move through sand, loose earth, mud, or ice, not solid rock."
+			]
+		},
+		{
+			"name": "Champion of The Darklands",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Torog trait}",
+				"You can increase your Strength or Constitution score by 2 and also increase your maximum for that score by 2."
+			]
+		},
+
+		{
+			"name": "Vecna's Devotee",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Vecna trait}",
+				"As a devotee of Vecna, you have proven yourself a disciple of black magic. You can call on Vecna's favor to cast the {@spell inflict wounds} spell with this trait a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. Intelligence is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Vecna's Votary",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Vecna trait}",
+				"You can cast the {@spell animate dead} spell with this trait. Once you cast the spell in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. Intelligence is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Vecna's Disciple",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Vecna trait}",
+				"You gain {@variantrule Resistance|XPHB} to necrotic damage, and you have {@variantrule Advantage|XPHB} on saving throws against being {@condition frightened}."
+			]
+		},
+		{
+			"name": "Champion of The Maimed",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Vecna trait}",
+				"You can increase your Constitution or Intellligence score by 2 and also increase your maximum for that score by 2."
+			]
+		},
+
+		{
+			"name": "Zehir's Devotee",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Zehir trait}",
+				"As a devotee of Zehir, you have power over affliction. You can cast the {@spell ray of sickness} spell with this trait a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. Intelligence is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Zehir's Votary",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Zehir trait}",
+				"Zehir's blessing shields you from most maladies. You have {@variantrule Advantage|XPHB} on saving throws against being {@condition poisoned}, and you are immune to disease."
+			]
+		},
+		{
+			"name": "Zehir's Disciple",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Zehir trait}",
+				"Zehir blesses you so that your very touch is poisonous. As an {@variantrule Action|XPHB}, you can touch a creature and choose one of the following:"
+				{
+					"type": "list",
+					"items": [
+						"The target must succeed on a {@dc 15} Constitution saving throw or be {@condition poisoned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success.",
+						"The target must succeed on a {@dc 15} Constitution saving throw or be {@condition blinded} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success.",
+						"The target must succeed on a {@dc 15} Constitution saving throw, or for 1 minute, the target deals only half damage with weapon attacks. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success."
+					]
+				},
+				"You can use this action a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Champion of Samaragd",
+			"source": "WOL",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Zehir trait}",
+				"You can increase your Dexterity or Intelligence score by 2 and also increase your maximum for that score by 2."
 			]
 		}
 	],
