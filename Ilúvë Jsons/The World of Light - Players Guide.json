@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V12.0.0.1",
+				"version": "V12.1",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -18,7 +18,7 @@
 	},
 	"deity": [
 		{
-			"name": "Angaradd",
+			"name": "Angrad",
 			"title": "God of Crafting, Creation and Smithing",
 			"altNames": [
 				"The Forge Father",
@@ -58,12 +58,12 @@
 				{
 					"type": "section",
 					"entries": [
-						"Angaradd is worshiped by smiths, artisans, and miners alike, granting inspiration in exchange for respect and prayer. He shaped the mountains from the chaos of the Founding, and stands as the patron protector of home and family. The devotion to the All-Hammer is strongest in dwarven communities, and many temples to Angaradd mark the center of a mighty dwarven stronghold.",
+						"Angrad is worshiped by smiths, artisans, and miners alike, granting inspiration in exchange for respect and prayer. He shaped the mountains from the chaos of the Founding, and stands as the patron protector of home and family. The devotion to the All-Hammer is strongest in dwarven communities, and many temples to Angrad mark the center of a mighty dwarven stronghold.",
 						{
 							"type": "entries",
-							"name": "Angaradd's Influence",
+							"name": "Angrad's Influence",
 							"entries": [
-								"Angaradd is said to lord over the soul forges within the massive tunneled mansion of Erackinor, deep beneath the slopes of the mythical mountain of Abbathror; the afterlife most Dwarves could only hope to be rewarded with.",
+								"Angrad is said to lord over the soul forges within the massive tunneled mansion of Erackinor, deep beneath the slopes of the mythical mountain of Abbathror; the afterlife most Dwarves could only hope to be rewarded with.",
 								{
 									"type": "entries",
 									"entries": [
@@ -71,7 +71,7 @@
 											"type": "entries",
 											"name": "Depiction",
 											"entries": [
-												"Many guild halls and workshops contain images of Angaradd, a faceless, stout dwarven being of immense strength, hunched over a flaming heart clasped within his massive hands."
+												"Many guild halls and workshops contain images of Angrad, a faceless, stout dwarven being of immense strength, hunched over a flaming heart clasped within his massive hands."
 											]
 										}
 									]
@@ -83,14 +83,14 @@
 											"type": "entries",
 											"name": "Holy Day",
 											"entries": [
-												"Angaradd's holy day is Deep Solace, which is celebrated on the eighteenth day of the fifth month. Especially devout followers of the All-Hammer spend the day in isolation, meditating on the meaning of family and how they may be better mothers, fathers, siblings, and children. The dwarvish citadel of Dor Gonnoth celebrates with a full day of feasting and drinking."
+												"Angrad's holy day is Deep Solace, which is celebrated on the eighteenth day of the fifth month. Especially devout followers of the All-Hammer spend the day in isolation, meditating on the meaning of family and how they may be better mothers, fathers, siblings, and children. The dwarvish citadel of Dor Gonnoth celebrates with a full day of feasting and drinking."
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Commandments of Angaradd",
+									"name": "Commandments of Angrad",
 									"entries": [
 										{
 											"type": "list",
@@ -115,7 +115,7 @@
 											"type": "entries",
 											"name": "Earning and Losing Piety",
 											"entries": [
-												"You increase your piety score to Angaradd when you expand the god's influence in the world in a concrete way through acts such as these:"
+												"You increase your piety score to Angrad when you expand the god's influence in the world in a concrete way through acts such as these:"
 											]
 										}
 									]
@@ -129,7 +129,7 @@
 										"Protecting your family and loved ones"
 									]
 								},
-								"Your piety score to Angaradd decreases if you diminish Angaradd's influence in the world, work against freedom or self-expression, or allow tyranny to take hold through acts such as these:",
+								"Your piety score to Angrad decreases if you diminish Angrad's influence in the world, work against freedom or self-expression, or allow tyranny to take hold through acts such as these:",
 								{
 									"type": "list",
 									"items": [
@@ -146,9 +146,9 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Angaradd's Devotee|WOL}",
-												"{@reward Angaradd's Votary|WOL}",
-												"{@reward Angaradd's Disciple|WOL}",
+												"{@reward Angrad's Devotee|WOL}",
+												"{@reward Angrad's Votary|WOL}",
+												"{@reward Angrad's Disciple|WOL}",
 												"{@reward Champion of The Forge|WOL}"
 											]
 										}
@@ -484,7 +484,7 @@
 				{
 					"type": "section",
 					"entries": [
-						"Guardian of art, spring, beauty, and wisdom, Corellon is the patron of the fey. Cast into the world to fight Tharizdun head-on, he seeded the world with wisdom, while raising the most ancient of forests. It was by the Arch Heart's hand that the first elves wandered from the Feywild, and for this reason they are considered the Mother and Father of all elves. Oft called the \"Third Dragon\", it is a well-establish fact that Corellon took inspiration from Ioun and Angaradd, creating the psionic Gem dragons. Those who seek art in all their work often worship at the altar of Corellon. They loathe the Spider Queen and her priestesses for leading the drow astray. ",
+						"Guardian of art, spring, beauty, and wisdom, Corellon is the patron of the fey. Cast into the world to fight Tharizdun head-on, he seeded the world with wisdom, while raising the most ancient of forests. It was by the Arch Heart's hand that the first elves wandered from the Feywild, and for this reason they are considered the Mother and Father of all elves. Oft called the \"Third Dragon\", it is a well-establish fact that Corellon took inspiration from Ioun and Angrad, creating the psionic Gem dragons. Those who seek art in all their work often worship at the altar of Corellon. They loathe the Spider Queen and her priestesses for leading the drow astray. ",
 						"Many elf wizards honor Corellon and adorn their spellbooks and towers with the god's symbols.",
 						{
 							"type": "entries",
@@ -737,11 +737,10 @@
 			"source": "WOL"
 		},
 		{
-			"name": "Erestem",
+			"name": "Arem",
 			"title": "God of Light, Order and Time",
 			"altNames": [
-				"The Lightbringer",
-				"Arem"
+				"The Lightbringer"
 			],
 			"alignment": [
 				"N"
@@ -769,10 +768,10 @@
 				{
 					"type": "section",
 					"entries": [
-						"At first, there was nothing. Then, a conscience. Thoughts. Essence. In the endless blackness of the void, after an infinite amount of finite time, these thoughts coalesced into being. One being. This being, these illimitable emotions, wandered through the inky oblivion for perpetuity and timelessness, until it realized it was boundlessly and everlastingly alone. And so, from these thoughts, from this being, using all of its emotion, its soul; the purest form of magic, the universe exploded into existence, and with it, three fledgling gods were created from this incalculable eruption of sudden fervour, magic and soul: {@deity Angaradd|Ilúvë|WOL}, {@deity Auroril|Ilúvë|WOL} and {@deity Melora|Ilúvë|WOL}. In the ever-expansive cosmic nebula, these four deities sailed the roiling cosmos, as The Lightbringer thought up a form for each of them to inhabit.",
+						"At first, there was nothing. Then, a conscience. Thoughts. Essence. In the endless blackness of the void, after an infinite amount of finite time, these thoughts coalesced into being. One being. This being, these illimitable emotions, wandered through the inky oblivion for perpetuity and timelessness, until it realized it was boundlessly and everlastingly alone. And so, from these thoughts, from this being, using all of its emotion, its soul; the purest form of magic, the universe exploded into existence, and with it, three fledgling gods were created from this incalculable eruption of sudden fervour, magic and soul: {@deity Angrad|Ilúvë|WOL}, {@deity Auroril|Ilúvë|WOL} and {@deity Melora|Ilúvë|WOL}. In the ever-expansive cosmic nebula, these four deities sailed the roiling cosmos, as The Lightbringer thought up a form for each of them to inhabit.",
 						{
 							"type": "entries",
-							"name": "Erestem's Influence",
+							"name": "Arem's Influence",
 							"entries": [
 								"Very few throughout Ilúvë have heard of The Lightbringer, and fewer still believe they even exist. Most lore and books of history have not stood the test of time, and therefore knowledge of The Lightbringer usually comes in the form of belief. The belief that life and light itself must be worshipped.",
 								{
@@ -794,7 +793,7 @@
 											"type": "entries",
 											"name": "Holy Day",
 											"entries": [
-												"The Lightbringer's holy day is referred to as {@i Starfall}. During Starfall, followers of The Lightbringer gather at night to witness comet rains and the shifting of constellations, especially one named \"Erestem's Belt\". The night of Starfall is also a night of gift-giving and joy. It is often celebrated with omnipresent music in public areas, lavish gift-giving to relatives and loved ones, and the cutting and decorating of trees placed indoors. Because it is the peak of the winter season, devout followers of the Matron of Ravens consider it to be one of {@i her} holy days as well, as she is the goddess of winter."
+												"The Lightbringer's holy day is referred to as {@i Starfall}. During Starfall, followers of The Lightbringer gather at night to witness comet rains and the shifting of constellations, especially one named \"Arem's Belt\". The night of Starfall is also a night of gift-giving and joy. It is often celebrated with omnipresent music in public areas, lavish gift-giving to relatives and loved ones, and the cutting and decorating of trees placed indoors. Because it is the peak of the winter season, devout followers of the Matron of Ravens consider it to be one of {@i her} holy days as well, as she is the goddess of winter."
 											]
 										}
 									]
@@ -826,7 +825,7 @@
 											"type": "entries",
 											"name": "Earning and Losing Piety",
 											"entries": [
-												"You increase your piety score to Erestem when you expand the god's influence in the world in a concrete way through acts such as these:"
+												"You increase your piety score to Arem when you expand the god's influence in the world in a concrete way through acts such as these:"
 											]
 										}
 									]
@@ -840,16 +839,16 @@
 										"Aiding the weak or impeding the strong"
 									]
 								},
-								"Your piety score to Erestem decreases if you diminish Erestem's influence in the world, upset the balance of power, or make him look biased or petty through acts such as these:",
+								"Your piety score to Arem decreases if you diminish Arem's influence in the world, upset the balance of power, or make him look biased or petty through acts such as these:",
 								{
 									"type": "list",
 									"items": [
 										"Giving into chaos and destruction",
 										"Rupturing or otherwise harming space-time",
-										"Furthering the aims of another god in defiance of Erestem's will"
+										"Furthering the aims of another god in defiance of Arem's will"
 									]
 								},
-								"Unlike other gods or lesser idols, Erestem is not a being that requires prayer or devotion, instead it simply is, a subject to be studied and to learn from.",
+								"Unlike other gods or lesser idols, Arem is not a being that requires prayer or devotion, instead it simply is, a subject to be studied and to learn from.",
 								{
 									"type": "entries",
 									"name": "Benefits of Piety",
@@ -858,9 +857,9 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Erestem's Devotee|WOL}",
-												"{@reward Erestem's Votary|WOL}",
-												"{@reward Erestem's Disciple|WOL}",
+												"{@reward Arem's Devotee|WOL}",
+												"{@reward Arem's Votary|WOL}",
+												"{@reward Arem's Disciple|WOL}",
 												"{@reward Champion of Time|WOL}"
 											]
 										}
@@ -2280,7 +2279,7 @@
 				{
 					"type": "section",
 					"entries": [
-						"After the Age of Assault, The Lightbringer, in his endless sorrow, unknowingly seeded the world with malice and despair. In an act of desperation, in order to preserve the world of light, Erestem's children pulled a spirit from the given world. What they could not have forseen, was the spirit's twin following after. Together, these two became newly born trickster gods, by the name of Dubhgall and Finngaill, and became one. Using their learned tricks to misdirect and fool, they lightened Erestem's sorrow.",
+						"After the Age of Assault, The Lightbringer, in his endless sorrow, unknowingly seeded the world with malice and despair. In an act of desperation, in order to preserve the world of light, Arem's children pulled a spirit from the given world. What they could not have forseen, was the spirit's twin following after. Together, these two became newly born trickster gods, by the name of Dubhgall and Finngaill, and became one. Using their learned tricks to misdirect and fool, they lightened Arem's sorrow.",
 						"Bound together as brothers, The Strangers find pleasure in mischief and compete for dominance\u2014something their followers describe as feeling like a tug of war within their own heads. To them, mortals are neither good nor evil, and so everyone is fair game. Though seen as naïve by the other gods\u2014gaining notoriety with Nera and Vecna, whom both describe them as \"immature fools\", especially Nera who see their acts of unpredictability to be an insult to her existence\u2014The Strangers are clever and cunning.",
 						"Followers of The Strangers include tricksy Clerics, Rogues and Bards with a penchant for chaos. Followers typically carry a blank coin that they flip to help decide their actions, not knowing which side is good or bad. The Strangers will push their followers to lights and extremes, further solidifying the mental tug of war the trickster deity poses upon them.",
 						{
@@ -3148,7 +3147,7 @@
 				{
 					"type": "section",
 					"entries": [
-						"Legend speaks of a third dragon god, responsible for creating the ever-elusive Gem dragons. According to the ancient draconic myth {@i Elegy for the First World}, when the gods were creating the Given World, before the High God {@deity Erestem|Ilúvë|WOL} plucked stars from the sky, like marbles from a bag, Syberis, the first of the three dragon gods according to this myth, plucked one of his own, and showed it to {@deity Erestem|Ilúvë|WOL}. The other gods were, unfortunately, unsatisfied, and Syberis's marble was dropped in favor of a brighter one. Syberis, unbeknownst to the other gods, then hid this marble back among the stars, and named it Drahkaris."
+						"Legend speaks of a third dragon god, responsible for creating the ever-elusive Gem dragons. According to the ancient draconic myth {@i Elegy for the First World}, when the gods were creating the Given World, before the High God {@deity Arem|Ilúvë|WOL} plucked stars from the sky, like marbles from a bag, Syberis, the first of the three dragon gods according to this myth, plucked one of his own, and showed it to {@deity Arem|Ilúvë|WOL}. The other gods were, unfortunately, unsatisfied, and Syberis's marble was dropped in favor of a brighter one. Syberis, unbeknownst to the other gods, then hid this marble back among the stars, and named it Drahkaris."
 					]
 				}
 			],
@@ -5298,7 +5297,7 @@
 												{
 													"type": "list",
 													"items": [
-														"Clan Coppercoin - Mostly Hill Dwarves, especially adept at selling and procuring goods; expert merchants, most travel the globe and Greywood alike in search of {@deity Angaradd|Ilúvë|WOL|Angaradd's} blessing.",
+														"Clan Coppercoin - Mostly Hill Dwarves, especially adept at selling and procuring goods; expert merchants, most travel the globe and Greywood alike in search of {@deity Angrad|Ilúvë|WOL|Angrad's} blessing.",
 														"Clan Greyhand - Strictly Mountain Dwarves. The least-known Dwarvish Clan, said to have unearthed an ancient, esoteric secret deep beneath the earth. This clan is mostly shrouded in secrecy, as they are also said to keep the other Clans in check, without direct intervention.",
 														"Clan Cindersmith - A Clan of mostly Duergar and a small amount of Mountain Dwarves. This Clan is known to create many weapons for Clan Coppercoin to sell, and is also known as the Clan responsible for most \"Good\"-aligned Duegar. This Clan is also the only known clan to take in Gnomish Alchemists, Crafters and Artificers.",
 														"Clan Steelborn - A Clan of every type of Dwarf, most notably Mountain Dwarves. This Clan is most widespread near and in the Ironpeak Mountains, and one city can even be seen gleaming betwixt two mountains, Mynydd Laurë and Eredinior; the City of Dor-Durgarn."
@@ -5471,6 +5470,174 @@
 						"Whenever a player (or the DM, for that matter) rolls a natural 20 on an attack roll, they'd roll the damage dice twice, like normal. However, using this rule, if any of their dice show the highest possible face (i.e. a \"6\" on the d6), the die \"explodes\". Once it does, the die is rolled again, and the rolls are summed.",
 						"This does open up the possibility of multiple explosions, as, for example, the d4 is very prone to explosions. It's not unthinkable to get an explosion sequence like 4 + 4 + 3 after a few tries.",
 						"Whatever the case, the dice explodes until it no longer can (so if anything except it's highest face is rolled after it's exploded)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Holy Days & Celebrations in Graywood",
+			"source": "WOL",
+			"type": "entries",
+			"entries": [
+				"This section records the holy days and sacred celebrations observed throughout Graywood, honoring the many deities worshipped by its people. Each observance is listed by the god it venerates, if applicable.",
+				{
+					"type": "entries",
+					"name": "New Dawn",
+					"entries": [
+					"{@i 1st of Horisal / Firstlight}",
+					{
+						"type": "entries",
+						"name": "Deity",
+						"entries": [
+							"{@deity The Strangers|Ilúvë|WOL}"
+						]
+					},
+					"New Dawn marks the first turning of the year, a day dedicated to The Strangers. Rather than orderly celebration, the day embraces the uncertainty of the coming year—reminding the people of Graywood that fortune may rise or fall with equal whim. Games of chance, spontaneous revelry, and unpredictable traditions are common, all honoring the belief that the path ahead is never fixed, only revealed step by step."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Day of Challenging",
+					"entries": [
+					"{@i 7th of Misuthar / Suncrest}",
+					{
+						"type": "entries",
+						"name": "Deity",
+						"entries": [
+							"{@deity Kord|Ilúvë|WOL}"
+						]
+					},
+					"The Day of Challenging is a raucous celebration in honor of Kord, where strength, courage, and competitive spirit are tested in contests across Graywood. Friendly brawls, feats of athleticism, wrestling matches, and daring trials are held from dawn until dusk, as followers of the Storm Lord believe that only through challenge and struggle can true strength be revealed and tempered. Victories are celebrated loudly, but even defeat is honored, so long as one faced the challenge with courage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wild's Grandeur",
+					"entries": [
+					"{@i 20th of Dualahei / Greenthaw}",
+					{
+						"type": "entries",
+						"name": "Deity",
+						"entries": [
+							"{@deity Melora|Ilúvë|WOL}"
+						]
+					},
+					"Wild’s Grandeur marks the Vernal Equinox and celebrates the untamed beauty of the world under the watchful gaze of Melora. On this day, the people of Graywood venture into forests, fields, and along the coasts to give thanks for the wild places that sustain them, offering small tokens to the land and waves alike. It is a day to remember that nature’s splendor is both generous and untamable, and that all who live within it are but guests of the wild."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Deep Solace",
+					"entries": [
+					"{@i 18th of Unndilar / Brightmarch}",
+					{
+						"type": "entries",
+						"name": "Deity",
+						"entries": [
+							"{@deity Angradd|Ilúvë|WOL}"
+						]
+					},
+					"The holy day of Angradd is celebrated by especially devout followers in isolation. They meditate on the meaning of family and how they may be better mothers, fathers, siblings, and children. Dwarven communities, such as Kraghammer and Grimgolir, celebrate with a full day of feasting and drinking."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Elvendawn, Midsummer",
+					"entries": [
+					"{@i 18th of Brussendar / Flamerise, Flamerule}",
+					{
+						"type": "entries",
+						"name": "Deity",
+						"entries": [
+							"{@deity Corellon|Ilúvë|WOL}"
+						]
+					},
+					"Corellon's holy day is called Elvendawn, or Midsummer. It is celebrated on the twentieth day of the sixth month, and commemorates the elves' first emergence from the Feywild. Though the Empire doesn't promote the worship of the Archheart, many elves within Sylingur quietly celebrate in private by opening small doors to the Feywild and having a little more wine than usual."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Highsummer",
+					"entries": [
+					"{@i 15th of Sydenstar / Highgold}",
+					{
+						"type": "entries",
+						"name": "Deity",
+						"entries": [
+							"{@deity Auroril|Ilúvë|WOL}"
+						]
+					},
+					"Auroril's holy day is called Highsummer, and takes place on the fifteenth day of the seventh month. While other parts of Ilúvë feast, the Empire uses this day as an opportunity to enlist more soldiers in its army. The military holds great feasts and hands out toy soldiers and other propaganda, encouraging people to enlist and help fight against the evil that threatens the Emperor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Civilization's Dawn",
+					"entries": [
+					"{@i 20th of Quen'pillar / Ambertide}",
+					{
+						"type": "entries",
+						"name": "Deity",
+						"entries": [
+							"{@deity Erathis|Ilúvë|WOL}"
+						]
+					},
+					"The Law Bearer's holy day is Civilization's Dawn, which is celebrated on the autumnal equinox, usually the twenty-second day of the ninth month. In the Empire, people celebrate by having feasts in honor of the laws set by the Inner Cabinet. One seat at every table is left open for the Emperor, who eats in spirit with the people he rules."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Night of Ascension",
+					"entries": [
+					"{@i 13th of Cuersaar / Mistfall}",
+					{
+						"type": "entries",
+						"name": "Deity",
+						"entries": [
+							"{@deity Nera|Ilúvë|WOL}"
+						]
+					},
+					"The Raven Queen's holy day is called the Night of Ascension, celebrated on the thirteenth day of the tenth month. It celebrates her so-called \"ascension\" to supreme ruler of death, instantly decimating the old God of Death."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Embertide",
+					"entries": [
+					"{@i 5th of Duscar / Duskmorne}",
+					{
+						"type": "entries",
+						"name": "Deity",
+						"entries": [
+							"{@deity Bahamut|Ilúvë|WOL}"
+						]
+					},
+					"Bahamut's holy day is called Embertide, and is celebrated on the fifth day of Duscar. This is a day of remembrance, solemnity, and respect for those who have fallen in the defense of others."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Starfall / Barren's Eve",
+					"entries": [
+					"{@i 25th of Artharal / Frostfall}",
+					{
+						"type": "entries",
+						"name": "Deity",
+						"entries": [
+							"{@deity Arem|Ilúvë|WOL}"
+						]
+					},
+					"The Lightbringer's holy day is referred to as Starfall. During Starfall, followers of The Lightbringer gather at night to witness comet rains and the shifting of constellations, especially one named \"Arem's Belt\". The night of Starfall is also a night of gift-giving and joy. It is often celebrated with omnipresent music in public areas, lavish gift-giving to relatives and loved ones, and the cutting and decorating of trees placed indoors. Because it is the peak of the winter season, devout followers of the Matron of Ravens consider it to be one of her holy days as well, as she is the goddess of winter.",
+					"Additionally, this holy day may be celebrated without a deity, instead honoring the legend of Saint Barren, who is said to have wandered the winter roads bringing gifts and kindness to those in need, a tradition many believe was inspired by the teachings of Angradd. Across Graywood, homes glow with light and laughter as families and friends exchange gifts, share feasts, and reflect on the virtues of generosity, craft, and goodwill during the darkest days of the year."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magefair",
+					"entries": [
+					"{@i 30th of Artharal / Frostfall}",
+					"Magefair marks the closing of the year and the turning toward the next. Across the realm, practitioners of arcane arts, whether apprentices, hedge-mages, scholars or archmages, all gather in cities, guild halls, and great academies to celebrate what they have discovered during the passing year.",
+					"As night falls, the celebrations reach their height. Fireworks burst above towers and rooftops, both mundane and magical crackling stars of colored flame, spiraling runes of light, and thunderous arcs of energy. Tradition holds that these displays serve a practical purpose as well: the explosions and flashes are said to frighten away the foul creatures that lurk beyond the safety of cities and towns."
 					]
 				}
 			]
@@ -9306,7 +9473,7 @@
 			"subclassSource": "WOL",
 			"level": 3,
 			"entries": [
-				"Gods of time\u2014including Labelas Enoreth, Savras, Istus, Chronos, the Moirai and specifically Erestem in Ilúvë\u2014govern the passing of years and the turning of seasons. These deities oversee cause and effect, providing a background against which the course of history unfolds. They are also gods of fate and of the inevitable, responsible for the fulfillment of prophecies and the destinies of mortals. Clerics of gods of time are granted knowledge of events in the distant past and the far future, and are tasked with protecting prophecies and ensuring pivotal moments in history.",
+				"Gods of time\u2014including Labelas Enoreth, Savras, Istus, Chronos, the Moirai and specifically Arem in Ilúvë\u2014govern the passing of years and the turning of seasons. These deities oversee cause and effect, providing a background against which the course of history unfolds. They are also gods of fate and of the inevitable, responsible for the fulfillment of prophecies and the destinies of mortals. Clerics of gods of time are granted knowledge of events in the distant past and the far future, and are tasked with protecting prophecies and ensuring pivotal moments in history.",
 				"At each indicated cleric level, you add the listed spells to your spells prepared.",
 				{
 					"type": "table",
@@ -11396,30 +11563,30 @@
 	],
 	"reward": [
 		{
-			"name": "Angaradd's Devotee",
+			"name": "Angrad's Devotee",
 			"source": "WOL",
 			"type": "Piety Trait",
 			"entries": [
-				"{@i Piety 3+ Angaradd trait}",
-				"As a devotee of Angaradd, you have drawn the notice of the forge god with your skill. You can cast the {@spell shield of faith} spell with this trait, requiring no material components, a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+				"{@i Piety 3+ Angrad trait}",
+				"As a devotee of Angrad, you have drawn the notice of the forge god with your skill. You can cast the {@spell shield of faith} spell with this trait, requiring no material components, a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
 				"In addition, you know the {@spell mending} cantrip. Wisdom is your spellcasting ability for these spells."
 			]
 		},
 		{
-			"name": "Angaradd's Votary",
+			"name": "Angrad's Votary",
 			"source": "WOL",
 			"type": "Piety Trait",
 			"entries": [
-				"{@i Piety 10+ Angaradd trait}",
+				"{@i Piety 10+ Angrad trait}",
 				"You can cast the {@spell heat metal} spell with this trait, requiring no material components. Once you cast the spell in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. Wisdom is your spellcasting ability for this spell."
 			]
 		},
 		{
-			"name": "Angaradd's Disciple",
+			"name": "Angrad's Disciple",
 			"source": "WOL",
 			"type": "Piety Trait",
 			"entries": [
-				"{@i Piety 25+ Angaradd trait}",
+				"{@i Piety 25+ Angrad trait}",
 				"While you are standing and an effect would push you 1 foot or more, you can use your {@variantrule Reaction|XPHB} to not be pushed."
 			]
 		},
@@ -11428,7 +11595,7 @@
 			"source": "WOL",
 			"type": "Piety Trait",
 			"entries": [
-				"{@i Piety 50+ Angaradd trait}",
+				"{@i Piety 50+ Angrad trait}",
 				"You can increase your Strength or Wisdom score by 2 and also increase your maximum for that score by 2."
 			]
 		},
@@ -11584,30 +11751,30 @@
 		},
 
 		{
-			"name": "Erestem's Devotee",
+			"name": "Arem's Devotee",
 			"source": "WOL",
 			"type": "Piety Trait",
 			"entries": [
-				"{@i Piety 3+ Erestem trait}",
-				"As a devotee of Erestem, you have proven yourself a devotee of reality and order. You can now cast {@spell fortune's favor|WOL} once per {@variantrule Short Rest|XPHB} without using any material components."
+				"{@i Piety 3+ Arem trait}",
+				"As a devotee of Arem, you have proven yourself a devotee of reality and order. You can now cast {@spell fortune's favor|WOL} once per {@variantrule Short Rest|XPHB} without using any material components."
 			]
 		},
 		{
-			"name": "Erestem's Votary",
+			"name": "Arem's Votary",
 			"source": "WOL",
 			"type": "Piety Trait",
 			"entries": [
-				"{@i Piety 10+ Erestem trait}",
+				"{@i Piety 10+ Arem trait}",
 				"You've thrown yourself into books and you've come back with the knowledge to bend reality without breaking order. You can now cast {@spell gravity sinkhole|EGW} once per {@variantrule Long Rest|XPHB}. Your intelligence is your spellcasting ability when using this feature."
 			]
 		},
 		{
-			"name": "Erestem's Disciple",
+			"name": "Arem's Disciple",
 			"source": "WOL",
 			"type": "Piety Trait",
 			"entries": [
-				"{@i Piety 25+ Erestem trait}",
-				"You've learned more about the weave of time and now can better manipulate reality, without breaking the time-space continuum. You can now use your Erestem's Devotee feature a number of times equal to your intelligence modifier (minimum of once) per {@variantrule Short Rest|XPHB}. Also, when you're under the effects of {@variantrule Advantage|XPHB}, it can not be canceled out by any {@variantrule Disadvantage|XPHB}."
+				"{@i Piety 25+ Arem trait}",
+				"You've learned more about the weave of time and now can better manipulate reality, without breaking the time-space continuum. You can now use your Arem's Devotee feature a number of times equal to your intelligence modifier (minimum of once) per {@variantrule Short Rest|XPHB}. Also, when you're under the effects of {@variantrule Advantage|XPHB}, it can not be canceled out by any {@variantrule Disadvantage|XPHB}."
 			]
 		},
 		{
@@ -11615,7 +11782,7 @@
 			"source": "WOL",
 			"type": "Piety Trait",
 			"entries": [
-				"{@i Piety 50+ Erestem trait}",
+				"{@i Piety 50+ Arem trait}",
 				"You've scoured for everything you can learn about the universe. You feel your mind expand. Increase either your wisdom or your intelligence ability score by 2, and its maximum by 2."
 			]
 		},
