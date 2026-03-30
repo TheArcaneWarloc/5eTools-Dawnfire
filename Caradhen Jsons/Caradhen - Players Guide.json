@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V11.4.2",
+				"version": "V12.2",
 				"url": "",
 				"targetSchema": "1.2.0"
 			}
@@ -18,138 +18,154 @@
 	},
 	"deity": [
 		{
-			"name": "Narallin",
-			"title": "God of Travel and Mercantile",
-			"altNames": [
-				"The Gilded Lord"
-			],
+			"name": "Araush",
+			"title": "God of Darkness, Treachery and Murder",
 			"alignment": [
-				"N"
+				"C",
+				"E"
 			],
-			"province": "Commerce, Debt, Dragons, Gold, Travel and Wealth",
+			"province": "Darkness, Deceit, Lies, Lust, Murder, Poison, Shadows, Snakes, Spiders, Thievery and Treachery",
+			"pantheon": "Caradhen",
+			"category": [
+				"Gods of The Echelon Court"
+			],
+			"domains": [
+				"Death",
+				"Madness",
+				"Trickery",
+				"Twilight",
+				"War"
+			],
+			"symbol": "A snake circling a spiderweb, or a tick",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Araush%20-%20God%20of%20Darkness%2C%20Treachery%20%26%20Murder.png"
+				}
+			},
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"In the oldest drow chants, Araush is not crowned, enthroned, or exalted. He is shown crouched low, spine bowed, limbs long and wrong, skin marked with ash and venom. His form shifts between serpent, spider and something hunched. Something almost mortal. As if the shape of divinity has not yet decided what it wishes to be. He does not rule from above. He waits below.",
+						"Araush teaches that the world is a hunt, and that truth is a luxury of the safe. Survival is the only honest virtue. Poison is not cruelty, but patience. Lies are not sins, but tools sharpened by necessity. Among his faithful, guilt is weakness, and responsibility belongs only to those strong enough to endure it.",
+						"To outsiders, Araush is blamed for assassins and venomers. To his followers, he is older than blame. A god not of evil, but of the truth that all life feeds on something else. That all life is but a parasite, and that pretending otherwise is the greatest lie of all."
+					]
+				}
+			],
+			"source": "LandsOfExile"
+		},
+		{
+			"name": "Dur Maeth",
+			"title": "Goddess of Enlightenment & Honor",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"province": "Enlightenment, Honor, Justice, Law and Politics",
 			"pantheon": "Caradhen",
 			"category": [
 				"Gods of The Firmament"
 			],
 			"domains": [
-				"Forge",
 				"Knowledge",
-				"Tempest",
-				"Trickery"
+				"Life",
+				"Light",
+				"Order",
+				"Peace"
 			],
-			"symbol": "A road leading away from a single gold coin",
+			"symbol": "A perfectly balanced scale",
 			"symbolImg": {
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "-"
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Dur%20Maeth%20-%20Goddess%20of%20Enlightenment%20%26%20Honor.png"
 				}
 			},
-			"source": "LandsOfExile",
 			"entries": [
 				{
 					"type": "section",
 					"entries": [
-						"It is said that when the settlers were banished, their first goal was to rebuild society as it was, even among the darkness of the lands of Dor-Edlen. Out of these desperate times, came Narallin, or so the merchants say. Others whisper that he was made; a god hammered together from older names, his divinity soldered by greed and necessity.",
-						"The oldest tablets, most lost to the annals of history, refer to this god as a collective. A patron of fair exchange and the covenant of coin, who taught the first Elves to weigh the value of coin against the weight of metal. This interpretation of Narallin, however, quickly changed, as the most devoted preachers believed his will was not of fairness, but of avarice. Something within Narallin's faith shifted, almost turning him into a new god, not of fairness, but of {@i profit}.",
-						{
-							"type": "entries",
-							"name": "Exemption of Banishment",
-							"entries": [
-								{
-									"type": "entries",
-									"name": "The god at the edge of divinity",
-									"entries": [
-										"It is believed that when the Gods cast out the Settlers, Narallin did not turn away. He is said to have watched from the edge of the heavens, as the exiles vanished beyond the red veil. In their absence, he keeps the roads open."
-									]
-								}
-							]
-						}
+						"In the oldest stories, Dur Maeth walked among mortals not as a queen but as a teacher. She served as the thread binding city and soul together. It was she who taught that power without mercy is only noise, and that law, must be tempered by compassion and common sense.",
+						"Her temples are libraries first and sanctuaries second, their walls traced with runes that shift when read by different minds. No one hears her now, yet her silence feels deliberate, as if she listens instead. Dreams of her come bright and geometric: lattices of thought, vast cities of glass and memory. Her faithful believe these are glimpses of her mind, where every act of kindness adds another light to an endless skyline.",
+						"Among all the gods, she is the hardest to define. Neither distant nor near, neither stern nor gentle. Only present, like the thought that civilization itself might, for a fleeting instant, understand its own soul."
 					]
 				}
-			]
+			],
+			"source": "LandsOfExile"
 		},
 		{
-			"name": "Palashirr",
-			"title": "God of Fire and Magic",
+			"name": "Ehlonna",
+			"title": "Goddess of Agriculture",
 			"altNames": [
-				"The Dying Dawn"
+				"The Wild Mother",
+				"Of the Forests",
+				"The Earthmother"
 			],
 			"alignment": [
 				"C",
-				"N"
+				"G"
 			],
-			"province": "Ambition, Fire, Magic and The Sun",
+			"province": "Agriculture, Beauty, Fertility, Flowers & Forests",
 			"pantheon": "Caradhen",
 			"category": [
 				"Gods of The Firmament"
 			],
 			"domains": [
-				"Arcana",
-				"Knowledge",
+				"Life",
 				"Light",
-				"Order",
-				"Time",
-				"War"
+				"Nature",
+				"Peace"
 			],
-			"symbol": "A burning shield",
+			"symbol": "A cornucopia",
 			"symbolImg": {
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Palashirr%20-%20God%20of%20Fire%20%26%20Magic.png"
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Ehlonna%20-%20Goddess%20of%20Agriculture.png"
 				}
 			},
-			"source": "LandsOfExile",
 			"entries": [
 				{
 					"type": "section",
 					"entries": [
-						"No one remembers what Palashirr was before the Schism of Names, only that once there was a gentler radiance, a softer dawn. Now, his warmth carries the divine weight of judgement. His temples are built in open courtyards where the sky can see the faithful; his priests bear no shadows when they stand in prayer. They teach that light is not forgiveness, but clarity. And in clarity, every flaw is revealed.",
-						"The legends whisper that when the world was first divided, there were those who defied him: proud, impossibly tall beings who would not bow before His light. Palashirr’s fire descended upon them not to kill, but to remake. Some became stone, some fled into the dark places of the earth, and some still wander beneath the sun, marked and reminded by its relentless gaze.",
-						{
-							"type": "entries",
-							"name": "Palashirr's Influence",
-							"entries": [
-								{
-									"type": "entries",
-									"name": "Depiction",
-									"entries": [
-										"Palashirr is oft depicted as a tall knight carrying a gargantuan greatsword, clad head to toe in jet-black, outlined in silver armor, wreathed in divine fire, both red and blue."
-									]
-								}
-							]
-						}
+						"Ehlonna did not descend from the heavens as the other gods did. In fact, many believe that Ehlonna's divinity grew alongside the people of Dor-Edlen. Her presence is felt in the small places. In the careful turning of soil, in the tending of flocks, in the hands that mend fences rather than break them. They say she watches over the overlooked: the smallest seed, the weakest calf, the lone traveler who knows the value of a well-kept road and a shared meal.",
+						"Her shrines are not grand. In fact, she rarely has shrines at all. For her shrines are fields left unharvested, orchards planted for those who will never meet the one who sowed them, and even the saplings of trees that squirrels plant in the Lycanwood.",
+						"She is seldom invoked in times of glory, but often remembered in times of need. When famine threatens, when winter lingers too long, when even the land itself seems tired; her name is spoken to instill hope in the free people of Caradhen. And though the great cities rarely build for her, it is said that every loaf of bread, every fruit plucked at ripeness, carries a trace of her blessing."
 					]
 				}
-			]
+			],
+			"source": "LandsOfExile"
 		},
 		{
-			"name": "Nydra",
-			"title": "Goddess of Death & The Moon",
+			"name": "Ilbrant",
+			"title": "Deity of Madness, Enslavement and Ruin",
 			"altNames": [
-				"The Eye of Dust"
+				"The Prince of Shackles"
 			],
 			"alignment": [
-				"N"
+				"C",
+				"E"
 			],
-			"province": "Death, Fate, Night, Nature and The Moon",
+			"province": "Annihalation, Dragons, Enslavement, Hatred, Madness, Poison, Torture and Tyranny",
 			"pantheon": "Caradhen",
 			"category": [
-				"Gods of The Firmament"
+				"Gods of The Echelon Court"
 			],
 			"domains": [
 				"Death",
 				"Grave",
-				"Nature",
-				"Twilight"
+				"Madness",
+				"Tempest",
+				"War"
 			],
-			"symbol": "A moon-cratered cloudy eye",
+			"symbol": "A monstrous Ouroboros biting its own tail",
 			"symbolImg": {
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Nydra%20-%20Goddess%20of%20Death%20%26%20The Moon.png"
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Ilbrant%20-%20Deity%20of%20Madness%2C%20Enslavement%20%26%20Ruin.png"
 				}
 			},
 			"source": "LandsOfExile",
@@ -157,18 +173,17 @@
 				{
 					"type": "section",
 					"entries": [
-						"It is said that when Palashirr's magic wanes, Nydra's gaze falls upon creation like a layer of hoarfrost. Her silence is the bitter rhythm by which all things end.",
-						"She loathes those that live in unlife, those that will not die. These crawling mockeries of life linger beyond her reach, and so she beseeches her followers to burn corpses to ash, sever infernal pacts, and leave no ghost unburied. To serve her is to understand that in death there is no embrace. Only a neutral peace.",
-						"Ultimately, she is not found to be cruel. Merely cold. For when her light falls upon the living, it is not to comfort, but to remind them that the night does not love you. It simply waits until the campfire dims.",
+						"When the first light cracked open the dark, it is said that this deity stirred in its wake. It stirred not to perceive, but to consume.  Every faith calls him something different: the Great Maw, the Endless Coil, the Wound Beneath the World. None speak his name above a whisper.",
+						"Some say that It was never born from the heavens but came from beyond them; a hunger, mistaken for a god. When the divine hosts bound him, the chains became the constellations, the scars across the sky the seams of his prison. It is said the gods still keep watch, for if they ever looked away, the stars themselves would begin to fall inward.",
 						{
 							"type": "entries",
-							"name": "Fickle Fate",
+							"name": "Coiled in the void, dreaming of teeth",
 							"entries": [
 								{
 									"type": "entries",
-									"name": "A great many enemies",
+									"name": "Jagged Spirals",
 									"entries": [
-										"Legends tell that in an age long forgotten, her foes rose against her and were unmade by her curse: their souls bound to beast and blood, their lycanthropic howls echoing in eternal rebellion. Even now, the afflicted tremble beneath her moon, a warning written in flesh."
+										"His form is carved into forbidden tablets: a vast, segmented serpent devouring its own body, an ouroboros of decay. Those who dream of him wake gasping, their minds full of whispers that promise dominion and immortality. Promises that rot the soul from within."
 									]
 								}
 							]
@@ -232,33 +247,31 @@
 			]
 		},
 		{
-			"name": "Ilbrant",
-			"title": "Deity of Madness, Enslavement and Ruin",
+			"name": "Narallin",
+			"title": "God of Travel and Mercantile",
 			"altNames": [
-				"The Prince of Shackles"
+				"The Gilded Lord"
 			],
 			"alignment": [
-				"C",
-				"E"
+				"N"
 			],
-			"province": "Annihalation, Dragons, Enslavement, Hatred, Madness, Poison, Torture and Tyranny",
+			"province": "Commerce, Debt, Dragons, Gold, Travel and Wealth",
 			"pantheon": "Caradhen",
 			"category": [
-				"Gods of The Echelon Court"
+				"Gods of The Firmament"
 			],
 			"domains": [
-				"Death",
-				"Grave",
-				"Madness",
+				"Forge",
+				"Knowledge",
 				"Tempest",
-				"War"
+				"Trickery"
 			],
-			"symbol": "A monstrous Ouroboros biting its own tail",
+			"symbol": "A cart carrying a stack of cash",
 			"symbolImg": {
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Ilbrant%20-%20Deity%20of%20Madness%20,%20Enslavement%26%20Ruin.png"
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Narallin%20-%20God%20of%20Travel%20%26%20Mercantile.png"
 				}
 			},
 			"source": "LandsOfExile",
@@ -266,17 +279,17 @@
 				{
 					"type": "section",
 					"entries": [
-						"When the first light cracked open the dark, it is said that this deity stirred in its wake. It stirred not to perceive, but to consume.  Every faith calls him something different: the Great Maw, the Endless Coil, the Wound Beneath the World. None speak his name above a whisper.",
-						"Some say that It was never born from the heavens but came from beyond them; a hunger, mistaken for a god. When the divine hosts bound him, the chains became the constellations, the scars across the sky the seams of his prison. It is said the gods still keep watch, for if they ever looked away, the stars themselves would begin to fall inward.",
+						"It is said that when the settlers were banished, their first goal was to rebuild society as it was, even among the darkness of the lands of Dor-Edlen. Out of these desperate times, came Narallin, or so the merchants say. Others whisper that he was made; a god hammered together from older names, his divinity soldered by greed and necessity.",
+						"The oldest tablets, most lost to the annals of history, refer to this god as a collective. A patron of fair exchange and the covenant of coin, who taught the first Elves to weigh the value of coin against the weight of metal. This interpretation of Narallin, however, quickly changed, as the most devoted preachers believed his will was not of fairness, but of avarice. Something within Narallin's faith shifted, almost turning him into a new god, not of fairness, but of {@i profit}.",
 						{
 							"type": "entries",
-							"name": "Coiled in the void, dreaming of teeth",
+							"name": "Exemption of Banishment",
 							"entries": [
 								{
 									"type": "entries",
-									"name": "Jagged Spirals",
+									"name": "The god at the edge of divinity",
 									"entries": [
-										"His form is carved into forbidden tablets: a vast, segmented serpent devouring its own body, an ouroboros of decay. Those who dream of him wake gasping, their minds full of whispers that promise dominion and immortality. Promises that rot the soul from within."
+										"It is believed that when the Gods cast out the Settlers, Narallin did not turn away. He is said to have watched from the edge of the heavens, as the exiles vanished beyond the red veil. In their absence, he keeps the roads open."
 									]
 								}
 							]
@@ -286,82 +299,112 @@
 			]
 		},
 		{
-			"name": "Dur Maeth",
-			"title": "Goddess of Enlightenment & Honor",
-			"alignment": [
-				"C",
-				"G"
+			"name": "Nydra",
+			"title": "Goddess of Death & The Moon",
+			"altNames": [
+				"The Eye of Dust"
 			],
-			"province": "Enlightenment, Honor, Justice, Law and Politics",
+			"alignment": [
+				"N"
+			],
+			"province": "Death, Fate, Night, Nature and The Moon",
 			"pantheon": "Caradhen",
 			"category": [
 				"Gods of The Firmament"
 			],
 			"domains": [
-				"Knowledge",
-				"Life",
-				"Light",
-				"Order",
-				"Peace"
+				"Death",
+				"Grave",
+				"Nature",
+				"Twilight"
 			],
-			"symbol": "A perfectly balanced scale",
+			"symbol": "A moon-cratered cloudy eye",
 			"symbolImg": {
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Dur%20Maeth%20-%20Goddess%20of%20Enlightenment%20%26%20Honor.png"
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Nydra%20-%20Goddess%20of%20Death%20%26%20The Moon.png"
 				}
 			},
+			"source": "LandsOfExile",
 			"entries": [
 				{
 					"type": "section",
 					"entries": [
-						"In the oldest stories, Dur Maeth walked among mortals not as a queen but as a teacher. She served as the thread binding city and soul together. It was she who taught that power without mercy is only noise, and that law, must be tempered by compassion and common sense.",
-						"Her temples are libraries first and sanctuaries second, their walls traced with runes that shift when read by different minds. No one hears her now, yet her silence feels deliberate, as if she listens instead. Dreams of her come bright and geometric: lattices of thought, vast cities of glass and memory. Her faithful believe these are glimpses of her mind, where every act of kindness adds another light to an endless skyline.",
-						"Among all the gods, she is the hardest to define. Neither distant nor near, neither stern nor gentle. Only present, like the thought that civilization itself might, for a fleeting instant, understand its own soul."
+						"It is said that when Palashirr's magic wanes, Nydra's gaze falls upon creation like a layer of hoarfrost. Her silence is the bitter rhythm by which all things end.",
+						"She loathes those that live in unlife, those that will not die. These crawling mockeries of life linger beyond her reach, and so she beseeches her followers to burn corpses to ash, sever infernal pacts, and leave no ghost unburied. To serve her is to understand that in death there is no embrace. Only a neutral peace.",
+						"Ultimately, she is not found to be cruel. Merely cold. For when her light falls upon the living, it is not to comfort, but to remind them that the night does not love you. It simply waits until the campfire dims.",
+						{
+							"type": "entries",
+							"name": "Fickle Fate",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "A great many enemies",
+									"entries": [
+										"Legends tell that in an age long forgotten, her foes rose against her and were unmade by her curse: their souls bound to beast and blood, their lycanthropic howls echoing in eternal rebellion. Even now, the afflicted tremble beneath her moon, a warning written in flesh."
+									]
+								}
+							]
+						}
 					]
 				}
-			],
-			"source": "LandsOfExile"
+			]
 		},
 		{
-			"name": "Araush",
-			"title": "God of Darkness, Treachery and Murder",
+			"name": "Palashirr",
+			"title": "God of Fire and Magic",
+			"altNames": [
+				"The Dying Dawn"
+			],
 			"alignment": [
 				"C",
-				"E"
+				"N"
 			],
-			"province": "Darkness, Deceit, Lies, Lust, Murder, Poison, Shadows, Snakes, Spiders, Thievery and Treachery",
+			"province": "Ambition, Fire, Magic and The Sun",
 			"pantheon": "Caradhen",
 			"category": [
-				"Gods of The Echelon Court"
+				"Gods of The Firmament"
 			],
 			"domains": [
-				"Death",
-				"Madness",
-				"Trickery",
-				"Twilight",
+				"Arcana",
+				"Knowledge",
+				"Light",
+				"Order",
+				"Time",
 				"War"
 			],
-			"symbol": "A snake circling a spiderweb, or a tick",
+			"symbol": "A burning shield",
 			"symbolImg": {
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Araush%20-%20God%20of%20Darkness%20,%20Treachery%20%26Murder.png"
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Palashirr%20-%20God%20of%20Fire%20%26%20Magic.png"
 				}
 			},
+			"source": "LandsOfExile",
 			"entries": [
 				{
 					"type": "section",
 					"entries": [
-						"In the oldest drow chants, Araush is not crowned, enthroned, or exalted. He is shown crouched low, spine bowed, limbs long and wrong, skin marked with ash and venom. His form shifts between serpent, spider and something hunched. Something almost mortal. As if the shape of divinity has not yet decided what it wishes to be. He does not rule from above. He waits below.",
-						"Araush teaches that the world is a hunt, and that truth is a luxury of the safe. Survival is the only honest virtue. Poison is not cruelty, but patience. Lies are not sins, but tools sharpened by necessity. Among his faithful, guilt is weakness, and responsibility belongs only to those strong enough to endure it.",
-						"To outsiders, Araush is blamed for assassins and venomers. To his followers, he is older than blame. A god not of evil, but of the truth that all life feeds on something else. That all life is but a parasite, and that pretending otherwise is the greatest lie of all."
+						"No one remembers what Palashirr was before the Schism of Names, only that once there was a gentler radiance, a softer dawn. Now, his warmth carries the divine weight of judgement. His temples are built in open courtyards where the sky can see the faithful; his priests bear no shadows when they stand in prayer. They teach that light is not forgiveness, but clarity. And in clarity, every flaw is revealed.",
+						"The legends whisper that when the world was first divided, there were those who defied him: proud, impossibly tall beings who would not bow before His light. Palashirr’s fire descended upon them not to kill, but to remake. Some became stone, some fled into the dark places of the earth, and some still wander beneath the sun, marked and reminded by its relentless gaze.",
+						{
+							"type": "entries",
+							"name": "Palashirr's Influence",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Depiction",
+									"entries": [
+										"Palashirr is oft depicted as a tall knight carrying a gargantuan greatsword, clad head to toe in jet-black, outlined in silver armor, wreathed in divine fire, both red and blue."
+									]
+								}
+							]
+						}
 					]
 				}
-			],
-			"source": "LandsOfExile"
+			]
 		}
 	]
 }

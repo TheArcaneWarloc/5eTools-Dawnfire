@@ -8,7 +8,7 @@
 			"authors": [
 				"Arcane"
 			],
-			"version": "V11.5",
+			"version": "V12.2",
 			"url": "-",
 			"targetSchema": "1.2.0"
 		}],
@@ -28,7 +28,6 @@
 				"Once you use this feature, you can’t use this feature again until you finish a long rest."
 			]
 		},
-
 		{
 			"name": "Favored Foe",
 			"source": "WorldOfLightClasses",
