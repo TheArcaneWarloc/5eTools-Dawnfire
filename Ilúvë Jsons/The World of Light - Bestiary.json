@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V12.2",
+				"version": "V13",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Bestiary.json",
 				"targetSchema": "1.2.0"
 			}
@@ -1318,12 +1318,385 @@
 				"MW",
 				"THW"
 			]
+		},
+		{
+			"name": "Gallehault Senace Thiric O'Wainn",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "half-elf"
+					}
+				]
+			},
+			"source": "WorldOfLightBeasts",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"{@item mithral half plate armor|xdmg}",
+						"{@item +2 ring of protection|WorldOfLightBeasts}",
+						"{@item gallehault's robe|WorldOfLightBeasts}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d10 + 60",
+				"average": 170
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 16,
+			"dex": 18,
+			"con": 17,
+			"int": 20,
+			"wis": 18,
+			"cha": 22,
+			"passive": 22,
+			"cr": "25",
+			"shortName": "Gallehault",
+			"level": 20,
+			"senses": [
+				"darkvision 60 ft.",
+				"truesight 15 ft."
+			],
+			"senseTags": [
+				"D",
+				"U"
+			],
+			"languages": [
+				"Abyssal",
+				"Celestial",
+				"Common",
+				"Common Sign Language",
+				"Draconic",
+				"Dwarvish",
+				"Elvish",
+				"Gnomish",
+				"Infernal",
+				"Primordial",
+				"Sylvan",
+				"Undercommon"
+			],
+			"languageTags": [
+				"AB",
+				"CE",
+				"C",
+				"DR",
+				"D",
+				"E",
+				"G",
+				"I",
+				"P",
+				"S",
+				"U"
+			],
+			"save": {
+				"con": "+11",
+				"wis": "+12",
+				"cha": "+14",
+				"int": "+13"
+			},
+			"skill": {
+				"arcana": "+21",
+				"deception": "+22",
+				"intimidation": "+22",
+				"perception": "+12",
+				"persuasion": "+14",
+				"stealth": "+12",
+				"history": "+13"
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"isNpc": true,
+			"isNamedCreature": true,
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Gallehault has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Spellfire Burst",
+					"entries": [
+						"When Gallehault spends at least 1 Sorcery Point as part of the Magic action or a Bonus Action on his turn, he can unleash one of the following magical effects of his choice. He can do so only once per turn.",
+						"{@i Bolstering Flames}. Gallehault or one creature he can see within 30 feet of himself gains Temporary Hit Points equal to {@damage 1d8} plus his Charisma modifier.",
+						"{@i Radiant Fire.} One creature Gallehault can see within 30 feet of himself takes {@damage 1d8} Fire or Radiant damage (his choice)."
+					]
+				},
+				{
+					"name": "Absorb Spells",
+					"entries": [
+						"Whenever Gallehault successfully Counterspells a spell, he regains {@dice 1d4} Sorcery Points."
+					]
+				},
+				{
+					"name": "Spell Avoidance",
+					"entries": [
+						"When Gallehault is subjected to a spell or magical effect that allows him to make a saving throw to take only half damage, he instead take no damage if he succeeds on the saving throw and only half damage if he fail. He can't use this benefit if he has the {@condition Incapacitated} condition."
+					]
+				},
+				{
+					"name": "Metamagic",
+					"entries": [
+						"Gallehault has 20 Sorcery Points.",
+						"He has the following Metamagic options at his disposal:",
+						"- {@b Empowered Spell}. When he rolls damage for a spell, he can spend 1 Sorcery Point to reroll a number of the damage dice up to his Charisma modifier (minimum of one), and he must use the new rolls. He can use Empowered Spell even if he's already used a different Metamagic option during the casting of the spell.",
+						"- {@b Heightened Spell}. When he casts a spell that forces a creature to make a saving throw, he can spend 2 Sorcery Points to give one target of the spell Disadvantage on saves against the spell.",
+						"- {@b Quickened Spell}. When he casts a spell that has a casting time of an action, he can spend 2 Sorcery Points to change the casting time to a Bonus Action for this casting.",
+						"- {@b Seeking Spell}. If he makes an attack roll for a spell and miss, he can spend 1 Sorcery Point to reroll the {@dice d20}, and he must use the new roll. He can use Seeking Spell even if he's already used a different Metamagic option during the casting of the spell.",
+						"- {@b Subtle Spell}. When he casts a spell, he can spend 1 Sorcery Point to cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell.",
+						"- {@b Twinned Spell}. When he casts a spell, such as Charm Person, that can be cast with a higher-level spell slot to target an additional creature, he can spend 1 Sorcery Point to increase the spell's effective level by 1."
+					]
+				},
+				{
+					"name": "Arcane Apotheosis",
+					"entries": [
+						"Gallehault can use one Metamagic option on each of his turns without spending Sorcery Points on it."
+					]
+				}
+			],
+			"gear": [
+				"mithral half plate armor|xdmg",
+				"iledrith|WorldOfLightBeasts",
+				"anobaith|WorldOfLightBeasts",
+				"+2 ring of protection|WorldOfLightBeasts",
+				"gallehault's robe|WorldOfLightBeasts"
+			],
+			"resist": [
+				"bludgeoning",
+				"force",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Gallehault is a 20th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 22}, +14 to hit with spell attacks). He knows the following sorcerer spells:"
+					],
+					"footerEntries": [
+						"{@i Spells received from his Spellfire subclass are noted with an asterisk(*).}"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell Friends|XPHB}",
+								"{@spell Mage Hand|XPHB}",
+								"{@spell Message|XPHB}",
+								"{@spell Shocking Grasp|XPHB}",
+								"{@spell Sorcerous Burst|XPHB}",
+								"{@spell Wristpocket|WOL}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell Cure Wounds|XPHB}*",
+								"{@spell Detect Magic|XPHB}",
+								"{@spell Disguise Self|XPHB}",
+								"{@spell Guiding Bolt|XPHB}*",
+								"{@spell Shield|XPHB}",
+								"{@spell Silvery Barbs|SCC}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell Lesser Restoration|XPHB}*",
+								"{@spell Misty Step|XPHB}",
+								"{@spell Phantasmal Force|XPHB}",
+								"{@spell Scorching Ray|XPHB}*"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell Aura of Vitality|XPHB}*",
+								"{@spell Counterspell|XPHB}",
+								"{@spell Dispel Magic|XPHB}*",
+								"{@spell Dispel Magic|XPHB}",
+								"{@spell Fly|XPHB}",
+								"{@spell Haste|XPHB}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell Backlash|FRHoF}",
+								"{@spell Fire Shield|XPHB}*",
+								"{@spell Greater Invisibility|XPHB}",
+								"{@spell Spellfire Storm|FRHoF}",
+								"{@spell Wall of Fire|XPHB}*"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell Bigby's Hand|XPHB}",
+								"{@spell Flame Strike|XPHB}*",
+								"{@spell Greater Restoration|XPHB}*",
+								"{@spell Hold Monster|XPHB}",
+								"{@spell Telekinesis|XPHB}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell Disintegrate|XPHB}",
+								"{@spell True Seeing|XPHB}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell Delayed Blast Fireball|XPHB}",
+								"{@spell Reverse Gravity|XPHB}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell Dominate Monster|XPHB}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell Power Word Kill|XPHB}"
+							],
+							"slots": 1
+						}
+					},
+					"will": [
+						"{@spell Scrying|XPHB} (Using {@item Gallehault's Robe|WorldOfLightBeasts})",
+						"{@spell Teleport|XPHB} (Using {@item Iledrith|WorldOfLightBeasts})"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Gallehault makes three Iledrith attacks, or two Anobaith attacks."
+					]
+				},
+				{
+					"name": "Anobaith",
+					"entries": [
+						"{@atkr mw} {@hit +15}, reach 5 ft., one target. {@h}9 ({@damage 1d4 + 7}) Piercing or Slashing damage plus 18 ({@damage 3d12}) Necrotic damage."
+					]
+				},
+				{
+					"name": "Iledrith (One-Handed)",
+					"entries": [
+						"{@atkr mw} {@hit +18}, reach 5 ft., one target. {@h}12 ({@damage 1d8 + 8}) Slashing damage plus 12 ({@damage 2d12}) Force damage."
+					]
+				},
+				{
+					"name": "Iledrith (Two-Handed)",
+					"entries": [
+						"{@atkr mw} {@hit +18}, reach 5 ft., one target. {@h}13 ({@damage 1d10 + 8}) Slashing damage plus 12 ({@damage 2d12}) Force damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"conditionInflict": [
+				"incapacitated",
+				"stunned"
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Gallehault makes one weapon attack."
+					]
+				},
+				{
+					"name": "Cantrip",
+					"entries": [
+						"Gallehault casts one of his cantrips."
+					]
+				},
+				{
+					"name": "End Magic (Costs 2 Actions)",
+					"entries": [
+						"Gallehault casts {@spell dispel magic}."
+					]
+				},
+				{
+					"name": "Mind Blast (Costs 3 Actions)",
+					"entries": [
+						"Gallehault magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 22} Intelligence saving throw or take 30 ({@damage 5d8 + 8}) psychic damage and be {@condition stunned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"alias": [
+				"Unsorceror",
+				"Red Tower"
+			],
+			"damageTags": [
+				"N",
+				"O",
+				"P",
+				"S",
+				"Y"
+			],
+			"damageTagsSpell": [
+				"A",
+				"B",
+				"C",
+				"F",
+				"I",
+				"L",
+				"O",
+				"R",
+				"T",
+				"Y"
+			],
+			"savingThrowForced": [
+				"intelligence"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"intelligence",
+				"strength",
+				"wisdom"
+			]
 		}
 	],
 	"item": [
 	{
 			"name": "Azzanar's Red Robe",
-			"source": "WorldOfLight",
+			"source": "WorldOfLightBeasts",
 			"charges": 10,
 			"rarity": "legendary",
 			"reqAttune": true,
@@ -1367,6 +1740,67 @@
 						"In addition, when you are targeted by an enemy's spell, you can use your reaction to absorb a portion of the spell's energy into the robe. The spell affects you normally, but the robe regains a number of charges equal to the level of the spell, to a maximum of 5. Whenever you hit with an attack afterward, you can expend any number of charges from the robe, with the attack dealing an extra 1d8 necrotic damage per charge expended."
 				]
 			}
+		]
+	},
+	{
+			"name": "Gallehault's Robe",
+			"source": "WorldOfLightBeasts",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"Gallehault's Robe.",
+				"You gain these benefits while attuned to and wearing this robe:",
+				{
+					"type": "entries",
+					"name": "Magical Defense",
+					"entries": [
+						"You gain a +1 to your Armor Class."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aspect of The Archmage",
+					"entries": [
+						"You permanently gain the effects of the {@spell Mage Armor} spell, granting you a base AC of 13 + your Dexterity modifier while not wearing armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mental Fortitude",
+					"entries": [
+						"You are resistant to Bludgeoning, Piercing and Slashing damage, and you are immune to Psychic damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eyes Everywhere",
+					"entries": [
+						"You can cast the {@spell Scrying} spell at will."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magic Absorption",
+					"entries": [
+						"You have advantage on saving throws against spell and other magical effects."
+				]
+				}
+			]
+	},
+	{
+		"name": "+2 Ring of Protection",
+		"source": "WorldOfLightBeasts",
+		"bonusAc": "+2",
+		"bonusSavingThrow": "+2",
+		"optionalfeatures": [],
+		"hasFluffImages": true,
+		"type": "RG|DMG",
+		"tier": "major",
+		"rarity": "rare",
+		"reqAttune": true,
+		"entries": [
+			"You gain a +2 bonus to AC and saving throws while wearing this ring."
 		]
 	}
 	]
