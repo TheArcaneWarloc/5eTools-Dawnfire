@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V13",
+				"version": "V13.0.1",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -8065,6 +8065,168 @@
 			"miscTags": [
 				"PRM",
 				"SMN"
+			]
+		},
+		{
+			"name": "Runesense",
+			"level": 4,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Diviner",
+							"shortName": "Diviner",
+							"source": "XPHB"
+						}
+					}
+				]
+			},
+			"entries": [
+				"You attune your senses to the lingering traces of magic and motion, revealing echoes of events that occurred in the area within the past 24 hours. For the duration, you perceive faint, ghostly afterimages overlaying the present, visible only to you and any allies you select within 30 feet of you as part of casting this spell.",
+				"When you cast the spell, and as an action on subsequent turns, you can focus on a point or space within range to study its residual impressions. The spell reveals the following information:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Arcane Residue",
+							"entry": "You perceive the lingering traces of spells cast within the area. For each magical effect you examine, you learn the school of magic and the level at which the spell was cast. If the spell was cast at a level lower than your casting level of this spell, you also identify the exact spell used. Additionally, you see a faint afterimage of the creature that cast it, captured in the act of casting, revealing its physical appearance at that moment (though not its name or identity)."
+						},
+						{
+							"type": "item",
+							"name": "Echoed Movement",
+							"entry": "You see spectral footprints and motion trails left by creatures that moved through the area within the past 24 hours. These traces indicate the number of creatures, their approximate size, and the paths they took. The tracks are clear enough to follow, granting advantage on Wisdom (Survival) checks made to track those creatures while the spell persists."
+						},
+						{
+							"type": "item",
+							"name": "Fragmented Moments",
+							"entry": "When you focus on a specific location, you can witness a brief, silent echo of a past event that occurred there. This echo lasts no more than a few seconds and is indistinct, showing only the most significant actions or movements. The DM determines what, if anything, is revealed."
+						}
+					]
+				},
+				"The spell does not recreate sound, exact timing, or precise details beyond what is described, and overlapping events may blur together at the DM’s discretion."
+			],
+			"source": "WOL",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a polished crystal lens or shard worth at least 25 gp",
+					"cost": 2500
+				}
+			},
+			"meta": {
+				"ritual": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the window of time you can perceive extends by 24 hours for each slot level above 4th. "
+					]
+				}
+			],
+			"feats": [
+				{
+					"name": "Boon of Siberys",
+					"source": "EFA"
+				}
 			]
 		},
 		{
