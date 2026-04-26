@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V13.0.1",
+				"version": "V13.1",
 				"url": "",
 				"targetSchema": "1.2.0"
 			}
@@ -19,12 +19,15 @@
 	"deity": [
 		{
 			"name": "Araush",
-			"title": "God of Darkness, Treachery and Murder",
+			"title": "God of Darkness and Treachery",
+			"altNames": [
+				"The Deformed Snake"
+			],
 			"alignment": [
 				"C",
 				"E"
 			],
-			"province": "Darkness, Deceit, Lies, Lust, Murder, Poison, Shadows, Snakes, Spiders, Thievery and Treachery",
+			"province": "Deceit, Deformities, Lies, Lust, Murder, Poison, Shadows, Snakes, Spiders, Thievery & Treachery",
 			"pantheon": "Caradhen",
 			"category": [
 				"Gods of The Echelon Court"
@@ -57,13 +60,73 @@
 			"source": "LandsOfExile"
 		},
 		{
+			"name": "Åska",
+			"title": "Goddess of Mountains and Lightning",
+			"altNames": [
+				"The Vast"
+			],
+			"alignment": [
+				"N"
+			],
+			"province": "Beasts, Endurance, Lightning, Mountains & Strength",
+			"pantheon": "Caradhen",
+			"category": [
+				"Gods of The Firmament"
+			],
+			"domains": [
+				"Forge",
+				"Life",
+				"Light",
+				"Nature",
+				"Strength",
+				"Tempest",
+				"War"
+			],
+			"symbol": "A mountain split, struck by lightning",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "-"
+				}
+			},
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"In the oldest Dwarven carvings, there is a certain insanity that belies the goddess Åska. She is that which lies deep in stone, the jagged mark that splits the mountains from the sky.",
+						"They say she is responsible for the first peaks to rise, when the world strained upward and broke its own surface. That immensity, that vastness, personified as a presence. Åska is that presence: the weight of mountains, the crack of thunder, the feeling that something immeasurable stands just beyond understanding.",
+						"Lightning is said to be Åska's breath. She is sudden, violent, and absolute. Where it strikes, the world is reminded of just how small it is."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Patrons of the Sky",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Depiction",
+							"entries": [
+								"Ancient depictions of Åska were ritualistic and filled with symbology. The Dwarves of Dor-Edlen would cover the tablets upon which they recorded her doctrine with glass. There where the chisel struck hardest, the cracks would lead them to her words. The elders say this is the only true likeness of her: not a form, but an impact."
+							]
+						}
+					]
+				}
+			],
+			"source": "LandsOfExile"
+		},
+		{
 			"name": "Dur Maeth",
 			"title": "Goddess of Enlightenment & Honor",
+			"altNames": [
+				"The Blind Arbiter",
+				"The Just"
+			],
 			"alignment": [
 				"C",
 				"G"
 			],
-			"province": "Enlightenment, Honor, Justice, Law and Politics",
+			"province": "Enlightenment, Honor, Justice, Law & Politics",
 			"pantheon": "Caradhen",
 			"category": [
 				"Gods of The Firmament"
@@ -184,6 +247,61 @@
 									"name": "Jagged Spirals",
 									"entries": [
 										"His form is carved into forbidden tablets: a vast, segmented serpent devouring its own body, an ouroboros of decay. Those who dream of him wake gasping, their minds full of whispers that promise dominion and immortality. Promises that rot the soul from within."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Korðr",
+			"title": "God of Storms and The Sea",
+			"altNames": [
+				"The Brawler"
+			],
+			"alignment": [
+				"C",
+				"N"
+			],
+			"province": "Athleticism, Bravery, Rain, Revelry, Storms & The Sea",
+			"pantheon": "Caradhen",
+			"category": [
+				"Gods of The Firmament"
+			],
+			"domains": [
+				"Life",
+				"Nature",
+				"Strength",
+				"Tempest"
+			],
+			"symbol": "A bolt of lighting over a wave",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "-"
+				}
+			},
+			"source": "LandsOfExile",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"Korðr is the horizon when it darkens. He is the line where sky and sea argue. They say he was born not in the heavens, but in the clash where wind first learned to wrestle water, and neither would yield. From that struggle came the storm, and from the storm, Korðr, laughing.",
+						"To those who crossed the great wakes, his memory is sharp and bitter. They speak of blackened skies and waves that rose like cathedral walls; of winds that tore sails and courage alike. In their stories, Korðr is a test with no promise of passing. He is a force that does not care who survives.",
+						"On the shores of Silrúin, Korðr is welcomed with open arms. When the first drops fall, laughter soon follows. Children run through the mud, and elders lif ttheir faces to the sky, as if greeting an old friend. To the natives of Silrúin, Korðr is not wrath, but a relief from the harshness that {@deity|Ehlonna|LandsOfExile} and {@deity|Palashirr|LandsOfExile} create unknowingly.",
+						{
+							"type": "entries",
+							"name": "Patrons of the Sky",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Prohibition and The Night of Broken Casks",
+									"entries": [
+										"Korðr is counted among the three who claim the sky. He is the storm between Åska's vastness and Törden's thunder, where wind, rain, and crashing waves find their voice. In quieter company, he is also named the god of beer and wine, for what is a storm if not a reason to gather, drink, and dare the night to take you?",
+										"Each year, when the first great rains roll in, the people of Silrúin hold the Night of Broken Casks, a “solemn rite” where sealed barrels are split open beneath the open sky. This tradition is upheld with suspicious enthusiasm, even in places where such indulgence is forbidden due to the laws of prohibition."
 									]
 								}
 							]
@@ -398,6 +516,60 @@
 									"name": "Depiction",
 									"entries": [
 										"Palashirr is oft depicted as a tall knight carrying a gargantuan greatsword, clad head to toe in jet-black, outlined in silver armor, wreathed in divine fire, both red and blue."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Törden",
+			"title": "God of War and Thunder",
+			"altNames": [
+				"The Thunderer"
+			],
+			"alignment": [
+				"C",
+				"E"
+			],
+			"province": "Battle, Music, Savagery, Thunder & War",
+			"pantheon": "Caradhen",
+			"category": [
+				"Gods of The Echelon Court"
+			],
+			"domains": [
+				"Death",
+				"Nature",
+				"Strength",
+				"Tempest",
+				"War"
+			],
+			"symbol": "A cloud with a sword-like lightning bolt",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "-"
+				}
+			},
+			"source": "LandsOfExile",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"In the annals of history, the war-god Törden appears again and again and again. The first strike of blade on shield, the first drumbeat before the charge, the first scream that tears fear into fury... these are all said to be Törden's voice. They call him The Thunderer, though not only for the sound he makes. They call him The Thunderer for the way he arrives: sudden, overwhelming, and impossible to ignore.",
+						"It is said that Törden stands among darker powers now, not as servant, but as their equal. A god who found more truth in the chaos of battle than in any ordered sky. Some claim he was always this way, merely remembered differently. Others insist something changed since the Schism of Names. They say that the thunder that once guided is now meant simply to break.",
+						{
+							"type": "entries",
+							"name": "Patrons of the Sky",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Prohibition and The Night of Broken Casks",
+									"entries": [
+										"Where Korðr tests and Åska endures, Törden unleashes. He is the moment restraint dies. The moment when battle ceases to be duty and becomes something raw, ecstatic... and terrible. His followers do not speak of honor or justice. Only of victory, and the music of war that drowns out all else. Drums, horns, and clashing steel are sacred to him, with each note a step closer to the perfect storm of violence."
 									]
 								}
 							]
