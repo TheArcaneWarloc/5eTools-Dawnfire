@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V13.1",
+				"version": "V13.1.1",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -21,6 +21,8 @@
 			"name": "Angrad",
 			"title": "God of Crafting, Creation and Smithing",
 			"altNames": [
+				"Moradin",
+				"Reorx",
 				"The Forge Father",
 				"The Allhammer",
 				"The All-Father",

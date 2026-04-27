@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V13.1",
+				"version": "V13.1.1",
 				"url": "",
 				"targetSchema": "1.2.0"
 			}
@@ -291,7 +291,7 @@
 					"entries": [
 						"Korðr is the horizon when it darkens. He is the line where sky and sea argue. They say he was born not in the heavens, but in the clash where wind first learned to wrestle water, and neither would yield. From that struggle came the storm, and from the storm, Korðr, laughing.",
 						"To those who crossed the great wakes, his memory is sharp and bitter. They speak of blackened skies and waves that rose like cathedral walls; of winds that tore sails and courage alike. In their stories, Korðr is a test with no promise of passing. He is a force that does not care who survives.",
-						"On the shores of Silrúin, Korðr is welcomed with open arms. When the first drops fall, laughter soon follows. Children run through the mud, and elders lif ttheir faces to the sky, as if greeting an old friend. To the natives of Silrúin, Korðr is not wrath, but a relief from the harshness that {@deity|Ehlonna|LandsOfExile} and {@deity|Palashirr|LandsOfExile} create unknowingly.",
+						"On the shores of Silrúin, Korðr is welcomed with open arms. When the first drops fall, laughter soon follows. Children run through the mud, and elders lift their faces to the sky, as if greeting an old friend. To the natives of Silrúin, Korðr is not wrath, but a relief from the harshness that {@deity Ehlonna|Caradhen|LandsOfExile} and {@deity Palashirr|Caradhen|LandsOfExile} create unknowingly.",
 						{
 							"type": "entries",
 							"name": "Patrons of the Sky",
