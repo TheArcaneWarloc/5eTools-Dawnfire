@@ -5132,6 +5132,55 @@
 				"Arcana - Very Rare|XDMG",
 				"Relics - Very Rare|XDMG"
 			]
+		},
+		{
+			"name": "The Kiss of Azzagrat",
+			"source": "WOL",
+			"baseItem": "greatsword|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H|XPHB",
+				"2H|XPHB"
+			],
+			"mastery": [
+				"Graze|XPHB"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"bonusWeapon": "+1",
+			"hasFluffImages": true,
+			"entries": [
+				"This black iron greatsword constantly drips burning crimson ichor. The substance vanishes moments after leaving the blade.",
+				"You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.",
+				{
+					"type": "entries",
+					"name": "Burning Acid",
+					"entries": [
+						"Once per turn when you hit a creature, you can deal an additional {@damage 1d6} fire damage and {@damage 1d6} acid damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lingering Flames",
+					"entries": [
+						"When you score a critical hit, the target ignites. At the start of its next turn it takes {@damage 4d6} fire damage. It can end the effect early by using an action to extinguish the flames."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Graz'zt's Temptation",
+					"entries": [
+						"When you reduce a creature to 0 hit points, you gain temporary hit points equal to your proficiency bonus."
+					]
+				}
+			]
 		}
 	],
 	"itemGroup": [
@@ -9114,6 +9163,97 @@
 			],
 			"damageInflict": [
 				"force"
+			]
+		},
+		{
+			"name": "Vyscera's Rage",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"source": "WOL",
+			"entries": [
+				"You kindle a violent spark of magical flame within range, controlling it as though it's part of your anger.",
+				"Choose a creature or object you can see within range. The target must make a Dexterity saving throw. On a failed save, the target takes 2d6 fire damage and catches fire for the duration. On a successful save, the target takes half as much damage and does not catch fire. A burning creature sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
+				"On subsequent turns, you can use your bonus action to cause the following effects to a creature on fire within 60 feet of you (this fire does not have to be the fire you created with the spell):",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Spread",
+							"entry": "If the fire is touching flammable material (such as oil), you can cause it to spread. The affected area expands to fill a 15-foot-square on the ground you can see within range. Creatures that enter the area for the first time on a turn or start their turn in the area take 2d6 fire damage."
+						},
+						{
+							"type": "item",
+							"name": "Tendril",
+							"entry": "You can lash out using the flames. Make one ranged spell attack against a creature within 30 feet of the fire. On a hit, the  target takes 3d6 fire damage. If the creature is standing in or covered in a flammable liquid, it instead takes 3d6 + your spellcasting modifier."
+						},
+						{
+							"type": "item",
+							"name": "Blaze",
+							"entry": "While a creature is burning from this spell, you can use a bonus action to deal 2d6 fire damage to the creature. If the creature is touching or covered in a flammable substance, this damage increases by your spellcasting modifier."
+						}
+					]
+				},
+				"A burning creature can use its action to make a Dexterity (Acrobatics) check against your spell save DC, extinguishing the flames on a success. The flames are also extinguished if the creature is submerged in water or otherwise doused."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When cast using a spell slot of 3rd level or higher, both the initial damage and Blaze damage increase by 1d6 for each slot level above 2nd. Additionally, the affected area for Spread increases by 5 feet for each slot level above 2nd."
+					]
+				}
+			],
+			"miscTags": [
+				"LGT",
+				"OBJ",
+				"SCL",
+				"SGT",
+				"UBA"
 			]
 		},
 		{
