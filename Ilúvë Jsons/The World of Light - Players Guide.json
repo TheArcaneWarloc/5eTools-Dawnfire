@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V13.1.1",
+				"version": "V13.2.1",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -9723,7 +9723,7 @@
 			"header": 2,
 			"entries": [
 				"Starting at 3rd level, you can use your Channel Divinity to call upon your deity to taint your magic with the seeds of insanity.",
-				"When you cast one of your domain spells, you can expand a use of Channel Divinity to select a target. If there are multiple target, choose one among all the targets affected by your spell. That target must make an additional Wisdom saving throw against your spell save DC. If the creature fails, it becomes afflicted with a randomly determined short term madness (see \"{@book Madness Effects|dmg|8|Madness Effects}\" in chapter 8 of the Dungeon Master's Guide)."
+				"When you cast one of your domain spells, you can expend a use of Channel Divinity to select a target. If there are multiple target, choose one among all the targets affected by your spell. That target must make an additional Wisdom saving throw against your spell save DC. If the creature fails, it becomes afflicted with a randomly determined short term madness (see \"{@book Madness Effects|dmg|8|Madness Effects}\" in chapter 8 of the Dungeon Master's Guide)."
 			]
 		},
 		{
