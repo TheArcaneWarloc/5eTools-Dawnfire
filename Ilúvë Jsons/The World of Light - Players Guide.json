@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V13.2.1",
+				"version": "V13.3",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -9254,6 +9254,67 @@
 				"SCL",
 				"SGT",
 				"UBA"
+			]
+		},
+		{
+			"name": "Word of The Weave",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take in response to you or another creature you can see within range casting a spell"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"source": "WOL",
+			"entries": [
+				"You offer a fragment of your life force to the Weave, forcing it to bend in accordance with your will.",
+				"Choose one Metamagic option available to the Sorcerer class and apply it to the triggering spell. To do so, expend a number of your Hit Dice equal to the Sorcery Point cost of the chosen Metamagic option. Roll the expended Hit Dice and take force damage equal to the total rolled. This damage ignores resistance and immunity.",
+				"This spell does not count against the number of spells you can cast during your turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, its range becomes 70 feet, and you can take the reaction when a creature you can see within 70 feet of you casts a spell of 1st level or higher."
+					]
+				}
 			]
 		},
 		{
