@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V13.3",
+				"version": "V14",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -621,7 +621,7 @@
 				"Peace"
 			],
 			"pantheon": "Ilúvë",
-			"provice": "Civilization, Invention, Law and Rule",
+			"province": "Civilization, Invention, Law and Rule",
 			"symbol": "Upper half of a clockwork gear",
 			"symbolImg": {
 				"type": "image",
@@ -12760,6 +12760,85 @@
 				"If you use your action on your turn, you take a cumulative -3 penalty to all your d20 rolls. If you use your bonus action on your turn, you take a cumulative -1 penalty to all your d20 rolls. If you use your reaction while you are {@condition dying}, you take a cumulative -1 penalty to all your d20 rolls. While you have this condition, you cannot use any of your actions to stand up from being {@condition prone}.",
 				"If you take {@variantrule Massive Damage} (or, in the case your DM doesn't use {@variantrule Massive Damage}, if you take half or more of your hit points in damage that results in reducing you to zero), you do not gain this condition and instead become {@condition unconscious} like normal."
 			]
+		}
+	],
+	"facility": [
+		{
+			"name": "Rookery, Variant",
+			"source": "WOL",
+			"facilityType": "special",
+			"level": 5,
+			"space": [
+				"cramped"
+			],
+			"hirelings": [
+				{
+					"exact": 1
+				}
+			],
+			"orders": [
+				"research"
+			],
+			"entries": [
+				"A number of ravens equal to your character level roost in a Rookery. Whenever a creature enters the facility, the birds uncannily track its movement, an unfathomable intelligence behind their beady eyes.",
+				{
+					"type": "entries",
+					"name": "Research: Reconnaissance",
+					"entries": [
+						"When you issue the Research order to this facility, you commission the ravens to gather information that facilitates an upcoming journey. This work takes 6 days. For the duration of the journey, you have {@variantrule Advantage|XPHB} on Wisdom ({@skill Survival|XPHB}) checks to forage or navigate.",
+						"Alternatively, when you issue the Research order to this facility, you commission the ravens to observe a specific creature you have met or a location you have previously visited. This work takes 6 days. At the end of this period, the raven provides a brief report containing a few snippets of conversation it heard creatures say. The ravens cannot enter secure interiors, or reveal information protected by magic."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Messenger Ravens",
+					"entries": [
+						"Whenever you finish a {@variantrule Long Rest|XPHB} in your Bastion, you can send one raven bearing a written message of 25 words or fewer to a creature you have met or a creature described to you by someone who has met it. After receiving this message, the recipient can reply in a like manner, attaching their response to the raven. Regardless of whether or not the recipient responds, the raven returns to the rookery after 6 days have passed.",
+						"You can send a message via raven in this way across any distance, though the message recipient must be on the same plane of existence as your Bastion. A messenger raven delivers the message regardless of any magical wards or other interposing forces. If the raven is unable to deliver your message, it returns to your rookery after 6 days with your original message still attached."
+					]
+				}
+			]
+		},
+		{
+			"name": "Runesmithy",
+			"source": "WOL",
+			"facilityType": "special",
+			"level": 5,
+			"space": [
+				"roomy",
+				"vast"
+			],
+			"hirelings": [
+				{
+					"exact": 3,
+					"space": "roomy"
+				},
+				{
+					"exact": 5,
+					"space": "vast"
+				}
+			],
+			"orders": [
+				"research"
+			],
+			"entries": [
+				"A structure where skilled abjurers, diviners and runesmiths maintain magical defenses, reinforce protective sigils, and conduct divination rites.",
+				{
+					"type": "entries",
+					"name": "Arcane Veil",
+					"entries": [
+						"The Bastion is under the effects of abjuration magic. Divination spells or magical effects that would observe, locate, or magically perceive the Bastion or creatures and objects within it automatically fail."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Research: Mystical Tracing",
+					"entries": [
+						"When you issue the Research order to this facility, you commission the facility's hirelings to conduct divination rituals in order to locate a creature or object you describe. The work takes 6 days. At the end of that time, the hirelings reveal the approximate location of the creature or object at the moment you issued the order. This location is marked on a map and is accurate to within 1 mile. This research fails if the target is on another plane of existence or is protected from divination magic."
+					]
+				}
+			],
+			"hasFluffImages": true
 		}
 	]
 }
