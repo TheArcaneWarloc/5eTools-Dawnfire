@@ -9,8 +9,8 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V13.2.1",
-				"url": "",
+				"version": "V14.1",
+				"url": "https://github.com/TheArcaneWarloc/5eTools-Dawnfire/blob/main/Caradhen%20Jsons/Caradhen%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
 		],
@@ -68,7 +68,7 @@
 			"alignment": [
 				"N"
 			],
-			"province": "Beasts, Endurance, Lightning, Mountains & Strength",
+			"province": "Endurance, Giants, Lightning, Mountains, Strength & Vastness",
 			"pantheon": "Caradhen",
 			"category": [
 				"Gods of The Firmament"
@@ -87,7 +87,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "-"
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Åska%20-%20Goddess%20of%20Mountains%20%26%20Lightning.png"
 				}
 			},
 			"entries": [
@@ -276,12 +276,12 @@
 				"Strength",
 				"Tempest"
 			],
-			"symbol": "A bolt of lighting over a wave",
+			"symbol": "A bolt of lighting over a wavelike swirl",
 			"symbolImg": {
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "-"
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Korðr%20-%20God%20of%20Storms%20%26%20The%20Sea.png"
 				}
 			},
 			"source": "LandsOfExile",
@@ -551,7 +551,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "-"
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Törden%20-%20God%20of%20War%20%26%20Thunder.png"
 				}
 			},
 			"source": "LandsOfExile",
