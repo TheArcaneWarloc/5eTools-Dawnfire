@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V14.1",
+				"version": "V14.2",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -9255,6 +9255,75 @@
 				"SGT",
 				"UBA"
 			]
+		},
+		{
+			"name": "Webster's Dictionary",
+			"source": "WOL",
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"For the duration, you can comprehend and verbally communicate with Abberations, Beasts, Celestials, Dragons, Elementals, Fey, Fiends, Monstrosities and Oozes that either lack a language or can understand languages but can otherwise not normally speak, and you can use any of the {@action Influence|XPHB} action's skill options with them.",
+				"Most non-verbal creatures have little to say about topics that don't pertain to survival or companionship, but at minimum, a these creatures can give you information about nearby locations and monsters, including whatever it has perceived within the past day."
+				],
+				"affectsCreatureType": [
+					"abberation",
+					"beast",
+					"celestial",
+					"dragon",
+					"elemental",
+					"fey",
+					"fiend",
+					"monstrosity",
+					"ooze"
+				],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			}
 		},
 		{
 			"name": "Word of The Weave",

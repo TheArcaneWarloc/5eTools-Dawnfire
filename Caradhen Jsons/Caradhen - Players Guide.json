@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V14.1.0.1",
+				"version": "V14.2",
 				"url": "https://github.com/TheArcaneWarloc/5eTools-Dawnfire/blob/main/Caradhen%20Jsons/Caradhen%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -87,7 +87,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Åska%20-%20Goddess%20of%20Mountains%20%26%20Lightning.png"
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/%C3%85ska%20-%20Goddess%20of%20Mountains%20%26%20Lightning.png"
 				}
 			},
 			"entries": [
@@ -281,7 +281,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Korðr%20-%20God%20of%20Storms%20%26%20The%20Sea.png"
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Kor%C3%B0r%20-%20God%20of%20Storms%20%26%20The%20Sea.png"
 				}
 			},
 			"source": "LandsOfExile",
@@ -551,7 +551,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/Törden%20-%20God%20of%20War%20%26%20Thunder.png"
+					"url": "https://raw.githubusercontent.com/TheArcaneWarloc/5eTools-Dawnfire/refs/heads/main/Caradhen%20Jsons/Caradhen%20Deity%20Symbols/T%C3%B6rden%20-%20God%20of%20War%20%26%20Thunder.png"
 				}
 			},
 			"source": "LandsOfExile",
