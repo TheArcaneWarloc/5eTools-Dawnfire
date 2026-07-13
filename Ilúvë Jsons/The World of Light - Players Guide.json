@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V14.2",
+				"version": "V14.2.1",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -9291,7 +9291,7 @@
 			},
 			"entries": [
 				"For the duration, you can comprehend and verbally communicate with Abberations, Beasts, Celestials, Dragons, Elementals, Fey, Fiends, Monstrosities and Oozes that either lack a language or can understand languages but can otherwise not normally speak, and you can use any of the {@action Influence|XPHB} action's skill options with them.",
-				"Most non-verbal creatures have little to say about topics that don't pertain to survival or companionship, but at minimum, a these creatures can give you information about nearby locations and monsters, including whatever it has perceived within the past day."
+				"Most non-verbal creatures have little to say about topics that don't pertain to survival or companionship, but at minimum, these creatures can give you information about nearby locations and monsters, including whatever it has perceived within the past day."
 				],
 				"affectsCreatureType": [
 					"abberation",
@@ -12908,6 +12908,19 @@
 				}
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Cowshed",
+			"source": "WOL",
+			"facilityType": "basic",
+			"space": [
+				"cramped",
+				"roomy",
+				"vast"
+			],
+			"entries": [
+				"A basic facility comes with nonmagical furnishings and decor appropriate for that facility."
+			]
 		}
 	]
 }
