@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V14.2",
+				"version": "V15",
 				"url": "https://github.com/TheArcaneWarloc/5eTools-Dawnfire/blob/main/Caradhen%20Jsons/Caradhen%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -27,7 +27,7 @@
 				"C",
 				"E"
 			],
-			"province": "Deceit, Deformities, Lies, Lust, Murder, Poison, Shadows, Snakes, Spiders, Thievery & Treachery",
+			"province": "Deceit, Deformities, Lies, Poison, Shadows, Snakes, Spiders & Treachery",
 			"pantheon": "Caradhen",
 			"category": [
 				"Gods of The Echelon Court"
@@ -202,6 +202,70 @@
 			"source": "LandsOfExile"
 		},
 		{
+			"name": "Helene",
+			"title": "Goddess of Witchcraft & Fate",
+			"altNames": [
+				"The Enchantress",
+				"The Mother"
+			],
+			"alignment": [
+				"C",
+				"N"
+			],
+			"province": "Bugs, Desire, Fate, Fungus, Herbs, Tumbleweeds & Witchcraft",
+			"pantheon": "Caradhen",
+			"category": [
+				"Gods of The Echelon Court"
+			],
+			"domains": [
+				"Arcana",
+				"Death",
+				"Life",
+				"Madness",
+				"Trickery",
+				"Twilight"
+			],
+			"symbol": "A crossed sickle with a bundle of lavender or a cauldron with a scarab crawling out",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": ""
+				}
+			},
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"Disciples of Helene wear crowns woven of wild herbs and broken tumbleweeds. These stay fresh, as long as their faith is strong."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Fatemother",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Spillage of Magick",
+							"entries": [
+								"Back when the world was young, she tipped over the cauldron she clung to, spilling magick into the world where there was none before. Instead of calling upon the weave, you call upon the mother, and she grants wishes and desires from her cauldron. WHen you do rituals, you put herbs into the cauldron, and have a dream, you can have a dream where you are fed an inky black liquid from the cauldron, and this means that your prayers were heard.",
+								"Fate is a giant net. Some people are more important to fate, like fated heroes. If you seek her guidance, she might guide you through what they refer to as fatemarks; night impossible to spot runes."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Depiction",
+							"entries": [
+								"A veiled woman, with floor-length red hair. She is often dressed in what can only be described as a snaking web-like garment; a drapery that appears as fabric even though it is not.",
+								"She would be depicted with a big cauldron, or with a chalice. When depicted this way, she is not depicted with a face. This leads to people describing her as a beautiful young maiden, while others swear she appears as a haggard crone. Her mount of choice, however, always appears to be a giant scarab beetle."
+							]
+						}
+					]
+				}
+			],
+			"source": "LandsOfExile"
+		},
+		{
 			"name": "Ilbrant",
 			"title": "Deity of Madness, Enslavement and Ruin",
 			"altNames": [
@@ -211,7 +275,7 @@
 				"C",
 				"E"
 			],
-			"province": "Annihalation, Dragons, Enslavement, Hatred, Madness, Poison, Torture and Tyranny",
+			"province": "Annihalation, Evil Dragons, Enslavement, Hatred, Madness, Torture and Tyranny",
 			"pantheon": "Caradhen",
 			"category": [
 				"Gods of The Echelon Court"
@@ -257,7 +321,7 @@
 		},
 		{
 			"name": "Korðr",
-			"title": "God of Storms and The Sea",
+			"title": "God of Rain and The Sea",
 			"altNames": [
 				"The Brawler"
 			],
@@ -479,7 +543,7 @@
 				"C",
 				"N"
 			],
-			"province": "Ambition, Fire, Magic and The Sun",
+			"province": "Ambition, Fire, Magic, Redemption and The Sun",
 			"pantheon": "Caradhen",
 			"category": [
 				"Gods of The Firmament"
