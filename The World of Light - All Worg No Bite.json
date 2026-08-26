@@ -1,0 +1,128 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "WorldOfLightWorg",
+			"abbreviation": "WOLW",
+			"color": "3F4B4D",
+			"full": "The World of Light: All Worg No Bite",
+			"authors": [
+				"Arcane"
+			],
+			"version": "V15.1",
+			"url": "-",
+			"targetSchema": "1.2.0"
+		}],
+		"dateAdded": 1
+	},
+	"race": [
+		{
+            "name": "Worg",
+            "source": "WorldOfLightWorg",
+            "page": 163,
+            "edition": "one",
+            "creatureTypes": [
+                "monstrosity"
+            ],
+            "size": [
+                "M"
+            ],
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entry": "Medium (about 4–5 feet tall)"
+            },
+            "speed": 40,
+            "darkvision": 60,
+            "skillProficiencies": [
+                {
+                    "perception": true
+                }
+            ],
+            "traitTags": [
+                "Powerful Build",
+                "Natural Weapon",
+                "Natural Armor"
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You have {@sense Darkvision|XPHB} with a range of 60 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Keen Senses",
+                    "entries": [
+                        "You have proficiency in the {@skill Perception|XPHB} skill, and you have {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bite",
+                    "entries": [
+                        "Your formidable jaws are a natural weapon, which you can use to make {@variantrule Unarmed Strike|XPHB|Unarmed Strikes}. If you hit with them, you deal Piercing damage equal to {@dice 1d8} plus your Strength modifier in place of the normal Bludgeoning damage of your {@variantrule Unarmed Strike|XPHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "For the Pack",
+                    "entries": [
+                        "You can use the {@action Help|XPHB} action as a {@variantrule Bonus Action|XPHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Natural Armor",
+                    "entries": [
+                        "Your dense fur and thick hide provide you with natural armor. While you aren't wearing armor, your base {@variantrule Armor Class|XPHB} equals 13 plus your Dexterity modifier."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Quadruped",
+                    "entries": [
+                        "You have several traits based on your quadrupedal body shape.",
+                        {
+                            "type": "list",
+                            "style": "list-hang-notitle",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "Hands Off",
+                                    "entries": [
+                                        "You cannot hold items in your paws, and you cannot wield weapons or a {@item Shield|XPHB} unless otherwise noted in the weapon's description (see {@item Steel Jaws|FoEQuickstone}). You can perform the Somatic components of spells with your front paws but you have {@variantrule Disadvantage|XPHB} on ability checks that require fine manipulation."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Sturdy Steed",
+                                    "entries": [
+                                        "You can carry a rider of Medium size or smaller. You also count as one size larger when determining your carrying capacity."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Battle Beast",
+                                    "entries": [
+                                        "You cannot wear armor designed for Humanoids, you must wear barding instead. The cost is four times the equivalent armor made for Humanoids, and it weighs twice as much."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Vertically Challenged",
+                                    "entries": [
+                                        "Any climb that requires hands is especially difficult for you. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true
+        }
+	]
+}

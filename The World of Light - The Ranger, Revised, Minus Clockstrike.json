@@ -1,0 +1,1638 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "WOLRR",
+			"abbreviation": "WOLRR",
+			"color": "E6D8A3",
+			"full": "The World of Light: Robert's Revised Ranger",
+			"authors": [
+				"Arcane",
+				"Subskey"
+			],
+			"version": "V3.0",
+			"url": "-",
+			"targetSchema": "1.2.0"
+		}],
+		"dateAdded": 1
+	},
+	"class": [
+		{
+			"name": "Ranger",
+			"source": "WOLRR",
+			"edition": "one",
+			"primaryAbility": [
+				{
+					"dex": true,
+					"wis": true
+				}
+			],
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"featProgression": [
+				{
+					"name": "Fighting Style",
+					"category": [
+						"FS",
+						"FS:R"
+					],
+					"progression": {
+						"2": 1
+					}
+				},
+				{
+					"name": "Epic Boon",
+					"category": [
+						"EB"
+					],
+					"progression": {
+						"19": 1
+					}
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"shield"
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"animal handling",
+								"athletics",
+								"insight",
+								"investigation",
+								"nature",
+								"perception",
+								"stealth",
+								"survival"
+							],
+							"count": 3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"defaultData": [
+					{
+						"A": [
+							{
+								"item": "studded leather armor|xphb"
+							},
+							{
+								"item": "scimitar|xphb"
+							},
+							{
+								"item": "shortsword|xphb"
+							},
+							{
+								"item": "longbow|xphb"
+							},
+							{
+								"item": "arrows (20)|xphb"
+							},
+							{
+								"item": "quiver|xphb"
+							},
+							{
+								"item": "sprig of mistletoe|xphb"
+							},
+							{
+								"item": "explorer's pack|xphb"
+							},
+							{
+								"value": 700
+							}
+						],
+						"B": [
+							{
+								"value": 15000
+							}
+						]
+					}
+				],
+				"entries": [
+					"{@i Choose A or B:} (A) {@item Studded Leather Armor|XPHB}, {@item Scimitar|XPHB}, {@item Shortsword|XPHB}, {@item Longbow|XPHB}, {@item Arrows (20)|XPHB|20 Arrows}, {@item Quiver|XPHB}, {@item Druidic Focus|XPHB} ({@item sprig of mistletoe|XPHB}), {@item Explorer's Pack|XPHB}, and 7 GP; or (B) 150 GP"
+				]
+			},
+			"multiclassing": {
+				"proficienciesGained": {
+					"weapons": [
+						"martial"
+					],
+					"armor": [
+						"light",
+						"medium",
+						"shield"
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"animal handling",
+									"athletics",
+									"insight",
+									"investigation",
+									"nature",
+									"perception",
+									"stealth",
+									"survival"
+								],
+								"count": 1
+							}
+						}
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Channeling Points"
+					],
+					"rows": [
+						[
+							0
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							8
+						],
+						[
+							9
+						],
+						[
+							10
+						],
+						[
+							11
+						],
+						[
+							12
+						],
+						[
+							13
+						],
+						[
+							14
+						],
+						[
+							15
+						],
+						[
+							16
+						],
+						[
+							17
+						],
+						[
+							18
+						],
+						[
+							19
+						],
+						[
+							20
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Fighting Style|Ranger|WOLRR|1",
+				"Bonded Companion|Ranger|WOLRR|1",
+				"Weapon Mastery|Ranger|WOLRR|1",
+				"Knowledge of Nature|Ranger|WOLRR|2",
+				"Mystical Channeling|Ranger|WOLRR|2",
+				{
+					"classFeature": "Ranger Subclass|Ranger|WOLRR|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Ranger|WOLRR|4",
+				"Extra Attack|Ranger|WOLRR|5",
+				"Deepened Bond|Ranger|WOLRR|6",
+				{
+					"classFeature": "Subclass Feature|Ranger|WOLRR|7",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Ranger|WOLRR|8",
+				"Resonant Hunt|Ranger|WOLRR|9",
+				"Extended Bond|Ranger|WOLRR|10",
+				{
+					"classFeature": "Subclass Feature|Ranger|WOLRR|11",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Ranger|WOLRR|12",
+				"Ethereal Channeling|Ranger|WOLRR|13",
+				"Empowered Companion|Ranger|WOLRR|14",
+				{
+					"classFeature": "Subclass Feature|Ranger|WOLRR|15",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Ranger|WOLRR|16",
+				"Channeling Mastery|Ranger|WOLRR|17",
+				"Warding Bond|Ranger|WOLRR|18",
+				"Epic Boon|Ranger|WOLRR|19",
+				"Foe Slayer|Ranger|WOLRR|20"
+			],
+			"subclassTitle": "Ranger Subclass"
+		}
+	],
+	"subclass": [
+		{
+			"name": "Wildguard",
+			"shortName": "Wildguard",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"edition": "one",
+			"subclassFeatures": [
+				"Wildguard|Ranger|WOLRR|Wildguard|WOLRR|3",
+				"Mounted Strike|Ranger|WOLRR|Wildguard|WOLRR|7",
+				"Shared Channeling|Ranger|WOLRR|Wildguard|WOLRR|11",
+				"Wild Cavalry|Ranger|WOLRR|Wildguard|WOLRR|15"
+			]
+		},
+
+		{
+			"name": "Grave Warden",
+			"shortName": "Grave Warden",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"edition": "one",
+			"subclassFeatures": [
+				"Grave Warden|Ranger|WOLRR|Grave Warden|WOLRR|3",
+				"Relic Conduit|Ranger|WOLRR|Grave Warden|WOLRR|7",
+				"Incorporeal Movement|Ranger|WOLRR|Grave Warden|WOLRR|11",
+				"Sovereign of the dead|Ranger|WOLRR|Grave Warden|WOLRR|15"
+			]
+		},
+
+		{
+			"name": "Voidbound Hunter",
+			"shortName": "Voidbound",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"edition": "one",
+			"subclassFeatures": [
+				"Voidbound Hunter|Ranger|WOLRR|Voidbound|WOLRR|3|WOLRR",
+				"Parasitic Link|Ranger|WOLRR|Voidbound|WOLRR|7|WOLRR",
+				"Alien Adaptation|Ranger|WOLRR|Voidbound|WOLRR|11|WOLRR",
+				"Symbiosis|Ranger|WOLRR|Voidbound|WOLRR|15|WOLRR"
+			]
+		},
+
+		{
+			"name": "Dragonheart",
+			"shortName": "Dragonheart",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"edition": "one",
+			"subclassFeatures": [
+				"Dragonheart|Ranger|WOLRR|Dragonheart|WOLRR|3|WOLRR",
+				"Draconic Ascension|Ranger|WOLRR|Dragonheart|WOLRR|7|WOLRR",
+				"Frightful Presence|Ranger|WOLRR|Dragonheart|WOLRR|11|WOLRR",
+				"Ancient Dragon|Ranger|WOLRR|Dragonheart|WOLRR|15|WOLRR"
+			]
+		},
+
+		{
+			"name": "Gloom Stalker",
+			"shortName": "Gloom Stalker",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"edition": "one",
+			"subclassFeatures": [
+				"Gloom Stalker|Ranger|WOLRR|Gloom Stalker|WOLRR|3|WOLRR",
+				"Umbral Communion|Ranger|WOLRR|Gloom Stalker|WOLRR|7|WOLRR",
+				"Veil of the Deep|Ranger|WOLRR|Gloom Stalker|WOLRR|11|WOLRR",
+				"One with the Shade|Ranger|WOLRR|Gloom Stalker|WOLRR|15|WOLRR"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Fighting Style",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 1,
+			"entries": [
+				"You gain a {@filter Fighting Style feat|feats|category=FS} of your choice. Instead of choosing one of those feats, you can choose the option below.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "refFeat",
+							"feat": "Druidic Warrior|XPHB"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Bonded Companion",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 1,
+			"entries": [
+				"You are eternally linked through a creature you have bonded with. For most rangers, this may be an animal, but it is always based on the background of the ranger themselves. Perhaps it is a fey being, such as a blink dog, or resembles a small draconic being. You may determine the appearance of the Companion as long as it is medium or small. However, it will count as a beast.",
+				"It is always friendly to you and your allies and obeys your commands. Because of the mystical bond, you can temporarily dismiss and re-summon it as a magic action.",
+				"In combat, your Companion shares your initiative. It can move and use its Reaction on its own, but the only action it takes is the dodge action unless you take a Bonus Action to command it to take an action. If you have the Incapacitated condition, the Companion acts on its own and isn’t limited to the Dodge action. When your companion is defeated, it disappears. You may perform a ritual at the end of a long rest which will cause it to return with all of its hit points restored within 5 feet of you."
+			]
+		},
+		{
+			"name": "Weapon Mastery",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 1,
+			"entries": [
+				"Your training with weapons allows you to use the {@variantrule weapon mastery properties|XPHB|mastery properties} of two kinds of {@filter weapons|items|type=simple weapon;martial weapon} of your choice with which you have proficiency, such as {@item Longbow|XPHB|Longbows} and {@item Shortsword|XPHB|Shortswords}.",
+				"Whenever you finish a {@variantrule Long Rest|XPHB}, you can change the kinds of weapons you chose. For example, you could switch to using the {@variantrule weapon mastery properties|XPHB|mastery properties} of {@item Scimitar|XPHB|Scimitars} and {@item Longsword|XPHB|Longswords}."
+			]
+		},
+		{
+			"name": "Knowledge of Nature",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 2,
+			"entries": [
+				"Because of your connection to nature, you are deepening your knowledge of all things natural. You gain a bonus to Intelligence ({@skill Nature}) checks that is equal to your wisdom modifier (minimum of +1). In addition, you may choose two skills to gain {@variantrule Expertise|XPHB} in (provided you do not already have {@variantrule Expertise|XPHB} in them)."
+			]
+		},
+		{
+			"name": "Mystical Channeling",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 2,
+			"entries": [
+				"The deep bond you have with your companion is so strong that you are able to channel certain mystical powers through it. You gain access to channeling points which are equal to your ranger level.",
+				"You can use these to fuel the options below, which you will always have available:",
+				{
+					"type": "entries",
+					"name": "Unseeing Eyes",
+					"entries": [
+						"As an action, you can spend one Channeling Point to see through the eyes of your Companion. If you do, you will perceive the world through its senses. This connection ends if your companion leaves a one mile radius from you or you choose to end it (no action required)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Favored Enemy",
+					"entries": [
+						"As an action, you designate a singular target which you know or heard about to be your Favored Enemy. When doing so, for one hour you and your companion have advantage on all ability checks related to tracking this target.",
+						"In combat, you have advantage on all attack rolls against the target, as well as dealing an extra 1d4 damage of the weapon's type whenever you or your companion hit the target with an attack roll. This damage increases to 1d6 when you reach level 5, 1d8 at level 11, and 1d10 at level 17. At level 11 you may use this feature as a bonus action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Echo Step",
+					"entries": [
+						"As a bonus action, you may spend two Channeling Points to magically switch positions with your bonded Companion. It needs to be within 60 feet of you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Healing",
+					"entries": [
+						"As an action you may spend one Channeling Point and a creature you or your Companion touch regains a number of hit points equal to 2d6 plus your wisdom modifier. With each Channeling Point you spend on this, the amount of healing is increased by 2d6.",
+						"After your companion falling unconscious and disappearing, you are able to restore it with this feature. It reappears 5 feet next to you and regains the hit points of the roll of this feature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Guardian Interception",
+					"entries": [
+						"When a creature within 5 feet of you or your Companion hits an ally with a melee attack roll, you may spend 2 Channeling Points to force that creature to reroll the attack, which is now redirected to you or the Companion (depending on who used this reaction)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Blessing of the Spirits",
+					"entries": [
+						"You may spend 2 Channeling Points when makeing a d20 test. When you do you may add your Wisdom Modifier (minimum of +1) to the roll, potentially turning a failure into a success."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ranger Subclass",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"You gain a Ranger subclass of your choice. A subclass is a specialization that grants you features at certain Ranger levels. For the rest of your career, you gain each of your subclass's features that are of your Ranger level or lower."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 4,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 5,
+			"entries": [
+				"You can attack twice instead of once whenever you take the {@action Attack|XPHB} action on your turn."
+			]
+		},
+		{
+			"name": "Deepened Bond",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 6,
+			"entries": [
+				"Through the battles you have fought, the bond to your Companion grows ever deeper.",
+				{
+					"type": "entries",
+					"name": "Increased Movement",
+					"entries": [
+						"Your companion's movement speed is increased by 10 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magical Attacks",
+					"entries": [
+						"Your companion's attacks count as magical for the purpose of overcoming resistance and immunity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Enhanced Strategy",
+					"entries": [
+						"When you take a bonus action to command your Companion, you can also command it to Dash, Disengage, Dodge, or Help using its bonus action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 7,
+			"entries": [
+				"You gain a feature from your Ranger Subclass."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 8,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Resonant Hunt",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 9,
+			"entries": [
+				"Your bond with your Companion allows your own strikes to echo with its power.",
+				{
+					"type": "entries",
+					"name": "Spiritual Resurgence",
+					"entries": [
+						"When you roll initiative and have no Channeling Points remaining, you regain a number of Channeling Points equal to your proficiency bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resonant Strike",
+					"entries": [
+						"Once per short rest, when you hit a creature with a weapon attack, you may replace the weapon’s damage with the damage of your bonded Companion’s Feral Strike. The attack otherwise uses the weapon’s normal properties, such as its mastery property and any magical effects. Any effects of the Feral Strike also effect this attack."
+					]
+				}
+			]
+		},
+		{
+			"name": "Extended Bond",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 10,
+			"entries": [
+				"Through shared hardship and conviction, the Companion is not the only one you have bonded with. The bond you have created with your friends and allies also allows you to share your magic",
+				"When you use a Mystical Channeling feature that normally targets only you or your bonded Companion, you may instead target one willing allied creature you can see within 60 feet instead. If you do, the feature costs 1 additional Channeling Point."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 11,
+			"entries": [
+				"You gain a feature from your Ranger Subclass."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 12,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Ethereal Channeling",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 13,
+			"entries": [
+				"Your bond with the Companion has grown powerful enough to create powerful effects. You gain access to the following additional Channeling options.",
+				{
+					"type": "entries",
+					"name": "Spirit Path",
+					"entries": [
+						"As a bonus action, you may use 2 Channeling Points. For one minute, you and your Companion are unaffected by difficult terrain, and magical effects cannot reduce your speed or cause you to be restrained."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spirit Sight",
+					"entries": [
+						"As an action, you may spend 3 Channeling Points to peer through all illusions and deceptions. For 1 minute, you or your Companion gain truesight out to a range of 60 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shared Vitality",
+					"entries": [
+						"If you or your Companion would be reduced to zero hit points, as a reaction, the other may spend three Channeling Points. If they do, the creature does not take any damage and they take the damage instead."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Purification",
+					"entries": [
+						"You call upon your bond to purge lingering corruption. As an action you may spend 2 Channeling Points. You or your Companion touch a creature and end one of the following conditions affecting it: {@condition Blinded}, {@condition Charmed}, {@condition Deafened}, {@condition Frightened}, {@condition Paralyzed}, {@condition Poisoned}. If the creature is affected by more than one of these conditions, you choose which one ends."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ethereal Stride",
+					"entries": [
+						"As an action you may spend 4 Channeling Points to transcend the human limits of your body. Until the end of your turn, you or your Companion partially step into the Ethereal Plane.",
+						"For the duration, the affected creature gains the following benefits: It can move through creatures and objects as though they were difficult terrain. It can see and hear creatures on the Material Plane. It cannot affect or be affected by creatures or objects on the Material Plane. If the creature ends its turn inside an object or creature, it is immediately shunted to the nearest unoccupied space and takes 5 ({@dice 1d10}) force damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Empowered Companion",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 14,
+			"entries": [
+				"Your bonded Companion has grown into a powerful echo of the wild forces that sustain it. It gains the following benefits:",
+				"Its ability scores change to the following values: Strength 18, Dexterity 18, Constitution 19, Intelligence 10, Wisdom 19, Charisma 13.",
+				"It also gains the following trait: {@b Life Drain}. Whenever your Companion reduces a target to zero HP, it gains hit points equal to the damage dealt to the opponent.",
+				"Finally, its Armor Class becomes 13+ your wisdom modifier + your Proficiency Bonus."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 15,
+			"entries": [
+				"You gain a feature from your Ranger Subclass."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 16,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Channeling Mastery",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 17,
+			"entries": [
+				"Your bond with your Companion grants you near-limitless control over your Channeling ability.",
+				"When you roll initiative and have fewer than 10 Channeling Points remaining, you regain enough points to bring your total to 10.",
+				"Additionally, you may spend a hit die to regain a Channeling point (no action required)."
+			]
+		},
+		{
+			"name": "Warding Bond",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 18,
+			"entries": [
+				"Your connection to your Companion shields both of you from harm.",
+				"While you are within 5 feet of your Bonded Companion, you and your Companion each gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks."
+			]
+		},
+		{
+			"name": "Epic Boon",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 19,
+			"entries": [
+				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Dimensional Travel|XPHB} is recommended."
+			]
+		},
+		{
+			"name": "Foe Slayer",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"level": 20,
+			"entries": [
+				"When you attack a creature designated as your Favored Foe, you score a critical hit on a roll of 18 or higher. In addition, when you hit your Favored Foe, you may reroll any damage dice that result in a 1, or 2. You must use the new roll.",
+				"Finally, If the creature marked as your Favored Foe is reduced to 0 hit points, you may spend 1 Channeling Point to immediately determine a new target (no action required)."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Wildguard",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Wildguard",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"{@i Bond with a Primal Beast}",
+				"These rangers guard forests and tend to them, or have learned to live with the forest spirits. Through their connection to the nature, they tend to find beast-like Companions.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Favored Terrain|Ranger|WOLRR|Wildguard|WOLRR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Wild Companion|Ranger|WOLRR|Wildguard|WOLRR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonded Steed|Ranger|WOLRR|Wildguard|WOLRR|3"
+				}
+			]
+		},
+		{
+			"name": "Favored Terrain",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Wildguard",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"You have trained to navigate the deep forests and untamed wilds with unmatched skill.",
+				"You learn the {@spell Druidcraft} Cantrip. Wisdom is your spellcasting modifier for it.",
+				"You and your Companion gain climbing speed equal to your walking speed and your movement speed cannot be reduced by difficult terrain, created by magical or nonmagical plants."
+			]
+		},
+		{
+			"name": "Wild Companion",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Wildguard",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"The companions of a Wildguard are usually beasts. When you summon your Bonded Companion, you may choose for it to be Large in size, in addition to the usual small or medium options.",
+				"Additionally, while mounted on your Companion, you may use the 'Echo Step' Channeling option, to target another allied creature within 60 feet instead of your Companion. When you do, you and your Companion swap positions with the chosen ally."
+			]
+		},
+		{
+			"name": "Bonded Steed",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Wildguard",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"Your training, riding your Wild Companion has strengthened your bond with it. While mounted on your Wild Companion, you gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Unprovoked Movement",
+					"entries": [
+						"Your movement does not provoke opportunity attacks from creatures you attacked with a weapon attack or Feral Strike attack on the same turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Greater Guardian Interception",
+					"entries": [
+						"Guardian Interception only costs one Channeling Point, and you may use it even if the triggering creature makes a ranged weapon attack roll, as long as you redirect it either from your Bonded Companion to yourself or from yourself to your Companion."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mounted Strike",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Wildguard",
+			"subclassSource": "WOLRR",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"When moving at least 20 feet towards a creature and using the Feral Strike, or a weapon attack, the opponent takes bludgeoning damage equal to your wisdom modifier. It must also succeed on a Strength saving throw (DC equals 10 plus your wisdom modifier plus proficiency bonus) or be knocked prone and shoved in a 10ft. line away from you.",
+				"If they succeed, you may spend one Channeling Point to make them fail instead."
+			]
+		},
+		{
+			"name": "Shared Channeling",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Wildguard",
+			"subclassSource": "WOLRR",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"While mounted on your steed, Channeling options that usually only apply to one of you apply to both.",
+				"If there are any mobility options that you have (such as flying or burrowing), it gains it equal to yours while you are riding it."
+			]
+		},
+		{
+			"name": "Wild Cavalry",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Wildguard",
+			"subclassSource": "WOLRR",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Your Bonded Companion has grown into a true guardian of Wildguards.",
+				"Its movement speed increases by 10 feet and it is immune to any effects that would reduce its speed.",
+				"It can now carry an additional medium or smaller creature without any reduction to its speed.",
+				"While mounted on your Wild Companion, any Channeling option you use that normally targets only you or your Companion can now target your companion as well as both of the riders."
+			]
+		},
+
+		{
+			"name": "Grave Warden",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Grave Warden",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"{@i Bond with an Undead Being}",
+				"Grave wardens are those who guard the spirits of the dead, and if they do an especially admirable job, those spirits will come to guide and help them. Sometimes even the spirits of fallen friends or family. Grave wardens are often found in graveyards, on battlefields, or among certain clerics to try and soothe the souls of the fallen.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Favored Terrain|Ranger|WOLRR|Grave Warden|WOLRR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Crypt Companion|Ranger|WOLRR|Grave Warden|WOLRR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Undead Guardian|Ranger|WOLRR|Grave Warden|WOLRR|3"
+				}
+			]
+		},
+		{
+			"name": "Favored Terrain",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Grave Warden",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"Through the days and nights you spent among the dead, you steeled yourself against their influence.",
+				"You can cast the {@spell Ceremony} spell as a ritual. Wisdom is your spellcasting modifier for it.",
+				"You gain and your Companion resistance to necrotic damage."
+			]
+		},
+		{
+			"name": "Crypt Companion",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Grave Warden",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"The Companion of a Grave Wardens are usually undead. They may resemble a dead humanoid, such as a ghost, a zombie or a skeleton. When you summon your Companion, it will count as an undead, but turn undead does not effect it when used by an allied creature.",
+				"When using its Feral Strike, you may choose for the damage to be necrotic.",
+				"It also gains the undead fortitude trait:",
+				{
+					"type": "entries",
+					"name": "Undead Fortitude",
+					"entries": [
+						"If damage reduces the Crypt Companion to 0 Hit Points, it makes a Constitution saving throw (DC 5 plus the damage taken) unless the damage is Radiant or from a Critical Hit. On a successful save, the Crypt Companion drops to 1 Hit Point instead."
+					]
+				}
+			]
+		},
+		{
+			"name": "Undead Guardian",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Grave Warden",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"Your Crypt Companion, through its humanoid form, is able to wield equipment and even weapons, and is able to attune to up to three magic items.",
+				"It gains the same weapon and armor proficiencies as you.",
+				"You can now also command it to take the magic action to utilize certain magic items or spell scrolls"
+			]
+		},
+		{
+			"name": "Relic Conduit",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Grave Warden",
+			"subclassSource": "WOLRR",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Your bond with your Crypt Companion allows necromantic energies to flow freely between Companion, relic, and bearer.",
+				"While wielding a magic item that has a limited number of charges, you may convert its power into spiritual energy, or vice versa:",
+				"You may expend one or more charges from a magic item you are attuned to in order to regain an equal number of Channeling Points.",
+				"Alternatively, you may expend one or more Channeling Points to restore an equal number of charges to a magic item you are attuned to.",
+				"In addition, your Crypt Companion learns the same weapon masteries as you. You can now command your companion to attack with a weapon it is wielding. When it does, you may choose the damage of the attack to become that of the Feral Strike, while still retaining the properties (such as enchantments or weapon masteries) of the weapon."
+			]
+		},
+		{
+			"name": "Incorporeal Movement",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Grave Warden",
+			"subclassSource": "WOLRR",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Your Crypt Companion ascends further into undeath becoming more and more ghost-like.",
+				"You and your Crypt companion gain resistance to poison damage and have advantage on saving throws made to avoid the poisoned condition.",
+				"The crypt companion can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@dice 1d10}) force damage if it ends its turn inside an object and is forced out of it. Its equipment also becomes incorporeal as soon as it begins phasing through and object or creature.",
+				"When you use the Spirit Path Channeling option on it, creatures and objects do not count as difficult terrain anymore."
+			]
+		},
+		{
+			"name": "Sovereign of The Dead",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Grave Warden",
+			"subclassSource": "WOLRR",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"The DC of the Constitution Saving throw for Undead Fortitude now equals half of the damage taken. Your Companion has advantage on this saving throw as long as it is within 10 feet of you.",
+				"Your Crypt Companion can now use the Magic action as its bonus action, rather than an action.",
+				"You and your crypt companion gain a bonus to all saving throws equal to the number of magic items you are individually attuned to (if you and your companion are both attuned to 3 items, both get a bonus of +3)."
+			]
+		},
+
+		{
+			"name": "Voidbound Hunter",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Voidbound",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"{@i Bond with an Abberant Horror}",
+				"Voidbound hunters are those that have traveled through the far realm, facing horrors beyond comprehension and gaining favor with the twisted beings that live there. Their companions take on the form of parasites, sharing the body the ranger themselves and helping them during combat.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Favored Terrain|Ranger|WOLRR|Voidbound|WOLRR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Voidbound Companion|Ranger|WOLRR|Voidbound|WOLRR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Symbiotic Bond|Ranger|WOLRR|Voidbound|WOLRR|3"
+				}
+			]
+		},
+		{
+			"name": "Favored Terrain",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Voidbound",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"Your long exposure to alien forces has hardened your mind against their intrusion.",
+				"You and your Voidbound Companion gain resistance to psychic damage.",
+				"You gain proficiency in Intelligence saving throws (if you already do, you may choose another saving throw to gain proficiency in).",
+				"You have telepathy with a range of 60 feet. You can attempt to communicate with all creatures that know at least one language. This link will remain for 1 hour or until you take a Magic action to end this effect."
+			]
+		},
+		{
+			"name": "Voidbound Companion",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Voidbound",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"The companions of the Voidbound Hunter usually resemble small, alien insects or tentacles, such as the tadpole of a mind flayer. When you summon your Bonded Companion, its size is Tiny and its creature type is aberration.",
+				"When the Voidbound Companion uses its Feral Strike, you may choose for the damage it deals to be psychic damage.",
+				"The Voidbound Companion gains the following traits:",
+				{
+					"type": "entries",
+					"name": "Host Body",
+					"entries": [
+						"The Voidbound Companion can merge with your body as a bonus action, occupying the same space as you. While merged in this way, the companion cannot be targeted by attacks.",
+						"The companion can exit your body as a bonus action, appearing in an unoccupied space within 5 feet of you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Symbiotic Sacrifice",
+					"entries": [
+						"While the Voidbound Companion is merged with you using its Host Body trait, when you take damage, the companion may use its reaction to take that damage instead."
+					]
+				}
+			]
+		},
+		{
+			"name": "Symbiotic Bond",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Voidbound",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"Your bond with the Voidbound Companion reshapes your body and fighting style. While your Voidbound Companion is merged with you using its Host Body trait, you gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Chitinous Plating",
+					"entries": [
+						"While you are not wearing armor, a chitinous protective shield can be created around your body (no action required). Your Armor Class equals 12 + your Dexterity modifier + your Wisdom modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tendril Strike",
+					"entries": [
+						"You can command your Voidbound Companion to use its Feral Strike while it is merged with you. When you do, alien tendrils erupt from your body to strike your foes, and the attack gains a reach of 10 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aberrant Familiar",
+					"entries": [
+						"When you use the Unseeing Eyes Channeling option, you may instead expend 1 Channeling Point to ritually cast find familiar. The familiar always takes the form of a Flumph."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Warped Transposition",
+					"entries": [
+						"When you use the Echo Step Channeling option, you may target a willing allied creature you can see within range instead of swapping places with your Voidbound Companion."
+					]
+				}
+			]
+		},
+		{
+			"name": "Parasitic Link",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Voidbound",
+			"subclassSource": "WOLRR",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"While your Voidbound Companion is merged with you using its Host Body trait, your connection grants you unmatched reflexes and coordination:",
+				{
+					"type": "entries",
+					"name": "Shared Movement",
+					"entries": [
+						"You gain the same movement options as your Voidbound Companion, including walking, climbing, flying, etc."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mimic Actions",
+					"entries": [
+						"Whenever your Voidbound Companion takes the Dash, Disengage, or Dodge action, it applies to you as well."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mimic Actions",
+					"entries": [
+						"Any Channeling option that normally targets only you or your Voidbound Companion may instead target both of you simultaneously while merged."
+					]
+				}
+			]
+		},
+		{
+			"name": "Alien Adaptation",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Voidbound",
+			"subclassSource": "WOLRR",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Your Voidbound Companion’s alien nature further transforms you, enhancing both movement and combat prowess while merged:",
+				"The Bonded Companion gains a flying (hovering) speed equal to its walking speed.",
+				"Once per turn, when hitting an opponent that is medium or smaller with your Feral Strike, you may spend one Channeling Point to attempt to grapple. They must succeed on a strength saving throw (DC = 10 + your Proficiency Bonus + your Wisdom Modifier) or gain the {@condition Grappled} and {@condition Restrained} condition."
+			]
+		},
+		{
+			"name": "Symbiosis",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Voidbound",
+			"subclassSource": "WOLRR",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"While your Voidbound Companion is merged with you using its Host Body trait, it no longer requires a reaction to use Symbiotic Sacrifice.",
+				"Additionally whenever the Voidbound Companion uses you as the host body, you have a greater ability to store magic in your body. You are able to attune to one additional Magic Item.",
+				"Finally you can now use your {@i Blessing of the Spirit} feature on d20 tests."
+			]
+		},
+
+		{
+			"name": "Dragonheart",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Dragonheart",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"{@i Bond with a Draconic Entity}",
+				"Dragonheart Rangers form bonds with draconic beings. Some seek to tame wyverns or befriend ancient lindwurms, but most choose to nurture a young dragon, guiding it as it grows in strength, will, and purpose.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Favored Terrain|Ranger|WOLRR|Dragonheart|WOLRR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Draconic Companion|Ranger|WOLRR|Dragonheart|WOLRR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dragon's Breath|Ranger|WOLRR|Dragonheart|WOLRR|3"
+				}
+			]
+		},
+		{
+			"name": "Favored Terrain",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Dragonheart",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"You are immune to the {@condition Frightened} condition.",
+				"You gain proficiency in {@language Draconic} and one of the following skills: Intelligence ({@skill Arcana}), Intelligence ({@skill History}), or Intelligence ({@skill Nature}).",
+				"Finally, you have advantage on skill checks made to track, or identify dragons."
+			]
+		},
+		{
+			"name": "Draconic Companion",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Dragonheart",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"When you summon your bonded companion, its creature type becomes Dragon. When you gain this feature, choose a draconic ancestry from the Draconic Companion table. This choice determines your companion’s elemental affinity and the damage type of certain features.",
+				{
+					"type": "table",
+					"caption": "Draconic Companion",
+					"colLabels": [
+						"Dragon",
+						"Damage Type"
+					],
+					"colStyles": [
+						"col-6",
+						"col-6"
+					],
+					"rows": [
+						[
+							"Black or Copper",
+							"Acid"
+						],
+						[
+							"Blue or Bronze",
+							"Lightning"
+						],
+						[
+							"Brass, Gold or Red",
+							"Fire"
+						],
+						[
+							"Green",
+							"Poison"
+						],
+						[
+							"Silver or White",
+							"Cold"
+						],
+						[
+							"Amethyst",
+							"Force"
+						],
+						[
+							"Crystal",
+							"Radiant"
+						],
+						[
+							"Emerald",
+							"Psychic"
+						],
+						[
+							"Sapphire",
+							"Psychic"
+						],
+						[
+							"Topaz",
+							"Necrotic"
+						]
+					]
+				},
+				"Metallic dragons (Copper, Bronze, Brass, Gold and Silver) are often noble and protective, serving as guardians of both dragonkind and mortals alike.",
+				"Gem dragons (Amethyst, Crystal, Emerald, Sapphire and Topaz) are typically inscrutable and neutral, their allegiance shaped by circumstance and guidance.",
+				"Chromatic dragons (Black, Blue, Red, Green and White) are infamous for cruelty and dominance, yet even they may be tempered by patience, resolve, and trust."
+			]
+		},
+		{
+			"name": "Dragon's Breath",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Dragonheart",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"As an action, your bonded companion can unleash a breath weapon in a 20-foot cone. Creatures in the area must make a Dexterity saving throw (DC = 10 + your Proficiency Bonus + your Wisdom Modifier), taking damage equal to the companion’s Feral Strike damage on a failed save, or half as much damage on a successful one. The damage type is determined by your chosen draconic ancestry.",
+				"You can use your breath weapon a number of times equal to your Proficiency Bonus per long rest, unless you expend 1 Mystical Channeling point to use it again."
+			]
+		},
+		{
+			"name": "Draconic Ascension",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Dragonheart",
+			"subclassSource": "WOLRR",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"As time moves on and your bond deepens, your companion starts to resemble an adult dragon.",
+				"The dragon's size is now Large and with its wings fully developed, it gains a flying speed equal to its walking speed.",
+				"In addition, you and your Draconic Companion gain resistance to the damage type of the chosen Draconic Ancestry.",
+				"Finally, when using the Favored Enemy channeling option, you are able to change the additional damage to the damage type of your chosen Draconic Ancestry. This applies to both you and your draconic companion."
+			]
+		},
+		{
+			"name": "Frightful Presence",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Dragonheart",
+			"subclassSource": "WOLRR",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Just like other dragons, your companion is able to strike fear into the heart of its enemies.",
+				"As an action, the dragon can utter a terrible roar. Each creature of the dragon's choice that is within 60 feet of the dragon and aware of it must succeed on a Wisdom saving throw (DC = 10 + your Proficiency Bonus + your Wisdom Modifier) or become {@condition Frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+				"You can use this feature once per long rest, otherwise you can treat it like an option for the channeling feature, which requires 2 channeling points.",
+				"In addition, the hardened scales of dragons grant your Companion a +2 bonus to its Armor Class."
+			]
+		},
+		{
+			"name": "Ancient Dragon",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Dragonheart",
+			"subclassSource": "WOLRR",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"The size of your Draconic Companion is huge now.",
+				"Its Breath Weapon is now a 50 foot cone.",
+				"You and your Companion gain advantage on attack rolls against creatures with the {@condition Frightened} condition. When a creature gains the {@condition Frightened} condition, as a reaction, you may spend 2 Channeling Points to designate up to six willing creatures. For one minute, these creatures also gain advantage on attack rolls against creatures with the {@condition Frightened} condition.",
+				"As a 24-hour ritual, performed by you and your Draconic Companion together, the dragon may designate a location containing a hoard as its lair. The hoard must consist of valuables, equipment, coin, or other possessions worth at least 1000 gp, which must remain within the designated area. You may contribute your own belongings to this hoard.",
+				"Upon completion of the ritual the area within a 1,000-foot radius of the hoard is designated as the dragon’s lair. The hoard becomes bound to the Draconic Familiar and if anything is removed from it, it gains instant awareness of it.",
+				"While within the dragon’s lair, and in combat, when the initiative count reaches 20, can invoke the lair’s power. Choose a 20-foot-radius cube within the lair. Until the next initiative count 20 the area becomes difficult terrain and each creature that starts its turn in the area must make a Dexterity saving throw (DC = 10 + your Proficiency Bonus + your Wisdom modifier). On a failed save, the creature takes damage equal to one roll of your dragon’s Feral Strike (half as much with a successful Save). The damage type is determined by your chosen Draconic Ancestry."
+			]
+		},
+
+		{
+			"name": "Gloom Stalker",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"{@i Bond with a Monstrous creature}",
+				"Creature type is monstrosity, the companion will appear as a feature native to the Underdark. A lot of stealth and darkness relating questions. Perhaps as long as your companion is in your vicinity, you gain a bonus to stealth or shadows surround you and you become always clouded in dark shadows. Bonus against creatures that are surprised.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Favored Terrain|Ranger|WOLRR|Gloom Stalker|WOLRR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Shade Companion|Ranger|WOLRR|Gloom Stalker|WOLRR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dread Ambusher|Ranger|WOLRR|Gloom Stalker|WOLRR|3"
+				}
+			]
+		},
+		{
+			"name": "Favored Terrain",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"You and your compaion gain Darkvision out to a range of 60 feet. If you already have darkvision it is extended by 30 feet.",
+				"You gain proficiency in {@language Undercommon} and Dexterity ({@skill Stealth}) checks.",
+				"While hiding, you gain a +1 to AC as shadows wrap themselves around your body."
+			]
+		},
+		{
+			"name": "Shade Companion",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"The companions of Gloom Stalkers are creatures that are found in the underdark, the shadowfell, or similar locations of darkness. Such creatures can include small deep dragons, basilisks, hook horrors, and even mimics (underdark), or small shadow dragons, or shades (shadowfell).",
+				"When you first summon your companion, you may choose its type that is appropriate (e.g. dragon for the shadow dragon).",
+				{
+					"type": "entries",
+					"name": "Aura of Shade",
+					"entries": [
+						"As an action, your companion can spend 1 channeling point for a 20 foot emanation of magical darkness to exude from it. You and your companion are able to look through it, but for all other creatures, this area is heavily obscured. He emanation will last for one hour, or until you dismiss it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shadow Pin",
+					"entries": [
+						"Your Shaded Companion gains a ranged attack of 30 feet. The damage of the attack is equal to the damage of the Feral Strike. If you hit a creature while being invisible, the target's speed is reduced by 10 feet until the end of its next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dread Ambusher",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"While in the Aura of Shade created by your Companion, you and your Companion gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Quick Stealth",
+					"entries": [
+						"You may attempt to hide as a bonus action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Silent Strikes",
+					"entries": [
+						"Making an attack roll will not immediately reveal your location. Instead, you may roll a Dexterity ({@skill Stealth}) check immediately after attacking to attempt to stay hidden."
+					]
+				}
+			]
+		},
+		{
+			"name": "Umbral Communion",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "WOLRR",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Your bond with shadow deepens, allowing you to extend its protection and perception to those who fight at your side.",
+				"When your Shade Companion uses Aura of Shade, you may choose any number of willing creatures you can see within 60 feet. For each creature you choose, you must expend 1 additional Channeling point as part of the same action. Chosen creatures can see normally through the magical darkness created by the aura for its duration.",
+				"In addition, you gain expertise in the Dexterity ({@skill Stealth}) skill. If you already have expertise in the {@skill Stealth} skill, you instead gain expertise in another skill with which you are proficient."
+			]
+		},
+		{
+			"name": "Veil of the Deep",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "WOLRR",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Starting at 11th level, your mastery of shadow allows you and your companion to strike from darkness wherever it is found.",
+				"While you or your Shade Companion are heavily obscured, you gain the benefits of your Dread Ambusher feature, even if the darkness was not created by your Aura of Shade.",
+				"Once per turn, when you or your Shade Companion hit a creature with an attack while you have the {@condition Invisible} condition, that creature must succeed on a Wisdom Saving Throw or be stunned (DC = 10 + your Proficiency Bonus + your Wisdom modifier) until the end of its next turn."
+			]
+		},
+		{
+			"name": "One with the Shade",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "WOLRR",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, your bond with shadow and companion becomes complete, allowing you to move and strike as part of the darkness itself. You gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Empowered Aura",
+					"entries": [
+						"The radius of your companion’s Aura of Shade increases to 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "True Sight of Shadow",
+					"entries": [
+						"The night vision that you and your companion have can now also see clearly through magical darkness."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unyielding Dread",
+					"entries": [
+						"When a creature succeeds on a saving throw against your {@i Veil of the Deep} effect, you may expend 1 Spirit Channeling point to cause that creature to fail the saving throw instead."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shadow Step",
+					"entries": [
+						"As a bonus action, you may expend 2 Spirit Channeling points to teleport to an unoccupied space you can see that is in darkness."
+					]
+				}
+			]
+		},
+
+		{
+			"name": "Weave Walker",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Weave Walker",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"{@i Bond with an Arcane Monster}",
+				"Weave walkers are those who befriended a creature that is inherently tied to magic. Perhaps it was the familiar of a powerful wizard that is now long gone. Perhaps it is an arcane wisp or a living spell, a pseudo-dragon or a Tressym, or even a pixie or a construct with an incredibly strong arcane core. Whatever the case, these rangers are inherently tied to the weave, the plane of magic.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Favored Terrain|Ranger|WOLRR|Weave Walker|WOLRR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spellbound Companion|Ranger|WOLRR|Weave Walker|WOLRR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Channeling|Ranger|WOLRR|Weave Walker|WOLRR|3"
+				}
+			]
+		},
+		{
+			"name": "Favored Terrain",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Weave Walker",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"You gain proficiency in the Intelligence ({@skill Arcana}) skill. If you already have this proficiency, you may choose a different one to gain proficiency in. When making an Intelligence ({@skill Arcana}) check, you may use your Wisdom modifier instead of your intelligence modifier for it.",
+				"As a bonus action, you can sharpen your senses to the presence of magic around you. In an area of within 30 feet of you, all sources of magic start to glow. You need to concentrate on this feature as though you are concentrating on a spell."
+			]
+		},
+		{
+			"name": "Spellbound Companion",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Weave Walker",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"Your bond with a creature inherently tied to magic allows you to channel the Weave through it. When you first summon your Spellbound Companion, you choose its creature type based on its appearance, such as beast (for a familiar of a wizard) or another type appropriate to its nature.",
+				"As a bonus action, your companion can assume the form of a staff. While in this form, the staff occupies the same space as you and can be carried normally. The companion remains in staff form until it is reduced to 0 hit points, or until you use a bonus action to revert it to its original form.",
+				"As a one-hour ritual, your companion can merge with a different spellcasting focus. If it does, it will take on the appearance and effects of the new focus which are shared between the two of you. No matter what spellcasting focus your transformed companion will always resemble a staff with a small effigy resembling your companion on top of it."
+			]
+		},
+		{
+			"name": "Arcane Channeling",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Weave Walker",
+			"subclassSource": "WOLRR",
+			"level": 3,
+			"entries": [
+				"Your bond with your Spellbound Companion allows you to draw on its magical essence to cast spells.",
+				"Casting Spells. You can expend 1 Mystical Channeling point to cast a spell of 1st level that you know or have prepared. When casting a spell in this way, you may choose whether the spell is cast through you or your Spellbound Companion. Your companion does not need to be in staff form to serve as the conduit for your spells. Wisdom is your spellcasting ability for these spells.",
+				{
+					"type": "entries",
+					"name": "Ranger Spells",
+					"entries": [
+						"(There would be a spell list here, where you can select ranger spells/cantrips). I know you won't re-read any of this, so how about this: You're wrong about the Werewolf thing. I think, ultimately, they should turn whether or not they're inside. The Moon is Magic."
+					]
+				}
+			]
+		},
+		{
+			"name": "Arcane Conduit",
+			"source": "WOLRR",
+			"className": "Ranger",
+			"classSource": "WOLRR",
+			"subclassShortName": "Weave Walker",
+			"subclassSource": "WOLRR",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Your bond with your Spellbound Companion deepens, allowing you to channel more potent magic through it.",
+				"You can now expend 2 Mystical Channeling points to cast a spell of 2nd level that you have prepared, or upcast a spell to the second level.",
+				"While your companion is in staff form, it can now float and move through the air, gaining the statistics and benefits of a {@item Broom of Flying|XPHB}. You may ride it or carry it as normal, and it retains its magical enhancements and properties while floating."
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Voidbound Companion",
+			"source": "WOLRR",
+			"summonedByClass": "Ranger|WOLRR",
+			"size": [
+				"T"
+			],
+			"type": "aberration",
+			"ac": [
+				{
+					"special": "10 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + five times your ranger level (the drake has a number of Hit Dice [d10s] equal to your ranger level)"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 15,
+			"int": 8,
+			"wis": 14,
+			"cha": 11,
+			"save": {
+				"str": "+2 + PB",
+				"dex": "+2 + PB",
+				"con": "+2 + PB",
+				"int": "-1 + PB",
+				"wis": "+2 + PB",
+				"cha": "+0 + PB"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": "12 + PB",
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Primal Bond",
+					"entries": [
+						"Add your Proficiency Bonus to any ability check or saving throw the beast makes."
+					]
+				},
+				{
+					"name": "Host Body",
+					"entries": [
+						"The Voidbound Companion can merge with your body as a {@variantrule Bonus Action|XPHB}, occupying the same space as you. While merged in this way, the companion cannot be targeted by attacks.",
+						"The companion can exit your body anytime after merging with you (no {@variantrule Action|XPHB} required), reappearing in an unoccupied space within 5 feet of you."
+					]
+				},
+				{
+					"name": "Symbiotic Sacrifice",
+					"entries": [
+						"While the Voidbound Companion is merged with you using its Host Body trait, when you take damage, the companion may use its reaction to take that damage instead.",
+						"The companion can exit your body anytime after merging with you (no {@variantrule Action|XPHB} required), reappearing in an unoccupied space within 5 feet of you."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Parasitic Lash",
+					"entries": [
+						"{@atk mw} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. {@h}{@damage 1d6 + 2} plus your Wisdom modifier Bludgeoning, Piercing or Psychic damage (your choice), and the target can't regain {@variantrule Hit Points|XPHB} until the start of the Voidbound Companion's next turn."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true
+		}
+	]
+}

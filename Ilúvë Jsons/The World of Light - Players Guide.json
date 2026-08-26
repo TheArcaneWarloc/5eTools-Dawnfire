@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V15",
+				"version": "V15.1",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -13139,6 +13139,33 @@
 			],
 			"entries": [
 				"A basic facility comes with nonmagical furnishings and decor appropriate for that facility."
+			]
+		},
+		{
+			"name": "Gold Dragon Den",
+			"source": "WOL",
+			"facilityType": "special",
+			"level": 5,
+			"space": [
+				"vast"
+			],
+			"hirelings": [
+				{
+					"exact": 1
+				}
+			],
+			"orders": [
+				"empower"
+			],
+			"entries": [
+				"This den for a gold dragon is an enclosed, spacious cave-like chamber, and one of its entrances opens onto the surrounding wilderness. The facility's hireling maintains the den and helps any visiting gold dragons feel comfortable.",
+				{
+					"type": "entries",
+					"name": "Empower: Gilded Defenses",
+					"entries": [
+						"When you issue the {@book Empower|XDMG|7|Empower} order to this facility, latent draconic power fills the facility, allowing you to train in draconic combat. This training takes 8 hours per day for 6 days, after which you gain {@variantrule Resistance|XPHB} to Fire damage. This benefit lasts for 6 days."
+					]
+				}
 			]
 		}
 	]
