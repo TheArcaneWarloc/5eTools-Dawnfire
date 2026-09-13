@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V15.2",
+				"version": "V15.3",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Bestiary.json",
 				"targetSchema": "1.2.0"
 			}
@@ -1781,6 +1781,137 @@
 				"intelligence",
 				"strength",
 				"wisdom"
+			]
+		},
+		{
+			"name": "Tundradon",
+			"source": "WOL",
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"formula": "11d12 + 44",
+				"average": 115
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 40
+			},
+			"str": 22,
+			"dex": 13,
+			"con": 18,
+			"int": 3,
+			"wis": 11,
+			"cha": 4,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"The tundradon can hold its breath for 30 minutes."
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The tundradon has advantage on Wisdom (Perception) checks that rely on smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The tundradon makes two attacks: one with its body flop and one with its tusks."
+					]
+				},
+				{
+					"name": "Tusks",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}27 ({@damage 6d6 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Body Flop",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}24({@damage 4d8 + 6}) bludgeoning damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Hold Breath",
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"token": {
+				"name": "Giant Walrus",
+				"source": "IDRotF"
+			},
+			"fluff": {
+				"name": "Giant Walrus",
+				"source": "IDRotF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Giant walruses are enormous, ill-tempered creatures as big as elephants. A typical adult specimen weighs at least 12,000 pounds."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/IDRotF/Giant Walrus.webp"
+						},
+						"width": 1700,
+						"height": 1136
+					}
+				]
+			},
+			"save": {
+				"str": "+9",
+				"con": "+7"
+			},
+			"skill": {
+				"perception": "+6",
+				"stealth": "+4",
+				"intimidation": "+0",
+				"athletics": "+9"
+			},
+			"immune": [
+				"cold"
+			],
+			"resist": [
+				"poison"
+			],
+			"conditionImmune": [
+				"frightened"
+			],
+			"damageTags": [
+				"P"
 			]
 		}
 	],

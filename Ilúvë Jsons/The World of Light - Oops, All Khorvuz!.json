@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V15.2",
+				"version": "V15.3",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Bestiary.json",
 				"targetSchema": "1.2.0"
 			}
@@ -19,8 +19,10 @@
 	"monster": [
 		{
 			"name": "Khorvuz Im'ric Johannez of Arcanix",
-			"source": "WorldOfLightKhorvuz",
-			"size": "M",
+			"source": "WOL",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -39,8 +41,8 @@
 				}
 			],
 			"hp": {
-				"average": 81,
-				"formula": "18d6+18"
+				"formula": "20d6 + 20",
+				"average": 90
 			},
 			"speed": {
 				"walk": 30
@@ -48,19 +50,10 @@
 			"str": 9,
 			"dex": 14,
 			"con": 12,
-			"int": 20,
+			"int": 22,
 			"wis": 18,
-			"cha": 17,
-			"save": {
-				"int": "+11",
-				"wis": "+10"
-			},
-			"skill": {
-				"arcana": "+11",
-				"history": "+11",
-				"perception": "+10"
-			},
-			"passive": 19,
+			"cha": 20,
+			"passive": 20,
 			"languages": [
 				"Arcanixian",
 				"Common",
@@ -70,7 +63,7 @@
 				"Sylvan",
 				"Undercommon"
 			],
-			"cr": "18",
+			"cr": "20",
 			"trait": [
 				{
 					"name": "Magic Resistance",
@@ -81,7 +74,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Khorvuz wields a {@item staff of the magi} and he wears a {@item robe of the archmagi}. In addition, he wears a {@item ring of greater spell storing|WorldOfLight} containing a 7th-level {@spell magic missile} spell."
+						"Khorvuz wields a {@item staff of the magi} and he wears a {@item robe of the archmagi}. In addition, he wears a {@item ring of greater spell storing|WOL} containing a 7th-level {@spell magic missile} spell."
 					]
 				},
 				{
@@ -94,7 +87,7 @@
 					"name": "Alter Memories",
 					"entries": [
 						"When Khorvuz casts an enchantment spell to charm one or more creatures, he can alter one creature's understanding so that it remains unaware of being {@condition charmed}.",
-						"Additionally, once before said spell expires, Khorvuz can use his action to try to make the chosen creature forget some of the time it spent {@condition charmed}. The creature must succeed on a DC 20 Intelligence saving throw or lose 4 hours of its memories. Khorvuz can make the creature forget less time, and the amount of time can't exceed the duration of the enchantment spell."
+						"Additionally, once before said spell expires, Khorvuz can use his action to try to make the chosen creature forget some of the time it spent {@condition charmed}. The creature must succeed on a {@dc 20} Intelligence saving throw or lose 4 hours of its memories. Khorvuz can make the creature forget less time, and the amount of time can't exceed the duration of the enchantment spell."
 					]
 				}
 			],
@@ -102,172 +95,162 @@
 				{
 					"name": "Wizard Spellcasting",
 					"headerEntries": [
-						"Khorvuz is a 18th-level spellcaster, of which 15 are levels in Wizard. His spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 12} to hit with spell attacks) for the following spells. He knows the following wizard spells, and prepared spells are marked with brackets."
+						"Khorvuz is a 20th-level spellcaster, of which 17 are levels in Wizard. His spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 12} to hit with spell attacks) for the following spells. He knows the following wizard spells, and prepared spells are marked with brackets."
+					],
+					"footerEntries": [
+						"*Enchantment spell of 1st level or higher"
 					],
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell mage hand}",
-								"{@spell mending}",
-								"{@spell message}",
-								"{@spell wristpocket}"
+								"{@spell Fire Bolt|XPHB}",
+								"{@spell Mage Hand|XPHB}",
+								"{@spell Mending|XPHB}",
+								"{@spell Message|XPHB}",
+								"{@spell Wristpocket|WOL}"
 							]
 						},
 						"1": {
-							"slots": 4,
 							"spells": [
-								"[{@spell charm person}]*",
-								"{@spell detect magic}",
-								"{@spell identify}",
-								"[{@spell magic missile}]",
-								"[{@spell shield}]",
-								"{@spell sleep}*",
-								"{@spell tasha's hideous laughter}*"
-							]
+								"[{@spell Charm Person|XPHB}]*",
+								"[{@spell Magic Missile|XPHB}]",
+								"[{@spell Shield|XPHB}]",
+								"{@spell Detect Magic|XPHB}",
+								"{@spell Identify|XPHB}",
+								"{@spell Sleep|XPHB}*",
+								"{@spell Tasha's Hideous Laughter|XPHB}*"
+							],
+							"slots": 4
 						},
 						"2": {
-							"slots": 3,
 							"spells": [
-								"[{@spell aganazzar's scorcher|XGE}]",
-								"[{@spell blur}]",
-								"[{@spell hold person}]*",
-								"{@spell invisibility}",
-								"{@spell knock}",
-								"{@spell misty step}",
-								"{@spell suggestion}*"
-							]
+								"[{@spell Aganazzar's Scorcher|XGE}]",
+								"[{@spell Blur|XPHB}]",
+								"[{@spell Hold Person|XPHB}]*",
+								"{@spell Invisibility|XPHB}",
+								"{@spell Knock|XPHB}",
+								"{@spell Misty Step|XPHB}",
+								"{@spell Suggestion|XPHB}*"
+							],
+							"slots": 3
 						},
 						"3": {
-							"slots": 3,
 							"spells": [
-								"[{@spell blink}]",
-								"[{@spell counterspell}]",
-								"[{@spell dispel magic}]",
-								"[{@spell fireball}]",
-								"[{@spell fly}]",
-								"[{@spell lightning bolt}",
-								"[{@spell sending}]",
-								"{@spell tongues}"
-							]
+								"[{@spell Blink|XPHB}]",
+								"[{@spell Counterspell|PHB}]",
+								"[{@spell Dispel Magic|XPHB}]",
+								"[{@spell Fireball|XPHB}]",
+								"[{@spell Fly|XPHB}]",
+								"[{@spell Lightning Bolt|XPHB}]",
+								"[{@spell Sending|XPHB}]",
+								"{@spell Tongues|XPHB}"
+							],
+							"slots": 3
 						},
 						"4": {
-							"slots": 3,
 							"spells": [
-								"[{@spell confusion}]*",
-								"[{@spell charm monster}]*",
-								"{@spell greater invisibility}",
-								"{@spell polymorph}",
-								"{@spell transfer enchantment|WorldOfLight}*"
-							]
+								"[{@spell Charm Monster|XPHB}]*",
+								"[{@spell Confusion|XPHB}]*",
+								"{@spell Greater Invisibility|XPHB}",
+								"{@spell Polymorph|XPHB}",
+								"{@spell Transfer Enchantment|WOL}*"
+							],
+							"slots": 3
 						},
 						"5": {
-							"slots": 2,
 							"spells": [
-								"{@spell dominate person}*",
-								"{@spell dream}",
-								"[{@spell far step|XGE}]",
-								"{@spell hold monster}*",
-								"[{@spell modify memory}]*",
-								"{@spell scrying}"
-							]
+								"[{@spell Far Step|XGE}]",
+								"[{@spell Modify Memory|XPHB}]*",
+								"{@spell Dominate Person|XPHB}*",
+								"{@spell Dream|XPHB}",
+								"{@spell Hold Monster|XPHB}*",
+								"{@spell Scrying|XPHB}"
+							],
+							"slots": 2
 						},
 						"6": {
-							"slots": 1,
 							"spells": [
-								"{@spell alinaar's amazing altering|WorldOfLight}",
-								"{@spell chain lightning}",
-								"{@spell disintegrate}",
-								"{@spell globe of invulnerability}",
-								"{@spell true seeing}"
-							]
+								"{@spell Alinaar's Amazing Altering|WOL}",
+								"{@spell Chain Lightning|XPHB}",
+								"{@spell Disintegrate|XPHB}",
+								"{@spell Globe of Invulnerability|XPHB}",
+								"{@spell True Seeing|XPHB}"
+							],
+							"slots": 2
 						},
 						"7": {
-							"slots": 1,
 							"spells": [
-								"[{@spell delayed blast fireball}]",
-								"[{@spell forcecage}]",
-								"{@spell mordenkainen's sword}",
-								"[{@spell plane shift}]",
-								"[{@spell teleport}]"
-							]
+								"[{@spell Delayed Blast Fireball|XPHB}]",
+								"[{@spell Forcecage|XPHB}]",
+								"[{@spell Plane Shift|XPHB}]",
+								"[{@spell Teleport|XPHB}]",
+								"{@spell Mordenkainen's Sword|XPHB}"
+							],
+							"slots": 1
 						},
 						"8": {
-							"slots": 1,
 							"spells": [
-								"[{@spell demiplane}]",
-								"{@spell dominate monster}*",
-								"{@spell feeblemind}*",
-								"{@spell power word stun}*"
-							]
+								"[{@spell Demiplane|XPHB}]",
+								"{@spell Dominate Monster|XPHB}*",
+								"{@spell Feeblemind|XPHB}*",
+								"{@spell Power Word Stun|XPHB}*"
+							],
+							"slots": 1
 						},
 						"9": {
-							"slots": 1,
 							"spells": [
-							]
+								"{@spell Prismatic Wall}",
+								"{@spell True Polymorph|XPHB}"
+							],
+							"slots": 1
 						}
 					},
-					"footerEntries": [
-						"*Enchantment spell of 1st level or higher"
-					],
 					"ability": "int",
 					"type": "spellcasting"
 				},
 				{
 					"name": "Sorcerer Spellcasting",
 					"headerEntries": [
-						"Khorvuz is a 18th-level spellcaster, of which 3 are levels in Sorcerer. His spellcasting ability is Charisma (spell save {@dc 19}, {@hit 10} to hit with spell attacks) for the following spells. He has the following Sorcerer spells prepared:"
+						"Khorvuz is a 20th-level spellcaster, of which 3 are levels in Sorcerer. His spellcasting ability is Charisma (spell save {@dc 19}, {@hit 10} to hit with spell attacks) for the following spells. He has the following Sorcerer spells prepared:"
+					],
+					"footerEntries": [
+						"*Enchantment spell of 1st level or higher"
 					],
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell elementalism}",
-								"{@spell friends}",
-								"{@spell prestidigitation}",
-								"{@spell sorcerous burst}"
+								"{@spell Elementalism|XPHB}",
+								"{@spell Friends|XPHB}",
+								"{@spell Prestidigitation|XPHB}",
+								"{@spell Sorcerous Burst|XPHB}"
 							]
 						},
 						"1": {
-                            "slots": 4,
 							"spells": [
-								"{@spell burning hands}",
-								"{@spell disguise self}",
-								"{@spell silvery barbs|SCC}*"
-							]
+								"{@spell Burning Hands|XPHB}",
+								"{@spell Disguise Self|XPHB}",
+								"{@spell Silvery Barbs|SCC}*"
+							],
+							"slots": 4
 						},
 						"2": {
-                            "slots": 3,
 							"spells": [
-								"{@spell detect thoughts}",
-								"{@spell mirror image}",
-								"{@spell nathair's mischief|FTD}"
-							]
+								"{@spell Detect Thoughts|XPHB}",
+								"{@spell Mirror Image|XPHB}",
+								"{@spell Nathair's Mischief|FTD}"
+							],
+							"slots": 3
 						}
 					},
-					"footerEntries": [
-						"*Enchantment spell of 1st level or higher"
-					],
 					"ability": "cha",
 					"type": "spellcasting"
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
-					"entries": [
-						"Khorvuz makes two Arcane Burst attacks."
-					]
-				},
-				{
-					"name": "Arcane Burst",
-					"entries": [
-						"{@atk ms,rs} {@hit 8} to hit, reach 5 ft. or range 120 ft., one target. {@h}20 ({@damage 3d10 + 4}) force damage."
-					]
-				},
-				{
 					"name": "Hypnotic Gaze",
 					"entries": [
-						"Khorvuz chooses one creature within 5 feet of him that must succeed on a DC 20 Wisdom saving throw or be {@condition charmed} by Khorvuz until the end of his next turn. The {@condition charmed} creature's speed drops to 0, and the creature is {@condition incapacitated} and visibly dazed.",
+						"Khorvuz chooses one creature within 5 feet of him that must succeed on a {@dc 20} Wisdom saving throw or be {@condition charmed} by Khorvuz until the end of his next turn. The {@condition charmed} creature's speed drops to 0, and the creature is {@condition incapacitated} and visibly {@condition dazed|FleeMortals}.",
 						"On subsequent turns, Khorvuz can use his action to maintain this effect, extending its duration until the end of his next turn. However, the effect ends if he moves more than 5 feet away from the creature, if the creature can neither see nor hear Khorvuz, or if the creature takes any form of damage."
 					]
 				}
@@ -285,18 +268,61 @@
 				"urban"
 			],
 			"languageTags": [
-				"X"
-			],
-			"damageTags": [
-				"B"
+				"C",
+				"CE",
+				"DR",
+				"E",
+				"S",
+				"U"
 			],
 			"spellcastingTags": [
-				"CW"
+				"CW",
+				"CS"
 			],
-			"miscTags": [
-				"MW"
+			"tokenUrl": "https://i.imgur.com/bwNIMKT.png",
+			"conditionInflict": [
+				"charmed",
+				"incapacitated"
 			],
-			"tokenUrl": "https://i.imgur.com/bwNIMKT.png"
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"save": {
+				"wis": "+10",
+				"cha": "+11",
+				"int": "+12"
+			},
+			"skill": {
+				"perception": "+10",
+				"arcana": "+18",
+				"insight": "+10",
+				"history": "+12",
+				"religion": "+12",
+				"persuasion": "+17"
+			},
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"F",
+				"I",
+				"L",
+				"O",
+				"T",
+				"Y"
+			],
+			"savingThrowForced": [
+				"intelligence",
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"dexterity",
+				"wisdom"
+			]
 		}
 	]
 }
