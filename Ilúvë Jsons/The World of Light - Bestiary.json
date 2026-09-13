@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V15.1.1",
+				"version": "V15.2",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Bestiary.json",
 				"targetSchema": "1.2.0"
 			}
@@ -827,148 +827,174 @@
 		},
 		{
 			"name": "Lucien Landon",
-			"source": "WorldOfLightBeasts",
+			"source": "WOL",
 			"size": [
 				"M"
 			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"human"
+					"lycanthrope",
+					{
+						"tag": "wizard (enchanter)",
+						"prefix": "human"
+					}
 				]
 			},
 			"alignment": [
 				"N"
 			],
 			"ac": [
-				10,
+				11,
 				{
 					"ac": 13,
 					"condition": "with {@spell mage armor}",
 					"braces": true
+				},
+				{
+					"ac": 16,
+					"condition": "(Hybrid Form Only)"
 				}
 			],
 			"hp": {
-				"average": 42,
-				"formula": "12d6+0"
+				"formula": "16d6 + 32",
+				"average": 88
 			},
 			"speed": {
-				"walk": 30
+				"walk": 30,
+				"alternate": {
+					"walk": [
+						{
+							"number": 40,
+							"condition": "(wolf form only)"
+						}
+					]
+				}
 			},
-			"str": 7,
-			"dex": 11,
-			"con": 10,
-			"int": 19,
+			"str": 20,
+			"dex": 10,
+			"con": 14,
+			"int": 21,
 			"wis": 17,
 			"cha": 16,
-			"save": {
-				"int": "+8",
-				"wis": "+7"
-			},
 			"skill": {
-				"arcana": "+8",
-				"history": "+8"
+				"arcana": "+15",
+				"history": "+15"
 			},
 			"passive": 13,
 			"languages": [
+				"Celestial",
 				"Common",
 				"Elvish",
-				"Halfling",
-				"Celestial"
+				"Halfling (can't speak in wolf form)"
 			],
-			"cr": "9",
+			"cr": "14",
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Lucien is a 12th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). Lucien has the following wizard spells prepared:"
+						"Lucien is a 16th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 18}, {@hit 9} to hit with spell attacks). Lucien has the following wizard spells prepared:"
 					],
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell prestidigitation}",
-								"{@spell mage hand}",
-								"{@spell message}",
-								"{@spell wristpocket|WorldOfLight}"
+								"{@spell Light}",
+								"{@spell Mage Hand|XPHB}",
+								"{@spell Message|XPHB}",
+								"{@spell Prestidigitation|XPHB}",
+								"{@spell Wristpocket|WOL}"
 							]
 						},
 						"1": {
-							"slots": 4,
 							"spells": [
-								"{@spell charm person}*",
-								"{@spell mage armor}",
-								"{@spell silvery barbs|SCC}*",
-								"{@spell shield}",
-								"{@spell identify}"
-							]
-						},
-						"2": {
-							"slots": 3,
-							"spells": [
-								"{@spell hold person}*",
-								"{@spell invisibility}",
-								"{@spell suggestion}*",
-								"{@spell tasha's mind whip|TCE}*",
-								"{@spell knock}",
-								"{@spell enlarge/reduce}"
-							]
+								"{@spell Identify|XPHB}",
+								"{@spell Shield|XPHB}",
+								"{@spell Silvery Barbs|SCC}",
+								"{@spell Unseen Servant|XPHB}"
+							],
+							"slots": 4
 						},
 						"3": {
-							"slots": 3,
 							"spells": [
-								"{@spell haste}",
-								"{@spell slow}",
-								"{@spell tongues}",
-								"{@spell fly}",
-								"{@spell hallaster's tower|WorldOfLight}",
-								"{@spell magic circle}",
-								"{@spell counterspell}",
-								"{@spell dispel magic}"
-							]
+								"{@spell Counterspell|PHB}",
+								"{@spell Dispel Magic|XPHB}",
+								"{@spell Fly|XPHB}",
+								"{@spell Haste|XPHB}",
+								"{@spell Slow|XPHB}",
+								"{@spell Tongues|XPHB}"
+							],
+							"slots": 3
 						},
 						"4": {
-							"slots": 3,
 							"spells": [
-								"{@spell transfer enchantment|WorldOfLight}*",
-								"{@spell rhoderihck's speedy courier|WorldOfLight}",
-								"{@spell dimension door}",
-								"{@spell polymorph}"
-							]
+								"{@spell Dimension Door|XPHB}",
+								"{@spell Polymorph|XPHB}"
+							],
+							"slots": 3
 						},
 						"5": {
-							"slots": 2,
 							"spells": [
-								"{@spell animate objects}",
-								"{@spell modify memory}"
-							]
+								"{@spell Animate Objects|XPHB}",
+								"{@spell Modify Memory|XPHB}",
+								"{@spell Teleportation Circle|XPHB}"
+							],
+							"slots": 2
 						},
 						"6": {
-							"slots": 1,
 							"spells": [
-								"{@spell guards and wards}",
-								"{@spell chain lightning}",
-								"{@spell disintegrate}"
-							]
+								"{@spell Chain Lightning|XPHB}",
+								"{@spell Disintegrate|XPHB}",
+								"{@spell Guards and Wards|XPHB}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell Plane Shift|XPHB}",
+								"{@spell Teleport|XPHB}"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell Antimagic Field|XPHB}"
+							],
+							"slots": 1
 						}
 					},
-					"footerEntries": [
-						"*Enchantment spell of 1st level or higher"
-					],
 					"ability": "int",
 					"type": "spellcasting"
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Multiattack (Normal Form Only)",
 					"entries": [
-						"Lucien makes three Arcane Burst attacks."
+						"Lucien makes two Arcane Burst attacks."
 					]
 				},
 				{
 					"name": "Arcane Burst",
 					"entries": [
-						"{@atk ms,rs} {@hit 6} to hit, reach 5 ft. or range 120 ft., one target. {@h}19 ({@damage 3d10 + 3}) force damage."
+						"{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 120 ft., one target. {@h}26 ({@damage 4d10 + 4}) force damage."
+					]
+				},
+				{
+					"name": "Multiattack (Wolf or Hybrid Form Only)",
+					"entries": [
+						"While in Wolf or Hybrid form, Lucien can make three Scratch attacks. He can replace one attack with a Bite attack."
+					]
+				},
+				{
+					"name": "Bite (Wolf or Hybrid Form Only)",
+					"entries": [
+						"{@atkr m} {@hit 7}, reach 5 ft. {@h}14 ({@damage 2d8 + 5}) Piercing damage."
+					]
+				},
+				{
+					"name": "Scratch (Wolf or Hybrid Form Only)",
+					"entries": [
+						"{@atkr m} {@hit 7}, reach 10 ft. {@h}12 ({@damage 2d6 + 5}) Slashing damage."
 					]
 				}
 			],
@@ -976,7 +1002,7 @@
 				{
 					"name": "Instinctive Charm {@recharge 4}",
 					"entries": [
-						"When a visible creature within 30 feet of Lucien makes an attack roll against it, Lucien forces the attacker to make a {@dc 16} Wisdom saving throw. On a failed save, the attacker redirects the attack roll to the creature closest to it, other than Lucien or itself. If multiple eligible creatures are closest, the attacker chooses which one to target."
+						"When a visible creature within 30 feet of Lucien makes an attack roll against it, Lucien forces the attacker to make a {@dc 18} Wisdom saving throw. On a failed save, the attacker redirects the attack roll to the creature closest to it, other than Lucien or itself. If multiple eligible creatures are closest, the attacker chooses which one to target."
 					]
 				}
 			],
@@ -984,29 +1010,94 @@
 				"urban"
 			],
 			"soundClip": {
-				"type": "internal",
-				"path": "bestiary/enchanter.mp3"
+				"type": "external",
+				"url": "https://5etools.dawnfire.quest/audio/bestiary/enchanter.mp3"
 			},
 			"actionTags": [
 				"Multiattack"
 			],
 			"languageTags": [
-				"X"
-			],
-			"damageTags": [
-				"Y"
+				"CE",
+				"C",
+				"E",
+				"CS",
+				"H"
 			],
 			"spellcastingTags": [
-				"O"
+				"CW"
 			],
 			"conditionInflictSpell": [
 				"charmed",
 				"invisible",
 				"paralyzed"
 			],
-			"hasToken": true,
 			"hasFluff": true,
-			"tokenUrl": "https://i.imgur.com/yNwyIIn.png"
+			"tokenUrl": "https://i.imgur.com/yNwyIIn.png",
+			"token": {
+				"name": "Lucien Landon",
+				"source": "WorldOfLightBeasts"
+			},
+			"miscTags": [
+				"RA",
+				"MA",
+				"RCH"
+			],
+			"save": {
+				"wis": "+8",
+				"int": "+10",
+				"cha": "+8"
+			},
+			"isNpc": true,
+			"shortName": true,
+			"level": 16,
+			"isNamedCreature": true,
+			"trait": [
+				{
+					"name": "Split Enchantment",
+					"entries": [
+						"When Lucien casts an enchantment spell of 1st level or higher that targets only one creature, he can have it target a second creature."
+					]
+				},
+				{
+					"name": "Pact Tactics (Wolf or Hybrid Form Only)",
+					"entries": [
+						"While in his Hybrid of Wolf form, Lucien has {@variantrule Advantage|XPHB} on an attack roll against a creature if at least one of his allies is within 5 feet of the creature and the ally doesn't have the {@condition Incapacitated|XPHB} condition."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Shape Shift",
+					"entries": [
+						"Lucien shape-shifts into a Large wolf-humanoid hybrid or a Medium wolf, or he returns to his true humanoid form. His game statistics, other than his size, are the same in each form. Any equipment he is wearing or carrying isn't transformed."
+					]
+				}
+			],
+			"senses": [
+				"Darkvision 60 ft. (Wolf or Hybrid Form Only)"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"O",
+				"P",
+				"S"
+			],
+			"damageTagsSpell": [
+				"B",
+				"L",
+				"O",
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			]
 		},
 		{
 			"name": "Living Enchantment",
