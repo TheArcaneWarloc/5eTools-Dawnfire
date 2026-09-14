@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V15.3",
+				"version": "V16",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -3757,6 +3757,55 @@
 					"name": "Minor Archetype",
 					"entries": [
 						"Choose one subclass from (one of) your class's list, from among the Barbarian, Fighter, Monk or Rogue, and gain its level 3 feature(s). If you choose a subclass that grants you the spellcasting feature, you are considered a 3rd-level caster for the purposes of this feat (meaning your spellcasting feature does not improve as you gain levels in the class)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Justiciar Ascendant",
+			"source": "WOL",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": [
+						"{@class Paladin|XPHB}"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Through unwavering devotion, martial discipline, and divine conviction, you've risen above the ranks of ordinary paladins. You are a paragon of your sacred oath, wielding divine power with a mastery few can hope to achieve. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Empowered Smite",
+					"entries": [
+						"Once per turn when you use {@classFeature Divine Smite|Paladin|PHB|2}, you can treat the {@variantrule Spell|XPHB} slot expended as one level higher when determining the {@variantrule Damage|XPHB} of Divine Smite.",
+						"You can use this feature a number of times equal to your {@variantrule Proficiency|XPHB} bonus. You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Additional Fighting Style",
+					"entries": [
+						"Choose a {@filter Fighting Style|feats|category=fs} available to the Paladin. You gain that {@filter Fighting Style|feats|category=fs}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unyielding Conviction",
+					"entries": [
+						"When you use your {@classFeature Channel Divinity|Paladin|XPHB|3}, you gain {@variantrule Temporary Hit Points|XPHB} equal to your Paladin level."
 					]
 				}
 			]
@@ -11988,10 +12037,10 @@
 	],
 	"language": [
 		{
-			"name": "Arconic",
+			"name": "Arcanixian",
 			"source": "WOL",
 			"entries": [
-				"Arconic (sometimes called Arcanixian), a language spoken by the ancient and long-forgotten mages of Arcanix, is a dead tongue. Very few creatures in the world today would recognize it, much less speak it. Arconic used the Draconic alphabet in its written form, while the spoken language had many similarities with Sylvan, due to the Arcanixian mages being almost wholly comprised of Eladrin and High-Elves. A character who speaks Sylvan can understand what a creature speaking Arconic is saying, and vice versa. A character who has the {@background Cloistered Scholar|PHB} or {@background Sage|PHB} background, or a {@class warlock} who knows the {@optfeature Eyes of the Rune Keeper} invocation, can translate written Arconic without an ability check."
+				"Arcanixian (sometimes called Arconic), a language spoken by the ancient and long-forgotten mages of Arcanix, is a dead tongue. Very few creatures in the world today would recognize it, much less speak it. Arcanixian used the Draconic alphabet in its written form, while the spoken language had many similarities with Sylvan, due to the Arcanixian mages being almost wholly comprised of Eladrin and High-Elves. A character who speaks Sylvan can understand what a creature speaking Arcanixian is saying, and vice versa. A character who has the {@background Cloistered Scholar|PHB} or {@background Sage|PHB} background, or a {@class warlock} who knows the {@optfeature Eyes of the Rune Keeper} invocation, can translate written Arcanixian without an ability check."
 			],
 			"script": "Draconic"
 		}
@@ -12724,7 +12773,7 @@
 			"type": "Piety Trait",
 			"entries": [
 				"{@i Piety 25+ Sehanine trait}",
-				"By performing an hour-long ritual, you can conjure enough grapes to fill three vials (4 ounces each) of {@item Fine Wine (bottle)|wine|XPHB}. Each vial serves as a {@item potion of healing} or a {@item philter of love} (your choice) for 24 hours, after which time it loses this property. Once you use this trait, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+				"By performing an hour-long ritual, you can conjure enough grapes to fill three vials (4 ounces each) of {@item Fine Wine (bottle)|XPHB|wine}. Each vial serves as a {@item potion of greater healing} (your choice) for 24 hours, after which time it loses this property. Once you use this trait, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
 			]
 		},
 		{
