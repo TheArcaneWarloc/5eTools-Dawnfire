@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V16",
+				"version": "V17",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -9718,6 +9718,47 @@
 			"source": "WOL",
 			"shortName": "Open Sea"
 		},
+		{
+			"name": "Oath of Devotion (Variant)",
+			"shortName": "Devotion (Variant)",
+			"source": "WOL",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"protection from evil and good|xphb",
+							"shield of faith|xphb"
+						],
+						"5": [
+							"aid|xphb",
+							"zone of truth|xphb"
+						],
+						"9": [
+							"beacon of hope|xphb",
+							"dispel magic|xphb"
+						],
+						"13": [
+							"freedom of movement|xphb",
+							"guardian of faith|xphb"
+						],
+						"17": [
+							"commune|xphb",
+							"flame strike|xphb"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Oath of Devotion (Variant)|Paladin|XPHB|Devotion (Variant)|WOL|3|WOL",
+				"Aura of Devotion|Paladin|XPHB|Devotion (Variant)|WOL|7|WOL",
+				"Aura of Concentration|Paladin|XPHB|Devotion (Variant)|WOL|7|WOL",
+				"Smite of Protection|Paladin|XPHB|Devotion (Variant)|WOL|15|WOL",
+				"Holy Nimbus|Paladin|XPHB|Devotion (Variant)|WOL|20|WOL"
+			],
+			"hasFluff": true
+		},
 
 		{
 			"className": "Sorcerer",
@@ -11160,6 +11201,175 @@
 					]
 				},
 				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+
+		{
+			"name": "Oath of Devotion (Variant)",
+			"source": "WOL",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Devotion (Variant)",
+			"subclassSource": "WOL",
+			"level": 3,
+			"entries": [
+				"{@i Uphold the Ideals of Justice and Order}",
+				"The Oath of Devotion binds Paladins to the ideals of justice and order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some\u2014for better or worse\u2014hold the rest of the world to the same standards.",
+				"Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of personal devotion. Others hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.",
+				"These paladins share the following tenets:",
+				{
+					"type": "list",
+					"items": [
+						"Let your word be your promise.",
+						"Protect the weak and never fear to act.",
+						"Let your honorable deeds be an example."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath of Devotion Spells|Paladin|XPHB|Devotion (Variant)|WOL|3|WOL"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sacred Weapon|Paladin|XPHB|Devotion (Variant)|WOL|3|WOL"
+				}
+			]
+		},
+		{
+			"name": "Oath of Devotion Spells",
+			"source": "WOL",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Devotion (Variant)",
+			"subclassSource": "WOL",
+			"level": 3,
+			"entries": [
+				"The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "table",
+					"caption": "Oath of Devotion Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell Protection from Evil and Good|XPHB}, {@spell Shield of Faith|XPHB}"
+						],
+						[
+							"5th",
+							"{@spell Aid|XPHB}, {@spell Zone of Truth|XPHB}"
+						],
+						[
+							"9th",
+							"{@spell Beacon of Hope|XPHB}, {@spell Dispel Magic|XPHB}"
+						],
+						[
+							"13th",
+							"{@spell Freedom of Movement|XPHB}, {@spell Guardian of Faith|XPHB}"
+						],
+						[
+							"17th",
+							"{@spell Commune|XPHB}, {@spell Flame Strike|XPHB}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Sacred Weapon",
+			"source": "WOL",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Devotion (Variant)",
+			"subclassSource": "WOL",
+			"level": 3,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"When you take the {@action Attack|XPHB} action, you can expend one use of your Channel Divinity to imbue one Melee weapon that you are holding with positive energy. For 10 minutes or until you use this feature again, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.",
+				"The weapon also emits {@variantrule Bright Light|XPHB} in a 20-foot radius and {@variantrule Dim Light|XPHB} 20 feet beyond that.",
+				"You can end this effect early (no action required). This effect also ends if you aren't carrying the weapon."
+			]
+		},
+		{
+			"name": "Aura of Devotion",
+			"source": "WOL",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Devotion (Variant)",
+			"subclassSource": "WOL",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"You and your allies have {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} condition while in your Aura of Protection. If a {@condition Charmed|XPHB} ally enters the aura, that condition has no effect on that ally while there."
+			]
+		},
+		{
+			"name": "Aura of Concentration",
+			"source": "WOL",
+			"page": 3,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Devotion (Variant)",
+			"subclassSource": "WOL",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Additionally at 7th Level, your aura of protection fosters mental focus. You and your allies have {@variantrule Advantage|XPHB} on Constitution saving throws to maintain {@status Concentration} while in your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}."
+			]
+		},
+		{
+			"name": "Smite of Protection",
+			"source": "WOL",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Devotion (Variant)",
+			"subclassSource": "WOL",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Your magical smite now radiates protective energy. Whenever you cast {@spell Divine Smite|XPHB}, you and your allies have {@variantrule Cover|XPHB|Half Cover} while in your Aura of Protection. The aura has this benefit until the start of your next turn."
+			]
+		},
+		{
+			"name": "Holy Nimbus",
+			"source": "WOL",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Devotion (Variant)",
+			"subclassSource": "WOL",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you can imbue your Aura of Protection with holy power, granting the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 5 spell slot (no action required).",
+				{
+					"type": "entries",
+					"name": "Holy Ward",
+					"entries": [
+						"You have {@variantrule Advantage|XPHB} on any saving throw you are forced to make by a Fiend or an Undead."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Radiant Damage",
+					"entries": [
+						"Whenever an enemy starts its turn in the aura, that creature takes Radiant damage equal to your Charisma modifier plus your {@variantrule Proficiency|XPHB|Proficiency Bonus}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sunlight",
+					"entries": [
+						"The aura is filled with {@variantrule Bright Light|XPHB} that is sunlight."
+					]
+				}
 			]
 		},
 
