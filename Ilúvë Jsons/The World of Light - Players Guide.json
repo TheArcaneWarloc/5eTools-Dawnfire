@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "V17",
+				"version": "V17.1",
 				"url": "https://github.com/TheArcaneWarloc/World-Of-Light/blob/main/The%20World%20of%20Light%20-%20Players%20Guide.json",
 				"targetSchema": "1.2.0"
 			}
@@ -5230,6 +5230,78 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Warhammer of Occult Splintering",
+			"source": "WOL",
+			"baseItem": "warhammer|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"dmg2": "1d10",
+			"bonusWeapon": "+1",
+			"entries": [
+				"This crudely shaped black Warhammer has been carved from blackened stone and infused with Fell Iron, and glows strangely with psychic energy, as a remnant of being touched by the Faerzress of the Underdark. It once belonged to Sorn Ichael, but was retreived by Red Wizard mages from the time-locked city of Aldengorn.",
+				{
+					"type": "entries",
+					"name": "Psychebreaker",
+					"entries": [
+						"You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, this weapon deals an extra 1d10 psychic damage on a hit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mind Link",
+					"entries": [
+						"Whenever you are {@variantrule Attunement|XPHB|Attuned} to this magic weapon, you gain telepathy out to a range of 30 feet. You can telepathically speak to any creature you can see within 30 feet of you, but must share a language to be able to do so."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Impenetrable Fortress",
+					"entries": [
+						"You have {@variantrule Resistance|XPHB} to Psychic and Poison damage while wielding this weapon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Runic Idol of House Johannez",
+			"source": "WOL",
+			"rarity": "legendary",
+			"wondrous": true,
+			"weight": 0.5,
+			"entries": [
+				"This small, rounded square of brittle, clay-like material is roughly 2 inches thick and bears a single rune on one face.",
+				{
+					"type": "entries",
+					"name": "Emergency Recall",
+					"entries": [
+						"As a {@action Utilize} action, you can crush the rune. When you do, {@creature Khorvuz Johannez|WOL} instantly teleports to an unoccupied space of your choice within 5 feet of you, regardless of the distance between you and him or whether you are on different planes of existence. The rune is destroyed when used."
+					]
+				}
+			],
+			"classFeatures": [
+				"replicate magic item|artificer|efa|2|efa"
+			],
+			"optionalfeatures": [
+				"replicate magic item|tce"
+			],
+			"lootTables": [
+				"Implements - Uncommon|XDMG"
+			],
+			"miscTags": [
+				"CF/W"
+			],
+			"hasFluffImages": true
 		}
 	],
 	"itemGroup": [
@@ -7841,7 +7913,7 @@
 			},
 			"source": "WOL",
 			"entries": [
-				"You channel arcane energy into your physique, sculpting their muscles into the peak of visible, intimidating aesthetics. Upon completion of the spell, the target’s body appears significantly more muscular, vascular, and defined. This transformation is permanent, though purely cosmetic. It can be dispelled, but only by a spell of 8th level or higher.",
+				"You channel arcane energy into your physique, sculpting your muscles into the peak of visible, intimidating aesthetics. Upon completion of the spell, your body appears significantly more muscular, vascular, and defined. This transformation is permanent, though purely cosmetic. It can be dispelled, but only by a spell of 8th level or higher.",
 				"You gain the following effects:",
 				{
 					"type": "list",
@@ -7858,21 +7930,14 @@
 							"type": "item",
 							"name": "Flex",
 							"entries": [
-								"They gain advantage on Charisma (Intimidation) checks made to impress or awe based on appearance."
+								"Youy gain advantage on Charisma (Intimidation) checks made to impress or awe based on appearance."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Intimidating Build",
 							"entries": [
-								"Creatures with Intelligence 6 or lower may mistake them for a physically dominant threat and act accordingly."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Merely Magic",
-							"entries": [
-								"This spell does not change your actual Strength or Constitution scores."
+								"Creatures with an Intelligence score of 6 or lower may mistake you for a physically dominant threat and act accordingly."
 							]
 						}
 					]
@@ -7883,7 +7948,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"When cast using a spell slot of 5th level or higher, the target also gains the physical traits of their imagined ideal body form (e.g., chiseled abs, heroic jawline, etc.), granting advantage on Charisma ({@skill Performance}) checks related to appearance."
+						"When cast using a spell slot of 5th level or higher, you also gain the physical traits of your imagined ideal body form (e.g., chiseled abs, heroic jawline, etc.), granting you Advantage on Charisma ({@skill Performance}) checks related to appearance."
 					]
 				}
 			],
